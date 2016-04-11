@@ -8592,7 +8592,8 @@ a:active {
   float: right;
   margin: 5px;
   padding: 7px;
-  border: none; }
+  border: none;
+  z-index: 9999999; }
   .navbar-toggle .icon-bar {
     display: block;
     width: 17px;
