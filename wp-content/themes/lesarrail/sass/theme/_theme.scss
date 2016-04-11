@@ -92,7 +92,7 @@ a {
 }
 
 .blueimp-gallery>.next, .blueimp-gallery>.prev {
-        border: 2px solid #fff !Important; 
+        border: 2px solid #fff !important; 
 }
 
 .page-height {
@@ -300,7 +300,7 @@ a {
                 font-weight: 300;
                 text-transform: uppercase;
                 font-size: 12px;
-                @media (max-width: 768px) {
+                @media (max-width: 1024px) {
                         margin-bottom: 15px;
                     }
             }
@@ -313,7 +313,7 @@ a {
                 .features {
                     padding-left: 18px;
                     font-weight: 300;
-                    @media (max-width: 768px) {
+                    @media (max-width: 1024px) {
                         margin-bottom: 0;
                         padding-left: 15px;
                     }
@@ -335,7 +335,7 @@ a {
                     background: $brand-primary;
                     padding: 10px;
                     color: #fff;
-                    @media (max-width: 768px) {
+                    @media (max-width: 1024px) {
                             text-align: center;
                             margin-bottom: 15px;
                         }
@@ -502,7 +502,7 @@ a {
         margin-top: -15px;
         opacity: 1;
         margin-bottom: 30px;
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             margin-top: 0;
             opacity: 1;   
         }
@@ -512,7 +512,7 @@ a {
                 margin-bottom: 30px;
                 letter-spacing: 4px;
                 font-weight: 800;
-                @media (max-width: 768px) {
+                @media (max-width: 1024px) {
                     font-size: 28px;
                 }
             }

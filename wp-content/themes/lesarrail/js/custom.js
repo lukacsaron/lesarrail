@@ -23,6 +23,7 @@ function slideshow_start() {
          .end().appendTo('#slideshow');}, 
       3000);
 }
+ 
 
 function appearBox() {
     jQuery(window).on("load", function() {
