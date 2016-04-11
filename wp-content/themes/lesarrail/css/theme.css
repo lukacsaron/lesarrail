@@ -8454,7 +8454,10 @@ a:active {
 @media (max-width: 1024px) {
   .navbar-fixed-top {
     min-height: 40px;
-    max-height: 40px; } }
+    max-height: 40px;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 9999 !important; } }
 
 @media (max-width: 1024px) {
   .navbar-fixed-top .navbar-brand {
@@ -8495,6 +8498,37 @@ a:active {
   .navbar-toggle {
     display: block;
     /* force showing the toggle */ } }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent !important; }
+
+.navbar-toggle .icon-bar {
+  transition: all .15s ease-out; }
+
+.canvas-slid .navbar-toggle .icon-bar:nth-child(1), .canvas-sliding .navbar-toggle .icon-bar:nth-child(1) {
+  transform: rotate(45deg);
+  margin-top: 6px;
+  transition: all .15s ease-out; }
+
+.canvas-slid .navbar-toggle .icon-bar:nth-child(3), .canvas-sliding .navbar-toggle .icon-bar:nth-child(3) {
+  transform: rotate(135deg);
+  margin-top: -8px;
+  transition: all .15s ease-out; }
+
+.canvas-slid .navbar-toggle .icon-bar:nth-child(2), .canvas-sliding .navbar-toggle .icon-bar:nth-child(2) {
+  opacity: 0; }
+
+.offcanvas .navmenu-nav {
+  padding-top: 40px; }
+  .offcanvas .navmenu-nav li a {
+    color: #002e4d !important;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 300;
+    font-size: 18px; }
+    .offcanvas .navmenu-nav li a:hover, .offcanvas .navmenu-nav li a:active {
+      color: #fff !important;
+      background: #002e4d !important; }
 
 .page-template-page-home #primary {
   text-align: center;
@@ -8827,7 +8861,7 @@ a:active {
 
 .navmenu-fixed-left, .navmenu-fixed-right, .navbar-offcanvas {
   position: fixed;
-  z-index: 1050;
+  z-index: 13;
   top: 0;
   bottom: 0;
   overflow-y: auto;

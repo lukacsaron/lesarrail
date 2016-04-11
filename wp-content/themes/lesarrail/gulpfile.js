@@ -42,7 +42,7 @@ gulp.task('cssnano', ['cleancss'], function(){
   return gulp.src('./css/*.css')
     .pipe(plumber())
     .pipe(rename({suffix: '.min'}))
-    .pipe(cssnano({discardComments: {removeAll: true}}))
+    .pipe(cssnano({discardComments: {removeAll: true}, options: {zindex: false}}))
     .pipe(gulp.dest('./css/'));
 }); 
 
