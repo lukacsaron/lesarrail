@@ -120,11 +120,11 @@ jQuery('.opener-btn').on("click", function() {
 // ON SCROLL
 $(document).scroll(function(){
     if($(this).scrollTop() > $vph - $vph/1.5)
-    {   console.log("scrolled");
+    { 
         appearHomeContent();
     }
     if($(this).scrollTop() > 0)
-    {   console.log("topscroller");
+    { 
         $('.navbar-fixed-top').addClass('scrolled');
     }
     else {

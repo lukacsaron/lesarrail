@@ -2,5 +2,5 @@
 /wp-content/themes/lesarrail/bower_components/
 /wp-content/themes/lesarrail/src/sass/
 /wp-content/themes/lesarrail/sass/
-.DS_Store
+*.DS_Store
 /wp-config.php
