@@ -34,7 +34,7 @@ foreach ($result as $entry) {
 	}else{
 		$caption = '';
 	}
-	$shortcode_content .=  "<li class=\"col-md-2 insta-image\"><a title=\"{$caption}\" class=\"swipebox_grid\" href=\"{$entry['images']['thumbnail']['url']}\"><img  src=\"{$entry['images']['thumbnail']['url']}\"></a></li>";
+	$shortcode_content .=  "<li class=\"col-xs-6 col-md-2 insta-image\"><a title=\"{$caption}\" class=\"swipebox_grid\" href=\"{$entry['images']['thumbnail']['url']}\"><img  src=\"{$entry['images']['thumbnail']['url']}\"></a></li>";
 	
   }
   
