@@ -768,6 +768,10 @@ a {
 #wrapper-footer {
     background: $brand-primary;
     color:#fff;
+    .site-info {
+        font-weight: 300;
+        font-size: 11px;
+    }
 }
 
 // PANELS

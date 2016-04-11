@@ -8849,6 +8849,9 @@ a:active {
 #wrapper-footer {
   background: #002e4d;
   color: #fff; }
+  #wrapper-footer .site-info {
+    font-weight: 300;
+    font-size: 11px; }
 
 .panel-map {
   border-color: transparent; }

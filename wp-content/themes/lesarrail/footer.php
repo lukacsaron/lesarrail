@@ -21,7 +21,18 @@
                 <footer id="colophon" class="site-footer" role="contentinfo">
 
                     <div class="site-info">
-                        
+                        <div class="col-md-2 footer-contacts">
+                            <span>T: 0738370507</span><br>
+                            <span>E: info@lesarrail.com</span>
+                        </div>
+                        <div class="col-md-3 col-md-push-5">
+                            <span>Sign up to our newsletter for special offers</span><br>
+                            <input class="subscribe" type="text" placeholder="enter your email address">
+                            <input type="button" class="submit btn btn-sm" value="submit" placeholder="submit" id="submit"> 
+                        </div>
+                        <div class="col-md-2 col-md-push-5">
+                            <span class="copyright">© 2016 Le Sarrail All Rights Reserved</span>
+                        </div>
                     </div><!-- .site-info -->
 
                 </footer><!-- #colophon -->
