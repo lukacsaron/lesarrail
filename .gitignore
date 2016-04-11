@@ -1,0 +1,5 @@
+/wp-content/themes/lesarrail/node_modules/
+/wp-content/themes/lesarrail/bower_components/
+/wp-content/themes/lesarrail/src/sass/
+/wp-content/themes/lesarrail/sass/
+.DS_Store
