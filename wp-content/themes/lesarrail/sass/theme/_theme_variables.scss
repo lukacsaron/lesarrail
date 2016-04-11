@@ -1,0 +1,50 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+// As example you find one of the most important Bootstrap variable below: $brand-primary.
+// Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
+// Just add your color code here, compile the theme.scss file to change this color everywhere
+
+$brand-primary:         #002e4d; //#002e4d
+$brand-secondary:       #edd25e; //#edd25e
+$color__link-hover:     $brand-primary;
+$color__link-active:    $brand-primary;
+
+// Basics of a navbar
+$navbar-height:                    80px;
+$navbar-margin-bottom:             0px;
+$navbar-border-radius:             0px;
+
+$text-color:            $brand-primary !default;
+//** Global textual link color.
+$link-color:            $brand-primary !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 15%) !default;
+//** Link hover decoration.
+$link-hover-decoration: underline !default;
+
+// Type
+$font-family-sans-serif:  "Gotham", Helvetica, Arial, sans-serif !default;
+
+$btn-default-color:              $brand-primary !default;
+$btn-default-bg:                 #fff !default;
+$btn-default-border:             $brand-primary !default;
+
+$border-radius-base:        0px !default;
+
+
+
+// mixins
+
+@mixin grayscale_element($value) {
+    -webkit-filter: #{"grayscale(#{$value})"};
+    -moz-filter: #{"grayscale(#{$value})"};
+    filter:#{"grayscale(#{$value})"};
+}
+
+@mixin opacity($amt) {
+  -o-filter: opacity($amt);
+  -ms-filter: opacity($amt);
+  -moz-filter: opacity($amt);
+  -webkit-filter: opacity($amt);
+}
