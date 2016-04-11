@@ -25,14 +25,14 @@
 
 define('DB_NAME', 'lesarrail');
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'lukacsaron');
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Peremarton56');
 define('DB_HOST', 'localhost');
 
 
-define('WP_HOME','http://lesarrail:8888/');
-define('WP_SITEURL','http://lesarrail:8888/');
+// define('WP_HOME','http://lesarrail:8888/');
+// define('WP_SITEURL','http://lesarrail:8888/');
 
 /** MySQL hostname */
 //define('DB_HOST', '160.153.162.137');
