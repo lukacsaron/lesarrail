@@ -23,9 +23,9 @@ get_header(); ?>
         <?php } ?>
     <div  id="content" class="container">
         <div class="row hide-desktop gallery-btn-container">
-            <div class="col-md-offset-10 col-md-2 col-xs-12">
-                <button class="btn btn-default btn-transparent">GALLERY</button>
-            </div> 
+            <div class="col-md-offset-10 col-md-2 col-xs-push-7 col-xs-5">
+                <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>
+            </div>
         </div>
         <div class="row">
         <div class="col-md-12">
