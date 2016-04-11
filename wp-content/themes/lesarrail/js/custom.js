@@ -68,6 +68,23 @@ function ifHome() {
     }
 }
 
+// change links if localhost
+
+function hashchange() {
+    if(window.location.href.indexOf("8888") > -1) {
+       console.log("you are on localhost");
+        $('a').each(function() { 
+    var $this = $(this),
+    aHref = $this.attr('href');  //get the value of an attribute 'href'
+    $this.attr('href', aHref.replace('beta.lesarrail.co.uk','lesarrail:8888')); //set the value of an attribute 'href'
+           console.log("links are changed");
+}); 
+    }
+    else {
+       console.log("you are on remote");
+    }
+};
+
 // ON READY
 jQuery(document).ready(function() {
     ifHome();

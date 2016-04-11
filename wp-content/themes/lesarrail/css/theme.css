@@ -8608,6 +8608,8 @@ a:active {
     position: absolute;
     z-index: 10;
     margin-top: 10px; }
+  #map-container .map-info a {
+    cursor: pointer; }
 
 .scroll-btn {
   display: block;
