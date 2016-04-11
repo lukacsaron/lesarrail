@@ -8441,10 +8441,9 @@ a:active {
 .apartment-row {
   min-height: 330px;
   background-size: cover;
-  border-bottom: 2px solid #edd25e;
   padding: 30px 0;
   background-position: 0 -180px;
-  margin: 0; }
+  margin: 0 0 30px; }
   @media (max-width: 1024px) {
     .apartment-row {
       background-position: 0; }
@@ -8495,7 +8494,7 @@ a:active {
     z-index: 10; }
     @media (min-width: 1024px) {
       .single-apartment .primary-container, .page-template-page-accomodation .primary-container {
-        margin-left: -15px; } }
+        margin-left: 15px; } }
     .single-apartment .primary-container .apartment .entry-title, .page-template-page-accomodation .primary-container .apartment .entry-title {
       display: inline-block; }
       @media (max-width: 768px) {

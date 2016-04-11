@@ -11,7 +11,8 @@ get_header(); ?>
 
 <div class="wrapper" id="page-wrapper">
     
-    <div  id="content">
+    <div  id="content" class="container">
+        <div class="col-md-12">
         <?php $args = array( 'post_type' => 'apartment', 'posts_per_page' => 10 );
               $loop = new WP_Query( $args );
         
@@ -123,7 +124,7 @@ get_header(); ?>
 				<?php endwhile; ?>
         
     </div><!-- Container end -->
-    
+    </div>
 </div><!-- Wrapper end -->
 
 <?php get_footer(); ?>
