@@ -60,7 +60,8 @@ gulp.task('scripts', function() {
     basePaths.dev + 'js/jquery.min.js', 
     basePaths.dev + 'js/bootstrap.min.js', 
     basePaths.dev + 'js/owl.carousel.min.js', 
-    basePaths.dev + 'js/skip-link-focus-fix.js'
+    basePaths.dev + 'js/skip-link-focus-fix.js',
+    basePaths.dev + 'js/bootstrap-image-gallery.js'
     ])
     .pipe(concat('theme.min.js'))
     .pipe(uglify())

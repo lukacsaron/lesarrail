@@ -18,10 +18,10 @@ get_header(); ?>
             while ( $loop->have_posts() ) : $loop->the_post(); ?> 
         
 						<div class="row apartment-row" style="background-image:url('<?php echo get_image_custom($post->ID, 'large'); ?>');">
-                            <div class="container">
+                            <div class="container apartment-container">
                             <div class="row hide-desktop gallery-btn-container">
-                                <div class="col-md-offset-10 col-md-2 col-xs-12">
-                                    <button class="btn btn-default btn-transparent">GALLERY</button>
+                                <div class="col-md-offset-10 col-md-2 col-xs-push-7 col-xs-5">
+                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>
                                 </div>
                             </div>
                             <div class="col-md-5 primary-container">
@@ -92,14 +92,33 @@ get_header(); ?>
                             <footer class="entry-footer">
                                 <?php understrap_entry_footer(); ?>
                             </footer><!-- .entry-footer -->
-                            
+                            <div>
+            
+                            </div>
                         </article><!-- #post-## -->
                                 <div class="hide-mobile gallery-btn-container transition delay">
-                                    <button class="btn btn-default btn-transparent">GALLERY</button>
+                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>
+                                </div>
+                                <div style="display:none;">
+                                    <?php $attached_images = get_post_meta($post->ID, "wpcf-gallery-item", false);
+        if ($attached_images[0]=="") { ?>
+
+        <!-- If there are no custom fields, show nothing -->
+
+        <?php } else { ?>
+                                    
+        <!-- detach first image -->
+        <?php unset($attached_images[0]); ?>
+       <?php foreach($attached_images as $attached_images) {
+            $postID = ($post->ID);
+            echo '<a href="'.$attached_images.'"data-gallery="#blueimp-gallery-'.$postID.'" ></a>';
+            } ?>
+
+        <?php } ?>
                                 </div>
                             </div>
-                                </div>
-						</div>
+                        </div>
+            </div>
         
 				<?php endwhile; ?>
         

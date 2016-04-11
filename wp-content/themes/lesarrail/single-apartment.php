@@ -25,7 +25,7 @@ get_header(); ?>
         <div class="row hide-desktop gallery-btn-container">
             <div class="col-md-offset-10 col-md-2 col-xs-12">
                 <button class="btn btn-default btn-transparent">GALLERY</button>
-            </div>
+            </div> 
         </div>
         <div class="row">
         <div class="col-md-12">
@@ -103,6 +103,24 @@ get_header(); ?>
                             </footer><!-- .entry-footer -->
                         </article><!-- #post-## -->
 
+                                <div style="display:none;">
+                                    <?php $attached_images = get_post_meta($post->ID, "wpcf-gallery-item", false);
+        if ($attached_images[0]=="") { ?>
+
+        <!-- If there are no custom fields, show nothing -->
+
+        <?php } else { ?>
+                                    
+        <!-- detach first image -->
+        <?php unset($attached_images[0]); ?>
+       <?php foreach($attached_images as $attached_images) {
+            $postID = ($post->ID);
+            echo '<a href="'.$attached_images.'"data-gallery="#blueimp-gallery-'.$postID.'" ></a>';
+            } ?>
+
+        <?php } ?>
+                                </div>
+
                     <?php endwhile; // end of the loop. ?>
 
                 </main><!-- #main -->
@@ -114,7 +132,7 @@ get_header(); ?>
         </div><!-- .row -->
         <div class="row hide-mobile">
             <div class="col-md-offset-10 col-md-2 col-xs-12">
-                <button class="btn btn-default btn-transparent">GALLERY</button>
+                <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>
             </div>
         </div>
     </div><!-- Container end -->
