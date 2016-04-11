@@ -89,7 +89,7 @@ function initialize() {
 
     })
 
-	for (var i = 0; i < locations.length; i++) {  
+	for (var i = 0; i < locations.length; i++) {   
 		var marker = new google.maps.Marker({
 	    	position: locations[i].latlng,
 			map: map,

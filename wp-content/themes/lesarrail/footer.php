@@ -21,16 +21,23 @@
                 <footer id="colophon" class="site-footer" role="contentinfo">
 
                     <div class="site-info">
-                        <div class="col-md-2 footer-contacts">
-                            <span>T: 0738370507</span><br>
-                            <span>E: info@lesarrail.com</span>
+                        <div class="col-md-5 col-xs-6 footer-contacts">
+                            <div class="col-md-5 col-md-push-4 footer-socials">
+                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
-                        <div class="col-md-3 col-md-push-5">
+                            <div class="col-md-6 col-md-pull-5">
+                                <span>T: 0738370507</span><br>
+                                <span>E: info@lesarrail.com</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-md-push-2 hide-sm">
                             <span>Sign up to our newsletter for special offers</span><br>
                             <input class="subscribe" type="text" placeholder="enter your email address">
                             <input type="button" class="submit btn btn-sm" value="submit" placeholder="submit" id="submit"> 
                         </div>
-                        <div class="col-md-2 col-md-push-5">
+                        <div class="col-xs-6 col-md-2 col-md-push-2">
                             <span class="copyright">© 2016 Le Sarrail All Rights Reserved</span>
                         </div>
                     </div><!-- .site-info -->

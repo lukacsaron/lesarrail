@@ -96,10 +96,17 @@ get_header(); ?>
     
     <div id="brand-ident" class="container">
         <div class="col-md-12 ident-container">
-            <div class="col-md-3 ident-item"><img class="grayscale opacity" src="<?php echo get_template_directory_uri(); ?>/img/bbfbh.png"></div>
-            <div class="col-md-3 ident-item"><img class="grayscale opacity" src="<?php echo get_template_directory_uri(); ?>/img/Daily_Telegraph.svg"></div>
-            <div class="col-md-3 ident-item"><img class="grayscale opacity" src="<?php echo get_template_directory_uri(); ?>/img/natgeo.jpg"></div>
-            <div class="col-md-3 ident-item"><img class="grayscale opacity" src="<?php echo get_template_directory_uri(); ?>/img/times.gif"></div>
+        <?php   $args = array( 'post_type' => 'endorsement', 'posts_per_page' => 40 );
+                            $loop = new WP_Query( $args );
+                            while ( $loop->have_posts() ) : $loop->the_post(); ?>  
+                          <?php $endorsement = get_post_meta($post->ID, 'wpcf-endorsement-text', true); ?>
+                          <?php $endorsement_image = get_post_meta($post->ID, 'wpcf-endorsement-image', true); ?>
+                                <div class="col-md-4">
+                                    <img src="<?php echo get_image_custom($post->ID, 'medium'); ?>">
+                                    <a class="endorsement"><?php echo $endorsement(); ?></a>
+                                </div>
+                                <?php endwhile; ?>
+                                <?php wp_reset_query(); ?>
         </div>
     </div>
     
@@ -135,7 +142,8 @@ get_header(); ?>
                           <!-- HIDDEN -->
                                         <div style="display:none;">
                                             <div id="item<?php echo $i; ?>" class="map-info">
-                                                <a class="poi-title"><?php the_title(); ?></a>
+                                                <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                                <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
                                             </div>
                                         </div>
                           
@@ -169,14 +177,12 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
-                                      <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                          <!-- HIDDEN -->
                                         <div style="display:none;">
-                                            <div id="item<?php echo $i; ?>" class="map-info">
-                                                <a class="poi-title"><?php the_title(); ?></a>
-                                            </div>
+                                        <div id="item<?php echo $i; ?>" class="map-info">
+                                            <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                                <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
                                         </div>
-                          
+                                            </div>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
                                             <!-- <?php the_content(); ?>  -->
@@ -206,14 +212,12 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
-                                       <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                          <!-- HIDDEN -->
                                         <div style="display:none;">
-                                            <div id="item<?php echo $i; ?>" class="map-info">
-                                                <a class="poi-title"><?php the_title(); ?></a>
-                                            </div>
+                                        <div id="item<?php echo $i; ?>" class="map-info">
+                                            <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                            <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
                                         </div>
-                          
+                                            </div>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
                                             <!-- <?php the_content(); ?>  -->
@@ -243,14 +247,12 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
-                                        <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                          <!-- HIDDEN -->
                                         <div style="display:none;">
-                                            <div id="item<?php echo $i; ?>" class="map-info">
-                                                <a class="poi-title"><?php the_title(); ?></a>
-                                            </div>
+                                        <div id="item<?php echo $i; ?>" class="map-info">
+                                            <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                            <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
                                         </div>
-                          
+                                            </div>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
                                             <!-- <?php the_content(); ?>  -->
@@ -270,7 +272,7 @@ get_header(); ?>
             </div>
 			<script type="text/javascript">
 				var locations = [
-					<?php  $i = 1;$args = array( 'post_type' => 'poi', 'posts_per_page' => 40 );
+					<?php  $i = 1; $args = array( 'post_type' => 'poi', 'posts_per_page' => 40 );
                       $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 						<?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
 							{
