@@ -7,10 +7,10 @@ if(get_option('enjoyinstagram_client_id') || get_option('enjoyinstagram_client_i
 
 
 if(get_option('enjoyinstagram_user_or_hashtag')=='hashtag'){
-	$result = get_hash(urlencode(get_option('enjoyinstagram_hashtag')),6);
+	$result = get_hash(urlencode(get_option('enjoyinstagram_hashtag')),4);
 	$result = $result['data'];
 }else{
-	$result = get_user(urlencode(get_option('enjoyinstagram_user_username')),6);
+	$result = get_user(urlencode(get_option('enjoyinstagram_user_username')),4);
 	$result = $result['data'];
 }
 
@@ -20,8 +20,8 @@ $pre_shortcode_content = "<div id=\"grid-".$i."\" class=\"ri-grid ri-grid-size-2
 
 	if (isHttps()) {
 		foreach ($result as $entry) {
-			$entry['images']['thumbnail']['url'] = str_replace('http://', 'https://', $entry['images']['thumbnail']['url']);
-			$entry['images']['thumbnail']['url'] = str_replace('http://', 'https://', $entry['images']['thumbnail']['url']);
+			$entry['images']['low_resolution']['url'] = str_replace('http://', 'https://', $entry['images']['low_resolution']['url']);
+			$entry['images']['low_resolution']['url'] = str_replace('http://', 'https://', $entry['images']['low_resolution']['url']);
 		}
 	}
 
@@ -34,7 +34,7 @@ foreach ($result as $entry) {
 	}else{
 		$caption = '';
 	}
-	$shortcode_content .=  "<li class=\"col-xs-6 col-md-2 insta-image\"><a title=\"{$caption}\" class=\"swipebox_grid\" href=\"{$entry['images']['thumbnail']['url']}\"><img  src=\"{$entry['images']['thumbnail']['url']}\"></a></li>";
+	$shortcode_content .=  "<li class=\"col-xs-12 col-md-3 insta-image\"><a title=\"{$caption}\" class=\"swipebox_grid\" data-gallery=\"#blueimp-gallery-insta\" href=\"{$entry['images']['standard_resolution']['url']}\"><img  src=\"{$entry['images']['low_resolution']['url']}\"></a></li>";
 	
   }
   

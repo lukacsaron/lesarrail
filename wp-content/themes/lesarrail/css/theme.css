@@ -8373,7 +8373,7 @@ a:active {
 .visible {
   opacity: 1 !important; }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .hide-md {
     display: none; } }
 
@@ -8729,6 +8729,12 @@ a:active {
 #insta {
   margin-left: auto;
   margin-right: auto; }
+  #insta .insta-ident {
+    font-size: 19px;
+    text-align: left;
+    font-weight: 600; }
+    #insta .insta-ident .fa-instagram {
+      font-size: 27px; }
   #insta .entry-title {
     margin: 0;
     margin-bottom: 30px;
@@ -8738,6 +8744,19 @@ a:active {
     overflow: hidden;
     height: auto;
     margin-bottom: 30px; }
+    #insta .insta-container .insta-image:nth-child(1), #insta .insta-container .insta-image:nth-child(2) {
+      padding-left: 0; }
+    #insta .insta-container .insta-image:nth-child(3) {
+      padding-left: 0;
+      padding-right: 0; }
+      @media (max-width: 1024px) {
+        #insta .insta-container .insta-image:nth-child(3) {
+          display: none; } }
+    #insta .insta-container .insta-image:nth-child(4) {
+      padding-right: 0; }
+      @media (max-width: 1024px) {
+        #insta .insta-container .insta-image:nth-child(4) {
+          display: none; } }
     #insta .insta-container .insta-image img {
       max-width: 100%;
       height: auto;

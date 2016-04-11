@@ -129,7 +129,7 @@ a {
 
 
 .hide-md {
-    @media (min-width: 1024px) {
+    @media (min-width: 1025px) {
         display: none;
     }
 }
@@ -596,9 +596,16 @@ a {
 
 // INSTA
 #insta {
-    
     margin-left: auto;
     margin-right: auto;
+    .insta-ident {
+        font-size: 19px;
+        text-align: left;
+        font-weight: 600;
+        .fa-instagram {
+            font-size: 27px;
+        }
+    }
     .entry-title {
                 margin: 0;
                 margin-bottom: 30px;
@@ -611,6 +618,22 @@ a {
             overflow: hidden;
             height: auto;
             margin-bottom: 30px;
+            &:nth-child(1), &:nth-child(2) {
+                padding-left: 0;
+            }
+            &:nth-child(3) {
+                padding-left: 0;
+                padding-right: 0;
+                @media (max-width: 1024px) {
+                    display: none;
+                }
+            }
+            &:nth-child(4) {
+                padding-right: 0;
+                @media (max-width: 1024px) {
+                    display: none;
+                }
+            }
             img {
                 max-width: 100%;
                 height: auto;
