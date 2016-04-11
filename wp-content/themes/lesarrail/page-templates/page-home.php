@@ -108,6 +108,7 @@ get_header(); ?>
             <h5>VISIT</h5>
             <h2 class="entry-title">Le Sarrail</h2>
         </header>
+        <div class="col-md-2 insta-ident"><i class="fa fa-instagram"></i> @LESARRAIL</div>
         <?php echo do_shortcode('[enjoyinstagram_mb_grid]'); ?>
     </div>
     
