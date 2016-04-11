@@ -91,6 +91,10 @@ a {
     height: 100%;
 }
 
+.blueimp-gallery>.next, .blueimp-gallery>.prev {
+        border: 2px solid #fff !Important; 
+}
+
 .page-height {
     min-height: 600px;
     margin: 0;
@@ -271,6 +275,7 @@ a {
             opacity: 0;
         }
     }
+
     #wrapper-footer {
         display: none;
     }
