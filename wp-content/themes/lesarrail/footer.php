@@ -73,6 +73,7 @@
 <script src="<?php echo get_template_directory_uri() ?>/js/TweenMax.min.js"></script>
 <script src="<?php echo get_template_directory_uri() ?>/js/ScrollToPlugin.min.js"></script>
 <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/custom.js"></script>
 </body>
 
