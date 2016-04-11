@@ -8247,7 +8247,7 @@ h1, h2, h3, h4, h5, h6,
   text-transform: uppercase; }
 
 @media (max-width: 768px) {
-  #page-wrapper {
+  .page-template-fullwidthpage #page-wrapper {
     padding-top: 60px; } }
 
 @media (max-width: 1024px) {
@@ -8286,9 +8286,15 @@ a:active {
 .transition {
   transition: all .15s ease-out; }
 
+.delay {
+  transition-delay: 0.5s; }
+
 @media (max-width: 768px) {
   .hide-mobile {
     display: none; } }
+
+.visible {
+  opacity: 1 !important; }
 
 @media (min-width: 1024px) {
   .hide-md {
@@ -8301,6 +8307,9 @@ a:active {
 @media (min-width: 768px) {
   .hide-desktop {
     display: none; } }
+
+.nopadding {
+  padding: 0; }
 
 @media (max-width: 1024px) {
   .mobile-nopadding {
@@ -8353,13 +8362,17 @@ a:active {
       overflow-x: hidden; }
 
 .apartment-row {
-  height: 465px;
+  min-height: 330px;
   background-size: cover;
   border-bottom: 2px solid #edd25e;
   padding: 30px 0;
-  background-position: 0 -180px; }
+  background-position: 0 -180px;
+  margin: 0; }
 
 .page-template-page-accomodation #wrapper-navbar {
+  padding: 0; }
+
+.page-template-page-accomodation #page-wrapper {
   padding: 0; }
 
 .page-template-page-accomodation .primary-container {
@@ -8367,23 +8380,31 @@ a:active {
   opacity: 1 !important; }
   .page-template-page-accomodation .primary-container .apartment {
     overflow: hidden;
-    transition: all .15s ease-out; }
+    transition: all .5s ease-out;
+    height: 380px; }
     .page-template-page-accomodation .primary-container .apartment.closed {
       height: 26px;
-      transition: all .15s ease-out; }
+      transition: all .5s ease-out; }
 
 .single-apartment, .page-template-page-accomodation {
   background: #fff; }
   .single-apartment .gallery-btn-container, .page-template-page-accomodation .gallery-btn-container {
     margin-top: -25px;
     margin-bottom: 15px; }
+  .single-apartment .hide-mobile.gallery-btn-container, .page-template-page-accomodation .hide-mobile.gallery-btn-container {
+    position: absolute;
+    width: 160px;
+    right: 0;
+    margin-right: -150%;
+    opacity: 0; }
   .single-apartment #wrapper-footer, .page-template-page-accomodation #wrapper-footer {
     display: none; }
   .single-apartment .primary-container, .page-template-page-accomodation .primary-container {
     background: #fff;
     padding: 15px;
     margin-top: -15px;
-    opacity: 0; }
+    opacity: 0;
+    z-index: 10; }
     @media (min-width: 1024px) {
       .single-apartment .primary-container, .page-template-page-accomodation .primary-container {
         margin-left: -15px; } }
@@ -8451,31 +8472,31 @@ a:active {
   font-size: 22px;
   margin-top: -3px; }
 
-@media (max-width: 1024px) {
-  .navbar-fixed-top {
-    min-height: 40px;
-    max-height: 40px;
-    left: 0 !important;
-    right: 0 !important;
-    z-index: 9999 !important; } }
-
-@media (max-width: 1024px) {
-  .navbar-fixed-top .navbar-brand {
-    padding: 10px;
-    height: 40px;
-    margin: 0;
-    font-size: 15px; } }
-
-.navbar-fixed-top.scrolled {
-  min-height: 40px; }
-  .navbar-fixed-top.scrolled .menu-item a {
-    padding: 10px 15px;
-    transition: all .15s ease-out; }
-  .navbar-fixed-top.scrolled .navbar-brand {
-    height: 40px;
-    padding: 10px 15px;
-    transition: all .15s ease-out;
-    margin-top: 0; }
+.navbar-fixed-top {
+  background: #fff; }
+  @media (max-width: 1024px) {
+    .navbar-fixed-top {
+      min-height: 40px;
+      max-height: 40px;
+      left: 0 !important;
+      right: 0 !important;
+      z-index: 9999 !important; } }
+  @media (max-width: 1024px) {
+    .navbar-fixed-top .navbar-brand {
+      padding: 10px;
+      height: 40px;
+      margin: 0;
+      font-size: 15px; } }
+  .navbar-fixed-top.scrolled {
+    min-height: 40px; }
+    .navbar-fixed-top.scrolled .menu-item a {
+      padding: 10px 15px;
+      transition: all .15s ease-out; }
+    .navbar-fixed-top.scrolled .navbar-brand {
+      height: 40px;
+      padding: 10px 15px;
+      transition: all .15s ease-out;
+      margin-top: 0; }
 
 @media (max-width: 768px) {
   .navbar-header {
@@ -8518,17 +8539,23 @@ a:active {
 .canvas-slid .navbar-toggle .icon-bar:nth-child(2), .canvas-sliding .navbar-toggle .icon-bar:nth-child(2) {
   opacity: 0; }
 
-.offcanvas .navmenu-nav {
-  padding-top: 40px; }
-  .offcanvas .navmenu-nav li a {
-    color: #002e4d !important;
-    text-transform: uppercase;
-    text-align: right;
-    font-weight: 300;
-    font-size: 18px; }
-    .offcanvas .navmenu-nav li a:hover, .offcanvas .navmenu-nav li a:active {
+.offcanvas {
+  background-color: #fff !important;
+  border: none !important; }
+  .offcanvas .navmenu-nav {
+    padding-top: 40px; }
+    .offcanvas .navmenu-nav li.active a {
       color: #fff !important;
-      background: #002e4d !important; }
+      background: #002e4d; }
+    .offcanvas .navmenu-nav li a {
+      color: #002e4d !important;
+      text-transform: uppercase;
+      text-align: right;
+      font-weight: 300;
+      font-size: 18px; }
+      .offcanvas .navmenu-nav li a:hover, .offcanvas .navmenu-nav li a:active {
+        color: #fff !important;
+        background: #002e4d !important; }
 
 .page-template-page-home #primary {
   text-align: center;
@@ -8638,10 +8665,21 @@ a:active {
 
 #map-container {
   height: 650px; }
+  #map-container #map {
+    min-height: 350px; }
+    @media (min-width: 768px) {
+      #map-container #map {
+        min-height: 650px !important; } }
   #map-container .panel-group-container {
     position: absolute;
     z-index: 10;
     margin-top: 10px; }
+    @media (max-width: 768px) {
+      #map-container .panel-group-container {
+        position: relative;
+        padding: 0; }
+        #map-container .panel-group-container .panel-map {
+          border: 2px solid #002e4d; } }
   #map-container .map-info a {
     cursor: pointer; }
 
@@ -8722,6 +8760,52 @@ a:active {
 #wrapper-footer {
   background: #002e4d;
   color: #fff; }
+
+.panel-map {
+  border-color: transparent; }
+  .panel-map > .panel-heading {
+    color: #002e4d;
+    background-color: #fff;
+    border-color: #ddd; }
+    .panel-map > .panel-heading + .panel-collapse > .panel-body {
+      border-top-color: transparent; }
+    .panel-map > .panel-heading .badge {
+      color: #fff;
+      background-color: #002e4d; }
+  .panel-map > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: transparent; }
+
+.panel-map {
+  border: none; }
+  .panel-map .panel-heading {
+    cursor: pointer;
+    color: #002e4d;
+    border-color: transparent;
+    padding: 15px 15px; }
+    .panel-map .panel-heading a {
+      text-decoration: none; }
+      .panel-map .panel-heading a:hover {
+        color: #002e4d;
+        text-decoration: none; }
+    .panel-map .panel-heading.active-heading, .panel-map .panel-heading:hover, .panel-map .panel-heading:active {
+      color: #fff;
+      background: #002e4d; }
+      .panel-map .panel-heading.active-heading a:hover, .panel-map .panel-heading:hover a:hover, .panel-map .panel-heading:active a:hover {
+        color: #fff; }
+  .panel-map .panel-body {
+    max-height: 400px;
+    overflow-x: hidden; }
+    .panel-map .panel-body .poi-title {
+      margin-bottom: 5px;
+      display: block;
+      font-size: 16px; }
+    .panel-map .panel-body .poi-address {
+      font-weight: 300;
+      font-size: 12px;
+      float: inherit; }
+    .panel-map .panel-body .poi-details {
+      font-weight: 300;
+      margin-bottom: 5px; }
 
 /*!
  * Jasny Bootstrap v3.1.3 (http://jasny.github.io/bootstrap)

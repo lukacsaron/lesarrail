@@ -33,7 +33,11 @@ function initialize() {
 		zoom: 10, 
 		center: new google.maps.LatLng(43.174677, 2.151427), 
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
-        backgroundColor: "#002e4d"
+        backgroundColor: "#002e4d",
+        mapTypeControlOptions: {
+        style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+        position: google.maps.ControlPosition.TOP_RIGHT
+    },
 	});
     var styles = [
   {
@@ -104,6 +108,9 @@ function initialize() {
 
     function myClick(id){
         google.maps.event.trigger(markers[id], 'click');
+        jQuery('html, body').animate({
+                    scrollTop: $("#map").offset().top
+                }, 500);
     }    
 </script>
 </head>

@@ -85,6 +85,16 @@ function hashchange() {
     }
 };
 
+jQuery(document).ready(function() {
+    if (jQuery('body').hasClass('page-template-page-area') ) {
+        var safezone = 200;
+        var safezone_dt = 180;
+        jQuery('#map').css({'min-height': $vph - safezone_dt + 'px'});
+        jQuery('#map').css({'max-height': $vph - safezone + 'px'});
+    }
+    
+});
+
 // ON READY
 jQuery(document).ready(function() {
     ifHome();
@@ -115,6 +125,7 @@ jQuery('.scroll-btn').on("click", function() {
 jQuery('.opener-btn').on("click", function() {
       jQuery(this).toggleClass('closer');
       jQuery(this).next().toggleClass('closed');
+      jQuery(this).delay(1000).next().next().toggleClass('visible');
 });
 
 // ON SCROLL
@@ -131,3 +142,14 @@ $(document).scroll(function(){
         $('.navbar-fixed-top').removeClass('scrolled');
     }
 });
+
+// ADD ACTIVE TO PANEL HEADING
+
+jQuery('.collapse').on('hide.bs.collapse', function () {
+  jQuery(this).prev().removeClass('active-heading');
+});
+
+jQuery('.collapse').on('show.bs.collapse', function () {
+  jQuery(this).prev().addClass('active-heading');
+});
+

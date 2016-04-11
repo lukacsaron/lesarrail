@@ -32,7 +32,21 @@ $btn-default-border:             $brand-primary !default;
 
 $border-radius-base:        0px !default;
 
+//== Panels
+//
+//##
 
+$panel-bg:                    #fff !default;
+$panel-body-padding:          15px !default;
+$panel-heading-padding:       10px 15px !default;
+$panel-footer-padding:        $panel-heading-padding !default;
+$panel-border-radius:         $border-radius-base !default;
+
+//** Border color for elements within panels
+$panel-map-border:        transparent !default;
+$panel-map-heading-bg:    #fff !default;
+$panel-map-heading-text:    #fff !default;
+$panel-map-text:          $brand-primary !default;
 
 // mixins
 

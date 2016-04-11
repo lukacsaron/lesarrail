@@ -52,9 +52,11 @@ h1, h2, h3, h4, h5, h6,
     text-transform: uppercase;
 }
 
-#page-wrapper {
-    @media (max-width: 768px) {
-        padding-top: 60px;
+.page-template-fullwidthpage {
+    #page-wrapper {
+        @media (max-width: 768px) {
+            padding-top: 60px;
+        }
     }
 }
 
@@ -107,11 +109,20 @@ a {
     transition: all .15s ease-out;
 }
 
+.delay {
+    transition-delay: 0.5s;
+}
+
 .hide-mobile {
     @media (max-width: 768px) {
         display: none;
     }
 }
+
+.visible {
+    opacity: 1 !important;
+}
+
 
 .hide-md {
     @media (min-width: 1024px) {
@@ -129,6 +140,10 @@ a {
     @media (min-width: 768px) {
         display: none;
     }
+}
+
+.nopadding {
+    padding: 0;
 }
 
 .mobile-nopadding {
@@ -192,15 +207,19 @@ a {
 }
 
 .apartment-row {
-    height: 465px;
+    min-height: 330px;
     background-size: cover;
     border-bottom: 2px solid $brand-secondary;
     padding: 30px 0;
     background-position: 0 -180px;
+    margin: 0;
 }
 
 .page-template-page-accomodation {
     #wrapper-navbar {
+        padding: 0;
+    }
+    #page-wrapper {
         padding: 0;
     }
     .primary-container {
@@ -208,10 +227,11 @@ a {
         opacity: 1 !important;
         .apartment {
             overflow: hidden;
-            transition: all .15s ease-out;
+            transition: all .5s ease-out;
+            height: 380px;
             &.closed {
             height: 26px;
-            transition: all .15s ease-out;
+            transition: all .5s ease-out;
             }
         }   
     }
@@ -225,6 +245,15 @@ a {
         margin-top: -25px;
         margin-bottom: 15px;
     }
+    .hide-mobile {
+        &.gallery-btn-container {
+            position: absolute;
+            width: 160px;
+            right: 0;
+            margin-right: -150%;
+            opacity: 0;
+        }
+    }
     #wrapper-footer {
         display: none;
     }
@@ -233,6 +262,7 @@ a {
         padding: 15px;
         margin-top: -15px;
         opacity: 0;
+        z-index: 10;
         @media (min-width: 1024px) {
                     margin-left: -15px;
                 }
@@ -324,12 +354,14 @@ a {
 }
 
 .navbar-fixed-top {
+    background: #fff;
     @media (max-width:1024px) {
                 min-height: 40px;
                 max-height: 40px;
                 left: 0 !important;
                 right: 0 !important;
                 z-index: 9999 !important;
+                
             }
     .navbar-brand {
         @media (max-width: 1024px) {
@@ -414,9 +446,17 @@ a {
 }
 
 .offcanvas {
+    background-color: #fff !important;
+    border: none !important;
     .navmenu-nav {
         padding-top: 40px;
         li {
+            &.active {
+                a {
+                    color: #fff !important;
+                    background: $brand-primary;
+                }
+            }
             a {
                 color:$brand-primary !important;
                 text-transform: uppercase;
@@ -577,10 +617,23 @@ a {
 
 #map-container {
     height: 650px;
+    #map {
+        min-height: 350px;
+        @media (min-width: 768px) {
+            min-height: 650px !important;
+        }
+    }
     .panel-group-container {
         position: absolute;
         z-index: 10;
         margin-top: 10px;
+        @media (max-width: 768px) {
+            position: relative;
+            padding: 0;
+            .panel-map {
+                border: 2px solid $brand-primary;
+            }
+        }
     }
     .map-info {
         a {
@@ -695,7 +748,55 @@ a {
     color:#fff;
 }
 
+// PANELS
 
+.panel-map {
+  @include panel-variant($panel-map-border, $panel-map-text, $panel-map-heading-bg, $panel-default-border);
+}
+
+.panel-map {
+    border: none;
+    .panel-heading {
+        cursor: pointer;
+        color: $brand-primary;
+        border-color: transparent;
+        padding: 15px 15px;
+        a {
+            text-decoration: none;
+            &:hover {
+                color: $brand-primary;
+                text-decoration: none;
+            }
+        }
+        &.active-heading, &:hover, &:active {
+            color: #fff;
+            background: $brand-primary;
+            a {
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .panel-body {
+        max-height: 400px;
+        overflow-x: hidden;
+        .poi-title {
+            margin-bottom: 5px;
+            display: block;
+            font-size: 16px;
+        }
+        .poi-address {
+            font-weight: 300;
+            font-size: 12px;
+            float: inherit;
+        }
+        .poi-details {
+            font-weight: 300;
+            margin-bottom: 5px;
+        }
+    }
+}
 
 
 

@@ -15,10 +15,15 @@ get_header(); ?>
         <?php $args = array( 'post_type' => 'apartment', 'posts_per_page' => 10 );
               $loop = new WP_Query( $args );
         
-            while ( $loop->have_posts() ) : $loop->the_post(); ?>
+            while ( $loop->have_posts() ) : $loop->the_post(); ?> 
         
 						<div class="row apartment-row" style="background-image:url('<?php echo get_image_custom($post->ID, 'large'); ?>');">
                             <div class="container">
+                            <div class="row hide-desktop gallery-btn-container">
+                                <div class="col-md-offset-10 col-md-2 col-xs-12">
+                                    <button class="btn btn-default btn-transparent">GALLERY</button>
+                                </div>
+                            </div>
                             <div class="col-md-5 primary-container">
                                 <div class="opener-btn opener"></div>
 							     <?php   $apartment_size = get_post_meta($post->ID, "wpcf-apartment-size", false);
@@ -87,7 +92,11 @@ get_header(); ?>
                             <footer class="entry-footer">
                                 <?php understrap_entry_footer(); ?>
                             </footer><!-- .entry-footer -->
+                            
                         </article><!-- #post-## -->
+                                <div class="hide-mobile gallery-btn-container transition delay">
+                                    <button class="btn btn-default btn-transparent">GALLERY</button>
+                                </div>
                             </div>
                                 </div>
 						</div>
