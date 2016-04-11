@@ -101,9 +101,10 @@ get_header(); ?>
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>  
                           <?php $endorsement = get_post_meta($post->ID, 'wpcf-endorsement-text', true); ?>
                           <?php $endorsement_image = get_post_meta($post->ID, 'wpcf-endorsement-image', true); ?>
+                        <?php $logo = get_image_custom($post->ID, 'medium'); ?>
                                 <div class="col-md-4">
-                                    <img src="<?php echo get_image_custom($post->ID, 'medium'); ?>">
-                                    <a class="endorsement"><?php echo $endorsement(); ?></a>
+                                    <a class="endorsement" href="<?php echo $endorsement_image; ?>" data-gallery="#blueimp-gallery-76"><?php echo $endorsement; ?>"</a>
+                                    <img class="endorser" src="<?php echo $logo; ?>">
                                 </div>
                                 <?php endwhile; ?>
                                 <?php wp_reset_query(); ?>

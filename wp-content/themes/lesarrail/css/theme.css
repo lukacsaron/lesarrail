@@ -8763,12 +8763,25 @@ a:active {
 
 #brand-ident {
   margin-bottom: 30px; }
-  #brand-ident .ident-container .ident-item {
-    text-align: center; }
-    #brand-ident .ident-container .ident-item img {
-      max-width: 100%;
-      height: 60px !important;
+  #brand-ident .ident-container {
+    min-height: 100px; }
+    #brand-ident .ident-container .endorsement {
+      display: block;
+      text-align: center;
+      margin: 0 auto; }
+    #brand-ident .ident-container .endorser {
+      width: 120px;
+      position: absolute;
+      bottom: -40px;
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
+    #brand-ident .ident-container .ident-item {
       text-align: center; }
+      #brand-ident .ident-container .ident-item img {
+        max-width: 100%;
+        height: 60px !important;
+        text-align: center; }
 
 #map-container #map {
   min-height: 350px; }

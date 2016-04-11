@@ -647,6 +647,20 @@ a {
 #brand-ident {
     margin-bottom: 30px;
     .ident-container {
+        min-height: 100px;
+        .endorsement {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .endorser {
+            width: 120px;
+            position: absolute;
+            bottom: -40px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
         .ident-item {
             text-align: center;
             img {
