@@ -19,7 +19,7 @@ get_header(); ?>
             while ( $loop->have_posts() ) : $loop->the_post(); ?> 
         
 						<div class="row apartment-row" style="background-image:url('<?php echo get_image_custom($post->ID, 'large'); ?>');">
-                            <div class="container apartment-container">
+                            <div class="apartment-container">
                             <div class="row hide-desktop gallery-btn-container">
                                 <div class="col-md-offset-10 col-md-2 col-xs-push-7 col-xs-5">
                                     <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>

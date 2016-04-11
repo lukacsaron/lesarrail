@@ -33,7 +33,8 @@ get_header(); ?>
                           <!-- HIDDEN -->
                                         <div style="display:none;">
                                             <div id="item<?php echo $i; ?>" class="map-info">
-                                                <a class="poi-title"><?php the_title(); ?></a>
+                                                <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                                <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
                                             </div>
                                         </div>
                           
@@ -69,13 +70,16 @@ get_header(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
-                                            <p><a><?php the_title(); ?></a></p>
-                                            <?php the_content(); ?>
+                                            <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                                <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
                                         </div>
                                             </div>
                                         <div class="map-info">
-                                            <p><a onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a></p>
-                                            <?php the_content(); ?>
+                                            <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
+                                            <!-- <?php the_content(); ?>  -->
+                                            <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
+                                            <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
+                                            <hr>
                                         </div>
                                     <?php endif;?>
                                     <?php $i++;	?>
@@ -101,13 +105,16 @@ get_header(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
-                                            <p><a><?php the_title(); ?></a></p>
-                                            <?php the_content(); ?>
+                                            <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                            <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
                                         </div>
                                             </div>
                                         <div class="map-info">
-                                            <p><a onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a></p>
-                                            <?php the_content(); ?>
+                                            <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
+                                            <!-- <?php the_content(); ?>  -->
+                                            <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
+                                            <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
+                                            <hr>
                                         </div>
                                     <?php endif;?>
                                     <?php $i++;	?>
@@ -133,13 +140,16 @@ get_header(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
-                                            <p><a><?php the_title(); ?></a></p>
-                                            <?php the_content(); ?>
+                                            <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                            <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
                                         </div>
                                             </div>
                                         <div class="map-info">
-                                            <p><a onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a></p>
-                                            <?php the_content(); ?>
+                                            <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
+                                            <!-- <?php the_content(); ?>  -->
+                                            <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
+                                            <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
+                                            <hr>
                                         </div>
                                     <?php endif;?>
                                     <?php $i++;	?>

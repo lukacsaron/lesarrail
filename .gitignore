@@ -3,3 +3,4 @@
 /wp-content/themes/lesarrail/src/sass/
 /wp-content/themes/lesarrail/sass/
 *.DS_Store
+/wp-config.php
