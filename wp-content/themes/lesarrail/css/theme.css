@@ -8585,6 +8585,11 @@ a:active {
       transition: all .15s ease-out;
       margin-top: 0; }
 
+.usp-label {
+  font-size: 12px;
+  line-height: 12px;
+  padding: 0; }
+
 .navbar-responsive-collapse .tel, .navbar-responsive-collapse .mail {
   display: none; }
 
