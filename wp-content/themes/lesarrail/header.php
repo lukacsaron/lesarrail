@@ -130,7 +130,7 @@ function initialize() {
 
     <div class="navbar navbar-default navbar-fixed-top hide-md">
         <div class="navbar-header">
-            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">LE SARRAIL</a>
+            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="http://beta.lesarral.co.uk/wp-content/themes/lesarrail/img/logo_title.svg"></a>
         </div>
       <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
         <span class="icon-bar"></span>
@@ -158,7 +158,7 @@ function initialize() {
                             <div class="navbar-header">
 
                                 <!-- Your site title as branding in the menu -->
-                                <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">LE SARRAIL</a>
+                                <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="http://beta.lesarral.co.uk/wp-content/themes/lesarrail/img/logo_title.svg"></a>
 
                             </div>
 
