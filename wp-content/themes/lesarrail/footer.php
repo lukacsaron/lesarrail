@@ -35,7 +35,7 @@
                         <div class="col-md-3 col-md-push-2 hide-sm">
                             <span>Sign up to our newsletter for special offers</span><br>
                             <input class="subscribe" type="text" placeholder="enter your email address">
-                            <input type="button" class="submit btn btn-sm" value="submit" placeholder="submit" id="submit"> 
+                            <input type="button" class="submit btn btn-sm" value="SUBSCRIBE" placeholder="SUBSCRIBE" id="submit"> 
                         </div>
                         <div class="col-xs-6 col-md-2 col-md-push-2">
                             <span class="copyright">© 2016 Le Sarrail All Rights Reserved</span>

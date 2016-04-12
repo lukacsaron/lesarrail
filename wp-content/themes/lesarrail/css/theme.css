@@ -8590,7 +8590,8 @@ a:active {
 
 .tel {
   position: absolute !important;
-  margin-top: 160px;
+  margin-top: 140px;
+  margin-left: 10px;
   font-size: 14px; }
   @media (min-width: 1024) {
     .tel {
@@ -8602,6 +8603,7 @@ a:active {
 .mail {
   position: absolute !important;
   margin-top: 160px;
+  margin-left: 10px;
   font-size: 14px; }
   @media (min-width: 1024) {
     .mail {
@@ -8696,6 +8698,13 @@ a:active {
   @media (max-width: 768px) {
     .page-template-page-home .home-bottom {
       display: none; } }
+  .page-template-page-home .home-bottom .subscribe-container {
+    margin-top: -9px;
+    text-align: right; }
+  .page-template-page-home .home-bottom .copyright {
+    width: 109px;
+    display: block;
+    text-align: right; }
   .page-template-page-home .home-bottom #subscribe {
     float: right; }
   .page-template-page-home .home-bottom #contact-home {
@@ -8812,6 +8821,15 @@ a:active {
       left: 0;
       right: 0;
       margin: 0 auto; }
+      @media (max-width: 1024px) {
+        #brand-ident .ident-container .endorser {
+          position: relative;
+          text-align: center;
+          margin: 0 auto;
+          display: block;
+          bottom: inherit;
+          margin-top: 10px;
+          margin-bottom: 20px; } }
     #brand-ident .ident-container .ident-item {
       text-align: center; }
       #brand-ident .ident-container .ident-item img {
@@ -8848,7 +8866,7 @@ a:active {
   position: absolute;
   left: 50%;
   margin-left: -20px;
-  margin-top: -20px;
+  margin-top: -9px;
   cursor: pointer; }
 
 .btn-callout {
@@ -8917,9 +8935,19 @@ a:active {
 #wrapper-footer {
   background: #002e4d;
   color: #fff; }
-  #wrapper-footer .site-info {
-    font-weight: 300;
-    font-size: 11px; }
+
+.site-info {
+  font-weight: 300;
+  font-size: 11px; }
+  .site-info .subscribe {
+    width: 142px; }
+  .site-info .submit {
+    border-radius: 0;
+    height: 21px;
+    padding: 0 6px;
+    margin-top: -1px;
+    background: #fff;
+    color: #002e4d; }
 
 @media (max-width: 1024px) {
   .footer-socials {

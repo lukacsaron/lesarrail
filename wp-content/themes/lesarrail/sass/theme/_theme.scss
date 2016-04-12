@@ -415,7 +415,8 @@ a {
 
     .tel {
         position: absolute !important;
-        margin-top: 160px;
+        margin-top: 140px;
+        margin-left: 10px;
         font-size: 14px;
         @media (min-width: 1024) {
             display: none;
@@ -429,12 +430,13 @@ a {
 .mail {
         position: absolute !important;
         margin-top: 160px;
+        margin-left: 10px;
         font-size: 14px;
         @media (min-width: 1024) {
             display: none;
         }
             a {
-                font-size:14px !important;
+                font-size: 14px !important;
                 padding: 0 5px !important;
             }
         }
@@ -555,6 +557,15 @@ a {
         margin-top: 20px;
         @media (max-width: 768px) {
             display: none;
+        }
+        .subscribe-container {
+            margin-top: -9px;
+            text-align: right;
+        }
+        .copyright {
+            width: 109px;
+            display: block;
+            text-align: right;
         }
         #subscribe {
             float: right;
@@ -716,6 +727,15 @@ a {
             left: 0;
             right: 0;
             margin: 0 auto;
+            @media (max-width: 1024px) {
+                position: relative;
+                text-align: center;
+                margin: 0 auto;
+                display: block;
+                bottom: inherit;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
         }
         .ident-item {
             text-align: center;
@@ -767,7 +787,7 @@ a {
     position: absolute;
     left: 50%;
     margin-left: -20px;
-    margin-top: -20px;
+    margin-top: -9px;
     cursor: pointer;
 }
 
@@ -861,11 +881,22 @@ a {
 #wrapper-footer {
     background: $brand-primary;
     color:#fff;
+}
     .site-info {
         font-weight: 300;
         font-size: 11px;
+        .subscribe {
+            width: 142px;
+        }
+        .submit {
+            border-radius: 0;
+            height: 21px;
+            padding: 0 6px;
+            margin-top: -1px;
+            background: #fff;
+            color: $brand-primary;
+        }
     }
-}
 
 .footer-socials {
     @media (max-width:1024px) {
