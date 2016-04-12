@@ -68,15 +68,23 @@ get_header(); ?>
                 </a>
             </div>
 
-            <div class="col-md-7 page-link transition">
-                <a href="<?php echo get_page_link($maison_cypres); ?>">
-                    <div class="box-wrapper" style="background-image:url('<?php echo get_image_custom($maison_cypres, 'medium'); ?>');">
-                        <h2 class="title"><?php echo get_the_title($maison_cypres); ?></h2>
-                    </div>
-                </a>
+            <div id="apartment-slider" class="col-md-7 page-link transition">
+                
+                <?php   $args = array( 'post_type' => 'apartment', 'posts_per_page' => 40 );
+                            $loop = new WP_Query( $args );
+                            while ( $loop->have_posts() ) : $loop->the_post(); ?>  
+                        <?php $image = get_image_custom($post->ID, 'medium'); ?>
+                                    <a class="apartment" href="<?php the_permalink(); ?>">
+                                        <div class="box-wrapper" style="background-image:url('<?php echo $image; ?>');">
+                                            <h2 class="title transition"><?php echo get_the_title(); ?></h2>
+                                        </div>
+                                    </a>
+                            <?php endwhile; ?>
+                    <?php wp_reset_query(); ?>
+                
             </div>
 
-            <div class="col-md-7 page-link transition" >
+            <div class="col-md-7 page-link activity-featured transition" >
                 <a href="<?php echo get_page_link($area); ?>">
                     <div class="box-wrapper" style="background-image:url('<?php echo get_image_custom($area, 'medium'); ?>');">
                         <h2 class="title"><?php echo get_the_title($area); ?></h2>
@@ -106,8 +114,8 @@ get_header(); ?>
                                     <a class="endorsement" href="<?php echo $endorsement_image; ?>" data-gallery="#blueimp-gallery-76"><?php echo $endorsement; ?>"</a>
                                     <img class="endorser" src="<?php echo $logo; ?>">
                                 </div>
-                                <?php endwhile; ?>
-                                <?php wp_reset_query(); ?>
+                            <?php endwhile; ?>
+                    <?php wp_reset_query(); ?>
         </div>
     </div>
     

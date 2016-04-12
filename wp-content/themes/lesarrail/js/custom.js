@@ -1,4 +1,5 @@
 $vph = jQuery(window).height();
+$lch = jQuery(".activity-featured").width();
 
 function resizeContent() {
     if (jQuery('body').hasClass('page-template-fullwidthpage') ) {
@@ -22,6 +23,18 @@ function slideshow_start() {
          .next('.slideshow-item').fadeTo(1500,1)
          .end().appendTo('#slideshow');}, 
       3000);
+}
+
+
+function ApartmentSlide() {
+    if (jQuery('body').hasClass('page-template-page-home') ) {
+        $('#apartment-slider .apartment:gt(0)').hide();
+        setInterval(function(){
+          $('#apartment-slider .apartment:nth-child(1)').fadeTo(1500,0)
+             .next('#apartment-slider .apartment').fadeTo(1500,1)
+             .end().appendTo('#apartment-slider');}, 
+          3000);
+    }
 }
  
 
@@ -66,8 +79,7 @@ function ifHome() {
     if (jQuery('body').hasClass('page-template-page-home') ) {
         var safezone = 80;
         jQuery('#slideshow').css({'height': $vph - safezone + 'px'});
-        
-        
+        jQuery('.page-link .apartment').css({'width': $lch + 'px'});
     }
 }
 
@@ -86,7 +98,7 @@ function hashchange() {
     else {
        console.log("you are on remote");
     }
-};
+}
 
 jQuery(document).ready(function() {
     if (jQuery('body').hasClass('page-template-page-area') ) {
@@ -119,6 +131,7 @@ jQuery(document).ready(function() {
 // ON READY
 jQuery(document).ready(function() {
     ifHome();
+    ApartmentSlide();
     resizeContent();
     wrapperMaxHeight();
     slideshow_start();
@@ -132,6 +145,7 @@ jQuery(document).ready(function() {
 jQuery(window).resize(function(){
     // change variables
     $vph = jQuery(window).height();
+    $lch = jQuery(".activity-featured").width();
     // run functions
     ifHome();
     resizeContent();

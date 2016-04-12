@@ -21,7 +21,7 @@
                 <footer id="colophon" class="site-footer" role="contentinfo">
 
                     <div class="site-info">
-                        <div class="col-md-5 col-xs-6 footer-contacts">
+                        <div class="col-md-5 col-xs-6 footer-contacts nopadding">
                             <div class="col-md-5 col-md-push-4 footer-socials">
                             <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>

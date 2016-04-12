@@ -11,8 +11,8 @@ get_header(); ?>
 
 <div class="wrapper" id="page-wrapper">
     
-    <div  id="content" class="container">
-        <div class="col-md-12">
+    <div  id="content" class="container mobile-nopadding">
+        <div class="col-md-12 mobile-nopadding">
         <?php $args = array( 'post_type' => 'apartment', 'posts_per_page' => 10 );
               $loop = new WP_Query( $args );
         
@@ -110,7 +110,7 @@ get_header(); ?>
                                     
         <!-- detach first image -->
         <?php unset($attached_images[0]); ?>
-       <?php foreach($attached_images as $attached_images) {
+        <?php foreach($attached_images as $attached_images) {
             $postID = ($post->ID);
             echo '<a href="'.$attached_images.'"data-gallery="#blueimp-gallery-'.$postID.'" ></a>';
             } ?>
