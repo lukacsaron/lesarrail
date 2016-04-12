@@ -1,0 +1,4237 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: USP Pro\n"
+"POT-Creation-Date: 2014-05-14 13:41-0800\n"
+"PO-Revision-Date: 2014-05-14 13:41-0800\n"
+"Last-Translator: Jeff Starr <http://perishablepress.com/contact/>\n"
+"Language-Team: Monzilla Media <http://perishablepress.com/contact/>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.6\n"
+"X-Poedit-KeywordsList: _;__;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../usp-pro.php:122
+msgid "requires WordPress "
+msgstr ""
+
+#: ../usp-pro.php:122
+msgid " or higher, and has been deactivated!"
+msgstr ""
+
+#: ../usp-pro.php:123
+msgid "Please return to the "
+msgstr ""
+
+#: ../usp-pro.php:123
+msgid "WordPress Admin area"
+msgstr ""
+
+#: ../usp-pro.php:123
+msgid "to upgrade WordPress and try again."
+msgstr ""
+
+#: ../usp-pro.php:133
+msgid "USP"
+msgstr ""
+
+#: ../usp-pro.php:137
+msgid "Submitted"
+msgstr ""
+
+#: ../usp-pro.php:137
+msgid "User Submitted Posts"
+msgstr ""
+
+#: ../usp-pro.php:175
+msgid "Settings"
+msgstr ""
+
+#: ../usp-pro.php:229
+msgid "New user-submitted post at "
+msgstr ""
+
+#: ../usp-pro.php:229
+msgid "! URL: "
+msgstr ""
+
+#: ../usp-pro.php:230
+msgid "Thank you for your submission at "
+msgstr ""
+
+#: ../usp-pro.php:230
+msgid ""
+"! If submissions require approval, you'll receive an email once it's "
+"approved."
+msgstr ""
+
+#: ../usp-pro.php:231
+msgid "New User Submitted Post!"
+msgstr ""
+
+#: ../usp-pro.php:232
+msgid "Thank you for your submitted post!"
+msgstr ""
+
+#: ../usp-pro.php:233 ../usp-pro.php:235
+msgid "Submitted Post Approved!"
+msgstr ""
+
+#: ../usp-pro.php:234
+msgid "Congratulations, your submitted post has been approved at "
+msgstr ""
+
+#: ../usp-pro.php:236
+msgid "Congratulations, a submitted post has been approved at "
+msgstr ""
+
+#: ../usp-pro.php:238 ../usp-pro.php:240
+msgid "Submitted Post Denied"
+msgstr ""
+
+#: ../usp-pro.php:239
+msgid "Sorry, but your submission has been denied."
+msgstr ""
+
+#: ../usp-pro.php:241
+msgid "A submitted post has been denied at "
+msgstr ""
+
+#: ../usp-pro.php:244
+msgid "Message sent from "
+msgstr ""
+
+#: ../usp-pro.php:245 ../usp-pro.php:303 ../usp-pro.php:847
+msgid "Email Subject"
+msgstr ""
+
+#: ../usp-pro.php:248
+msgid "A copy of this message will be sent to the specified email address."
+msgstr ""
+
+#: ../usp-pro.php:267 ../usp-pro.php:782 ../inc/usp-shortcodes.php:800
+msgid "Submit Post"
+msgstr ""
+
+#: ../usp-pro.php:282
+msgid "Success! You have successfully submitted a post."
+msgstr ""
+
+#: ../usp-pro.php:283
+msgid "Congratulations, you have been registered with the site."
+msgstr ""
+
+#: ../usp-pro.php:284
+msgid ""
+"Registration successful! Post Submission successful! You&rsquo;re golden."
+msgstr ""
+
+#: ../usp-pro.php:285
+msgid "Email sent! We&rsquo;ll get back to you as soon as possible."
+msgstr ""
+
+#: ../usp-pro.php:286
+msgid ""
+"Registration successful! Email sent! We&rsquo;ll get back to you as soon as "
+"possible."
+msgstr ""
+
+#: ../usp-pro.php:287
+msgid ""
+"Post Submitted! Email sent! We&rsquo;ll get back to you as soon as possible."
+msgstr ""
+
+#: ../usp-pro.php:288
+msgid ""
+"Post Submitted! Registration successful! Email sent! We&rsquo;ll get back to "
+"you as soon as possible."
+msgstr ""
+
+#: ../usp-pro.php:294
+msgid "Your Name"
+msgstr ""
+
+#: ../usp-pro.php:295 ../inc/usp-process.php:889
+msgid "Post URL"
+msgstr ""
+
+#: ../usp-pro.php:296 ../inc/usp-process.php:888
+msgid "Post Title"
+msgstr ""
+
+#: ../usp-pro.php:297 ../usp-pro.php:649
+msgid "Post Tags"
+msgstr ""
+
+#: ../usp-pro.php:298 ../inc/usp-forms.php:621
+msgid "Challenge Question"
+msgstr ""
+
+#: ../usp-pro.php:299
+msgid "Post Category"
+msgstr ""
+
+#: ../usp-pro.php:300
+msgid "Post Content"
+msgstr ""
+
+#: ../usp-pro.php:301
+msgid "File(s)"
+msgstr ""
+
+#: ../usp-pro.php:302 ../usp-pro.php:846
+msgid "Email Address"
+msgstr ""
+
+#: ../usp-pro.php:304
+msgid "Alt text"
+msgstr ""
+
+#: ../usp-pro.php:305 ../usp-pro.php:849
+msgid "Caption"
+msgstr ""
+
+#: ../usp-pro.php:306 ../usp-pro.php:802 ../usp-pro.php:850 ../usp-pro.php:881
+msgid "Description"
+msgstr ""
+
+#: ../usp-pro.php:307 ../usp-pro.php:851
+msgid "Taxonomy"
+msgstr ""
+
+#: ../usp-pro.php:308 ../usp-pro.php:852
+msgid "Post Format"
+msgstr ""
+
+#: ../usp-pro.php:310
+msgid "User Nicename"
+msgstr ""
+
+#: ../usp-pro.php:311
+msgid "User Display Name"
+msgstr ""
+
+#: ../usp-pro.php:312
+msgid "User Nickname"
+msgstr ""
+
+#: ../usp-pro.php:313
+msgid "User First Name"
+msgstr ""
+
+#: ../usp-pro.php:314
+msgid "User Last Name"
+msgstr ""
+
+#: ../usp-pro.php:315
+msgid "User Description"
+msgstr ""
+
+#: ../usp-pro.php:316
+msgid "User Password"
+msgstr ""
+
+#: ../usp-pro.php:322 ../usp-pro.php:324
+msgid "Kötelező mező: "
+msgstr ""
+
+#: ../usp-pro.php:328
+msgid "Kötelező mező: Your Name"
+msgstr ""
+
+#: ../usp-pro.php:329
+msgid "Kötelező mező: Post URL"
+msgstr ""
+
+#: ../usp-pro.php:330
+msgid "Kötelező mező: Post Title"
+msgstr ""
+
+#: ../usp-pro.php:331
+msgid "Kötelező mező: Post Tags"
+msgstr ""
+
+#: ../usp-pro.php:332
+msgid "Kötelező mező: Challenge Question"
+msgstr ""
+
+#: ../usp-pro.php:333
+msgid "Kötelező mező: Post Category"
+msgstr ""
+
+#: ../usp-pro.php:334
+msgid "Kötelező mező: Post Content"
+msgstr ""
+
+#: ../usp-pro.php:335
+msgid "Kötelező mező: File(s)"
+msgstr ""
+
+#: ../usp-pro.php:336
+msgid "Kötelező mező: Email Address"
+msgstr ""
+
+#: ../usp-pro.php:337
+msgid "Kötelező mező: Email Subject"
+msgstr ""
+
+#: ../usp-pro.php:338
+msgid "Kötelező mező: Alt text"
+msgstr ""
+
+#: ../usp-pro.php:339
+msgid "Kötelező mező: Caption"
+msgstr ""
+
+#: ../usp-pro.php:340
+msgid "Kötelező mező: Description"
+msgstr ""
+
+#: ../usp-pro.php:341
+msgid "Kötelező mező: Taxonomy"
+msgstr ""
+
+#: ../usp-pro.php:342
+msgid "Kötelező mező: Post Format"
+msgstr ""
+
+#: ../usp-pro.php:344
+msgid "Kötelező mező: User Nicename"
+msgstr ""
+
+#: ../usp-pro.php:345
+msgid "Kötelező mező: User Display Name"
+msgstr ""
+
+#: ../usp-pro.php:346
+msgid "Kötelező mező: User Nickname"
+msgstr ""
+
+#: ../usp-pro.php:347
+msgid "Kötelező mező: User First Name"
+msgstr ""
+
+#: ../usp-pro.php:348
+msgid "Kötelező mező: User Last Name"
+msgstr ""
+
+#: ../usp-pro.php:349
+msgid "Kötelező mező: User Description"
+msgstr ""
+
+#: ../usp-pro.php:350
+msgid "Kötelező mező: User Password"
+msgstr ""
+
+#: ../usp-pro.php:352
+msgid ""
+"Username already registered. If that is your username, please log in to "
+"submit posts. Otherwise, please choose a different username."
+msgstr ""
+
+#: ../usp-pro.php:353
+msgid ""
+"Email already registered. If that is your address, please log in to submit "
+"content. Otherwise, please choose a different email address."
+msgstr ""
+
+#: ../usp-pro.php:354
+msgid ""
+"User-registration is currently disabled. Please contact the admin for help."
+msgstr ""
+
+#: ../usp-pro.php:355
+msgid ""
+"You are already registered with this site, please log in to submit content."
+msgstr ""
+
+#: ../usp-pro.php:356
+msgid "Post-submission required for user registration. Please try again."
+msgstr ""
+
+#: ../usp-pro.php:357
+msgid "Duplicate post title detected. Please enter a unique post title."
+msgstr ""
+
+#: ../usp-pro.php:359
+msgid "Restricted characters found in Name field. Please try again."
+msgstr ""
+
+#: ../usp-pro.php:360
+msgid "Incorrect response for the spam check. Please try again."
+msgstr ""
+
+#: ../usp-pro.php:361
+msgid ""
+"Minimum number of characters not met in content field. Please try again."
+msgstr ""
+
+#: ../usp-pro.php:362
+msgid ""
+"Number of characters in content field exceeds maximum allowed. Please try "
+"again."
+msgstr ""
+
+#: ../usp-pro.php:363
+msgid "Restricted characters found in Email address. Please try again."
+msgstr ""
+
+#: ../usp-pro.php:364
+msgid "Restricted characters found in Subject field. Please try again."
+msgstr ""
+
+#: ../usp-pro.php:366 ../usp-pro.php:371
+msgid "File(s) required. Please check any required file(s) and try again."
+msgstr ""
+
+#: ../usp-pro.php:367
+msgid ""
+"File type not allowed. Please check the allowed file types and try again."
+msgstr ""
+
+#: ../usp-pro.php:368
+msgid ""
+"Image dimensions (width/height) exceed set limits. Please check the "
+"requirements and try again."
+msgstr ""
+
+#: ../usp-pro.php:369
+msgid ""
+"Maximum file-size limit exceeded. Please check the file requirements and try "
+"again."
+msgstr ""
+
+#: ../usp-pro.php:370
+msgid ""
+"Minimum file-size not met. Please check the file requirements and try again."
+msgstr ""
+
+#: ../usp-pro.php:372
+msgid ""
+"Length of filename exceeds allowed limit. Please check the requirements and "
+"try again."
+msgstr ""
+
+#: ../usp-pro.php:373
+msgid ""
+"Please ensure that you have met the minimum number of required files, and "
+"that any specific requirements have been met (e.g., size, dimensions)."
+msgstr ""
+
+#: ../usp-pro.php:374
+msgid ""
+"Please ensure that you have not exceeded the maximum number of files, and "
+"that any specific requirements have been met (e.g., size, dimensions)."
+msgstr ""
+
+#: ../usp-pro.php:457
+msgid "Send alert emails using WP&rsquo;s <code>wp_mail()</code> function"
+msgstr ""
+
+#: ../usp-pro.php:461
+msgid "Send alert emails using PHP&rsquo;s <code>mail()</code> function"
+msgstr ""
+
+#: ../usp-pro.php:465
+msgid "Disable email alerts"
+msgstr ""
+
+#: ../usp-pro.php:474
+msgid "Regular WP Posts (default)"
+msgstr ""
+
+#: ../usp-pro.php:478
+msgid "Regular WP Pages"
+msgstr ""
+
+#: ../usp-pro.php:482 ../inc/usp-posts.php:51
+msgid "USP Posts"
+msgstr ""
+
+#: ../usp-pro.php:486
+msgid "Existing Post Type"
+msgstr ""
+
+#: ../usp-pro.php:495
+msgid "Display categories as a dropdown menu (default)"
+msgstr ""
+
+#: ../usp-pro.php:499
+msgid ""
+"Display categories as checkboxes (always allows users to select multiple "
+"categories)"
+msgstr ""
+
+#: ../usp-pro.php:508
+msgid "Ordered by name, ascending order (default)"
+msgstr ""
+
+#: ../usp-pro.php:512
+msgid "Ordered by name, descending order"
+msgstr ""
+
+#: ../usp-pro.php:516
+msgid "Ordered by tag ID, ascending order"
+msgstr ""
+
+#: ../usp-pro.php:520
+msgid "Ordered by tag ID, descending order"
+msgstr ""
+
+#: ../usp-pro.php:524
+msgid "Ordered by count, ascending order"
+msgstr ""
+
+#: ../usp-pro.php:528
+msgid "Ordered by count, descending order"
+msgstr ""
+
+#: ../usp-pro.php:537
+msgid "Display tags as a dropdown menu (default)"
+msgstr ""
+
+#: ../usp-pro.php:541
+msgid ""
+"Display tags as checkboxes (always allows users to select multiple tags)"
+msgstr ""
+
+#: ../usp-pro.php:545
+msgid ""
+"Display tags as a text-input (always allows users to enter multiple tags, "
+"separated with commas)"
+msgstr ""
+
+#: ../usp-pro.php:554
+msgid "Clean minimal style (default)"
+msgstr ""
+
+#: ../usp-pro.php:558
+msgid "Smaller form style (e.g., widgets)"
+msgstr ""
+
+#: ../usp-pro.php:562
+msgid "Larger form style"
+msgstr ""
+
+#: ../usp-pro.php:566
+msgid "Define custom style"
+msgstr ""
+
+#: ../usp-pro.php:570
+msgid "Disable styles"
+msgstr ""
+
+#: ../usp-pro.php:579
+msgid "Display uploaded images before post content (default)"
+msgstr ""
+
+#: ../usp-pro.php:583
+msgid "Display uploaded images after post content"
+msgstr ""
+
+#: ../usp-pro.php:587
+msgid "Do not auto-display uploaded images"
+msgstr ""
+
+#: ../usp-pro.php:608
+msgid "Basic Settings"
+msgstr ""
+
+#: ../usp-pro.php:609
+msgid "Auto Publish Posts"
+msgstr ""
+
+#: ../usp-pro.php:610
+msgid "Custom Post Status"
+msgstr ""
+
+#: ../usp-pro.php:611
+msgid "Redirect URL for Success"
+msgstr ""
+
+#: ../usp-pro.php:612
+msgid "Redirect URL for Failure"
+msgstr ""
+
+#: ../usp-pro.php:613
+msgid "Redirect to Post"
+msgstr ""
+
+#: ../usp-pro.php:614
+msgid "Enable Basic Statistics"
+msgstr ""
+
+#: ../usp-pro.php:615
+msgid "Minimum Character Limit"
+msgstr ""
+
+#: ../usp-pro.php:616
+msgid "Maximum Character Limit"
+msgstr ""
+
+#: ../usp-pro.php:617
+msgid "Unique Post Titles"
+msgstr ""
+
+#: ../usp-pro.php:618
+msgid "Remember Form Values"
+msgstr ""
+
+#: ../usp-pro.php:619
+msgid "Memory Strength"
+msgstr ""
+
+#: ../usp-pro.php:620
+msgid "Memory Default"
+msgstr ""
+
+#: ../usp-pro.php:622
+msgid "User Settings"
+msgstr ""
+
+#: ../usp-pro.php:623
+msgid "Default Assigned Author"
+msgstr ""
+
+#: ../usp-pro.php:624
+msgid "Default Assigned Role"
+msgstr ""
+
+#: ../usp-pro.php:625
+msgid "Use Registered Author"
+msgstr ""
+
+#: ../usp-pro.php:626
+msgid "Replace Author"
+msgstr ""
+
+#: ../usp-pro.php:628
+msgid "Antispam/Captcha"
+msgstr ""
+
+#: ../usp-pro.php:629
+msgid "Captcha Question"
+msgstr ""
+
+#: ../usp-pro.php:630
+msgid "Captcha Response"
+msgstr ""
+
+#: ../usp-pro.php:631
+msgid "Case-sensitivity"
+msgstr ""
+
+#: ../usp-pro.php:632
+msgid "reCAPTCHA Public"
+msgstr ""
+
+#: ../usp-pro.php:633
+msgid "reCAPTCHA Private"
+msgstr ""
+
+#: ../usp-pro.php:635
+msgid "Category Settings"
+msgstr ""
+
+#: ../usp-pro.php:636
+msgid "Category Menu"
+msgstr ""
+
+#: ../usp-pro.php:637
+msgid "Allow Multiple Categories"
+msgstr ""
+
+#: ../usp-pro.php:638
+msgid "Nested Categories"
+msgstr ""
+
+#: ../usp-pro.php:639
+msgid "Hide Category Field"
+msgstr ""
+
+#: ../usp-pro.php:640
+msgid "Use Hidden Category"
+msgstr ""
+
+#: ../usp-pro.php:641
+msgid "Use Hidden Category ID"
+msgstr ""
+
+#: ../usp-pro.php:642
+msgid "Post Categories"
+msgstr ""
+
+#: ../usp-pro.php:644
+msgid "Tag Settings"
+msgstr ""
+
+#: ../usp-pro.php:645
+msgid "Tag Menu"
+msgstr ""
+
+#: ../usp-pro.php:646
+msgid "Allow Multiple Tags"
+msgstr ""
+
+#: ../usp-pro.php:647
+msgid "Hide Tags Field"
+msgstr ""
+
+#: ../usp-pro.php:648
+msgid "Tag Order"
+msgstr ""
+
+#: ../usp-pro.php:650
+msgid "Number of Tags"
+msgstr ""
+
+#: ../usp-pro.php:651
+msgid "Hide Empty Tags"
+msgstr ""
+
+#: ../usp-pro.php:660
+msgid "Include USP Stylesheet"
+msgstr ""
+
+#: ../usp-pro.php:661
+msgid "Select Form Style"
+msgstr ""
+
+#: ../usp-pro.php:662
+msgid "Minimal Style"
+msgstr ""
+
+#: ../usp-pro.php:663
+msgid "Smaller Form"
+msgstr ""
+
+#: ../usp-pro.php:664
+msgid "Larger Form"
+msgstr ""
+
+#: ../usp-pro.php:665
+msgid "Custom Style"
+msgstr ""
+
+#: ../usp-pro.php:668
+msgid "Include USP JavaScript"
+msgstr ""
+
+#: ../usp-pro.php:669
+msgid "Custom JavaScript"
+msgstr ""
+
+#: ../usp-pro.php:672
+msgid "Targeted CSS/JS Loading"
+msgstr ""
+
+#: ../usp-pro.php:681
+msgid "Auto-Display Images"
+msgstr ""
+
+#: ../usp-pro.php:682
+msgid "Minimum number of files"
+msgstr ""
+
+#: ../usp-pro.php:683
+msgid "Maximum number of files"
+msgstr ""
+
+#: ../usp-pro.php:684
+msgid "Allowed File Types"
+msgstr ""
+
+#: ../usp-pro.php:685
+msgid "Max file size"
+msgstr ""
+
+#: ../usp-pro.php:686
+msgid "Min file size"
+msgstr ""
+
+#: ../usp-pro.php:687
+msgid "Min width for images"
+msgstr ""
+
+#: ../usp-pro.php:688
+msgid "Max width for images"
+msgstr ""
+
+#: ../usp-pro.php:689
+msgid "Min height for images"
+msgstr ""
+
+#: ../usp-pro.php:690
+msgid "Max height for images"
+msgstr ""
+
+#: ../usp-pro.php:691
+msgid "Featured Images"
+msgstr ""
+
+#: ../usp-pro.php:692
+msgid "Featured Image Key"
+msgstr ""
+
+#: ../usp-pro.php:693
+msgid "File Names"
+msgstr ""
+
+#: ../usp-pro.php:702
+msgid "Admin Email To"
+msgstr ""
+
+#: ../usp-pro.php:703
+msgid "Admin Email From"
+msgstr ""
+
+#: ../usp-pro.php:704
+msgid "Admin Email Name"
+msgstr ""
+
+#: ../usp-pro.php:707
+msgid "Email Alerts"
+msgstr ""
+
+#: ../usp-pro.php:710
+msgid "Send Post Alert to Admin"
+msgstr ""
+
+#: ../usp-pro.php:711
+msgid "Send Approval Alert to Admin"
+msgstr ""
+
+#: ../usp-pro.php:712
+msgid "Send Denied Alert to Admin"
+msgstr ""
+
+#: ../usp-pro.php:713 ../usp-pro.php:727
+msgid "Email Subject for Submissions"
+msgstr ""
+
+#: ../usp-pro.php:714 ../usp-pro.php:728
+msgid "Email Message for Submissions"
+msgstr ""
+
+#: ../usp-pro.php:715 ../usp-pro.php:729
+msgid "Email Subject for Approvals"
+msgstr ""
+
+#: ../usp-pro.php:716 ../usp-pro.php:730
+msgid "Email Message for Approvals"
+msgstr ""
+
+#: ../usp-pro.php:717 ../usp-pro.php:731 ../usp-pro.php:732
+msgid "Email Subject for Denied Posts"
+msgstr ""
+
+#: ../usp-pro.php:718
+msgid "Email Message for Denied Posts"
+msgstr ""
+
+#: ../usp-pro.php:719
+msgid "CC Post Alerts"
+msgstr ""
+
+#: ../usp-pro.php:720
+msgid "CC Approval Alerts"
+msgstr ""
+
+#: ../usp-pro.php:721
+msgid "CC Denied Alerts"
+msgstr ""
+
+#: ../usp-pro.php:724
+msgid "Send Post Alert to User"
+msgstr ""
+
+#: ../usp-pro.php:725
+msgid "Send Approval Alert to User"
+msgstr ""
+
+#: ../usp-pro.php:726
+msgid "Send Denied Alert to User"
+msgstr ""
+
+#: ../usp-pro.php:735
+msgid "Enable Contact Form"
+msgstr ""
+
+#: ../usp-pro.php:736
+msgid "Subject Line Prefix"
+msgstr ""
+
+#: ../usp-pro.php:737
+msgid "Subject Line"
+msgstr ""
+
+#: ../usp-pro.php:738
+msgid "Email From"
+msgstr ""
+
+#: ../usp-pro.php:739
+msgid "Custom Content"
+msgstr ""
+
+#: ../usp-pro.php:740
+msgid "CC Emails"
+msgstr ""
+
+#: ../usp-pro.php:741
+msgid "CC User"
+msgstr ""
+
+#: ../usp-pro.php:742
+msgid "CC User Message"
+msgstr ""
+
+#: ../usp-pro.php:743
+msgid "Include User Stats"
+msgstr ""
+
+#: ../usp-pro.php:744
+msgid "Include Custom Fields"
+msgstr ""
+
+#: ../usp-pro.php:747
+msgid "Custom Address 1"
+msgstr ""
+
+#: ../usp-pro.php:748
+msgid "Custom Address 2"
+msgstr ""
+
+#: ../usp-pro.php:749
+msgid "Custom Address 3"
+msgstr ""
+
+#: ../usp-pro.php:750
+msgid "Custom Address 4"
+msgstr ""
+
+#: ../usp-pro.php:751
+msgid "Custom Address 5"
+msgstr ""
+
+#: ../usp-pro.php:760
+msgid "Form Configuration"
+msgstr ""
+
+#: ../usp-pro.php:761
+msgid "Enable auto-formatting"
+msgstr ""
+
+#: ../usp-pro.php:762
+msgid "Auto-include fieldsets"
+msgstr ""
+
+#: ../usp-pro.php:763
+msgid "Auto-generate form demos"
+msgstr ""
+
+#: ../usp-pro.php:764
+msgid "Auto-generate post demos"
+msgstr ""
+
+#: ../usp-pro.php:765
+msgid "Auto-include submit button"
+msgstr ""
+
+#: ../usp-pro.php:766
+msgid "Text for submit button"
+msgstr ""
+
+#: ../usp-pro.php:767
+msgid "Allowed HTML in post"
+msgstr ""
+
+#: ../usp-pro.php:769
+msgid "Custom Post Type"
+msgstr ""
+
+#: ../usp-pro.php:770
+msgid "Submitted Post Type"
+msgstr ""
+
+#: ../usp-pro.php:771
+msgid "Slug for USP Post Type"
+msgstr ""
+
+#: ../usp-pro.php:772
+msgid "Specify Existing Post Type"
+msgstr ""
+
+#: ../usp-pro.php:773
+msgid "Roles for USP Post Types"
+msgstr ""
+
+#: ../usp-pro.php:774
+msgid "Roles for USP Form Types"
+msgstr ""
+
+#: ../usp-pro.php:776
+msgid "Before/After USP Forms"
+msgstr ""
+
+#: ../usp-pro.php:777
+msgid "Custom Before Forms"
+msgstr ""
+
+#: ../usp-pro.php:778
+msgid "Custom After Forms"
+msgstr ""
+
+#: ../usp-pro.php:780
+msgid "Customize Success Message"
+msgstr ""
+
+#: ../usp-pro.php:781
+msgid "Register User"
+msgstr ""
+
+#: ../usp-pro.php:783
+msgid "Register and Submit"
+msgstr ""
+
+#: ../usp-pro.php:784
+msgid "Contact Form"
+msgstr ""
+
+#: ../usp-pro.php:785
+msgid "Contact Form and Register"
+msgstr ""
+
+#: ../usp-pro.php:786
+msgid "Contact Form and Post"
+msgstr ""
+
+#: ../usp-pro.php:787
+msgid "Contact, Register, and Post"
+msgstr ""
+
+#: ../usp-pro.php:788
+msgid "Custom Before Message"
+msgstr ""
+
+#: ../usp-pro.php:789
+msgid "Custom After Message"
+msgstr ""
+
+#: ../usp-pro.php:790
+msgid "Display Form on Success"
+msgstr ""
+
+#: ../usp-pro.php:792
+msgid "Customize Error Message"
+msgstr ""
+
+#: ../usp-pro.php:793
+msgid "Custom Before Errors"
+msgstr ""
+
+#: ../usp-pro.php:794
+msgid "Custom After Errors"
+msgstr ""
+
+#: ../usp-pro.php:796
+msgid "Primary Form Fields"
+msgstr ""
+
+#: ../usp-pro.php:798
+msgid "Primary Field "
+msgstr ""
+
+#: ../usp-pro.php:801
+msgid "User-Registration Fields"
+msgstr ""
+
+#: ../usp-pro.php:802 ../usp-pro.php:881
+msgid "Nicename"
+msgstr ""
+
+#: ../usp-pro.php:802 ../usp-pro.php:881
+msgid "Display Name"
+msgstr ""
+
+#: ../usp-pro.php:802 ../usp-pro.php:881
+msgid "Nickname"
+msgstr ""
+
+#: ../usp-pro.php:802 ../usp-pro.php:881
+msgid "First Name"
+msgstr ""
+
+#: ../usp-pro.php:802 ../usp-pro.php:881
+msgid "Last Name"
+msgstr ""
+
+#: ../usp-pro.php:802 ../usp-pro.php:881
+msgid "Password"
+msgstr ""
+
+#: ../usp-pro.php:807 ../usp-pro.php:808
+msgid "Custom Form Fields"
+msgstr ""
+
+#: ../usp-pro.php:810
+msgid "Custom Field Names"
+msgstr ""
+
+#: ../usp-pro.php:815
+msgid "Custom Field "
+msgstr ""
+
+#: ../usp-pro.php:820
+msgid "Custom Field Prefix"
+msgstr ""
+
+#: ../usp-pro.php:821
+msgid "Custom Prefix"
+msgstr ""
+
+#: ../usp-pro.php:830
+msgid "Before/After Errors"
+msgstr ""
+
+#: ../usp-pro.php:831
+msgid "Error Separator"
+msgstr ""
+
+#: ../usp-pro.php:832
+msgid "Before Taxonomy Error"
+msgstr ""
+
+#: ../usp-pro.php:833
+msgid "After Taxonomy Error"
+msgstr ""
+
+#: ../usp-pro.php:834
+msgid "Before Custom Field Error"
+msgstr ""
+
+#: ../usp-pro.php:835
+msgid "After Custom Field Error"
+msgstr ""
+
+#: ../usp-pro.php:837
+msgid "Primary Field Errors"
+msgstr ""
+
+#: ../usp-pro.php:838
+msgid "Name"
+msgstr ""
+
+#: ../usp-pro.php:839
+msgid "URL"
+msgstr ""
+
+#: ../usp-pro.php:840 ../inc/usp-forms.php:207
+msgid "Title"
+msgstr ""
+
+#: ../usp-pro.php:841
+msgid "Tags"
+msgstr ""
+
+#: ../usp-pro.php:842
+msgid "Captcha"
+msgstr ""
+
+#: ../usp-pro.php:843
+msgid "Category"
+msgstr ""
+
+#: ../usp-pro.php:844
+msgid "Content"
+msgstr ""
+
+#: ../usp-pro.php:845
+msgid "Files"
+msgstr ""
+
+#: ../usp-pro.php:848
+msgid "Alt Text"
+msgstr ""
+
+#: ../usp-pro.php:854
+msgid "Form Submission Errors"
+msgstr ""
+
+#: ../usp-pro.php:855
+msgid "Username Error"
+msgstr ""
+
+#: ../usp-pro.php:856
+msgid "User Email Error"
+msgstr ""
+
+#: ../usp-pro.php:857
+msgid "User Exists"
+msgstr ""
+
+#: ../usp-pro.php:858
+msgid "Registration Disabled"
+msgstr ""
+
+#: ../usp-pro.php:859
+msgid "Post Required"
+msgstr ""
+
+#: ../usp-pro.php:860
+msgid "Duplicate Post"
+msgstr ""
+
+#: ../usp-pro.php:862
+msgid "Name Restriction"
+msgstr ""
+
+#: ../usp-pro.php:863
+msgid "Incorrect Captcha"
+msgstr ""
+
+#: ../usp-pro.php:864
+msgid "Content Minimum"
+msgstr ""
+
+#: ../usp-pro.php:865
+msgid "Content Maximum"
+msgstr ""
+
+#: ../usp-pro.php:866
+msgid "Address Restriction"
+msgstr ""
+
+#: ../usp-pro.php:867
+msgid "Subject Restriction"
+msgstr ""
+
+#: ../usp-pro.php:869
+msgid "File Submission Errors"
+msgstr ""
+
+#: ../usp-pro.php:870
+msgid "Files Required"
+msgstr ""
+
+#: ../usp-pro.php:871
+msgid "File Required"
+msgstr ""
+
+#: ../usp-pro.php:872
+msgid "File Type Not Allowed"
+msgstr ""
+
+#: ../usp-pro.php:873
+msgid "File Dimensions"
+msgstr ""
+
+#: ../usp-pro.php:874
+msgid "Maximum File Size"
+msgstr ""
+
+#: ../usp-pro.php:875
+msgid "Minimum File Size"
+msgstr ""
+
+#: ../usp-pro.php:876
+msgid "File Name Length"
+msgstr ""
+
+#: ../usp-pro.php:877
+msgid "Minimum Number of Files"
+msgstr ""
+
+#: ../usp-pro.php:878
+msgid "Maximum Number of Files"
+msgstr ""
+
+#: ../usp-pro.php:880
+msgid "Custom Registration Errors"
+msgstr ""
+
+#: ../usp-pro.php:1356
+msgid "USP Pro License Information"
+msgstr ""
+
+#: ../usp-pro.php:1357 ../updates/usp-updates.php:59
+#: ../updates/usp-updates.php:76
+msgid "License Status"
+msgstr ""
+
+#: ../usp-pro.php:1358
+msgid ""
+"Your purchase of USP Pro entitles you to free automatic updates according to "
+"the license terms. "
+msgstr ""
+
+#: ../usp-pro.php:1359
+msgid "To enable this feature, visit the"
+msgstr ""
+
+#: ../usp-pro.php:1359
+msgid "USP License Page"
+msgstr ""
+
+#: ../usp-pro.php:1360
+msgid ""
+"to enter your License Key and activate the plugin. Note: to view your "
+"License Key at any time,"
+msgstr ""
+
+#: ../usp-pro.php:1361
+msgid "log in to your account at Plugin Planet."
+msgstr ""
+
+#: ../usp-pro.php:1363 ../usp-pro.php:1369
+msgid "License Status:"
+msgstr ""
+
+#: ../usp-pro.php:1363 ../updates/usp-updates.php:61
+msgid "Your USP Pro License is currently active."
+msgstr ""
+
+#: ../usp-pro.php:1364
+msgid "License Key:"
+msgstr ""
+
+#: ../usp-pro.php:1365
+msgid "License Domain:"
+msgstr ""
+
+#: ../usp-pro.php:1366
+msgid "License Admin:"
+msgstr ""
+
+#: ../usp-pro.php:1369
+msgid "Your USP Pro License is currently inactive."
+msgstr ""
+
+#: ../usp-pro.php:1375
+msgid ""
+"Welcome to USP Pro. Here are the General Settings. Visit the Tools tab for a "
+"quick-start guide and more info."
+msgstr ""
+
+#: ../usp-pro.php:1378
+msgid ""
+"Basic settings for USP Pro. Please examine these settings before publishing "
+"any forms."
+msgstr ""
+
+#: ../usp-pro.php:1381
+msgid ""
+"User settings determine how visitors and users and handled when submitting "
+"form content."
+msgstr ""
+
+#: ../usp-pro.php:1384
+msgid "Here you may customize the optional antispam/challenge question."
+msgstr ""
+
+#: ../usp-pro.php:1387
+msgid ""
+"Category settings determine how categories are handled with submitted "
+"content."
+msgstr ""
+
+#: ../usp-pro.php:1390
+msgid "Tag settings determine how tags are handled with submitted content."
+msgstr ""
+
+#: ../usp-pro.php:1394
+msgid ""
+"Customize the appearance (CSS) and behavior (JavaScript) of USP Forms. Note "
+"that these options apply to all USP Forms."
+msgstr ""
+
+#: ../usp-pro.php:1395
+msgid ""
+"To define per-post CSS/JS, use the <code>usp-css</code> and <code>usp-js</"
+"code> custom-fields (visit the Tools tab for more info)."
+msgstr ""
+
+#: ../usp-pro.php:1398
+msgid ""
+"Here you may include an external CSS/stylesheet, select a set of CSS styles "
+"for all USP Forms, define your own custom styles, or disable styles."
+msgstr ""
+
+#: ../usp-pro.php:1401
+msgid ""
+"Include the default USP JavaScript file, and/or add some custom JavaScript "
+"to be included with all USP Forms."
+msgstr ""
+
+#: ../usp-pro.php:1404
+msgid ""
+"Here you can optimize site performance by specifying exactly which URLs "
+"require the external CSS and JavaScript files."
+msgstr ""
+
+#: ../usp-pro.php:1408
+msgid "Configure file uploads. Advanced configuration is possible via the"
+msgstr ""
+
+#: ../usp-pro.php:1408
+msgid "shortcode. Visit the Tools tab for more info."
+msgstr ""
+
+#: ../usp-pro.php:1411
+msgid ""
+"Here are the main settings for file uploads. If in doubt with anything, go "
+"with the default option."
+msgstr ""
+
+#: ../usp-pro.php:1415
+msgid "Customize email alerts and contact forms."
+msgstr ""
+
+#: ../usp-pro.php:1418
+msgid ""
+"Here are you may specify your email settings, which are used for email "
+"alerts when enabled."
+msgstr ""
+
+#: ../usp-pro.php:1421
+msgid ""
+"Here are you may specify how email alerts should be sent. Note: &ldquo;"
+"Disable email alerts&rdquo; overrides individual settings for &ldquo;"
+"Admin&rdquo; and &ldquo;User&rdquo; (below). "
+msgstr ""
+
+#: ../usp-pro.php:1422
+msgid ""
+"User-registration emails will not be overridden (can not be disabled) and "
+"will be sent automatically to the user and admin when &ldquo;auto-"
+"registration&rdquo; is enabled."
+msgstr ""
+
+#: ../usp-pro.php:1425
+msgid ""
+"Here are you may customize email alerts sent to the admin (based on previous "
+"&ldquo;Email Settings&rdquo;). "
+msgstr ""
+
+#: ../usp-pro.php:1426 ../usp-pro.php:1441 ../usp-pro.php:1456
+msgid "Variables:"
+msgstr ""
+
+#: ../usp-pro.php:1426 ../usp-pro.php:1441
+#, php-format
+msgid ""
+"Use any of the following shortcuts in your messages (submissions, approvals, "
+"and denied) to display dynamic bits of information. Note: <code>%%post_date"
+"%%</code> not available for submitted-post alerts. "
+msgstr ""
+
+#: ../usp-pro.php:1427 ../usp-pro.php:1442 ../usp-pro.php:1457
+msgid "Show/Hide Variables &raquo;"
+msgstr ""
+
+#: ../usp-pro.php:1440
+msgid ""
+"Here are you may customize email alerts sent to the user/submitter. Note "
+"that if &ldquo;auto-registration&rdquo; is enabled, WordPress handles the "
+"registration emails sent to the admin and user. "
+msgstr ""
+
+#: ../usp-pro.php:1455
+msgid ""
+"Here are you may customize the contact form functionality that&rsquo;s built-"
+"in to USP Pro. Usage information available from the &ldquo;Tools&rdquo; tab. "
+msgstr ""
+
+#: ../usp-pro.php:1456
+msgid ""
+"Use any of the following shortcuts for &ldquo;Custom Content&rdquo; to "
+"display dynamic bits of information. "
+msgstr ""
+
+#: ../usp-pro.php:1470
+msgid ""
+"By default, contact-form email is sent to the address specified under Admin "
+"&gt; &ldquo;Email Settings&rdquo;. Here you may specify a custom &ldquo;"
+"To&rdquo; address (or multiple addresses) for any contact form. "
+msgstr ""
+
+#: ../usp-pro.php:1471
+msgid ""
+"Just add <code>&lt;input name=\"usp-contact-ids\" value=\"1,3\" type=\"hidden"
+"\" /&gt;</code> to any contact form, where 1 and 3 refer to fields #1 and #3 "
+"below. "
+msgstr ""
+
+#: ../usp-pro.php:1472
+msgid ""
+"When this hidden field is included in a contact form, the email will be sent "
+"to the specified custom address(es)."
+msgstr ""
+
+#: ../usp-pro.php:1476
+msgid ""
+"Customize formatting, post types, custom fields, error messages, and more."
+msgstr ""
+
+#: ../usp-pro.php:1479
+msgid ""
+"Here are some key settings for configuring USP Forms, including resources, "
+"and various automatic functionality."
+msgstr ""
+
+#: ../usp-pro.php:1482
+msgid ""
+"Here you may customize options for USP Posts. The &ldquo;USP Posts&rdquo; "
+"option uses a custom post type provided by the USP Pro plugin, and works "
+"with the option &ldquo;Slug for USP Post Type&rdquo;. "
+msgstr ""
+
+#: ../usp-pro.php:1483
+msgid ""
+"The &ldquo;Existing Post Type&rdquo; uses one of your own post types and "
+"works with the option &ldquo;Specify Existing Post Type&rdquo;. If in doubt, "
+"roll with the default option :)"
+msgstr ""
+
+#: ../usp-pro.php:1486
+msgid ""
+"Here you may specify any custom text and/or markup to appear before and "
+"after all USP forms. Leave blank to disable."
+msgstr ""
+
+#: ../usp-pro.php:1489
+msgid ""
+"Here you may customize the various success messages and specify any custom "
+"content to be included before/after. Basic HTML/markup allowed. Leave the "
+"before/after fields blank to disable."
+msgstr ""
+
+#: ../usp-pro.php:1492
+msgid ""
+"Here you may specify any custom text and/or markup to appear before and "
+"after the list of error message(s). Leave blank to disable. "
+msgstr ""
+
+#: ../usp-pro.php:1493
+msgid ""
+"Note that individual errors may be customized further via the &ldquo;"
+"More&rdquo; settings."
+msgstr ""
+
+#: ../usp-pro.php:1496
+msgid ""
+"Here you may customize input labels for primary form fields (i.e., those "
+"that have their own quicktag in the USP Form Editor). "
+msgstr ""
+
+#: ../usp-pro.php:1497
+msgid ""
+"These names are used for contact-form custom-fields, and elsewhere. Note: to "
+"customize error messages for primary fields, visit the &ldquo;More&rdquo; "
+"settings."
+msgstr ""
+
+#: ../usp-pro.php:1500
+msgid ""
+"Here you may customize input labels for the optional set of user-"
+"registration fields (available when the option to &ldquo;auto-register "
+"users&rdquo; is enabled). "
+msgstr ""
+
+#: ../usp-pro.php:1501
+msgid ""
+"These names are used for contact-form custom-fields, and elsewhere. Note: to "
+"customize error messages for user-registration fields, visit the &ldquo;"
+"More&rdquo; settings."
+msgstr ""
+
+#: ../usp-pro.php:1504
+msgid ""
+"Here you may specify the maximum number of custom fields that will be used "
+"by any form. The number specifed below is used for two things: 1) it "
+"determines how many custom fields are added to newly created "
+msgstr ""
+
+#: ../usp-pro.php:1505
+msgid ""
+"forms, and 2) it determines how many options to generate for the next group "
+"of settings, &ldquo;Custom Field Names&rdquo;. So for example, if three "
+"custom form fields are enabled, all new forms will be equipped "
+msgstr ""
+
+#: ../usp-pro.php:1506
+msgid ""
+"with three custom form fields, each with its own customizable field label "
+"(in the &ldquo;Custom Field Names&rdquo; settings). In this example, it "
+"would be possible manually to add a fourth custom field to a form, "
+msgstr ""
+
+#: ../usp-pro.php:1507
+msgid ""
+"however its corresponding field label would not exist, causing the default "
+"label to be used for error messages and elsewhere. Best advice is to set the "
+"number of forms as low as possible, and then increase it as "
+msgstr ""
+
+#: ../usp-pro.php:1508
+msgid ""
+"needed in the future. Note also that unused custom form fields are perfectly "
+"fine; the idea is to have them readily available as needed."
+msgstr ""
+
+#: ../usp-pro.php:1511
+msgid ""
+"Here you may specify names for the optional set of custom-field inputs. "
+"These names are used for error messages, contact-form custom-fields, and "
+"elsewhere. "
+msgstr ""
+
+#: ../usp-pro.php:1512 ../usp-pro.php:1517
+msgid "Important:"
+msgstr ""
+
+#: ../usp-pro.php:1512
+msgid ""
+"these names apply only to custom fields that are named numerically. For "
+"example, the &ldquo;Name for Custom Field #1&rdquo; applies to any custom "
+"field that uses"
+msgstr ""
+
+#: ../usp-pro.php:1513
+msgid "as its"
+msgstr ""
+
+#: ../usp-pro.php:1513
+msgid "and"
+msgstr ""
+
+#: ../usp-pro.php:1513
+msgid "attributes."
+msgstr ""
+
+#: ../usp-pro.php:1516
+msgid ""
+"Here you may specify a unique prefix to use for custom field names. For "
+"example, if you specify &ldquo;foo_&rdquo; for this setting, you can create "
+"unique custom fields by including the parameter &ldquo;name#foo&rdquo;. By "
+"default, the prefix is &ldquo;usp-custom-&rdquo;."
+msgstr ""
+
+#: ../usp-pro.php:1517
+msgid "do not use &ldquo;usp-&rdquo; for the custom prefix."
+msgstr ""
+
+#: ../usp-pro.php:1521
+msgid "Customize error messages and more."
+msgstr ""
+
+#: ../usp-pro.php:1524
+msgid ""
+"Here you may customize the text and markup used to display various error "
+"messages."
+msgstr ""
+
+#: ../usp-pro.php:1527
+msgid ""
+"Here you may customize the text and markup used to display error messages "
+"for primary form fields. Primary fields are form fields that have their own "
+"shortcodes, as described for each of the following settings."
+msgstr ""
+
+#: ../usp-pro.php:1530
+msgid ""
+"Here you may customize the text and markup used to display error messages "
+"related to form submission. This includes several errors related to user "
+"registration and post-submission, as described below."
+msgstr ""
+
+#: ../usp-pro.php:1533
+msgid ""
+"Here you may customize the text and markup used to display error messages "
+"for file uploads."
+msgstr ""
+
+#: ../usp-pro.php:1536
+msgid ""
+"Here you may customize the text and markup used to display error messages "
+"for custom user-registration fields (Nicename, Display Name, Description, et "
+"al)."
+msgstr ""
+
+#: ../usp-pro.php:1540
+msgid ""
+"Here you will find a quick-start guide, shortcodes, template tags, and other "
+"helpful resources."
+msgstr ""
+
+#: ../usp-pro.php:1542
+msgid "Show/Hide Intro"
+msgstr ""
+
+#: ../usp-pro.php:1542
+msgid "Intro / Quick Start"
+msgstr ""
+
+#: ../usp-pro.php:1545
+msgid "Show/Hide Shortcodes Info"
+msgstr ""
+
+#: ../usp-pro.php:1545
+msgid "Shortcodes"
+msgstr ""
+
+#: ../usp-pro.php:1548
+msgid "Show/Hide Template Tags Info"
+msgstr ""
+
+#: ../usp-pro.php:1548
+msgid "Template Tags"
+msgstr ""
+
+#: ../usp-pro.php:1551
+msgid "Show/Hide Helpful Resources"
+msgstr ""
+
+#: ../usp-pro.php:1551
+msgid "Helpful Resources"
+msgstr ""
+
+#: ../usp-pro.php:1554
+msgid "Show/Hide Tips &amp; Tricks"
+msgstr ""
+
+#: ../usp-pro.php:1554
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#: ../usp-pro.php:1559
+msgid "About USP Pro, WordPress, the server and current user."
+msgstr ""
+
+#: ../usp-pro.php:1561
+msgid "Show/Hide Plugin Info"
+msgstr ""
+
+#: ../usp-pro.php:1561
+msgid "Plugin Information"
+msgstr ""
+
+#: ../usp-pro.php:1564
+msgid "Show/Hide WordPress Info"
+msgstr ""
+
+#: ../usp-pro.php:1564
+msgid "WordPress Information"
+msgstr ""
+
+#: ../usp-pro.php:1567
+msgid "Show/Hide WP Contants Info"
+msgstr ""
+
+#: ../usp-pro.php:1567
+msgid "WordPress Contants"
+msgstr ""
+
+#: ../usp-pro.php:1570
+msgid "Show/Hide Server Info"
+msgstr ""
+
+#: ../usp-pro.php:1570
+msgid "Server Information"
+msgstr ""
+
+#: ../usp-pro.php:1573
+msgid "Show/Hide User Info"
+msgstr ""
+
+#: ../usp-pro.php:1573
+msgid "User Information"
+msgstr ""
+
+#: ../usp-pro.php:1581
+msgid ""
+"Text for submit button when &ldquo;Auto-include submit button&rdquo; option "
+"is enabled"
+msgstr ""
+
+#: ../usp-pro.php:1582
+msgid ""
+"By default no HTML tags are allowed in submitted post content. Here you may "
+"enter any specific tags that should be allowed (comma-separated list of tag "
+"names without brackets). \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tFor example, some tags used in WP&rsquo;s visual/"
+"rich-text editor include: <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</"
+"code>, and <code>&lt;code&gt;</code>. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tTo allow these three tags in submitted post content, "
+"this option should look like this: &ldquo;strong, em, code&rdquo; (without "
+"the quotes). \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tYou may allow any HTML you wish, but please only do "
+"so if you are aware of any security risks that may be involved. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tIf at all in doubt, simply leave this option blank "
+"to disable all HTML tags in post content."
+msgstr ""
+
+#: ../usp-pro.php:1588
+msgid "Name for the &ldquo;Your Name&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1589
+msgid "Name for the &ldquo;Post URL&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1590
+msgid "Name for the &ldquo;Post Title&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1591
+msgid "Name for the &ldquo;Post Tags&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1592
+msgid ""
+"Name for the &ldquo;Challenge Question&rdquo; or &ldquo;reCAPTCHA&rdquo; "
+"field (whichever is enabled)"
+msgstr ""
+
+#: ../usp-pro.php:1593
+msgid "Name for the &ldquo;Post Category&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1594
+msgid "Name for the &ldquo;Post Content&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1595
+msgid "Name for the &ldquo;File(s)&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1596
+msgid "Name for the &ldquo;Email Address&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1597
+msgid "Name for the &ldquo;Email Subject&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1598
+msgid "Name for the &ldquo;Alt Text&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1599
+msgid "Name for the &ldquo;Caption&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1600
+msgid "Name for the &ldquo;Description&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1601
+msgid "Name for the &ldquo;Taxonomy&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1602
+msgid ""
+"Name for the &ldquo;Post-Format&rdquo; input field (available as a custom-"
+"field input, see Tools for more info)"
+msgstr ""
+
+#: ../usp-pro.php:1604
+msgid "Name for the &ldquo;User Nicename&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1605
+msgid "Name for the &ldquo;User Display Name&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1606
+msgid "Name for the &ldquo;User Nickname&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1607
+msgid "Name for the &ldquo;User First Name&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1608
+msgid "Name for the &ldquo;User Last Name&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1609
+msgid "Name for the &ldquo;User Description&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1610
+msgid "Name for the &ldquo;User Password&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1612
+msgid ""
+"Enable the contact form by entering its ID or slug (separate multiple form "
+"IDs/slugs with commas). Any Forms listed here will send contents as email "
+"without posting to WP."
+msgstr ""
+
+#: ../usp-pro.php:1613
+msgid ""
+"Here you may enter some text to prepend to the Subject line. Leave blank to "
+"disable."
+msgstr ""
+
+#: ../usp-pro.php:1614
+msgid ""
+"Default Subject Line for messages sent via contact form. This is used when a "
+"\"Subject\" input is not included in the form."
+msgstr ""
+
+#: ../usp-pro.php:1615
+msgid ""
+"List of email addresses that should be carbon-copied (Bcc) for messages sent "
+"via contact form (comma-separated list)"
+msgstr ""
+
+#: ../usp-pro.php:1616
+msgid ""
+"Email address to be specified as the &ldquo;From&rdquo; address (leave blank "
+"to use the submitted user address)"
+msgstr ""
+
+#: ../usp-pro.php:1618
+msgid ""
+"Where should the visitor go after successful submission? Enter any complete "
+"URL (e.g., <code>http://example.com</code>) or leave blank to redirect to "
+"the current page."
+msgstr ""
+
+#: ../usp-pro.php:1619
+msgid ""
+"Where should the visitor go after failed submission? Enter any complete URL "
+"(e.g., <code>http://example.com</code>) or leave blank to redirect to the "
+"current page. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tNote: this option is for advanced users; "
+"recommended to leave blank. See docs for more info."
+msgstr ""
+
+#: ../usp-pro.php:1622
+msgid ""
+"To prevent spam, enter a question that users must answer before submitting "
+"the form. Note that the captcha field must be included in the form in order "
+"for this to work."
+msgstr ""
+
+#: ../usp-pro.php:1623
+msgid "Enter the <em>only</em> correct answer to the challenge question."
+msgstr ""
+
+#: ../usp-pro.php:1624 ../usp-pro.php:1625
+msgid ""
+"Use Google reCAPTCHA instead of challenge question. To enable, enter your "
+"Public Key and Private Key, or leave both fields blank to use the default "
+"challenge question."
+msgstr ""
+
+#: ../usp-pro.php:1626
+msgid ""
+"Enter the slug to use when &ldquo;USP Posts (custom post type)&rdquo; is "
+"selected for the option &ldquo;Submitted Post Type&rdquo;. Default:"
+msgstr ""
+
+#: ../usp-pro.php:1627
+msgid ""
+"Important: the slug must not be the same as that for any existing Page (e."
+"g., don&rsquo;t use &ldquo;about&rdquo; or &ldquo;contact&rdquo;). \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tAlso, after specifying this option and saving your "
+"changes, visit your"
+msgstr ""
+
+#: ../usp-pro.php:1629
+msgid ""
+"to workaround a well-known WP bug). After that you should be good to go for "
+"custom post types."
+msgstr ""
+
+#: ../usp-pro.php:1631
+msgid ""
+"Specify a category ID to use as the default category when using the &ldquo;"
+"Use Hidden Category&rdquo; option (separate multiple ID&rsquo;s with commas)"
+msgstr ""
+
+#: ../usp-pro.php:1633
+msgid "Email address to be notified when a new post is submitted"
+msgstr ""
+
+#: ../usp-pro.php:1634
+msgid "Name of email recipient to be notified when a new post is submitted"
+msgstr ""
+
+#: ../usp-pro.php:1635
+msgid ""
+"Email address specified in the &ldquo;From&rdquo; header of email alerts"
+msgstr ""
+
+#: ../usp-pro.php:1636
+msgid ""
+"List of email addresses that should be carbon-copied (Bcc) for submitted-"
+"post alerts (comma-separated list)"
+msgstr ""
+
+#: ../usp-pro.php:1637
+msgid ""
+"List of email addresses that should be carbon-copied (Bcc) when posts are "
+"approved (comma-separated list)"
+msgstr ""
+
+#: ../usp-pro.php:1638
+msgid ""
+"List of email addresses that should be carbon-copied (Bcc) when posts are "
+"denied (comma-separated list)"
+msgstr ""
+
+#: ../usp-pro.php:1640
+msgid ""
+"Subject line for email alerts sent to the admin (and to any cc&rsquo;d "
+"addresses)"
+msgstr ""
+
+#: ../usp-pro.php:1641 ../usp-pro.php:1643
+msgid ""
+"Subject line for email alert sent to user when post is approved/published"
+msgstr ""
+
+#: ../usp-pro.php:1642
+msgid "Subject line for email alerts sent to the user"
+msgstr ""
+
+#: ../usp-pro.php:1644
+msgid ""
+"Subject line for email alert sent to user when post is denied (sent to Trash)"
+msgstr ""
+
+#: ../usp-pro.php:1645
+msgid ""
+"Subject line for email alert sent to the admin when post is denied (sent to "
+"Trash)"
+msgstr ""
+
+#: ../usp-pro.php:1647
+msgid ""
+"Specify the minimum number of characters allowed for the content-field. "
+"Leave set at &ldquo;0&rdquo; (without the quotes) for no minimum."
+msgstr ""
+
+#: ../usp-pro.php:1648
+msgid ""
+"Specify the maximum number of characters allowed for the content-field. "
+"Leave set at &ldquo;0&rdquo; (without the quotes) for no maximum."
+msgstr ""
+
+#: ../usp-pro.php:1649
+msgid ""
+"If you selected &ldquo;Existing Post Type&rdquo; from the previous option "
+"&ldquo;Submitted Post Type&rdquo;, \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tplease enter an"
+msgstr ""
+
+#: ../usp-pro.php:1650
+msgid "existing"
+msgstr ""
+
+#: ../usp-pro.php:1650
+msgid ""
+"custom post type to use for submitted content. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tNote: this option does nothing unless &ldquo;"
+"other&rdquo; is selected in the previous option."
+msgstr ""
+
+#: ../usp-pro.php:1653
+msgid ""
+"Enter the number of tags that should be displayed above (does not affect "
+"front-end display): Enter &ldquo;all&rdquo; (without quotes) to display all. "
+"Note: any tags not shown will be deselected."
+msgstr ""
+
+#: ../usp-pro.php:1655 ../usp-pro.php:1656 ../usp-pro.php:1657
+#: ../usp-pro.php:1658 ../usp-pro.php:1659 ../usp-pro.php:1660
+msgid "Specify a"
+msgstr ""
+
+#: ../usp-pro.php:1655
+msgid "minimum width"
+msgstr ""
+
+#: ../usp-pro.php:1655 ../usp-pro.php:1656 ../usp-pro.php:1657
+#: ../usp-pro.php:1658
+msgid "(in pixels) for uploaded images."
+msgstr ""
+
+#: ../usp-pro.php:1656
+msgid "maximum width"
+msgstr ""
+
+#: ../usp-pro.php:1657
+msgid "minimum height"
+msgstr ""
+
+#: ../usp-pro.php:1658
+msgid "maximum height"
+msgstr ""
+
+#: ../usp-pro.php:1659
+msgid "maximum size"
+msgstr ""
+
+#: ../usp-pro.php:1659
+msgid ""
+"(in bytes) for uploaded files (applies to all file types). Default: "
+"&ldquo;5242880&rdquo; (= 5 MB)"
+msgstr ""
+
+#: ../usp-pro.php:1660
+msgid "minimum size"
+msgstr ""
+
+#: ../usp-pro.php:1660
+msgid ""
+"(in bytes) for uploaded files (applies to all file types). Default: "
+"&ldquo;25600&rdquo; (= 25 KB)"
+msgstr ""
+
+#: ../usp-pro.php:1662
+msgid ""
+"Specify which file types should be allowed for uploads (comma-separated "
+"list). This list should contain all file types that will be allowed for any "
+"USP Form. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tThis list of allowed file-types may be further "
+"restricted on a per-form basis using the"
+msgstr ""
+
+#: ../usp-pro.php:1663
+msgid ""
+" shortcode. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tVisit Tools &gt; Shortcodes for details. For a "
+"complete list of allowed types, visit the"
+msgstr ""
+
+#: ../usp-pro.php:1666
+msgid ""
+"Here you may customize the CC message that is displayed to the visitor (when "
+"the option &ldquo;CC User&rdquo; is enabled)."
+msgstr ""
+
+#: ../usp-pro.php:1667
+msgid ""
+"If &ldquo;Featured Images&rdquo; is enabled, which uploaded image do want to "
+"use for the featured image? Default &ldquo;1&rdquo;. Note: if image "
+"doesn&rsquo;t exist, no featured image will be set."
+msgstr ""
+
+#: ../usp-pro.php:1668
+msgid ""
+"When enabled, external CSS &amp; JavaScript files are loaded on every page. "
+"Here you may specify URL(s) for targeted loading of resources. Separate "
+"multiple URLs with a comma. Note: leave blank to load on all pages."
+msgstr ""
+
+#: ../usp-pro.php:1669
+msgid "Unique prefix to use for custom field names (leave blank to disable)"
+msgstr ""
+
+#: ../usp-pro.php:1670
+msgid ""
+"Name to use for Custom Post Status (valid only when &ldquo;Auto Publish "
+"Posts&rdquo; is set to &ldquo;Always moderate via Custom Status&rdquo;)"
+msgstr ""
+
+#: ../usp-pro.php:1672
+msgid "Email address to use for custom contact #1"
+msgstr ""
+
+#: ../usp-pro.php:1673
+msgid "Email address to use for custom contact #2"
+msgstr ""
+
+#: ../usp-pro.php:1674
+msgid "Email address to use for custom contact #3"
+msgstr ""
+
+#: ../usp-pro.php:1675
+msgid "Email address to use for custom contact #4"
+msgstr ""
+
+#: ../usp-pro.php:1676
+msgid "Email address to use for custom contact #5"
+msgstr ""
+
+#: ../usp-pro.php:1689
+msgid "Name for Custom Field #"
+msgstr ""
+
+#: ../usp-pro.php:1721
+msgid "Enter some text/markup to be included before all USP Forms"
+msgstr ""
+
+#: ../usp-pro.php:1722
+msgid "Enter some text/markup to be included after all USP Forms"
+msgstr ""
+
+#: ../usp-pro.php:1724
+msgid "Message sent to admin for new submitted posts"
+msgstr ""
+
+#: ../usp-pro.php:1725
+msgid "Message sent to the user for new submitted posts"
+msgstr ""
+
+#: ../usp-pro.php:1726
+msgid "Message for email alert sent to user when post is approved/published"
+msgstr ""
+
+#: ../usp-pro.php:1727
+msgid ""
+"Message for email alert sent to the admin when post is approved/published"
+msgstr ""
+
+#: ../usp-pro.php:1728
+msgid ""
+"Message for email alert sent to the user when post is denied (sent to Trash)"
+msgstr ""
+
+#: ../usp-pro.php:1729
+msgid ""
+"Message for email alert sent to the admin when post is denied (sent to Trash)"
+msgstr ""
+
+#: ../usp-pro.php:1730
+msgid ""
+"Custom content that should be included in email sent via contact forms "
+"(applies to all contact forms). Tip: you can use shortcut variables as "
+"described above."
+msgstr ""
+
+#: ../usp-pro.php:1732
+msgid "Message displayed when a user is registered successfully"
+msgstr ""
+
+#: ../usp-pro.php:1733
+msgid "Message displayed when a post is submitted successfully"
+msgstr ""
+
+#: ../usp-pro.php:1734
+msgid "Message displayed when user is registered and post is submitted"
+msgstr ""
+
+#: ../usp-pro.php:1735
+msgid "Message displayed when email is sent via contact form"
+msgstr ""
+
+#: ../usp-pro.php:1736
+msgid "Message displayed when email is sent and user is registered"
+msgstr ""
+
+#: ../usp-pro.php:1737
+msgid "Message displayed when email is sent and post is submitted"
+msgstr ""
+
+#: ../usp-pro.php:1738
+msgid ""
+"Message displayed when email is sent, user is registered, and post is "
+"submitted"
+msgstr ""
+
+#: ../usp-pro.php:1740
+msgid "Custom text/markup to appear before the listed errors"
+msgstr ""
+
+#: ../usp-pro.php:1741
+msgid "Custom text/markup to appear after the listed errors"
+msgstr ""
+
+#: ../usp-pro.php:1742
+msgid "Custom text/markup to appear before the success message"
+msgstr ""
+
+#: ../usp-pro.php:1743
+msgid "Custom text/markup to appear after the success message"
+msgstr ""
+
+#: ../usp-pro.php:1745
+msgid ""
+"CSS for &ldquo;minimal&rdquo; form style (edit as needed to fine-tune for "
+"your theme)"
+msgstr ""
+
+#: ../usp-pro.php:1746
+msgid ""
+"CSS for &ldquo;small&rdquo; form style (edit as needed to fine-tune for your "
+"theme)"
+msgstr ""
+
+#: ../usp-pro.php:1747
+msgid ""
+"CSS for &ldquo;large&rdquo; form style (edit as needed to fine-tune for your "
+"theme)"
+msgstr ""
+
+#: ../usp-pro.php:1748
+msgid ""
+"CSS for &ldquo;custom&rdquo; form style (edit as needed to fine-tune for "
+"your theme)"
+msgstr ""
+
+#: ../usp-pro.php:1749
+msgid ""
+"Here you may add some custom JavaScript (included inline and separately from "
+"external JS file, leave blank to disable)"
+msgstr ""
+
+#: ../usp-pro.php:1751
+msgid "Text/markup to appear before each taxonomy error"
+msgstr ""
+
+#: ../usp-pro.php:1752
+msgid "Text/markup to appear after each taxonomy error"
+msgstr ""
+
+#: ../usp-pro.php:1753
+msgid "Text/markup to appear before each custom field error"
+msgstr ""
+
+#: ../usp-pro.php:1754
+msgid "Text/markup to appear after each custom field error"
+msgstr ""
+
+#: ../usp-pro.php:1755
+msgid ""
+"Text/markup to appear between each error (e.g., <code>, </code> or <code>&lt;"
+"span class=\"usp-error-sep\"&gt;, &lt;/span&gt;</code>)"
+msgstr ""
+
+#: ../usp-pro.php:1757
+msgid ""
+"Text/markup for Name errors &ndash; when using shortcode <code>[usp_name]</"
+"code>"
+msgstr ""
+
+#: ../usp-pro.php:1758
+msgid ""
+"Text/markup for URL errors &ndash; when using shortcode <code>[usp_url]</"
+"code>"
+msgstr ""
+
+#: ../usp-pro.php:1759
+msgid ""
+"Text/markup for Title errors &ndash; when using shortcode <code>[usp_title]</"
+"code>"
+msgstr ""
+
+#: ../usp-pro.php:1760
+msgid ""
+"Text/markup for Tags errors &ndash; when using shortcode <code>[usp_tags]</"
+"code>"
+msgstr ""
+
+#: ../usp-pro.php:1761
+msgid ""
+"Text/markup for Captcha errors &ndash; when using shortcode <code>"
+"[usp_captcha]</code>"
+msgstr ""
+
+#: ../usp-pro.php:1762
+msgid ""
+"Text/markup for Category errors &ndash; when using shortcode <code>"
+"[usp_category]</code>"
+msgstr ""
+
+#: ../usp-pro.php:1763
+msgid ""
+"Text/markup for Content errors &ndash; when using shortcode <code>"
+"[usp_content]</code>"
+msgstr ""
+
+#: ../usp-pro.php:1764
+msgid ""
+"Text/markup for File(s) errors &ndash; when using shortcode <code>[usp_files]"
+"</code>"
+msgstr ""
+
+#: ../usp-pro.php:1765
+msgid ""
+"Text/markup for Email Address errors &ndash; when using shortcode <code>"
+"[usp_email]</code>"
+msgstr ""
+
+#: ../usp-pro.php:1766
+msgid ""
+"Text/markup for Email Subject errors &ndash; when using shortcode <code>"
+"[usp_subject]</code>"
+msgstr ""
+
+#: ../usp-pro.php:1767
+msgid ""
+"Text/markup for Alt Text errors &ndash; when using shortcode <code>"
+"[usp_custom_field]</code> with attribute <code>name#alt-{id}</code>"
+msgstr ""
+
+#: ../usp-pro.php:1768
+msgid ""
+"Text/markup for Caption errors &ndash; when using shortcode <code>"
+"[usp_custom_field]</code> with attribute <code>name#caption-{id}</code>"
+msgstr ""
+
+#: ../usp-pro.php:1769
+msgid ""
+"Text/markup for Description errors &ndash; when using shortcode <code>"
+"[usp_custom_field]</code> with attribute <code>name#desc-{id}</code>"
+msgstr ""
+
+#: ../usp-pro.php:1770
+msgid ""
+"Text/markup for Taxonomy errors &ndash; when using shortcode <code>"
+"[usp_taxonomy]</code>"
+msgstr ""
+
+#: ../usp-pro.php:1771
+msgid "Text/markup for Post-Format errors (via"
+msgstr ""
+
+#: ../usp-pro.php:1771
+msgid "custom field"
+msgstr ""
+
+#: ../usp-pro.php:1771
+msgid "or"
+msgstr ""
+
+#: ../usp-pro.php:1771
+msgid "hidden field"
+msgstr ""
+
+#: ../usp-pro.php:1773
+msgid "Text/markup for the &ldquo;User Nicename&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1774
+msgid "Text/markup for the &ldquo;User Display Name&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1775
+msgid "Text/markup for the &ldquo;User Nickname&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1776
+msgid "Text/markup for the &ldquo;User First Name&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1777
+msgid "Text/markup for the &ldquo;User Last Name&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1778
+msgid "Text/markup for the &ldquo;User Description&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1779
+msgid "Text/markup for the &ldquo;User Password&rdquo; field"
+msgstr ""
+
+#: ../usp-pro.php:1781
+msgid ""
+"Text/markup for Username errors (when using a form that registers users)"
+msgstr ""
+
+#: ../usp-pro.php:1782
+msgid ""
+"Text/markup for User Email errors (when using a form that registers users)"
+msgstr ""
+
+#: ../usp-pro.php:1783
+msgid ""
+"Text/markup for Registration Disabled errors (when using a form that "
+"registers users)"
+msgstr ""
+
+#: ../usp-pro.php:1784
+msgid ""
+"Text/markup for User Exists errors (when using a form that registers users)"
+msgstr ""
+
+#: ../usp-pro.php:1785
+msgid ""
+"Text/markup for Post Required errors (when using a form that submits posts)"
+msgstr ""
+
+#: ../usp-pro.php:1786
+msgid ""
+"Text/markup for Duplicate Post errors (when using a form that submits posts)"
+msgstr ""
+
+#: ../usp-pro.php:1788
+msgid "Text/markup for illegal characters in the Name field"
+msgstr ""
+
+#: ../usp-pro.php:1789
+msgid ""
+"Text/markup for incorrect response for the anti-spam captcha/challenge "
+"question"
+msgstr ""
+
+#: ../usp-pro.php:1790 ../usp-pro.php:1791
+msgid ""
+"Text/markup for the Content field when the minimum number of characters is "
+"not met"
+msgstr ""
+
+#: ../usp-pro.php:1792
+msgid "Text/markup for illegal characters in the Email Address field"
+msgstr ""
+
+#: ../usp-pro.php:1793
+msgid "Text/markup for illegal characters in the Email Subject field"
+msgstr ""
+
+#: ../usp-pro.php:1795
+msgid "Text/markup for required files (multiple selected files)"
+msgstr ""
+
+#: ../usp-pro.php:1796
+msgid "Text/markup for required file (single selected files)"
+msgstr ""
+
+#: ../usp-pro.php:1797
+msgid "Text/markup for disallowed file types"
+msgstr ""
+
+#: ../usp-pro.php:1798
+msgid "Text/markup for file width and height"
+msgstr ""
+
+#: ../usp-pro.php:1799
+msgid "Text/markup for maximum file size"
+msgstr ""
+
+#: ../usp-pro.php:1800
+msgid "Text/markup for minimum file size"
+msgstr ""
+
+#: ../usp-pro.php:1801
+msgid "Text/markup for length of file name"
+msgstr ""
+
+#: ../usp-pro.php:1802
+msgid "Text/markup for minimum number of files"
+msgstr ""
+
+#: ../usp-pro.php:1803
+msgid "Text/markup for maximum number of files"
+msgstr ""
+
+#: ../usp-pro.php:1821
+msgid "minimum"
+msgstr ""
+
+#: ../usp-pro.php:1822
+msgid "maximum"
+msgstr ""
+
+#: ../usp-pro.php:1823 ../inc/usp-about.php:35 ../inc/usp-about.php:99
+#: ../inc/usp-about.php:173 ../inc/usp-about.php:227 ../inc/usp-forms.php:1101
+msgid "Undefined"
+msgstr ""
+
+#: ../usp-pro.php:1826
+msgid "No Limit"
+msgstr ""
+
+#: ../usp-pro.php:1831
+msgid "Specify the "
+msgstr ""
+
+#: ../usp-pro.php:1831
+msgid " number of files that may be uploaded"
+msgstr ""
+
+#: ../usp-pro.php:1861
+msgid "Select which tags may be assigned to submitted posts: "
+msgstr ""
+
+#: ../usp-pro.php:1862
+msgid "Show/Hide Tags&nbsp;&raquo;"
+msgstr ""
+
+#: ../usp-pro.php:1875
+msgid "Select which categories may be assigned to submitted posts: "
+msgstr ""
+
+#: ../usp-pro.php:1876
+msgid "Show/Hide Categories&nbsp;&raquo;"
+msgstr ""
+
+#: ../usp-pro.php:1946
+msgid ""
+"Which user roles should have access to USP Posts (custom post types, when "
+"enabled): "
+msgstr ""
+
+#: ../usp-pro.php:1955
+msgid ""
+"Which user roles should have access to USP Forms (custom post types for "
+"forms): "
+msgstr ""
+
+#: ../usp-pro.php:1968
+msgid "Send email alerts to the user when submitted posts are submitted"
+msgstr ""
+
+#: ../usp-pro.php:1969
+msgid "Send email alert to the admin when new posts are submitted"
+msgstr ""
+
+#: ../usp-pro.php:1970
+msgid "Send email alerts to the user when submitted posts are approved"
+msgstr ""
+
+#: ../usp-pro.php:1971
+msgid "Send email alerts to the admin when submitted posts are approved"
+msgstr ""
+
+#: ../usp-pro.php:1972
+msgid ""
+"Send email alerts to the user when submitted posts are denied (sent to Trash)"
+msgstr ""
+
+#: ../usp-pro.php:1973
+msgid ""
+"Send email alerts to the admin when submitted posts are denied (sent to "
+"Trash)"
+msgstr ""
+
+#: ../usp-pro.php:1975
+msgid "Auto-send a copy of the contact-form message to the sender? (via CC)"
+msgstr ""
+
+#: ../usp-pro.php:1976
+msgid ""
+"Include user data (e.g., IP, Referrer, Request, et al) appended to messages "
+"sent via contact form"
+msgstr ""
+
+#: ../usp-pro.php:1977
+msgid "Include any custom field data in the form"
+msgstr ""
+
+#: ../usp-pro.php:1983
+msgid "Include the external USP CSS file (disabled by default). Located @"
+msgstr ""
+
+#: ../usp-pro.php:1984
+msgid ""
+"Note: this stylesheet is for testing purposes. It will be overwritten with "
+"each plugin upgrade, so not recommended for live sites. "
+msgstr ""
+
+#: ../usp-pro.php:1985
+msgid ""
+"It is recommended to use inline CSS for customizing USP Pro (see next "
+"option). "
+msgstr ""
+
+#: ../usp-pro.php:1987
+msgid ""
+"Include the external USP JavaScript file (enabled by default). Located @ "
+msgstr ""
+
+#: ../usp-pro.php:1988
+msgid ""
+"Note: this JS file contains scripts required for USP Pro. It will be "
+"overwritten with each plugin upgrade, so not recommended for live sites. "
+msgstr ""
+
+#: ../usp-pro.php:1989
+msgid ""
+"It is recommended to use inline JS for customizing USP Pro (see next "
+"option). "
+msgstr ""
+
+#: ../usp-pro.php:1995
+msgid "Display the submission form with the success message?"
+msgstr ""
+
+#: ../usp-pro.php:1998
+msgid "Apply WP&rsquo;s auto-formatting to form content"
+msgstr ""
+
+#: ../usp-pro.php:2001
+msgid "Automatically wrap form inputs with"
+msgstr ""
+
+#: ../usp-pro.php:2001
+msgid "tags"
+msgstr ""
+
+#: ../usp-pro.php:2004
+msgid "Automatically regenerate the USP Form Demos"
+msgstr ""
+
+#: ../usp-pro.php:2007
+msgid "Automatically regenerate the USP Post Demos"
+msgstr ""
+
+#: ../usp-pro.php:2010
+msgid "Automatically include a submit button to all USP Forms"
+msgstr ""
+
+#: ../usp-pro.php:2014 ../inc/usp-forms.php:1079
+msgid "Enabled"
+msgstr ""
+
+#: ../usp-pro.php:2015 ../inc/usp-forms.php:1078
+msgid "Disabled"
+msgstr ""
+
+#: ../usp-pro.php:2020
+msgid "When this option is enabled:"
+msgstr ""
+
+#: ../usp-pro.php:2020
+msgid ""
+"If the user is logged in, their username will be used as the post author. "
+msgstr ""
+
+#: ../usp-pro.php:2021
+msgid "When this option is disabled:"
+msgstr ""
+
+#: ../usp-pro.php:2021
+msgid ""
+"If the user is logged in, the &ldquo;Default Assigned Author&rdquo; will be "
+"used as the post author. "
+msgstr ""
+
+#: ../usp-pro.php:2022
+msgid ""
+"In either case, if the user is logged out, the post author will be either "
+"the registered username (if the form is a registration form) or the &ldquo;"
+"Default Assigned Author&rdquo;."
+msgstr ""
+
+#: ../usp-pro.php:2024
+msgid ""
+"Always use the submitted author name, regardless of any other settings. When "
+"including the &ldquo;Name&rdquo; field on a USP Form, enable this setting to "
+"always use it as the Post Author. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tExample usage: when user-registration is disabled, "
+"this setting enables the user to specify their own author name. Tip: if also "
+"including the URL field on a USP Form, \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tit will be automatically used for author archive "
+"and other links."
+msgstr ""
+
+#: ../usp-pro.php:2028
+msgid ""
+"Redirect users to their submitted/published post. Requires that the option "
+"for &ldquo;Auto Publish Posts&rdquo; set to &ldquo;Always publish "
+"immediately&rdquo;."
+msgstr ""
+
+#: ../usp-pro.php:2029
+msgid ""
+"Enable basic tracking of user data (e.g., IP, Referrer, Request, et al). "
+"When enabled, user stats will attached to submitted posts as custom fields."
+msgstr ""
+
+#: ../usp-pro.php:2030
+msgid "Check this box if you want the challenge response to be case-sensitive."
+msgstr ""
+
+#: ../usp-pro.php:2032
+msgid "Check this box to display nested categories for subcategories"
+msgstr ""
+
+#: ../usp-pro.php:2033
+msgid ""
+"Use a hidden field to assign categories (see next option). Useful for "
+"assigning categories to all submitted posts. To assign form-specific "
+"categories, use the category shortcode."
+msgstr ""
+
+#: ../usp-pro.php:2034
+msgid ""
+"Hide the Category input field (useful when assigning specific categories for "
+"submissions)"
+msgstr ""
+
+#: ../usp-pro.php:2035
+msgid "Allow users to select multiple categories when using the dropdown menu"
+msgstr ""
+
+#: ../usp-pro.php:2037
+msgid ""
+"Hide empty tags (i.e., tags with no associated posts) from the above list of "
+"tags (does not affect front-end display). Note: any tags not shown will be "
+"deselected."
+msgstr ""
+
+#: ../usp-pro.php:2038
+msgid ""
+"Hide the Tags input field (useful when assigning specific tags for "
+"submissions)"
+msgstr ""
+
+#: ../usp-pro.php:2039
+msgid "Allow users to select multiple tags when using the dropdown menu"
+msgstr ""
+
+#: ../usp-pro.php:2041
+msgid ""
+"Enable &ldquo;remembering&rdquo; of form-field values. This option enables "
+"use of a &ldquo;remember me&rdquo; checkbox field in USP Forms."
+msgstr ""
+
+#: ../usp-pro.php:2042
+msgid ""
+"When &rdquo;Remember Form Values&rdquo; is enabled, how long should the data "
+"be preserved? Check the box to remember indefinitely (until the user clears "
+"the browser), \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tor leave unchecked to remember form values only "
+"until successful submission (default)."
+msgstr ""
+
+#: ../usp-pro.php:2044
+msgid ""
+"Default state of the &ldquo;remember me&rdquo; checkbox field (checked or "
+"unchecked)"
+msgstr ""
+
+#: ../usp-pro.php:2046
+msgid "Check this box to require Post Titles to be unique"
+msgstr ""
+
+#: ../usp-pro.php:2051
+msgid ""
+"Set submitted images as Featured Images (aka Post Thumbnails) for posts. "
+"Note: your theme&rsquo;s single.php file must include"
+msgstr ""
+
+#: ../usp-pro.php:2052
+msgid "to display Featured Images."
+msgstr ""
+
+#: ../usp-pro.php:2053
+msgid ""
+"Check this box to make uploaded file names unique. If enabled, the year-"
+"month-day and an unique ID will be prepended to the name of each uploaded "
+"file. "
+msgstr ""
+
+#: ../usp-pro.php:2054
+msgid ""
+"When disabled, uploaded file names will not be changed, so uploading a file "
+"with the same name as an existing file will overwrite the existing file. "
+"Default: enabled/unique-filenames."
+msgstr ""
+
+#: ../usp-pro.php:2064
+msgid "Number of custom form fields to enable"
+msgstr ""
+
+#: ../usp-pro.php:2074
+msgid "Default author for user-submitted posts"
+msgstr ""
+
+#: ../usp-pro.php:2082
+msgid ""
+"Role that should be assigned when registering users (default: subscriber)"
+msgstr ""
+
+#: ../usp-pro.php:2088
+msgid ""
+"For submitted posts, you can always moderate (via Draft or Pending status), "
+"publish immediately, or publish after some number of approved posts."
+msgstr ""
+
+#: ../usp-pro.php:2090
+msgid "Always publish (via Password)"
+msgstr ""
+
+#: ../usp-pro.php:2091
+msgid "Always publish (via Private)"
+msgstr ""
+
+#: ../usp-pro.php:2092
+msgid "Always moderate (via Custom Status, defined below)"
+msgstr ""
+
+#: ../usp-pro.php:2093
+msgid "Always moderate (via Pending)"
+msgstr ""
+
+#: ../usp-pro.php:2094
+msgid "Always moderate (via Draft)"
+msgstr ""
+
+#: ../usp-pro.php:2095
+msgid "Always publish immediately"
+msgstr ""
+
+#: ../usp-pro.php:2109
+msgid "For submitted posts and approvals: "
+msgstr ""
+
+#: ../usp-pro.php:2115
+msgid "Submitted content should be posted as: "
+msgstr ""
+
+#: ../usp-pro.php:2121
+msgid "On the front-end, categories should be displayed: "
+msgstr ""
+
+#: ../usp-pro.php:2127
+msgid "Select the order in which tags should be displayed: "
+msgstr ""
+
+#: ../usp-pro.php:2133
+msgid "On the front-end, tags should be displayed: "
+msgstr ""
+
+#: ../usp-pro.php:2139
+msgid ""
+"Include the following CSS with all USP Forms (note: any styles enabled here "
+"will be included via inline CSS and may be customized below):"
+msgstr ""
+
+#: ../usp-pro.php:2145
+msgid ""
+"Automatically display images in submitted posts? Note: applies only to "
+"uploaded images. Visit Tools &gt; Shortcodes for alternate ways of "
+"displaying images and other file types."
+msgstr ""
+
+#: ../usp-pro.php:2184
+msgid "USP Pro"
+msgstr ""
+
+#: ../usp-pro.php:2197
+msgid "enter your license key &raquo;"
+msgstr ""
+
+#: ../inc/usp-about.php:13
+msgid "Plugin Name:"
+msgstr ""
+
+#: ../inc/usp-about.php:14
+msgid "Plugin URI:"
+msgstr ""
+
+#: ../inc/usp-about.php:15
+msgid "Description:"
+msgstr ""
+
+#: ../inc/usp-about.php:15
+msgid ""
+"Create unlimited forms and let visitors submit content, register, and much "
+"more from the front-end of your theme."
+msgstr ""
+
+#: ../inc/usp-about.php:16
+msgid "Plugin Version:"
+msgstr ""
+
+#: ../inc/usp-about.php:17
+msgid "Plugin Author:"
+msgstr ""
+
+#: ../inc/usp-about.php:18
+msgid "Author URI:"
+msgstr ""
+
+#: ../inc/usp-about.php:19
+msgid "Minimum WP Version:"
+msgstr ""
+
+#: ../inc/usp-about.php:20
+msgid "Tested up to:"
+msgstr ""
+
+#: ../inc/usp-about.php:21
+msgid "Domain Path:"
+msgstr ""
+
+#: ../inc/usp-about.php:22
+msgid "Donate Link:"
+msgstr ""
+
+#: ../inc/usp-about.php:41
+msgid "MultiSite Installation"
+msgstr ""
+
+#: ../inc/usp-about.php:41
+msgid "Standard Installation"
+msgstr ""
+
+#: ../inc/usp-about.php:50 ../inc/usp-about.php:51
+msgid "Enabled: "
+msgstr ""
+
+#: ../inc/usp-about.php:50 ../inc/usp-about.php:196 ../inc/usp-about.php:197
+msgid " seconds"
+msgstr ""
+
+#: ../inc/usp-about.php:51
+msgid " days"
+msgstr ""
+
+#: ../inc/usp-about.php:56 ../inc/usp-forms.php:1080
+msgid "-- n/a --"
+msgstr ""
+
+#: ../inc/usp-about.php:58
+msgid "Enabled: no limit"
+msgstr ""
+
+#: ../inc/usp-about.php:62
+msgid " (FTP/SSH access only)"
+msgstr ""
+
+#: ../inc/usp-about.php:62
+msgid " (Direct access allowed)"
+msgstr ""
+
+#: ../inc/usp-about.php:65
+msgid "WordPress Version:"
+msgstr ""
+
+#: ../inc/usp-about.php:66
+msgid "Installation Type:"
+msgstr ""
+
+#: ../inc/usp-about.php:67
+msgid "Update Method:"
+msgstr ""
+
+#: ../inc/usp-about.php:68
+msgid "WP Memory Limit:"
+msgstr ""
+
+#: ../inc/usp-about.php:69
+msgid "Site Address (URL):"
+msgstr ""
+
+#: ../inc/usp-about.php:70
+msgid "WordPress Address (URL):"
+msgstr ""
+
+#: ../inc/usp-about.php:71
+msgid "Language:"
+msgstr ""
+
+#: ../inc/usp-about.php:72
+msgid "Locale:"
+msgstr ""
+
+#: ../inc/usp-about.php:73
+msgid "WP Post Revisions:"
+msgstr ""
+
+#: ../inc/usp-about.php:74
+msgid "WP Autosave Interval:"
+msgstr ""
+
+#: ../inc/usp-about.php:75
+msgid "WP Empty Trash Interval:"
+msgstr ""
+
+#: ../inc/usp-about.php:76
+msgid "Current Theme:"
+msgstr ""
+
+#: ../inc/usp-about.php:77
+msgid "WordPress Time:"
+msgstr ""
+
+#: ../inc/usp-about.php:78
+msgid "Active Plugins:"
+msgstr ""
+
+#: ../inc/usp-about.php:79
+msgid "WP Content Directory:"
+msgstr ""
+
+#: ../inc/usp-about.php:80
+msgid "WP Uploads Directory:"
+msgstr ""
+
+#: ../inc/usp-about.php:81
+msgid "WP Language Directory:"
+msgstr ""
+
+#: ../inc/usp-about.php:82
+msgid "WP Temp Directory:"
+msgstr ""
+
+#: ../inc/usp-about.php:83
+msgid "Default Theme:"
+msgstr ""
+
+#: ../inc/usp-about.php:86 ../inc/usp-about.php:159
+msgid "Adminstrator-level access required to view WordPress information."
+msgstr ""
+
+#: ../inc/usp-about.php:100 ../inc/usp-about.php:101
+msgid "Defined"
+msgstr ""
+
+#: ../inc/usp-about.php:100 ../inc/usp-about.php:101
+msgid " (not displayed for security reasons)"
+msgstr ""
+
+#: ../inc/usp-about.php:104
+msgid "ABSPATH:"
+msgstr ""
+
+#: ../inc/usp-about.php:105
+msgid "SUBDOMAIN_INSTALL:"
+msgstr ""
+
+#: ../inc/usp-about.php:106
+msgid "WPMU_PLUGIN_DIR:"
+msgstr ""
+
+#: ../inc/usp-about.php:107
+msgid "WP_ALLOW_REPAIR:"
+msgstr ""
+
+#: ../inc/usp-about.php:108
+msgid "COOKIE_DOMAIN:"
+msgstr ""
+
+#: ../inc/usp-about.php:109
+msgid "VHOST:"
+msgstr ""
+
+#: ../inc/usp-about.php:111
+msgid "WP_CACHE:"
+msgstr ""
+
+#: ../inc/usp-about.php:112
+msgid "WP_CRON_LOCK_TIMEOUT:"
+msgstr ""
+
+#: ../inc/usp-about.php:113
+msgid "DISABLE_WP_CRON:"
+msgstr ""
+
+#: ../inc/usp-about.php:114
+msgid "ALTERNATE_WP_CRON:"
+msgstr ""
+
+#: ../inc/usp-about.php:115
+msgid "SAVEQUERIES:"
+msgstr ""
+
+#: ../inc/usp-about.php:116
+msgid "MEDIA_TRASH:"
+msgstr ""
+
+#: ../inc/usp-about.php:118
+msgid "CUSTOM_USER_META_TABLE:"
+msgstr ""
+
+#: ../inc/usp-about.php:119
+msgid "CUSTOM_USER_TABLE:"
+msgstr ""
+
+#: ../inc/usp-about.php:120
+msgid "NOBLOGREDIRECT:"
+msgstr ""
+
+#: ../inc/usp-about.php:121
+msgid "WP_ACCESSIBLE_HOSTS:"
+msgstr ""
+
+#: ../inc/usp-about.php:122
+msgid "WP_HTTP_BLOCK_EXTERNAL:"
+msgstr ""
+
+#: ../inc/usp-about.php:123
+msgid "FS_METHOD:"
+msgstr ""
+
+#: ../inc/usp-about.php:124
+msgid "DO_NOT_UPGRADE_GLOBAL_TABLES:"
+msgstr ""
+
+#: ../inc/usp-about.php:126
+msgid "WP_PROXY_HOST:"
+msgstr ""
+
+#: ../inc/usp-about.php:127
+msgid "WP_PROXY_PORT:"
+msgstr ""
+
+#: ../inc/usp-about.php:128
+msgid "WP_PROXY_USERNAME:"
+msgstr ""
+
+#: ../inc/usp-about.php:129
+msgid "WP_PROXY_PASSWORD:"
+msgstr ""
+
+#: ../inc/usp-about.php:131
+msgid "FTP_BASE:"
+msgstr ""
+
+#: ../inc/usp-about.php:132
+msgid "FTP_CONTENT_DIR:"
+msgstr ""
+
+#: ../inc/usp-about.php:133
+msgid "FTP_PLUGIN_DIR:"
+msgstr ""
+
+#: ../inc/usp-about.php:134
+msgid "FTP_PUBKEY:"
+msgstr ""
+
+#: ../inc/usp-about.php:135
+msgid "FTP_PRIKEY:"
+msgstr ""
+
+#: ../inc/usp-about.php:136
+msgid "FTP_USER:"
+msgstr ""
+
+#: ../inc/usp-about.php:137
+msgid "FTP_PASS:"
+msgstr ""
+
+#: ../inc/usp-about.php:138
+msgid "FTP_HOST:"
+msgstr ""
+
+#: ../inc/usp-about.php:139
+msgid "FTP_SSL:"
+msgstr ""
+
+#: ../inc/usp-about.php:141
+msgid "WP_DEBUG:"
+msgstr ""
+
+#: ../inc/usp-about.php:142
+msgid "WP_DEBUG_LOG:"
+msgstr ""
+
+#: ../inc/usp-about.php:143
+msgid "WP_DEBUG_DISPLAY:"
+msgstr ""
+
+#: ../inc/usp-about.php:144
+msgid "SCRIPT_DEBUG:"
+msgstr ""
+
+#: ../inc/usp-about.php:146
+msgid "ENFORCE_GZIP:"
+msgstr ""
+
+#: ../inc/usp-about.php:147
+msgid "COMPRESS_CSS:"
+msgstr ""
+
+#: ../inc/usp-about.php:148
+msgid "COMPRESS_SCRIPTS:"
+msgstr ""
+
+#: ../inc/usp-about.php:149
+msgid "CONCATENATE_SCRIPTS:"
+msgstr ""
+
+#: ../inc/usp-about.php:151
+msgid "DISALLOW_FILE_MODS:"
+msgstr ""
+
+#: ../inc/usp-about.php:152
+msgid "DISALLOW_FILE_EDIT:"
+msgstr ""
+
+#: ../inc/usp-about.php:153
+msgid "DISALLOW_UNFILTERED_HTML:"
+msgstr ""
+
+#: ../inc/usp-about.php:154
+msgid "ALLOW_UNFILTERED_UPLOADS:"
+msgstr ""
+
+#: ../inc/usp-about.php:155
+msgid "FORCE_SSL_LOGIN:"
+msgstr ""
+
+#: ../inc/usp-about.php:156
+msgid "FORCE_SSL_ADMIN:"
+msgstr ""
+
+#: ../inc/usp-about.php:178
+msgid "Server Operating System:"
+msgstr ""
+
+#: ../inc/usp-about.php:179
+msgid "Server Software:"
+msgstr ""
+
+#: ../inc/usp-about.php:180
+msgid "Server Signature:"
+msgstr ""
+
+#: ../inc/usp-about.php:181
+msgid "Server Name:"
+msgstr ""
+
+#: ../inc/usp-about.php:182
+msgid "Server Address:"
+msgstr ""
+
+#: ../inc/usp-about.php:183
+msgid "Server Port:"
+msgstr ""
+
+#: ../inc/usp-about.php:184
+msgid "Server Gateway:"
+msgstr ""
+
+#: ../inc/usp-about.php:185
+msgid "PHP Version:"
+msgstr ""
+
+#: ../inc/usp-about.php:186
+msgid "Zend Version:"
+msgstr ""
+
+#: ../inc/usp-about.php:187
+msgid "Platform:"
+msgstr ""
+
+#: ../inc/usp-about.php:188
+msgid "Loaded Extensions:"
+msgstr ""
+
+#: ../inc/usp-about.php:189
+msgid "MySQL Server:"
+msgstr ""
+
+#: ../inc/usp-about.php:190
+msgid "Memory Limit:"
+msgstr ""
+
+#: ../inc/usp-about.php:191
+msgid "Server Time:"
+msgstr ""
+
+#: ../inc/usp-about.php:192
+msgid "Include Path:"
+msgstr ""
+
+#: ../inc/usp-about.php:193
+msgid "Display Errors:"
+msgstr ""
+
+#: ../inc/usp-about.php:194
+msgid "Register Globals:"
+msgstr ""
+
+#: ../inc/usp-about.php:195
+msgid "Max Post Size:"
+msgstr ""
+
+#: ../inc/usp-about.php:196
+msgid "Max Input Time:"
+msgstr ""
+
+#: ../inc/usp-about.php:197
+msgid "Max Execution Time:"
+msgstr ""
+
+#: ../inc/usp-about.php:198
+msgid "File Uploads:"
+msgstr ""
+
+#: ../inc/usp-about.php:199
+msgid "Temp Uploads Directory:"
+msgstr ""
+
+#: ../inc/usp-about.php:200
+msgid "Max Upload File Size:"
+msgstr ""
+
+#: ../inc/usp-about.php:201
+msgid "Multibyte Function Overload:"
+msgstr ""
+
+#: ../inc/usp-about.php:202
+msgid "Short Open Tag:"
+msgstr ""
+
+#: ../inc/usp-about.php:203
+msgid "ASP Tags:"
+msgstr ""
+
+#: ../inc/usp-about.php:204
+msgid "Zend Compatibility:"
+msgstr ""
+
+#: ../inc/usp-about.php:205
+msgid "Remote Open Files:"
+msgstr ""
+
+#: ../inc/usp-about.php:206
+msgid "Remote Include Files:"
+msgstr ""
+
+#: ../inc/usp-about.php:207
+msgid "PHP Safe Mode:"
+msgstr ""
+
+#: ../inc/usp-about.php:208
+msgid "Open Basedir:"
+msgstr ""
+
+#: ../inc/usp-about.php:209
+msgid "Disabled Functions:"
+msgstr ""
+
+#: ../inc/usp-about.php:210
+msgid "Disabled Classes:"
+msgstr ""
+
+#: ../inc/usp-about.php:213 ../inc/usp-about.php:250
+msgid "Adminstrator-level access required to view Server information."
+msgstr ""
+
+#: ../inc/usp-about.php:239
+msgid "Login/Username:"
+msgstr ""
+
+#: ../inc/usp-about.php:240
+msgid "Display Name:"
+msgstr ""
+
+#: ../inc/usp-about.php:241
+msgid "Email Address:"
+msgstr ""
+
+#: ../inc/usp-about.php:242
+msgid "IP Address:"
+msgstr ""
+
+#: ../inc/usp-about.php:243
+msgid "User Agent:"
+msgstr ""
+
+#: ../inc/usp-about.php:244
+msgid "Remote Identity:"
+msgstr ""
+
+#: ../inc/usp-about.php:245
+msgid "Remote Port:"
+msgstr ""
+
+#: ../inc/usp-about.php:246
+msgid "Server Protocol:"
+msgstr ""
+
+#: ../inc/usp-about.php:247
+msgid "HTTP Connection:"
+msgstr ""
+
+#: ../inc/usp-forms.php:61
+msgid "USP Submission Forms"
+msgstr ""
+
+#: ../inc/usp-forms.php:207
+msgid "Author"
+msgstr ""
+
+#: ../inc/usp-forms.php:207
+msgid "Shortcode"
+msgstr ""
+
+#: ../inc/usp-forms.php:207
+msgid "Date"
+msgstr ""
+
+#: ../inc/usp-forms.php:363
+msgid "USP Form Widget"
+msgstr ""
+
+#: ../inc/usp-forms.php:363
+msgid "Display any USP Form as a widget"
+msgstr ""
+
+#: ../inc/usp-forms.php:404
+msgid "Widget Title"
+msgstr ""
+
+#: ../inc/usp-forms.php:407
+msgid ""
+"Enter an optional title for this widget (useful when using multiple form "
+"widgets). Displayed only on the widget panel here in the Admin Area."
+msgstr ""
+
+#: ../inc/usp-forms.php:411
+msgid "USP Form ID"
+msgstr ""
+
+#: ../inc/usp-forms.php:414
+msgid ""
+"Enter the ID of a published USP Form. Make sure the form is published and "
+"not saved as a draft or pending. Check the form&rsquo;s shortcode for its "
+"ID. (Required)"
+msgstr ""
+
+#: ../inc/usp-forms.php:418
+msgid "Custom CSS Classes"
+msgstr ""
+
+#: ../inc/usp-forms.php:421
+msgid ""
+"Optional custom classes for the form. Use commas to separate each class, "
+"like so: class1,class2,class3"
+msgstr ""
+
+#: ../inc/usp-forms.php:425
+msgid "Limit Form to Post/Page"
+msgstr ""
+
+#: ../inc/usp-forms.php:428
+msgid ""
+"Enter the ID of a specific post or page; leave blank to display on all posts/"
+"pages. Separate multiple IDs with a comma."
+msgstr ""
+
+#: ../inc/usp-forms.php:598
+msgid "error:usp_form_wrap:1:"
+msgstr ""
+
+#: ../inc/usp-forms.php:620
+msgid "reCAPTCHA field"
+msgstr ""
+
+#: ../inc/usp-forms.php:745
+msgid "error:usp_get_form_id:1:"
+msgstr ""
+
+#: ../inc/usp-forms.php:748
+msgid "error:usp_get_form_id:2:"
+msgstr ""
+
+#: ../inc/usp-functions.php:1156
+msgid " by "
+msgstr ""
+
+#: ../inc/usp-posts.php:42
+msgid "Add New"
+msgstr ""
+
+#: ../inc/usp-posts.php:43
+msgid "Add New USP Post"
+msgstr ""
+
+#: ../inc/usp-posts.php:44
+msgid "Edit USP Post"
+msgstr ""
+
+#: ../inc/usp-posts.php:45
+msgid "New USP Post"
+msgstr ""
+
+#: ../inc/usp-posts.php:46
+msgid "View USP Post"
+msgstr ""
+
+#: ../inc/usp-posts.php:47
+msgid "Search USP Posts"
+msgstr ""
+
+#: ../inc/usp-posts.php:48
+msgid "No USP Posts found"
+msgstr ""
+
+#: ../inc/usp-posts.php:49
+msgid "No USP Posts found in Trash"
+msgstr ""
+
+#: ../inc/usp-posts.php:50
+msgid "Parent USP Post:"
+msgstr ""
+
+#: ../inc/usp-posts.php:55
+msgid "USP Post Types"
+msgstr ""
+
+#: ../inc/usp-posts.php:131
+msgid ""
+"This is an example of a custom USP Post. To delete this post, disable the "
+"option \"Auto-generate post demo\" (Advanced settings tab) and then delete "
+"as mormal. To restore the demo post, re-enable the auto-generate option."
+msgstr ""
+
+#: ../inc/usp-process.php:360
+msgid "Guest"
+msgstr ""
+
+#: ../inc/usp-process.php:365
+msgid "Information about your submitted post."
+msgstr ""
+
+#: ../inc/usp-process.php:366
+msgid "Hello "
+msgstr ""
+
+#: ../inc/usp-process.php:367
+msgid "Here is the password for your submitted post: "
+msgstr ""
+
+#: ../inc/usp-process.php:368
+msgid "Visit your post at "
+msgstr ""
+
+#: ../inc/usp-process.php:880
+msgid "Blog URL"
+msgstr ""
+
+#: ../inc/usp-process.php:881
+msgid "Blog Name"
+msgstr ""
+
+#: ../inc/usp-process.php:882
+msgid "Admin Name"
+msgstr ""
+
+#: ../inc/usp-process.php:883
+msgid "Admin From"
+msgstr ""
+
+#: ../inc/usp-process.php:884
+msgid "Admin Email"
+msgstr ""
+
+#: ../inc/usp-process.php:885
+msgid "User Name"
+msgstr ""
+
+#: ../inc/usp-process.php:886
+msgid "User Email"
+msgstr ""
+
+#: ../inc/usp-process.php:887
+msgid "Post Date"
+msgstr ""
+
+#: ../inc/usp-process.php:1265
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../inc/usp-shortcodes.php:177 ../inc/usp-shortcodes.php:186
+#: ../inc/usp-shortcodes.php:424 ../inc/usp-shortcodes.php:548
+msgid "Please select.."
+msgstr ""
+
+#: ../inc/usp-shortcodes.php:736
+msgid ""
+"File uploads not currently allowed. Please check your settings or contact "
+"the site administrator."
+msgstr ""
+
+#: ../inc/usp-shortcodes.php:770
+msgid "Remember me"
+msgstr ""
+
+#: ../inc/usp-shortcodes.php:988
+msgid "error:usp_custom_field:1:"
+msgstr ""
+
+#: ../inc/usp-shortcodes.php:991
+msgid "error:usp_custom_field:2:"
+msgstr ""
+
+#: ../inc/usp-shortcodes.php:994
+msgid "error:usp_custom_field:3:"
+msgstr ""
+
+#: ../inc/usp-shortcodes.php:1140
+msgid "error:usp_custom_field:4:"
+msgstr ""
+
+#: ../inc/usp-shortcodes.php:1166
+msgid "error:usp_custom_field:5:"
+msgstr ""
+
+#: ../inc/usp-shortcodes.php:1205
+msgid "error:usp_form:1:"
+msgstr ""
+
+#: ../inc/usp-shortcodes.php:1224
+msgid "error:usp_form:2:"
+msgstr ""
+
+#: ../inc/usp-tools.php:10
+msgid ""
+"USP Pro lets you create customized front-end submission forms for post "
+"content, user registration, contact forms, and much more. "
+msgstr ""
+
+#: ../inc/usp-tools.php:11
+msgid ""
+"The default plugin settings are optimized for quick implementation, and "
+"provide options to help you configure and customize just about everything. "
+msgstr ""
+
+#: ../inc/usp-tools.php:12
+msgid ""
+"To get started, follow this quick-start guide to add one of the demo forms "
+"to your site. After seeing how it works, revisit this screen for shortcodes, "
+"template tags, and further resources."
+msgstr ""
+
+#: ../inc/usp-tools.php:14
+msgid "To add a USP Form to your site:"
+msgstr ""
+
+#: ../inc/usp-tools.php:15 ../inc/usp-tools.php:21
+msgid "From the WP menu, visit &ldquo;USP Forms&rdquo;"
+msgstr ""
+
+#: ../inc/usp-tools.php:16
+msgid ""
+"From the &ldquo;Shortcodes&rdquo; column, copy the shortcode of the form you "
+"would like to display"
+msgstr ""
+
+#: ../inc/usp-tools.php:17
+msgid "Add the shortcode to any Post or Page to display the form"
+msgstr ""
+
+#: ../inc/usp-tools.php:20
+msgid "To create a new USP Form:"
+msgstr ""
+
+#: ../inc/usp-tools.php:22
+msgid "At the top of the page, click the &ldquo;Add New&rdquo; button"
+msgstr ""
+
+#: ../inc/usp-tools.php:23
+msgid ""
+"Give the form a title and then use the shortcode quicklinks to add some "
+"input fields"
+msgstr ""
+
+#: ../inc/usp-tools.php:24
+msgid ""
+"Once the form is complete, preview and then publish just like a regular WP "
+"post"
+msgstr ""
+
+#: ../inc/usp-tools.php:25
+msgid ""
+"Once your new form is published, follow the steps above to add the form to "
+"any post or page"
+msgstr ""
+
+#: ../inc/usp-tools.php:28
+msgid "To go further with USP Pro, visit the"
+msgstr ""
+
+#: ../inc/usp-tools.php:38
+msgid ""
+"USP Pro provides shortcodes that make it easy to display forms, submitted "
+"content, and user info virtually anywhere. "
+msgstr ""
+
+#: ../inc/usp-tools.php:39 ../inc/usp-tools.php:63
+msgid "To get started,"
+msgstr ""
+
+#: ../inc/usp-tools.php:39
+msgid "learn about WP Shortcodes"
+msgstr ""
+
+#: ../inc/usp-tools.php:40
+msgid ""
+"and then include any of the following shortcodes in a WP post or page. "
+"Notes: 1) all of the &ldquo;Form Shortcodes&rdquo; are available as"
+msgstr ""
+
+#: ../inc/usp-tools.php:41
+msgid "from the &ldquo;Edit Form&rdquo; screen;"
+msgstr ""
+
+#: ../inc/usp-tools.php:42
+msgid " and 2) all shortcode attributes are optional unless stated otherwise."
+msgstr ""
+
+#: ../inc/usp-tools.php:48
+msgid "In addition to those provided by USP Pro, there are numerous"
+msgstr ""
+
+#: ../inc/usp-tools.php:48
+msgid "default WP shortcodes"
+msgstr ""
+
+#: ../inc/usp-tools.php:49
+msgid ""
+"as well as any shortcodes that may be included with your theme and/or plugin"
+"(s). Also, FYI, more information about shortcodes may be found in the USP "
+"source code (as inline comments), "
+msgstr ""
+
+#: ../inc/usp-tools.php:50
+msgid "specifically see"
+msgstr ""
+
+#: ../inc/usp-tools.php:62
+msgid ""
+"USP Pro provides template tags for displaying submitted post content, author "
+"information, file uploads and more. "
+msgstr ""
+
+#: ../inc/usp-tools.php:63
+msgid "learn about WP Template Tags"
+msgstr ""
+
+#: ../inc/usp-tools.php:64
+msgid ""
+"and then include any of the following tags in your WP theme template. Notes: "
+"1) most of the template tags are also available in shortcode flavor, "
+msgstr ""
+
+#: ../inc/usp-tools.php:65
+msgid "and 2) all parameters are optional unless stated otherwise."
+msgstr ""
+
+#: ../inc/usp-tools.php:69
+msgid ""
+"In addition to those provided by USP Pro, there are a great many template "
+"tags provided by WordPress, making it possible to display just about any "
+"information anywhere on your site. "
+msgstr ""
+
+#: ../inc/usp-tools.php:70
+msgid ""
+"Also, FYI, more information about each of these template tags may be found "
+"in the USP source code (as inline comments), specifically see"
+msgstr ""
+
+#: ../inc/usp-tools.php:81
+msgid "Useful resources and places to get help with USP Pro:"
+msgstr ""
+
+#: ../inc/usp-tools.php:83
+msgid "USP Pro Docs"
+msgstr ""
+
+#: ../inc/usp-tools.php:84
+msgid "USP Pro Tutorials"
+msgstr ""
+
+#: ../inc/usp-tools.php:85
+msgid "USP Pro Forum"
+msgstr ""
+
+#: ../inc/usp-tools.php:86
+msgid "USP Pro News"
+msgstr ""
+
+#: ../inc/usp-tools.php:87
+msgid "Bug reports, help requests, and feedback"
+msgstr ""
+
+#: ../inc/usp-tools.php:88
+msgid "Log in to your account for current downloads"
+msgstr ""
+
+#: ../inc/usp-tools.php:90
+msgid "Key resources at the WordPress Codex:"
+msgstr ""
+
+#: ../inc/usp-tools.php:92
+msgid "WP Theme Templates"
+msgstr ""
+
+#: ../inc/usp-tools.php:93
+msgid "WP Widgets"
+msgstr ""
+
+#: ../inc/usp-tools.php:94
+msgid "WP Shortcodes"
+msgstr ""
+
+#: ../inc/usp-tools.php:95
+msgid "WP Template Tags"
+msgstr ""
+
+#: ../inc/usp-tools.php:96
+msgid "WP Quicktags"
+msgstr ""
+
+#: ../inc/usp-tools.php:97
+msgid "WP Custom Post Types"
+msgstr ""
+
+#: ../inc/usp-tools.php:98
+msgid "The WordPress Loop"
+msgstr ""
+
+#: ../inc/usp-tools.php:99
+msgid "WP Troubleshooting Guide"
+msgstr ""
+
+#: ../inc/usp-tools.php:100
+msgid "WP Help Forum"
+msgstr ""
+
+#: ../inc/usp-tools.php:102
+msgid "See also:"
+msgstr ""
+
+#: ../inc/usp-tools.php:102
+msgid "Where to Get Help with WordPress"
+msgstr ""
+
+#: ../inc/usp-tools.php:103
+msgid "Other WordPress material by the author of USP Pro:"
+msgstr ""
+
+#: ../inc/usp-tools.php:105
+msgid "Digging Into WordPress, by Chris Coyier and Jeff Starr"
+msgstr ""
+
+#: ../inc/usp-tools.php:106
+msgid "The Tao of WordPress, Complete Guide for users, admins, and everyone"
+msgstr ""
+
+#: ../inc/usp-tools.php:107
+msgid ".htaccess made easy &ndash; configure, optimize, and secure your site"
+msgstr ""
+
+#: ../inc/usp-tools.php:108
+msgid "Perishable Press &ndash; WordPress, Web Design, Code &amp; Tutorials"
+msgstr ""
+
+#: ../inc/usp-tools.php:109
+msgid "WP-Mix &ndash; Useful code snippets for WordPress and more"
+msgstr ""
+
+#: ../inc/usp-tools.php:120
+msgid ""
+"Here is a growing collection of useful notes, tips &amp; tricks for working "
+"with USP Pro."
+msgstr ""
+
+#: ../inc/usp-tools.php:122
+msgid "Post Type Bug Fix"
+msgstr ""
+
+#: ../inc/usp-tools.php:123
+msgid "As explained in the "
+msgstr ""
+
+#: ../inc/usp-tools.php:123
+msgid ""
+", an extra step is required to get WordPress to recognize theme templates "
+"for custom post types "
+msgstr ""
+
+#: ../inc/usp-tools.php:124
+msgid ""
+"(e.g., &ldquo;single-post_type.php&rdquo; and &ldquo;archive-post_type."
+"php&rdquo;). So if/when you get a 404 &ldquo;Not Found&rdquo; error when "
+"trying to view a custom post type "
+msgstr ""
+
+#: ../inc/usp-tools.php:125
+msgid ""
+"(e.g., at &ldquo;/usp_post/example/&rdquo;), try the well-known fix, which "
+"is to simply"
+msgstr ""
+
+#: ../inc/usp-tools.php:125
+msgid "visit the WP Permalinks Settings"
+msgstr ""
+
+#: ../inc/usp-tools.php:126
+msgid ""
+"After doing that, things should be working normally again. If not, try "
+"clicking the &ldquo;Save Changes&rdquo; button on the Permalink Settings "
+"page, which is another reported solution. "
+msgstr ""
+
+#: ../inc/usp-tools.php:128
+msgid "Template Tags Best Practice"
+msgstr ""
+
+#: ../inc/usp-tools.php:129
+msgid ""
+"When including template tags provided by a plugin or theme, it&rsquo;s good "
+"practice to precede the tag with a conditional check to make sure that the "
+"function exists. For example: "
+msgstr ""
+
+#: ../inc/usp-tools.php:130
+msgid "Instead of writing this:"
+msgstr ""
+
+#: ../inc/usp-tools.php:130
+msgid "we can write this:"
+msgstr ""
+
+#: ../inc/usp-tools.php:131
+msgid ""
+"The first method works fine, but PHP will throw an error if the plugin is "
+"not installed or otherwise available. So to avoid the site-breaking error, "
+"the second method is preferred."
+msgstr ""
+
+#: ../inc/usp-tools.php:133
+msgid "Force Forms to Clear Contents"
+msgstr ""
+
+#: ../inc/usp-tools.php:134
+msgid ""
+"If you are savvy with CSS, it is trivial to style forms however and get them "
+"to clear preceding/parent elements. If you&rsquo;re new to the game and just "
+"want a sure-fire way to get form fields to line up "
+msgstr ""
+
+#: ../inc/usp-tools.php:135
+msgid ""
+"and look right, here is a well-known snippet of HTML/CSS that you can add to "
+"any form:"
+msgstr ""
+
+#: ../inc/usp-tools.php:135
+msgid "Just add that snippet after the last item in your form."
+msgstr ""
+
+#: ../inc/usp-tools.php:136
+msgid ""
+"It&rsquo;s not exactly best-practices design-wise, but it&rsquo;s pretty "
+"much guaranteed to do the job. Then later on you can replace the snippet "
+"with some proper CSS."
+msgstr ""
+
+#: ../inc/usp-tools.php:138
+msgid "Minimum Posting Requirements"
+msgstr ""
+
+#: ../inc/usp-tools.php:139
+msgid ""
+"There are basically four types of USP Forms: user-registration, content "
+"posting, contact form, and combo registration/posting. The minimum form "
+"requirements (in terms of input fields) for the contact form are "
+msgstr ""
+
+#: ../inc/usp-tools.php:140
+msgid ""
+"email, subject, and content. The minimum requirements for user registration "
+"are name and email address. The minimum for content posting is the content/"
+"textarea field. For the combo registration/posting, the minimum "
+msgstr ""
+
+#: ../inc/usp-tools.php:141
+msgid ""
+"requirements are determined by the plugin settings. Likewise, other "
+"requirements may vary depending on how the plugin settings have been "
+"configured."
+msgstr ""
+
+#: ../inc/usp-tools.php:143
+msgid "Shortcodes in Widgets"
+msgstr ""
+
+#: ../inc/usp-tools.php:144
+msgid ""
+"By default, shortcodes do not work when included in widgets. To make them "
+"work, just add this snippet to your theme&rsquo;s"
+msgstr ""
+
+#: ../inc/usp-tools.php:144
+msgid "file:"
+msgstr ""
+
+#: ../inc/usp-tools.php:145
+msgid ""
+"Nothing more to do, but remember to re-add the snippet if/when you change "
+"themes."
+msgstr ""
+
+#: ../inc/usp-tools.php:147
+msgid "On Install, On Uninstall"
+msgstr ""
+
+#: ../inc/usp-tools.php:148
+msgid ""
+"Just FYI: when USP Pro is installed it creates four new options in the "
+"wp_options table. That&rsquo;s it. No new database tables are created. While "
+"the plugin is active, new content (post data, user info) may "
+msgstr ""
+
+#: ../inc/usp-tools.php:149
+msgid ""
+"be added to the database, but no other changes are made anywhere by the "
+"plugin. Lastly, when the plugin is uninstalled (deleted from the server), "
+"the four options it created are removed from the database. "
+msgstr ""
+
+#: ../inc/usp-tools.php:150
+msgid ""
+"Note that the plugin does not delete any posted/submitted content or "
+"registered users. If any posts or users were added, it is up to the admin "
+"whether or not to remove them."
+msgstr ""
+
+#: ../inc/usp-tools.php:152
+msgid "Alternate Way to Reset Form"
+msgstr ""
+
+#: ../inc/usp-tools.php:153
+msgid ""
+"USP Pro includes a shortcode/quicktag for a link that will reset the form. "
+"To use a button instead, add this code to any form:"
+msgstr ""
+
+#: ../inc/usp-tools.php:154
+msgid ""
+"Note that the shortcode requires the form URL as one of its attributes, but "
+"the reset <code>&lt;input&gt;</code> tag works without requiring any URL."
+msgstr ""
+
+#: ../inc/usp-tools.php:156
+msgid "Custom Field Recipes"
+msgstr ""
+
+#: ../inc/usp-tools.php:157
+msgid ""
+"USP Pro provides unlimited custom fields that may be configured to be "
+"virtually any type of input field. Here is a list of custom-field recipes "
+"for various types of form elements:"
+msgstr ""
+
+#: ../inc/usp-tools.php:169
+msgid "Add a Select Field"
+msgstr ""
+
+#: ../inc/usp-tools.php:170
+msgid ""
+"To add a <code>&lt;select&gt;</code> field to any USP Form, include the "
+"following code and customize as needed:"
+msgstr ""
+
+#: ../inc/usp-tools.php:176
+msgid ""
+"Note that as written, this example creates a single-item select field. To "
+"create a multiple-item select field, just change the first line to this:"
+msgstr ""
+
+#: ../inc/usp-tools.php:178
+msgid ""
+"Then to make it a required form field, add this line after the select input:"
+msgstr ""
+
+#: ../inc/usp-tools.php:180
+msgid ""
+"Other markup/tags may be added as needed; for example, you may want to add a "
+"<code>&lt;fieldset&gt;</code> and/or <code>&lt;label&gt;</code> element. "
+msgstr ""
+
+#: ../inc/usp-tools.php:181
+msgid ""
+"The key thing to keep in mind is that the select tag&rsquo;s name must "
+"correspond with an existing custom form field (e.g., <code>usp-custom-1</"
+"code>)."
+msgstr ""
+
+#: ../inc/usp-tools.php:184
+msgid "Custom CSS and JavaScript for Forms"
+msgstr ""
+
+#: ../inc/usp-tools.php:185
+msgid ""
+"Via the &ldquo;CSS/JS&rdquo; settings tab, it&rsquo;s possible to add custom "
+"CSS and/or JavaScript to all USP Forms. It&rsquo;s also possible to add CSS/"
+"JS on a per-post basis using custom fields. "
+msgstr ""
+
+#: ../inc/usp-tools.php:186
+msgid ""
+"For example, to add some custom JavaScript to a form, create a new custom "
+"field named &ldquo;usp-js&rdquo; and add your JavaScript code. Likewise for "
+"CSS, just create a custom field named &ldquo;usp-css&rdquo; "
+msgstr ""
+
+#: ../inc/usp-tools.php:187
+msgid ""
+"and add whatever CSS is required. Note that custom CSS is automatically "
+"wrapped with <code>&lt;style&gt;</code> tags and custom JavaScript is "
+"automatically wrapped with <code>&lt;script&gt;</code> tags."
+msgstr ""
+
+#: ../inc/usp-tools.php:189
+msgid "Custom CSS and JavaScript for Posts"
+msgstr ""
+
+#: ../inc/usp-tools.php:190
+msgid ""
+"Using custom form-fields, it&rsquo;s possible to include/display custom "
+"content (aka &ldquo;art-directed&rdquo; content) with any/all submitted "
+"posts. For more information, check out the"
+msgstr ""
+
+#: ../inc/usp-tools.php:191
+msgid ""
+"function in the Template Tags section on this page. The art-directed custom "
+"fields work whether included via submitted post or added manually to posts."
+msgstr ""
+
+#: ../updates/usp-updates.php:35
+msgid "Settings saved."
+msgstr ""
+
+#: ../updates/usp-updates.php:39
+msgid "USP Pro License"
+msgstr ""
+
+#: ../updates/usp-updates.php:41
+msgid ""
+"Your purchase of USP Pro entitles you to free automatic updates according to "
+"the license terms. To enable this feature, enter your License Key below. \n"
+"\t\t\tNote: to view your License Key at any time,"
+msgstr ""
+
+#: ../updates/usp-updates.php:42
+msgid "log in to your account at Plugin Planet"
+msgstr ""
+
+#: ../updates/usp-updates.php:52 ../updates/usp-updates.php:68
+msgid "License Key"
+msgstr ""
+
+#: ../updates/usp-updates.php:62
+msgid "Deactivate License"
+msgstr ""
+
+#: ../updates/usp-updates.php:71
+msgid "Enter your license key"
+msgstr ""
+
+#: ../updates/usp-updates.php:78
+msgid ""
+"Your license is currently not active. To activate, click &ldquo;Activate "
+"License&rdquo;:"
+msgstr ""
+
+#: ../updates/usp-updates.php:79
+msgid "Activate License"
+msgstr ""
+
+#: ../updates/usp-updates.php:89
+msgid "Return to USP Pro Settings &raquo;"
+msgstr ""
