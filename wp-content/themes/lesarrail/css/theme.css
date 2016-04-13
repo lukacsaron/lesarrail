@@ -8469,7 +8469,7 @@ a:active {
       .page-template-page-accomodation .primary-container .apartment {
         height: 550px; } }
     .page-template-page-accomodation .primary-container .apartment.closed {
-      height: 26px;
+      height: 26px !important;
       transition: all .5s ease-out; }
 
 .single-apartment .hide-mobile .btn-transparent {
@@ -8585,6 +8585,9 @@ a:active {
       margin-top: 2px;
       padding: 10px 15px;
       transition: all .15s ease-out; }
+    .navbar-fixed-top.scrolled.hide-md .navbar-brand {
+      margin-top: 0;
+      padding: 10px 10px; }
 
 .usp-label {
   font-size: 12px;
@@ -8678,6 +8681,12 @@ a:active {
         color: #fff !important;
         background: #002e4d !important; }
 
+.copyright {
+  width: 109px;
+  display: block;
+  text-align: right;
+  float: right; }
+
 .page-template-page-home #primary {
   text-align: center;
   margin-top: -15px;
@@ -8695,6 +8704,12 @@ a:active {
     @media (max-width: 1024px) {
       .page-template-page-home #primary .site-main .entry-title {
         font-size: 28px; } }
+    .page-template-page-home #primary .site-main .entry-title img {
+      width: 50%;
+      margin-top: 20px; }
+      @media (max-width: 768px) {
+        .page-template-page-home #primary .site-main .entry-title img {
+          width: 80%; } }
 
 .page-template-page-home .home-bottom {
   color: #fff;
@@ -8706,11 +8721,6 @@ a:active {
   .page-template-page-home .home-bottom .subscribe-container {
     margin-top: -9px;
     text-align: right; }
-  .page-template-page-home .home-bottom .copyright {
-    width: 109px;
-    display: block;
-    text-align: right;
-    float: right; }
   .page-template-page-home .home-bottom #subscribe {
     float: right; }
   .page-template-page-home .home-bottom #contact-home {
@@ -8878,6 +8888,7 @@ a:active {
 .btn-callout {
   width: 100%;
   margin-top: 8px;
+  padding: 5px 0;
   text-transform: uppercase;
   font-weight: 600; }
   .btn-callout:hover, .btn-callout:active {
