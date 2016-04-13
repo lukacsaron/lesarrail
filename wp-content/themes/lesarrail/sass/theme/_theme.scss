@@ -399,10 +399,11 @@ a {
             }
         }
         .navbar-brand {
-            height: 40px;
+            overflow: hidden;
+            height: 30px;
+            margin-top: 2px;
             padding: 10px 15px;
             transition: all .15s ease-out;
-            margin-top: 0;
         }
     }
 }
@@ -557,10 +558,9 @@ a {
     }
     
     .home-bottom {
-        position: absolute;
-        width: 100%;
         color: #fff;
         margin-top: 20px;
+        opacity: 0;
         @media (max-width: 768px) {
             display: none;
         }
@@ -572,6 +572,7 @@ a {
             width: 109px;
             display: block;
             text-align: right;
+            float: right;
         }
         #subscribe {
             float: right;
@@ -887,14 +888,27 @@ a {
 #wrapper-footer {
     background: $brand-primary;
     color:#fff;
+    #mc_embed_signup {
+        margin-top: 0px !important;
+    }
 }
+
     .site-info {
         font-weight: 300;
         font-size: 11px;
-        .subscribe {
-            width: 142px;
+        #mc_embed_signup {
+            display: block;
+            margin-top: 15px;
         }
-        .submit {
+        #mce-EMAIL {
+                width: 170px;
+                border: none;
+                height: 21px;
+                font-size: 11px;
+                padding: 0 5px;
+            color: $brand-primary;
+        }
+        #mc-embedded-subscribe {
             border-radius: 0;
             height: 21px;
             padding: 0 6px;
@@ -905,7 +919,8 @@ a {
     }
 
 .footer-socials {
-    @media (max-width:1024px) {
+    z-index: 10;
+    @media (max-width:1025px) {
         margin-bottom: 15px;
     }
     a {
@@ -915,8 +930,18 @@ a {
     }
 }
 
+.footer-form {
+    margin-top: -9px;
+    @media (min-width: 1024px) and (max-width: 1150px) {
+        left: 10%;
+    }
+}
+
 .copyright {
-    @media (max-width:1024px) {
+    @media (max-width:1025px) {
+        bottom: 0;
+    }
+    @media (max-width:768px) {
         bottom: -75px;
         position: absolute;
         display: block;
