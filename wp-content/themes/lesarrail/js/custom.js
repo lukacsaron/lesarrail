@@ -16,6 +16,14 @@ function wrapperMaxHeight() {
     }
 }
 
+function areaMaxHeight() {
+    if (jQuery('body').hasClass('page-template-page-area') ) {
+        var safezone = 80;
+        jQuery('#page-wrapper').css({'height': $vph - safezone + 'px'});
+       // jQuery('#map-container').css({'height': $vph - safezone - 80 + 'px'});
+    }
+}
+
 function slideshow_start() {
     $('#slideshow .slideshow-item:gt(0)').hide();
     setInterval(function(){
@@ -50,11 +58,13 @@ function appearBox() {
 
 function setFeatureHeight() {
     if (jQuery('body').hasClass('single-apartment') || jQuery('body').hasClass('page-template-page-accomodation') ) {
-        $features_height = jQuery('.features').height();
-        jQuery('.features_2').css({'height': $features_height + 'px'});
+        $( ".type-apartment .features").each(function() {
+            $features_height = jQuery(this).height();
+            $(this).next().css({'height': $features_height + 'px'});
+        });
         var safezone = 80;
         jQuery('#single-wrapper').css({'min-height': $vph - safezone + 'px'});
-    }
+}
 }
 
 function setContentHeight() {
@@ -68,7 +78,7 @@ function setContentHeight() {
                 $(this).parent().css({'height': height + 100 + 'px'});
             }
             else {
-                $(this).parent().css({'height': height + 80 + 'px'});
+                $(this).parent().css({'height': height + 90 + 'px'});
             }
         });
     }
@@ -152,6 +162,7 @@ jQuery(document).ready(function() {
     ApartmentSlide();
     resizeContent();
     wrapperMaxHeight();
+    areaMaxHeight();
     slideshow_start();
     appearHome();
     appearBox();

@@ -192,7 +192,7 @@ a {
 .page-template-fullwidthpage {
     background: #fff;
     #wrapper-footer {
-        display: none;
+        
     }
     #primary {
         background: #fff;
@@ -571,6 +571,7 @@ a {
                     margin-top: 20px;
                     @media (max-width: 768px) {
                         width: 80%;
+                        margin-top: 0;
                     }
                 }
             }
@@ -775,7 +776,7 @@ a {
     #map {
         min-height: 350px;
         @media (min-width: 768px) {
-            min-height: 650px !important;
+            // min-height: 650px !important;
         }
     }
     .panel-group-container {

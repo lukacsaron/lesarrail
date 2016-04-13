@@ -8426,8 +8426,6 @@ a:active {
 
 .page-template-fullwidthpage {
   background: #fff; }
-  .page-template-fullwidthpage #wrapper-footer {
-    display: none; }
   .page-template-fullwidthpage #primary {
     background: #fff;
     padding: 15px;
@@ -8709,7 +8707,8 @@ a:active {
       margin-top: 20px; }
       @media (max-width: 768px) {
         .page-template-page-home #primary .site-main .entry-title img {
-          width: 80%; } }
+          width: 80%;
+          margin-top: 0; } }
 
 .page-template-page-home .home-bottom {
   color: #fff;
@@ -8855,9 +8854,6 @@ a:active {
 
 #map-container #map {
   min-height: 350px; }
-  @media (min-width: 768px) {
-    #map-container #map {
-      min-height: 650px !important; } }
 
 #map-container .panel-group-container {
   position: absolute;
