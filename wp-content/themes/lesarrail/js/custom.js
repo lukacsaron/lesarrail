@@ -57,10 +57,28 @@ function setFeatureHeight() {
     }
 }
 
+function setContentHeight() {
+    if (jQuery('body').hasClass('page-template-page-accomodation')) {
+        $content_heights = [];
+        $isMobile = window.matchMedia("only screen and (max-width: 768px)");
+        $( ".type-apartment .entry-content" ).each(function() {
+            var height = $(this).height();
+            $content_heights.push(height);
+            if ($isMobile.matches) {
+                $(this).parent().css({'height': height + 100 + 'px'});
+            }
+            else {
+                $(this).parent().css({'height': height + 80 + 'px'});
+            }
+        });
+    }
+}
+
 function appearHome() {
     
     jQuery(window).on("load", function() {
          console.log("window is loaded");
+         setFeatureHeight();
         if (jQuery('body').hasClass('page-template-page-home') ) {
             var element = jQuery(".home-bottom");
             TweenMax.to(element, 1, {opacity:1,marginTop:"-50px", ease:Power4.easeOut});
@@ -137,7 +155,7 @@ jQuery(document).ready(function() {
     slideshow_start();
     appearHome();
     appearBox();
-    setFeatureHeight();
+    setContentHeight();
     initialize();
 });
 

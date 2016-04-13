@@ -72,7 +72,7 @@ get_header(); ?>
                  <?php while ( have_posts() ) : the_post(); ?>
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                         <header class="entry-header">
-                            <h1 class="entry-title">Le Sarrail</h1>
+                            <h1 class="entry-title"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_title.svg"></h1>
                         </header>
                         <div class="entry-content">
                             <?php the_content(); ?>
@@ -84,6 +84,7 @@ get_header(); ?>
     </div><!-- Container end -->
     
     <?php   $kids = 22;
+            $accommodation = 18;
             $area = 20;
             $group = 26;
             $maison_cypres = 45;
@@ -106,7 +107,7 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>  
                         <?php $image = get_image_custom($post->ID, 'medium'); ?>
-                                    <a class="apartment" href="<?php the_permalink(); ?>">
+                                    <a class="apartment" href="<?php the_permalink($accommodation); ?>">
                                         <div class="box-wrapper" style="background-image:url('<?php echo $image; ?>');">
                                             <h2 class="title transition"><?php echo get_the_title(); ?></h2>
                                         </div>
@@ -156,7 +157,7 @@ get_header(); ?>
             <h5>VISIT</h5>
             <h2 class="entry-title">Le Sarrail</h2>
         </header>
-        <div class="col-md-2 insta-ident"><i class="fa fa-instagram"></i> @LESARRAIL</div>
+        <div class="col-md-2 insta-ident"><a href="https://www.instagram.com/le_sarrail/" target="_blank"><i class="fa fa-instagram"></i> @LESARRAIL</a></div>
         <?php echo do_shortcode('[enjoyinstagram_mb_grid]'); ?>
     </div>
     
