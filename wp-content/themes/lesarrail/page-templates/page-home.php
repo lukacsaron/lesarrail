@@ -28,7 +28,7 @@ get_header(); ?>
                          <div class="col-md-12 sm-hide">
                             <div class="center scroll-btn"></div>
                         </div>
-                        <div class="col-md-5 col-xs-6 footer-contacts nopadding">
+                        <div class="col-md-6 col-xs-6 footer-contacts nopadding">
                             <div class="col-md-5 col-md-push-4 footer-socials">
                             <a href="https://www.facebook.com/Le-Sarrail-593654507463494/i" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="https://twitter.com/lesarrail" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -39,7 +39,7 @@ get_header(); ?>
                                 <span>E: info@lesarrail.com</span>
                             </div>
                         </div>
-                        <div class="col-md-5 col-md-push-1 hide-sm subscribe-container">
+                        <div class="col-md-5 hide-sm subscribe-container">
                             <!-- Begin MailChimp Signup Form -->
                                 <div id="mc_embed_signup">
                                 <form action="//lesarrail.us10.list-manage.com/subscribe/post?u=8b5b47c0a55160921b20a398f&amp;id=7cfd841a3a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -58,7 +58,7 @@ get_header(); ?>
                                 </div>
                         <!--End mc_embed_signup-->
                         </div>
-                        <div class="col-xs-6 col-md-2">
+                        <div class="col-xs-6 col-md-1 copy-cont">
                             <span class="copyright">© 2016 Le Sarrail All Rights Reserved</span>
                         </div>
                     </div><!-- .site-info -->

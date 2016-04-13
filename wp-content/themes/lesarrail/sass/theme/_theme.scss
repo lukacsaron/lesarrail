@@ -899,6 +899,7 @@ a {
         #mc_embed_signup {
             display: block;
             margin-top: 15px;
+            padding-right: 45px;
         }
         #mce-EMAIL {
                 width: 170px;
@@ -934,6 +935,12 @@ a {
     margin-top: -9px;
     @media (min-width: 1024px) and (max-width: 1150px) {
         left: 10%;
+    }
+}
+
+.copy-cont {
+    @media (max-width:1025px) {
+        width:50% !important;
     }
 }
 

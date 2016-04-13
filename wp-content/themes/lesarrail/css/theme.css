@@ -8949,7 +8949,8 @@ a:active {
   font-size: 11px; }
   .site-info #mc_embed_signup {
     display: block;
-    margin-top: 15px; }
+    margin-top: 15px;
+    padding-right: 45px; }
   .site-info #mce-EMAIL {
     width: 170px;
     border: none;
@@ -8980,6 +8981,10 @@ a:active {
   @media (min-width: 1024px) and (max-width: 1150px) {
     .footer-form {
       left: 10%; } }
+
+@media (max-width: 1025px) {
+  .copy-cont {
+    width: 50% !important; } }
 
 @media (max-width: 1025px) {
   .copyright {
