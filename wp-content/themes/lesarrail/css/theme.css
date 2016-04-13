@@ -8605,6 +8605,9 @@ a:active {
       margin-top: 2px;
       padding: 10px 15px;
       transition: all .15s ease-out; }
+      .navbar-fixed-top.scrolled .navbar-brand img {
+        height: 19px;
+        transition: all .15s ease-out; }
     .navbar-fixed-top.scrolled.hide-md .navbar-brand {
       margin-top: 0;
       padding: 10px 10px; }

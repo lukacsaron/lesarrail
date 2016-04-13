@@ -429,6 +429,10 @@ a {
             margin-top: 2px;
             padding: 10px 15px;
             transition: all .15s ease-out;
+            img {
+                height: 19px;
+                transition: all .15s ease-out;
+            }
         }
         &.hide-md {
             .navbar-brand {
