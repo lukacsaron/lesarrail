@@ -8852,6 +8852,12 @@ a:active {
         height: 60px !important;
         text-align: center; }
 
+.page-template-page-home #map-container {
+  height: 650px !important; }
+  @media (min-width: 768px) {
+    .page-template-page-home #map-container {
+      height: 400px; } }
+
 #map-container #map {
   min-height: 350px; }
 

@@ -1,5 +1,6 @@
 $vph = jQuery(window).height();
 $lch = jQuery(".activity-featured").width();
+$isMobile = window.matchMedia("only screen and (max-width: 768px)");
 
 function resizeContent() {
     if (jQuery('body').hasClass('page-template-fullwidthpage') ) {
@@ -19,7 +20,11 @@ function wrapperMaxHeight() {
 function areaMaxHeight() {
     if (jQuery('body').hasClass('page-template-page-area') ) {
         var safezone = 80;
-        jQuery('#page-wrapper').css({'height': $vph - safezone + 'px'});
+        if ($isMobile.matches) {
+        }
+        else {
+            jQuery('#page-wrapper').css({'height': $vph - safezone + 'px'});
+        }
        // jQuery('#map-container').css({'height': $vph - safezone - 80 + 'px'});
     }
 }
@@ -70,7 +75,6 @@ function setFeatureHeight() {
 function setContentHeight() {
     if (jQuery('body').hasClass('page-template-page-accomodation')) {
         $content_heights = [];
-        $isMobile = window.matchMedia("only screen and (max-width: 768px)");
         $( ".type-apartment .entry-content" ).each(function() {
             var height = $(this).height();
             $content_heights.push(height);
@@ -175,9 +179,11 @@ jQuery(window).resize(function(){
     // change variables
     $vph = jQuery(window).height();
     $lch = jQuery(".activity-featured").width();
+    $isMobile = window.matchMedia("only screen and (max-width: 768px)");
     // run functions
     ifHome();
     resizeContent();
+    areaMaxHeight();
     wrapperMaxHeight();
 });
 

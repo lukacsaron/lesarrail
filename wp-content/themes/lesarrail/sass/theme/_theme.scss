@@ -772,6 +772,15 @@ a {
 
 // MAP
 
+.page-template-page-home {
+    #map-container {
+        height: 650px !important;
+        @media (min-width: 768px) {
+            height: 400px;
+        }
+    }
+}
+
 #map-container {
     #map {
         min-height: 350px;
