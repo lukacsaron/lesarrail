@@ -22,7 +22,7 @@ get_header(); ?>
                             <div class="apartment-container">
                             <div class="row hide-desktop gallery-btn-container">
                                 <div class="col-md-offset-10 col-md-2 col-xs-push-7 col-xs-5">
-                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>
+                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>_mob">GALLERY</a>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-5 primary-container">
@@ -118,6 +118,23 @@ get_header(); ?>
         <?php foreach($attached_images as $attached_images) {
             $postID = ($post->ID);
             echo '<a href="'.$attached_images.'"data-gallery="#blueimp-gallery-'.$postID.'" ></a>';
+            } ?>
+
+        <?php } ?>
+                                </div>
+                                <div style="display:none;">
+                                    <?php $attached_images = get_post_meta($post->ID, "wpcf-gallery-item", false);
+        if ($attached_images[0]=="") { ?>
+
+        <!-- If there are no custom fields, show nothing -->
+
+        <?php } else { ?>
+                                    
+        <!-- detach first image -->
+        <?php unset($attached_images[0]); ?>
+        <?php foreach($attached_images as $attached_images) {
+            $postID = ($post->ID);
+            echo '<a href="'.$attached_images.'"data-gallery="#blueimp-gallery-'.$postID.'_mob"></a>';
             } ?>
 
         <?php } ?>
