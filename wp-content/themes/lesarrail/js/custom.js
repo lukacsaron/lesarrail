@@ -63,7 +63,7 @@ function appearHome() {
          console.log("window is loaded");
         if (jQuery('body').hasClass('page-template-page-home') ) {
             var element = jQuery(".home-bottom");
-            TweenMax.to(element, 1, {marginTop:"-50px", ease:Power4.easeOut});
+            TweenMax.to(element, 1, {opacity:1,marginTop:"-50px", ease:Power4.easeOut});
         }
     });
 }

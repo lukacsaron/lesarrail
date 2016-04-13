@@ -8580,10 +8580,11 @@ a:active {
       padding: 10px 15px;
       transition: all .15s ease-out; }
     .navbar-fixed-top.scrolled .navbar-brand {
-      height: 40px;
+      overflow: hidden;
+      height: 30px;
+      margin-top: 2px;
       padding: 10px 15px;
-      transition: all .15s ease-out;
-      margin-top: 0; }
+      transition: all .15s ease-out; }
 
 .usp-label {
   font-size: 12px;
@@ -8696,10 +8697,9 @@ a:active {
         font-size: 28px; } }
 
 .page-template-page-home .home-bottom {
-  position: absolute;
-  width: 100%;
   color: #fff;
-  margin-top: 20px; }
+  margin-top: 20px;
+  opacity: 0; }
   @media (max-width: 768px) {
     .page-template-page-home .home-bottom {
       display: none; } }
@@ -8709,7 +8709,8 @@ a:active {
   .page-template-page-home .home-bottom .copyright {
     width: 109px;
     display: block;
-    text-align: right; }
+    text-align: right;
+    float: right; }
   .page-template-page-home .home-bottom #subscribe {
     float: right; }
   .page-template-page-home .home-bottom #contact-home {
@@ -8940,13 +8941,23 @@ a:active {
 #wrapper-footer {
   background: #002e4d;
   color: #fff; }
+  #wrapper-footer #mc_embed_signup {
+    margin-top: 0px !important; }
 
 .site-info {
   font-weight: 300;
   font-size: 11px; }
-  .site-info .subscribe {
-    width: 142px; }
-  .site-info .submit {
+  .site-info #mc_embed_signup {
+    display: block;
+    margin-top: 15px; }
+  .site-info #mce-EMAIL {
+    width: 170px;
+    border: none;
+    height: 21px;
+    font-size: 11px;
+    padding: 0 5px;
+    color: #002e4d; }
+  .site-info #mc-embedded-subscribe {
     border-radius: 0;
     height: 21px;
     padding: 0 6px;
@@ -8954,16 +8965,27 @@ a:active {
     background: #fff;
     color: #002e4d; }
 
-@media (max-width: 1024px) {
-  .footer-socials {
-    margin-bottom: 15px; } }
+.footer-socials {
+  z-index: 10; }
+  @media (max-width: 1025px) {
+    .footer-socials {
+      margin-bottom: 15px; } }
+  .footer-socials a {
+    color: #fff;
+    font-size: 22px;
+    padding: 2px; }
 
-.footer-socials a {
-  color: #fff;
-  font-size: 22px;
-  padding: 2px; }
+.footer-form {
+  margin-top: -9px; }
+  @media (min-width: 1024px) and (max-width: 1150px) {
+    .footer-form {
+      left: 10%; } }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
+  .copyright {
+    bottom: 0; } }
+
+@media (max-width: 768px) {
   .copyright {
     bottom: -75px;
     position: absolute;

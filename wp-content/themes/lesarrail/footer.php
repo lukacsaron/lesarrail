@@ -23,21 +23,36 @@
                     <div class="site-info">
                         <div class="col-md-5 col-xs-6 footer-contacts nopadding">
                             <div class="col-md-5 col-md-push-4 footer-socials">
-                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/Le-Sarrail-593654507463494/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/lesarrail" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/le_sarrail/" target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
                             <div class="col-md-6 col-md-pull-5">
                                 <span>T: 0738370507</span><br>
                                 <span>E: info@lesarrail.com</span>
                             </div>
                         </div>
-                        <div class="col-md-3 col-md-push-2 hide-sm">
+                        <div class="col-md-4 col-md-push-2 hide-sm footer-form">
                             <span>Sign up to our newsletter for special offers</span><br>
-                            <input class="subscribe" type="text" placeholder="enter your email address">
-                            <input type="button" class="submit btn btn-sm" value="SUBSCRIBE" placeholder="SUBSCRIBE" id="submit"> 
+                            <!-- Begin MailChimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                <form action="//lesarrail.us10.list-manage.com/subscribe/post?u=8b5b47c0a55160921b20a398f&amp;id=7cfd841a3a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group">
+                                    <input type="email" value="" placeholder="enter your email address" name="EMAIL" class="required email" id="mce-EMAIL">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn">
+                                </div>
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8b5b47c0a55160921b20a398f_7cfd841a3a" tabindex="-1" value=""></div>
+                                    </div>
+                                </form>
+                                </div>
+                        <!--End mc_embed_signup-->
                         </div>
-                        <div class="col-xs-6 col-md-2 col-md-push-2">
+                        <div class="col-xs-6 col-md-2 col-md-push-1">
                             <span class="copyright">© 2016 Le Sarrail All Rights Reserved</span>
                         </div>
                     </div><!-- .site-info -->
