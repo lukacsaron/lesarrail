@@ -141,7 +141,7 @@ a {
 }
 
 .hide-desktop {
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
         display: none;
     }
 }
@@ -152,6 +152,12 @@ a {
 
 .mobile-nopadding {
     @media (max-width: 1024px) {
+        padding:0;
+    }
+}
+
+.small-nopadding {
+    @media (max-width: 768px) {
         padding:0;
     }
 }
@@ -223,6 +229,9 @@ a {
             padding: 0 30px;
         }
     }
+    @media (max-width: 768px) {
+        min-height: 300px;
+    }
 }
 
 .page-template-page-accomodation {
@@ -235,16 +244,25 @@ a {
     .primary-container {
         margin-top: 0px !important;
         opacity: 1 !important;
+        @media (max-width: 768px) {
+                padding-top: 8px !important;
+        }
         .apartment {
             overflow: hidden;
             transition: all .5s ease-out;
             height: 380px;
             @media (max-width: 1024px) {
                 height: 550px;
+                .entry-title {
+                    font-size: 21px;
+                }
             }
             &.closed {
             height: 26px !important;
             transition: all .5s ease-out;
+                @media (max-width: 768px) {
+                    height: 37px !important;
+                }
             }
         }   
     }
@@ -256,6 +274,7 @@ a {
     .hide-mobile {
         .btn-transparent {
             margin-top: -50px;
+            padding: 5px 0px;
         }
     }
 }
@@ -273,6 +292,9 @@ a {
             right: 0;
             margin-right: -130%;
             opacity: 0;
+            @media (min-width: 768px) and (max-width: 1025px) {
+                margin-right: -95%;
+            }
         }
     }
     .primary-container {
@@ -298,6 +320,10 @@ a {
                 font-size: 11px;
                 @media (max-width: 1024px) {
                         margin-bottom: 15px;
+                    }
+                @media (max-width: 768px) {
+                        margin-top: 0;
+                        display: block;
                     }
             }
             .entry-content {
@@ -569,7 +595,7 @@ a {
                     width: 50%;
                     margin-top: 20px;
                     @media (max-width: 768px) {
-                        width: 80%;
+                        width: 55%;
                         margin-top: 0;
                     }
                 }
@@ -705,6 +731,10 @@ a {
             overflow: hidden;
             height: auto;
             margin-bottom: 30px;
+            @media (max-width: 768px) {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
             &:nth-child(1), &:nth-child(2) {
                 padding-left: 0;
             }
@@ -773,9 +803,9 @@ a {
 
 .page-template-page-home {
     #map-container {
-        height: 650px !important;
-        @media (min-width: 768px) {
-            height: 400px;
+        height: 650px;
+        @media (max-width: 768px) {
+            height: auto;
         }
     }
 }
@@ -819,6 +849,7 @@ a {
     margin-left: -20px;
     margin-top: -9px;
     cursor: pointer;
+    z-index: 14;
 }
 
 .btn-callout {
@@ -841,6 +872,7 @@ a {
     color: #fff;
     background: rgba(0, 46, 77, 0.3);
     border: 1px solid #fff;
+    padding: 5px 0px;
     &:hover, &:active {
         color: #fff;
         border: 1px solid #fff;
@@ -920,6 +952,9 @@ a {
     .site-info {
         font-weight: 300;
         font-size: 11px;
+        a {
+            color: #fff;
+        }
         #mc_embed_signup {
             display: block;
             margin-top: 15px;

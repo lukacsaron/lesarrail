@@ -52,7 +52,7 @@
                                 </div>
                         <!--End mc_embed_signup-->
                         </div>
-                        <div class="col-xs-6 col-md-2 col-md-push-1">
+                        <div class="col-xs-6 col-md-2 col-md-push-5 col-lg-2 col-lg-push-1">
                             <span class="copyright">© 2016 Le Sarrail All Rights Reserved</span>
                         </div>
                     </div><!-- .site-info -->

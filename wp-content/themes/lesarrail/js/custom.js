@@ -21,6 +21,7 @@ function areaMaxHeight() {
     if (jQuery('body').hasClass('page-template-page-area') ) {
         var safezone = 80;
         if ($isMobile.matches) {
+            
         }
         else {
             jQuery('#page-wrapper').css({'height': $vph - safezone + 'px'});
@@ -110,7 +111,17 @@ function appearHomeContent() {
 
 function ifHome() {
     if (jQuery('body').hasClass('page-template-page-home') ) {
-        var safezone = 80;
+        if ($isMobile.matches) {
+            var safezone = 80;
+            var width_slide = jQuery("#slideshow").width();
+            var height_slide = width_slide / 1.66;
+            jQuery("#slideshow").css({'min-height': height_slide + 'px'});
+            jQuery("#slideshow").css({'max-height': height_slide + 'px'});
+        }
+        else {
+           var safezone = 80; 
+        }
+        
         jQuery('#slideshow').css({'height': $vph - safezone + 'px'});
         jQuery('.page-link .apartment').css({'width': $lch + 'px'});
     }
@@ -184,6 +195,8 @@ jQuery(window).resize(function(){
     ifHome();
     resizeContent();
     areaMaxHeight();
+    setFeatureHeight();
+    setContentHeight();
     wrapperMaxHeight();
 });
 

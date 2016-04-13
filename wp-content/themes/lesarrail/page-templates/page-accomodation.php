@@ -25,11 +25,12 @@ get_header(); ?>
                                     <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>
                                 </div>
                             </div>
-                            <div class="col-md-5 primary-container">
+                            <div class="col-md-6 col-lg-5 primary-container">
                                 <div class="opener-btn opener"></div>
 							     <?php   $apartment_size = get_post_meta($post->ID, "wpcf-apartment-size", false);
                             $bedrooms = get_post_meta($post->ID, "wpcf-wpcf-bedrooms", false);
                             $book_btn = get_post_meta($post->ID, "wpcf-book-btn", false);
+                            $contact_btn = get_post_meta($post->ID, "wpcf-contact-btn", false);
                             $season_01 = get_post_meta($post->ID, "wpcf-season_01", false);
                             $season_02 = get_post_meta($post->ID, "wpcf-season_02", false);
                             $season_03 = get_post_meta($post->ID, "wpcf-season_03", false);
@@ -44,7 +45,7 @@ get_header(); ?>
 
                             <header class="entry-header">
                                 <?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
-                                <span class="can-accomodate">(Can accomodate up to <?php echo $apartment_size[0]; ?>)</span>
+                                <span class="can-accomodate">(Can accommodate up to <?php echo $apartment_size[0]; ?>)</span>
                             </header><!-- .entry-header -->
 
                             <div class="entry-content">
@@ -84,9 +85,13 @@ get_header(); ?>
                                         <span class="details"><?php echo $offer_details[0]; ?></span>
                                     </div>
                                 </div>
-                                <div id="callouts" class="col-sm-12 col-md-6 mobile-nopadding">
-                                    <button class="btn btn-default btn-callout col-sm-6 col-md-12">Contact the owner</button>
-                                    <button class="btn btn-default btn-callout col-sm-6 col-md-12">Book online</button>
+                                <div id="callouts" class="col-sm-12 col-md-6 small-nopadding">
+                                    <a href="<?php echo $contact_btn[0]; ?>">
+                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12">Contact the owner</button>
+                                    </a>
+                                    <a href="<?php echo $book_btn[0]; ?>" target="_blank">
+                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12">Book online</button>
+                                    </a>
                                 </div>
                             </div><!-- .entry-content -->
 
