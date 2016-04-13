@@ -79,10 +79,10 @@ function setContentHeight() {
             var height = $(this).height();
             $content_heights.push(height);
             if ($isMobile.matches) {
-                $(this).parent().css({'height': height + 100 + 'px'});
+                $(this).parent().css({'height': height + 70 + 'px'});
             }
             else {
-                $(this).parent().css({'height': height + 90 + 'px'});
+                $(this).parent().css({'height': height + 50 + 'px'});
             }
         });
     }
@@ -93,6 +93,7 @@ function appearHome() {
     jQuery(window).on("load", function() {
          console.log("window is loaded");
          setFeatureHeight();
+         setContentHeight();
         if (jQuery('body').hasClass('page-template-page-home') ) {
             var element = jQuery(".home-bottom");
             TweenMax.to(element, 1, {opacity:1,marginTop:"-50px", ease:Power4.easeOut});
@@ -170,7 +171,6 @@ jQuery(document).ready(function() {
     slideshow_start();
     appearHome();
     appearBox();
-    setContentHeight();
     initialize();
 });
 
