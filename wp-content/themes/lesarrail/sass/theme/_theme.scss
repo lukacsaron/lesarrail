@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6,
     text-transform: uppercase;
 }
 
-.page-template-fullwidthpage {
+.page-template-fullwidthpage, .page-template-page-testimonials {
     #page-wrapper {
         @media (max-width: 768px) {
             padding-top: 60px;
@@ -195,7 +195,7 @@ a {
 }
 
 // SINGLE PAGE
-.page-template-fullwidthpage {
+.page-template-fullwidthpage, .page-template-page-testimonials {
     background: #fff;
     #wrapper-footer {
         
@@ -291,7 +291,6 @@ a {
             width: 160px;
             right: 0;
             margin-right: -130%;
-            opacity: 0;
             @media (min-width: 768px) and (max-width: 1025px) {
                 margin-right: -95%;
             }
@@ -766,18 +765,22 @@ a {
 // BRAND IDENT
 
 #brand-ident {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+    margin-top: 30px;
     .ident-container {
         min-height: 100px;
         .endorsement {
             display: block;
             text-align: center;
             margin: 0 auto;
+            font-weight: 300;
+            font-size: 14px;
+            font-style: italic;
         }
         .endorser {
             width: 120px;
             position: absolute;
-            bottom: -40px;
+            bottom: -50px;
             left: 0;
             right: 0;
             margin: 0 auto;
@@ -855,9 +858,18 @@ a {
     z-index: 14;
 }
 
+#callouts {
+    a {
+        &:nth-child(2) {
+            button {
+                margin-top:8px;
+            }
+        }
+    }
+}
+
 .btn-callout {
     width: 100%;
-    margin-top: 8px;
     padding: 5px 0;
     text-transform: uppercase;
     font-weight: 600;

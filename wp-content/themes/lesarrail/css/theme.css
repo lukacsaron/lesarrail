@@ -8321,7 +8321,7 @@ h1, h2, h3, h4, h5, h6,
   text-transform: uppercase; }
 
 @media (max-width: 768px) {
-  .page-template-fullwidthpage #page-wrapper {
+  .page-template-fullwidthpage #page-wrapper, .page-template-page-testimonials #page-wrapper {
     padding-top: 60px; } }
 
 @media (max-width: 1024px) {
@@ -8428,16 +8428,16 @@ a:active {
   background-repeat: no-repeat;
   cursor: pointer; }
 
-.page-template-fullwidthpage {
+.page-template-fullwidthpage, .page-template-page-testimonials {
   background: #fff; }
-  .page-template-fullwidthpage #primary {
+  .page-template-fullwidthpage #primary, .page-template-page-testimonials #primary {
     background: #fff;
     padding: 15px;
     margin-top: -15px;
     opacity: 0; }
-    .page-template-fullwidthpage #primary .page .entry-title {
+    .page-template-fullwidthpage #primary .page .entry-title, .page-template-page-testimonials #primary .page .entry-title {
       margin-top: 0; }
-    .page-template-fullwidthpage #primary .page .entry-content {
+    .page-template-fullwidthpage #primary .page .entry-content, .page-template-page-testimonials #primary .page .entry-content {
       overflow-x: hidden; }
 
 .apartment-row {
@@ -8497,8 +8497,7 @@ a:active {
     position: absolute;
     width: 160px;
     right: 0;
-    margin-right: -130%;
-    opacity: 0; }
+    margin-right: -130%; }
     @media (min-width: 768px) and (max-width: 1025px) {
       .single-apartment .hide-mobile.gallery-btn-container, .page-template-page-accomodation .hide-mobile.gallery-btn-container {
         margin-right: -95%; } }
@@ -8850,17 +8849,21 @@ a:active {
       width: 100%; }
 
 #brand-ident {
-  margin-bottom: 30px; }
+  margin-bottom: 70px;
+  margin-top: 30px; }
   #brand-ident .ident-container {
     min-height: 100px; }
     #brand-ident .ident-container .endorsement {
       display: block;
       text-align: center;
-      margin: 0 auto; }
+      margin: 0 auto;
+      font-weight: 300;
+      font-size: 14px;
+      font-style: italic; }
     #brand-ident .ident-container .endorser {
       width: 120px;
       position: absolute;
-      bottom: -40px;
+      bottom: -50px;
       left: 0;
       right: 0;
       margin: 0 auto; }
@@ -8916,9 +8919,11 @@ a:active {
   cursor: pointer;
   z-index: 14; }
 
+#callouts a:nth-child(2) button {
+  margin-top: 8px; }
+
 .btn-callout {
   width: 100%;
-  margin-top: 8px;
   padding: 5px 0;
   text-transform: uppercase;
   font-weight: 600; }
