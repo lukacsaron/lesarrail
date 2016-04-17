@@ -107,7 +107,7 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>  
                         <?php $image = get_image_custom($post->ID, 'medium'); ?>
-                                    <a class="apartment" href="<?php the_permalink($accommodation); ?>">
+                                    <a class="apartment col-md-6" href="<?php the_permalink($accommodation); ?>">
                                         <div class="box-wrapper" style="background-image:url('<?php echo $image; ?>');">
                                             <h2 class="title transition"><?php echo get_the_title(); ?></h2>
                                         </div>
