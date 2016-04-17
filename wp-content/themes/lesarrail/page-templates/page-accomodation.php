@@ -52,6 +52,9 @@ get_header(); ?>
                                 <ul class="col-md-12 main-feature">
                                     <li class="feature-item"><?php echo $main_feature[0]; ?></li>
                                 </ul>
+                                <div class="apartment-desciption col-md-12">
+                                    <?php the_content(); ?>
+                                </div>
                                 <ul class="col-md-6 features">
                                     <?php
                                         $count = 0;
@@ -89,9 +92,19 @@ get_header(); ?>
                                     <a href="<?php echo $contact_btn[0]; ?>">
                                         <button class="btn btn-default btn-callout col-sm-6 col-md-12">Contact the owner</button>
                                     </a>
-                                    <a href="<?php echo $book_btn[0]; ?>" target="_blank">
-                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12">Book online</button>
-                                    </a>
+                                                             
+                                    <?php if ($book_btn[0]=="") { ?>
+
+                                        <!-- If there are no custom fields, show nothing -->
+
+                                    <?php } else { ?>
+                                    
+                                        <a href="<?php echo $book_btn[0]; ?>" target="_blank">
+                                            <button class="btn btn-default btn-callout col-sm-6 col-md-12">Book online</button>
+                                        </a>
+
+                                    <?php } ?>
+                                         
                                 </div>
                             </div><!-- .entry-content -->
 
