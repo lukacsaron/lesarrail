@@ -123,7 +123,7 @@ function ifHome() {
         }
         
         jQuery('#slideshow').css({'height': $vph - safezone + 'px'});
-        jQuery('.page-link .apartment').css({'width': $lch + 'px'});
+       // jQuery('.page-link .apartment').css({'width': $lch + 'px'});
     }
 }
 
@@ -175,7 +175,7 @@ jQuery(document).ready(function() {
 // ON READY
 jQuery(document).ready(function() {
     ifHome();
-    ApartmentSlide();
+  //  ApartmentSlide();
     resizeContent();
     wrapperMaxHeight();
     areaMaxHeight();
