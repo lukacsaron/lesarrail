@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>EmailAccountDescription</key>
+      <string>info@lesarrail.com</string>
+      <key>EmailAccountName</key>
+      <string>info@lesarrail.com</string>
+      <key>EmailAccountType</key>
+      <string>EmailTypeIMAP</string>
+      <key>EmailAddress</key>
+      <string>info@lesarrail.com</string>
+      <key>IncomingMailServerAuthentication</key>
+      <string>EmailAuthPassword</string>
+      <key>IncomingMailServerHostName</key>
+      <string>n1plcpnl0094.prod.ams1.secureserver.net</string>
+      <key>IncomingMailServerPortNumber</key>
+      <integer>993</integer>
+      <key>IncomingMailServerUseSSL</key>
+      <true/>
+      <key>IncomingMailServerUsername</key>
+      <string>info@lesarrail.com</string>
+      <key>OutgoingMailServerAuthentication</key>
+      <string>EmailAuthPassword</string>
+      <key>OutgoingMailServerHostName</key>
+      <string>n1plcpnl0094.prod.ams1.secureserver.net</string>
+      <key>OutgoingMailServerPortNumber</key>
+      <integer>465</integer>
+      <key>OutgoingMailServerUseSSL</key>
+      <true/>
+      <key>OutgoingMailServerUsername</key>
+      <string>info@lesarrail.com</string>
+      <key>OutgoingPasswordSameAsIncomingPassword</key>
+      <true/>
+      <key>PayloadDescription</key>
+      <string>info@lesarrail.com Secure Email Setup</string>
+      <key>PayloadDisplayName</key>
+      <string>info@lesarrail.com Secure Email Setup</string>
+      <key>PayloadIdentifier</key>
+      <string>cpanel.mail.org.info.lesarrail.com</string>
+      <key>PayloadOrganization</key>
+      <string>lesarrail.com</string>
+      <key>PayloadType</key>
+      <string>com.apple.mail.managed</string>
+      <key>PayloadUUID</key>
+      <string>ec989a5c-bcb1-4d61-aefc-fbcff329bb86</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PreventAppSheet</key>
+      <false/>
+      <key>PreventMove</key>
+      <false/>
+      <key>SMIMEEnabled</key>
+      <false/>
+    </dict>
+  </array>
+  <key>PayloadDescription</key>
+  <string>info@lesarrail.com Secure Email Setup</string>
+  <key>PayloadDisplayName</key>
+  <string>info@lesarrail.com Secure Email Setup</string>
+  <key>PayloadIdentifier</key>
+  <string>cpanel.mail.org.info.lesarrail.com</string>
+  <key>PayloadOrganization</key>
+  <string>cpanel.mail.org.info.lesarrail.com</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>b0a2f449-fda8-2b22-4980-cbbf9c5a85be</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
