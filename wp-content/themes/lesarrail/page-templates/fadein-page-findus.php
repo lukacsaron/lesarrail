@@ -29,10 +29,12 @@ get_header(); ?>
     
     
     <div  id="content" class="container">
+        
         <div class="row">
+            
             <div class="col-md-12">
         
-               <div id="primary" class="col-md-6 content-area">
+               <div id="primary" class="col-md-4 content-area">
 
                     <main id="main" class="site-main" role="main">
 
@@ -54,7 +56,7 @@ get_header(); ?>
                     </main><!-- #main -->
 
                 </div><!-- #primary -->
-                <div id="secondary" class="col-md-6">
+                <div id="secondary" class="col-md-8">
                     <div id="map"></div>
                 </div>
             </div>

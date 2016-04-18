@@ -52,7 +52,7 @@ get_header(); ?>
                                 <ul class="col-md-12 main-feature">
                                     <li class="feature-item"><?php echo $main_feature[0]; ?></li>
                                 </ul>
-                                <div class="apartment-desciption col-md-12">
+                                <div class="apartment-description col-md-12">
                                     <?php the_content(); ?>
                                 </div>
                                 <ul class="col-md-6 features">

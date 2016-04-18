@@ -45,12 +45,9 @@ get_header(); ?>
                         
                         <article id="post-<?php the_ID(); ?>" <?php post_class('closed'); ?>>
 
-                            <header class="entry-header">
-                                <?php the_title( '<h5 class="entry-title">', '</h5>' ); ?>
-                            </header><!-- .entry-header -->
-
                             <div class="entry-content">
                                 <?php the_content(); ?>
+                                <?php the_title( '<a class="entry-title">', '</a>' ); ?>
                             </div><!-- .entry-content -->
 
                             <footer class="entry-footer">

@@ -29,6 +29,7 @@
 <script>
 var infowindow = new google.maps.InfoWindow();
 var markers = [];
+var locations = [];
 function initialize() {
 	map = new google.maps.Map(document.getElementById('map'), { 
 		zoom: 10, 
