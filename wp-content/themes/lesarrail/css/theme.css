@@ -8492,6 +8492,11 @@ a:active {
   text-transform: uppercase;
   font-weight: bold; }
 
+.gallery-item {
+  margin: 7.5px;
+  height: 180px;
+  background-size: cover; }
+
 .single-apartment .hide-mobile .btn-transparent {
   margin-top: -50px;
   padding: 5px 0px; }

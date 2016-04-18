@@ -17,9 +17,6 @@ get_header(); ?>
             <div class="col-md-12">
         
            <div id="primary" class="col-md-12 content-area">
-               <header class="entry-header">
-                   <h4>GALLERY</h4>
-               </header>
 
                 <main id="main" class="site-main" role="main">
 
@@ -32,7 +29,7 @@ get_header(); ?>
     
     <div id="gallery">
        <?php foreach($attached_images as $attached_images) {
-            echo '<div class="gallery-item col-md-4" style="background-image:url('.$attached_images.');"></div>';
+            echo '<a href="'.$attached_images.'" data-gallery="#blueimp-gallery" class="gallery-item col-md-4" style="background-image:url('.$attached_images.');"></a>';
             } ?>
     </div>
 
