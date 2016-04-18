@@ -56,7 +56,7 @@ get_header(); ?>
                                     <?php the_content(); ?>
                                 </div>
                                  <ul class="col-md-6 features">
-                                    <?php
+                                  <!--  <?php
                                         $count = 0;
                                         foreach($features as $features) {
                                         $count ++;
@@ -64,7 +64,7 @@ get_header(); ?>
                                             if( $count == 4 ) {
                                                 echo '</ul><ul class="features_2 col-md-6">';
                                             }continue;
-                                    } ?>
+                                    } ?> -->
                                 </ul>
                                 <div id="rates" class="col-md-6">
                                     <h5>RATES</h5>

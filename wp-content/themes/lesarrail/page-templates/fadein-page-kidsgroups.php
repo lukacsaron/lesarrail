@@ -58,9 +58,9 @@ get_header(); ?>
 
                 </div><!-- #primary -->
                 <div id="secondary">
-                    <h2><?php echo $second_title; ?></h2>
+                    <h2><?php echo $second_title[0]; ?></h2>
                     <div>
-                       <?php echo $second_content; ?> 
+                       <?php echo $second_content[0]; ?> 
                     </div>
                 </div>
                 

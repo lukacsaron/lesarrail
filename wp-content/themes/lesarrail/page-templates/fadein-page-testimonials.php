@@ -11,37 +11,20 @@ get_header(); ?>
 
 <div class="wrapper" id="page-wrapper">
     
-
-    <?php $attached_images = get_post_meta($post->ID, "wpcf-gallery-item", false);
-        if ($attached_images[0]=="") { ?>
-
-        <!-- If there are no custom fields, show nothing -->
-
-        <?php } else { ?>
-    
-    <div id="slideshow">
-       <?php foreach($attached_images as $attached_images) {
-            echo '<div class="slideshow-item" style="background-image:url('.$attached_images.');"></div>';
-            } ?>
-    </div>
-
-        <?php } ?>
-    
-    
     <div  id="content" class="container">
         <div class="row">
             <div class="col-md-12">
         
-           <div id="primary" class="col-md-6 content-area">
+           <div id="primary" class="col-md-12 content-area">
                <header class="entry-header">
                    <h4>With a return guest rate of 75% here's what they say.....</h4>
                </header>
 
                 <main id="main" class="site-main" role="main">
-
+                    <div class="col-md-6">
                     <?php $args = array( 'post_type' => 'testimonial', 'posts_per_page' => 30 );
               $loop = new WP_Query( $args );
-        
+              $count = 0;
             while ( $loop->have_posts() ) : $loop->the_post(); ?> 
         
                                 
@@ -61,11 +44,14 @@ get_header(); ?>
                             </div>
                         </article><!-- #post-## -->
                         <hr>
+                    <?php if( $count == 12 ) {
+                        echo '</div><div class="col-md-6">';
+                    } continue; ?>
                                 
                                 
                                        
-				<?php endwhile; ?>
-
+				<?php $count ++; endwhile; ?>
+                    </div>
                 </main><!-- #main -->
 
             </div><!-- #primary -->
