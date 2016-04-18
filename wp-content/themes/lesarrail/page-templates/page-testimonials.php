@@ -25,7 +25,7 @@ get_header(); ?>
                     <?php $args = array( 'post_type' => 'testimonial', 'posts_per_page' => 30 );
               $loop = new WP_Query( $args );
               $count = 0;
-            while ( $loop->have_posts() ) : $loop->the_post(); ?> 
+            while ( $loop->have_posts() ) : $loop->the_post(); $count ++; ?> 
         
                                 
                         
@@ -43,19 +43,18 @@ get_header(); ?>
             
                             </div>
                         </article><!-- #post-## -->
-                        <hr>
                     <?php if( $count == 12 ) {
                         echo '</div><div class="col-md-6">';
                     } continue; ?>
                                 
                                 
                                        
-				<?php $count ++; endwhile; ?>
+				<?php endwhile; ?>
                     </div>
                 </main><!-- #main -->
 
             </div><!-- #primary -->
-                </div>
+            </div>
         </div>
         
     </div><!-- Container end -->

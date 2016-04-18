@@ -8854,6 +8854,15 @@ a:active {
       padding: 0;
       width: 100%; } }
 
+.template_fadein-page-testimonials .entry-header {
+  padding-left: 15px;
+  margin-bottom: 30px; }
+
+.template_fadein-page-testimonials article {
+  margin-bottom: 15px; }
+  .template_fadein-page-testimonials article .entry-content p {
+    margin: 0; }
+
 #insta {
   margin-left: auto;
   margin-right: auto; }

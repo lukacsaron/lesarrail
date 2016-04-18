@@ -772,6 +772,23 @@ a {
     }
 }
 
+// TESTIMONIALS
+
+.template_fadein-page-testimonials {
+    .entry-header {
+                padding-left: 15px;
+                margin-bottom: 30px;
+            }
+    article {
+        margin-bottom: 15px;
+        .entry-content {
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+
 // INSTA
 #insta {
     margin-left: auto;
