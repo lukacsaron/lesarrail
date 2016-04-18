@@ -93,7 +93,7 @@ function setContentHeight() {
 jQuery(document).ready(function() {
     jQuery('.apartment-description').readmore({
         speed: 75,
-        collapsedHeight: 40
+        collapsedHeight: 110,
     });
 });
 
@@ -165,6 +165,21 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
     if (jQuery('body').hasClass('page-template-page-home') ) {
     var links = document.getElementById('brand-ident').getElementsByTagName('a'),
+    options = {
+        // Start an automatic slideshow with a delay of 5 seconds between slides:
+                 interval: 5000,
+        // Set to true to initialize the Gallery with carousel specific options:
+                  carousel: false,
+                controlsClass: 'blueimp-gallery-controls',
+                singleClass: 'blueimp-gallery-single',                  
+                leftEdgeClass: 'blueimp-gallery-left',
+                rightEdgeClass: 'blueimp-gallery-right',
+                enableKeyboardNavigation: true,
+                closeOnEscape: true,
+                   }
+    }
+    if (jQuery('body').hasClass('fadein') ) {
+    var links = jQuery("a[rel^=attachment]"),
     options = {
         // Start an automatic slideshow with a delay of 5 seconds between slides:
                  interval: 5000,

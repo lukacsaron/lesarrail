@@ -55,7 +55,7 @@ get_header(); ?>
                                 <div class="apartment-description col-md-12">
                                     <?php the_content(); ?>
                                 </div>
-                                <ul class="col-md-6 features">
+                                 <ul class="col-md-6 features">
                                     <?php
                                         $count = 0;
                                         foreach($features as $features) {
