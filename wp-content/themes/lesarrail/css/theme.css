@@ -8428,16 +8428,16 @@ a:active {
   background-repeat: no-repeat;
   cursor: pointer; }
 
-.page-template-fullwidthpage, .page-template-page-testimonials {
+.fadein {
   background: #fff; }
-  .page-template-fullwidthpage #primary, .page-template-page-testimonials #primary {
+  .fadein #primary {
     background: #fff;
     padding: 15px;
     margin-top: -15px;
     opacity: 0; }
-    .page-template-fullwidthpage #primary .page .entry-title, .page-template-page-testimonials #primary .page .entry-title {
+    .fadein #primary .page .entry-title {
       margin-top: 0; }
-    .page-template-fullwidthpage #primary .page .entry-content, .page-template-page-testimonials #primary .page .entry-content {
+    .fadein #primary .page .entry-content {
       overflow-x: hidden; }
 
 .apartment-row {
@@ -8576,7 +8576,7 @@ a:active {
   font-weight: 800;
   letter-spacing: 3px;
   font-size: 22px;
-  margin-top: -3px; }
+  margin-top: -8px; }
 
 .navbar-fixed-top {
   background: #fff; }

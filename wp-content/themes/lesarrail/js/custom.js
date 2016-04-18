@@ -3,7 +3,7 @@ $lch = jQuery(".activity-featured").width();
 $isMobile = window.matchMedia("only screen and (max-width: 768px)");
 
 function resizeContent() {
-    if (jQuery('body').hasClass('page-template-fullwidthpage') ) {
+    if (jQuery('body').hasClass('fadein') ) {
         var safezone = 220;
         var currentsize = jQuery('#primary').height;
         jQuery('.entry-content').css({'max-height': $vph - safezone + 'px'});
@@ -11,7 +11,7 @@ function resizeContent() {
 }
 
 function wrapperMaxHeight() {
-    if (jQuery('body').hasClass('page-template-fullwidthpage') ) {
+    if (jQuery('body').hasClass('fadein') ) {
         var safezone = 80;
         jQuery('#page-wrapper').css({'height': $vph - safezone + 'px'});
     }
@@ -54,7 +54,7 @@ function ApartmentSlide() {
 
 function appearBox() {
     jQuery(window).on("load", function() {
-        if (jQuery('body').hasClass('page-template-fullwidthpage') || jQuery('body').hasClass('single-apartment')) {
+        if (jQuery('body').hasClass('fadein')) {
             console.log("window is loaded");
             var box = document.getElementById("primary");
             TweenMax.to(box, 1, {marginTop:"0px", opacity:"1", ease:Power4.easeOut});
