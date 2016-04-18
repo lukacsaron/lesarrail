@@ -29,7 +29,7 @@ get_header(); ?>
     
     <div id="gallery">
        <?php foreach($attached_images as $attached_images) {
-            echo '<a href="'.$attached_images.'" data-gallery="#blueimp-gallery" class="gallery-item col-md-4" style="background-image:url('.$attached_images.');"></a>';
+            echo '<a data-gallery="#blueimp-gallery" class="gallery-item col-md-4" href="'.$attached_images.'"><img src="'.$attached_images.'" width="100%"> </a>';
             } ?>
     </div>
 

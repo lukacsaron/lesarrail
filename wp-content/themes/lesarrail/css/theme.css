@@ -8493,9 +8493,13 @@ a:active {
   font-weight: bold; }
 
 .gallery-item {
-  margin: 7.5px;
   height: 180px;
-  background-size: cover; }
+  overflow: hidden;
+  display: block;
+  margin-bottom: 15px; }
+  .gallery-item img {
+    width: 110%;
+    min-height: 100%; }
 
 .single-apartment .hide-mobile .btn-transparent {
   margin-top: -50px;

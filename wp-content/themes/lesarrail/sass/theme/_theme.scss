@@ -284,9 +284,14 @@ a {
 // APARTMENT SINGLE
 
 .gallery-item {
-    margin: 7.5px;
     height: 180px;
-    background-size: cover;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 15px;
+    img {
+        width:110%;
+        min-height: 100%;
+    }
 }
 
 .single-apartment {
