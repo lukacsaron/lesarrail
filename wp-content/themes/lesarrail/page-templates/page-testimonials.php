@@ -42,7 +42,9 @@ get_header(); ?>
                             <div>
             
                             </div>
+                        
                         </article><!-- #post-## -->
+                        
                     <?php if( $count == 12 ) {
                         echo '</div><div class="col-md-6">';
                     } continue; ?>

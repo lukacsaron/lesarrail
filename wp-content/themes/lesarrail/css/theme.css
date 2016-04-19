@@ -8438,7 +8438,8 @@ a:active {
     .fadein #primary .page .entry-title {
       margin-top: 0; }
     .fadein #primary .page .entry-content {
-      overflow-x: hidden; }
+      overflow-x: hidden;
+      font-weight: 300; }
 
 .apartment-row {
   min-height: 525px;
@@ -8496,7 +8497,8 @@ a:active {
   height: 180px;
   overflow: hidden;
   display: block;
-  margin-bottom: 15px; }
+  background-size: cover;
+  border: 5px solid white; }
   .gallery-item img {
     width: 110%;
     min-height: 100%; }
@@ -8545,7 +8547,8 @@ a:active {
           margin-top: 0;
           display: block; } }
     .single-apartment .primary-container .apartment .entry-content, .page-template-page-accomodation .primary-container .apartment .entry-content {
-      overflow-x: hidden; }
+      overflow-x: hidden;
+      font-weight: 300; }
       .single-apartment .primary-container .apartment .entry-content .main-feature, .page-template-page-accomodation .primary-container .apartment .entry-content .main-feature {
         padding-left: 18px;
         font-weight: 600; }
@@ -8580,6 +8583,16 @@ a:active {
         .single-apartment .primary-container .apartment .entry-content #offer .offer-wrapper .details, .page-template-page-accomodation .primary-container .apartment .entry-content #offer .offer-wrapper .details {
           font-weight: 300; }
 
+.gallery-item img.wide {
+  height: 140%;
+  position: absolute;
+  bottom: 0; }
+
+.gallery-item img.tall {
+  width: 180%;
+  position: absolute;
+  bottom: inherit; }
+
 #nav-spacer {
   position: relative;
   margin-bottom: 80px;
@@ -8613,7 +8626,7 @@ a:active {
   .navbar-fixed-top.scrolled {
     min-height: 40px; }
     .navbar-fixed-top.scrolled .menu-item a {
-      padding: 10px 15px;
+      padding: 10px 10px;
       transition: all .15s ease-out; }
     .navbar-fixed-top.scrolled .navbar-brand {
       overflow: hidden;
@@ -8854,13 +8867,13 @@ a:active {
       padding: 0;
       width: 100%; } }
 
-.template_fadein-page-testimonials .entry-header {
+.page-template-page-testimonials .entry-header {
   padding-left: 15px;
   margin-bottom: 30px; }
 
-.template_fadein-page-testimonials article {
-  margin-bottom: 15px; }
-  .template_fadein-page-testimonials article .entry-content p {
+.page-template-page-testimonials article {
+  margin-bottom: 30px; }
+  .page-template-page-testimonials article .entry-content p {
     margin: 0; }
 
 #insta {
@@ -8999,6 +9012,10 @@ a:active {
     color: #fff;
     border: 1px solid #fff;
     background: rgba(0, 46, 77, 0.6); }
+
+.nav > li > a {
+  padding-right: 10px;
+  padding-left: 10px; }
 
 .site-navigation .navbar {
   border: none;

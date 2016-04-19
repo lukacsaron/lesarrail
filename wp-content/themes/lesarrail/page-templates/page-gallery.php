@@ -26,14 +26,51 @@ get_header(); ?>
         <!-- If there are no custom fields, show nothing -->
 
         <?php } else { ?>
-    
+        <?php $count = 0; ?>
     <div id="gallery">
        <?php foreach($attached_images as $attached_images) {
-            echo '<a data-gallery="#blueimp-gallery" class="gallery-item col-md-4" href="'.$attached_images.'"><img src="'.$attached_images.'" width="100%"> </a>';
-            } ?>
+             $count ++;
+            
+             if( $count == 1 ) {
+                        echo '<a data-gallery="#blueimp-gallery" class="gallery-item col-xs-6 col-sm-6 col-md-4 col-lg-2" href="'.$attached_images.'" style="background-image:url('.$attached_images.');"></a>';
+                    } 
+            
+            if( $count == 2 ) {
+                        echo '<a data-gallery="#blueimp-gallery" class="gallery-item col-xs-6 col-sm-6 col-md-4 col-lg-3" href="'.$attached_images.'" style="background-image:url('.$attached_images.');"></a>';
+                    } 
+            
+            if( $count == 3 ) {
+                        echo '<a data-gallery="#blueimp-gallery" class="gallery-item col-xs-6 col-sm-6 col-md-4 col-lg-4" href="'.$attached_images.'" style="background-image:url('.$attached_images.');"></a>';
+                    } 
+            
+            
+            if( $count == 4 ) {
+                        echo '<a data-gallery="#blueimp-gallery" class="gallery-item col-xs-6 col-sm-6 col-md-4 col-lg-3" href="'.$attached_images.'" style="background-image:url('.$attached_images.');"></a>';
+                    } 
+            
+            if( $count == 5 ) {
+                        echo '<a data-gallery="#blueimp-gallery" class="gallery-item col-xs-6 col-sm-6 col-md-4 col-lg-4" href="'.$attached_images.'" style="background-image:url('.$attached_images.');"></a>';
+                    } 
+            
+            if( $count == 6 ) {
+                        echo '<a data-gallery="#blueimp-gallery" class="gallery-item col-xs-6 col-sm-6 col-md-4 col-lg-3" href="'.$attached_images.'" style="background-image:url('.$attached_images.');"></a>';
+                    } 
+            
+            if( $count == 7 ) {
+                        echo '<a data-gallery="#blueimp-gallery" class="gallery-item col-xs-6 col-sm-6 col-md-4 col-lg-3" href="'.$attached_images.'" style="background-image:url('.$attached_images.');"></a>';
+                    } 
+            
+            if( $count == 8 ) {
+                        $count = 0;
+                        echo '<a data-gallery="#blueimp-gallery" class="gallery-item col-xs-6 col-sm-6 col-md-4 col-lg-2" href="'.$attached_images.'" style="background-image:url('.$attached_images.');"></a>';
+                    } continue; 
+            
+
+        ?>
+            
     </div>
 
-        <?php } ?>
+        <?php } } ?>
 
                 </main><!-- #main -->
 

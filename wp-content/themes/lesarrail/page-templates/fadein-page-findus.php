@@ -36,11 +36,34 @@ get_header(); ?>
         
                <div id="primary" class="col-md-4 content-area">
 
-                    <main id="main" class="site-main" role="main">
+                    <main id="main" class="site-main" role="main"> 
 
                         <?php while ( have_posts() ) : the_post(); ?>
 
-                            <?php get_template_part( 'loop-templates/content', 'page' ); ?>
+                            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+
+                                <div class="entry-content">
+
+                                    <?php the_content(); ?>
+
+                                    <?php
+                                        wp_link_pages( array(
+                                            'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
+                                            'after'  => '</div>',
+                                        ) );
+                                    ?>
+
+                                </div><!-- .entry-content -->
+
+                                <footer class="entry-footer">
+
+                                    <?php edit_post_link( __( 'Edit', 'understrap' ), '<span class="edit-link">', '</span>' ); ?>
+
+                                </footer><!-- .entry-footer -->
+
+                            </article><!-- #post-## -->
+
 
                             <?php
                                 // If comments are open or we have at least one comment, load up the comment template
