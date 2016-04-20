@@ -196,7 +196,7 @@ get_header(); ?>
                                             <div class="poi-image"><img src="<?php echo $img; ?>"></div>
                                             <?php } ?>
                                             <!-- <?php the_content(); ?>  -->
-                                            <div>
+                                            <div class="poi-det-cont">
                                             <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
