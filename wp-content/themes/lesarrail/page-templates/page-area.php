@@ -78,7 +78,7 @@ get_header(); ?>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
                                             <?php if ( has_post_thumbnail() ) { ?>
-                                            <div class="poi-image"><img src="<?php echo $img; ?>"></div>
+                                                <div class="poi-image"><img src="<?php echo $img; ?>"></div>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <!-- <?php the_content(); ?>  -->
