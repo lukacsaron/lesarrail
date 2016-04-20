@@ -8320,8 +8320,9 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   text-transform: uppercase; }
 
-.page-template-page-area #page-wrapper {
-  height: auto !important; }
+@media (max-width: 1025py) {
+  .page-template-page-area #page-wrapper {
+    height: auto !important; } }
 
 @media (max-width: 768px) {
   .page-template-fullwidthpage #page-wrapper, .page-template-page-testimonials #page-wrapper {
