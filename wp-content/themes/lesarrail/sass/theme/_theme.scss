@@ -153,6 +153,7 @@ a {
 .desktop-nopadding {
     @media (min-width: 768px) {
     padding: 0;
+    }
 }
 
 .mobile-nopadding {
@@ -198,6 +199,24 @@ a {
     background-repeat: no-repeat;
     cursor: pointer;
 }
+// PUBLICITY
+    
+    .publi-block {
+            float: left;
+            display: inline-block;
+            margin-right: 30px;
+            margin-bottom: 60px;
+        .publi-title {
+            color: #fff;
+            background: #002e4d;
+            padding: 10px 15px;
+            width: auto;
+            display: block;
+            float: left;
+            margin-bottom: 15px;
+
+        }
+    }
 
 // SINGLE PAGE
 .fadein {

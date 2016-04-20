@@ -8388,6 +8388,10 @@ a:active {
 .nopadding {
   padding: 0; }
 
+@media (min-width: 768px) {
+  .desktop-nopadding {
+    padding: 0; } }
+
 @media (max-width: 1024px) {
   .mobile-nopadding {
     padding: 0; } }
@@ -8427,6 +8431,20 @@ a:active {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoAQMAAABZ8kEQAAAABlBMVEUAAAAAL02/FryPAAAAAXRSTlMAQObYZgAAACJJREFUGNNj+A8CDQwNDEBAFsVBDcr+/38oj0oU2T6CBggAaWcz3PAxKt4AAAAASUVORK5CYII=");
   background-repeat: no-repeat;
   cursor: pointer; }
+
+.publi-block {
+  float: left;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 60px; }
+  .publi-block .publi-title {
+    color: #fff;
+    background: #002e4d;
+    padding: 10px 15px;
+    width: auto;
+    display: block;
+    float: left;
+    margin-bottom: 15px; }
 
 .fadein {
   background: #fff; }
