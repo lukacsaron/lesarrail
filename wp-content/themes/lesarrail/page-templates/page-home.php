@@ -225,6 +225,7 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
