@@ -52,6 +52,12 @@ h1, h2, h3, h4, h5, h6,
     text-transform: uppercase;
 }
 
+.page-template-page-area {
+    #page-wrapper {
+        height: auto !important;
+    }
+}
+
 .page-template-fullwidthpage, .page-template-page-testimonials {
     #page-wrapper {
         @media (max-width: 768px) {
@@ -302,6 +308,8 @@ a {
 .apartment-description {
 
 }
+
+.apartment-description:after {content: "";display: block;position: absolute;height: 30px;width: 100%;bottom: 0;background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAUCAYAAACnOeyiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEZJREFUeNpi+v//PxMQM7IwMDBwADEDiMEFxP9BDG6YCC9MhBcmwg9jCOFmCGIwBDC088FM5oGJwC3lBGJGFAM/ghgAAQYA5YILOMHo5RgAAAAASUVORK5CYII=');background-size: 20px 20px;background-position: 3px 11px;background-repeat: repeat-x;}
 
 [data-readmore-toggle] {
             float: right;

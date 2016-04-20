@@ -77,14 +77,10 @@ get_header(); ?>
                                             </div>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
-                                            <?php if ( has_post_thumbnail() ) { ?>
-                                                <div class="poi-image"><img src="<?php echo $img; ?>"></div>
-                                            <?php } ?>
-                                            <div class="poi-det-cont">
                                             <!-- <?php the_content(); ?>  -->
                                             <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
-                                                </div>
+                                            
                                             <hr>
                                         </div>
                                     <?php endif;?>
@@ -117,6 +113,9 @@ get_header(); ?>
                                             </div>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
+                                            <?php if ( has_post_thumbnail() ) { ?>
+                                                <div class="poi-image"><img src="<?php echo $img; ?>"></div>
+                                            <?php } ?>
                                             <!-- <?php the_content(); ?>  -->
                                             <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
@@ -128,7 +127,7 @@ get_header(); ?>
                                 <?php wp_reset_query(); ?>
                         </div>
                     </div>
-                  </div>
+                    </div>
                     <!-- SECOND PANEL -->
                     <div class="panel panel-map">
                     <div class="panel-heading" role="tab" id="headingFour" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -153,8 +152,10 @@ get_header(); ?>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
                                             <!-- <?php the_content(); ?>  -->
+                                            <div class="poi-det-cont">
                                             <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
+                                            </div>
                                             <hr>
                                         </div>
                                     <?php endif;?>
