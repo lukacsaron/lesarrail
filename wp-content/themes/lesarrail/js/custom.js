@@ -93,7 +93,7 @@ function setContentHeight() {
 jQuery(document).ready(function() {
     jQuery('.apartment-description').readmore({
         speed: 75,
-        collapsedHeight: 110,
+        collapsedHeight: 106,
         afterToggle: function(trigger, element, expanded) {
         if(expanded) { // The "Close" link was clicked
             setContentHeight();

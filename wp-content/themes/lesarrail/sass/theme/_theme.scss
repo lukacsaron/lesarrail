@@ -206,6 +206,12 @@ a {
             display: inline-block;
             margin-right: 30px;
             margin-bottom: 60px;
+        @media (max-width:1025px ) {
+            margin-right: 0;
+        }
+        img {
+            height: auto !important;
+        }
         .publi-title {
             color: #fff;
             background: #002e4d;
@@ -756,6 +762,11 @@ a {
         display: block;
         height: 50%;
         padding: 0;
+        @media (max-width: 1025px) {
+            height: 200px;
+            margin-bottom: 30px !important;
+            padding: 0 !important;
+        }
         &:nth-child(odd) {
             padding-right: 15px;
         }
@@ -778,7 +789,11 @@ a {
     }
 }
 
-
+#apartment-slider {
+    @media (max-width: 1025px) {
+        height: 890px;
+    }
+}
 
 .page-link {
     height: 300px;
