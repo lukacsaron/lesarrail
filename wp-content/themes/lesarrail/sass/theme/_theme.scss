@@ -766,6 +766,11 @@ a {
             height: 200px;
             margin-bottom: 30px !important;
             padding: 0 !important;
+            .title {
+                margin: 15px 15px !Important;
+                bottom: 0 !Important;
+                left: 0 !Important;
+            }
         }
         &:nth-child(odd) {
             padding-right: 15px;
