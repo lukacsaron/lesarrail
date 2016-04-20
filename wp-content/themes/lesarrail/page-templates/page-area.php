@@ -67,6 +67,7 @@ get_header(); ?>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'animal-parks', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                            <?php $img = get_image_custom($post->ID, 'medium'); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
@@ -75,6 +76,7 @@ get_header(); ?>
                                         </div>
                                             </div>
                                         <div class="map-info">
+                                            <div class="poi-image"><img src="<?php echo $img; ?>"</div>
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
                                             <!-- <?php the_content(); ?>  -->
                                             <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
