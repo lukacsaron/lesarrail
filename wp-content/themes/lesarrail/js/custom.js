@@ -98,6 +98,9 @@ jQuery(document).ready(function() {
         if(expanded) { // The "Close" link was clicked
             setContentHeight();
         }
+            if(! expanded) { // The "Close" link was clicked
+            setContentHeight();
+        }
   }
     });
 });

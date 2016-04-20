@@ -8854,7 +8854,11 @@ a:active {
     .page-template-page-home .transition .apartment {
       height: 200px;
       margin-bottom: 30px !important;
-      padding: 0 !important; } }
+      padding: 0 !important; }
+      .page-template-page-home .transition .apartment .title {
+        margin: 15px 15px !important;
+        bottom: 0 !important;
+        left: 0 !important; } }
   .page-template-page-home .transition .apartment:nth-child(odd) {
     padding-right: 15px; }
   .page-template-page-home .transition .apartment:nth-child(even) {
@@ -9197,6 +9201,11 @@ a:active {
     .panel-map .panel-body .poi-details {
       font-weight: 300;
       margin-bottom: 5px; }
+    .panel-map .panel-body .poi-image img {
+      height: 80px;
+      display: inline-block;
+      float: left;
+      margin-right: 12px; }
 
 .entry-content::-webkit-scrollbar {
   width: 20px;
