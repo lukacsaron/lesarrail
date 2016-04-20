@@ -11,23 +11,6 @@ get_header(); ?>
 
 <div class="wrapper" id="page-wrapper">
     
-
-    <?php $attached_images = get_post_meta($post->ID, "wpcf-gallery-item", false);
-        if ($attached_images[0]=="") { ?>
-
-        <!-- If there are no custom fields, show nothing -->
-
-        <?php } else { ?>
-     
-    <div id="slideshow">
-       <?php foreach($attached_images as $attached_images) {
-            echo '<div class="slideshow-item" style="background-image:url('.$attached_images.');"></div>';
-            } ?>
-    </div>
-
-        <?php } ?>
-    
-    
     <div  id="content" class="container">
         
         <div class="row">

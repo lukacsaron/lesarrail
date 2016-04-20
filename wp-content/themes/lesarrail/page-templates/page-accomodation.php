@@ -52,11 +52,11 @@ get_header(); ?>
                                 <ul class="col-md-12 main-feature">
                                     <li class="feature-item"><?php echo $main_feature[0]; ?></li>
                                 </ul>
-                                <div class="apartment-description col-md-12">
+                                <div class="apartment-description col-md-12 desktop-nopadding">
                                     <?php the_content(); ?>
                                 </div>
-                                 <ul class="col-md-6 features">
-                                  <!--  <?php
+                                <!-- <ul class="col-md-6 features">
+                                    <?php
                                         $count = 0;
                                         foreach($features as $features) {
                                         $count ++;
@@ -64,8 +64,8 @@ get_header(); ?>
                                             if( $count == 4 ) {
                                                 echo '</ul><ul class="features_2 col-md-6">';
                                             }continue;
-                                    } ?> -->
-                                </ul>
+                                    } ?> 
+                                </ul> -->
                                 <div id="rates" class="col-md-6">
                                     <h5>RATES</h5>
                                     <span class="season-title">7th May - 28th May</span>

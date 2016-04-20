@@ -150,6 +150,11 @@ a {
     padding: 0;
 }
 
+.desktop-nopadding {
+    @media (min-width: 768px) {
+    padding: 0;
+}
+
 .mobile-nopadding {
     @media (max-width: 1024px) {
         padding:0;
@@ -820,7 +825,7 @@ a {
     }
     .entry-title {
                 margin: 0;
-                margin-bottom: 30px;
+                margin-bottom: 15px;
                 letter-spacing: 4px;
                 font-weight: 800;
             }

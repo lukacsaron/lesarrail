@@ -94,6 +94,11 @@ jQuery(document).ready(function() {
     jQuery('.apartment-description').readmore({
         speed: 75,
         collapsedHeight: 110,
+        afterToggle: function(trigger, element, expanded) {
+        if(expanded) { // The "Close" link was clicked
+            setContentHeight();
+        }
+  }
     });
 });
 
@@ -101,7 +106,7 @@ function appearHome() {
     
     jQuery(window).on("load", function() {
          console.log("window is loaded");
-         setFeatureHeight();
+         // setFeatureHeight();
          setContentHeight();
         if (jQuery('body').hasClass('page-template-page-home') ) {
             var element = jQuery(".home-bottom");
@@ -219,7 +224,7 @@ jQuery(window).resize(function(){
     ifHome();
     resizeContent();
     areaMaxHeight();
-    setFeatureHeight();
+   // setFeatureHeight();
     setContentHeight();
     wrapperMaxHeight();
 });
