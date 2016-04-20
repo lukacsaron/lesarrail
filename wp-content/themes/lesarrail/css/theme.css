@@ -8642,15 +8642,15 @@ a:active {
       margin: 0;
       font-size: 15px; } }
   .navbar-fixed-top.scrolled {
-    min-height: 40px; }
+    min-height: 50px; }
     .navbar-fixed-top.scrolled .menu-item a {
-      padding: 10px 10px;
+      padding: 14px 10px;
       transition: all .15s ease-out; }
     .navbar-fixed-top.scrolled .navbar-brand {
       overflow: hidden;
-      height: 30px;
-      margin-top: 2px;
-      padding: 10px 15px;
+      height: 50px;
+      margin-top: 0px;
+      padding: 8px 15px;
       transition: all .15s ease-out; }
       .navbar-fixed-top.scrolled .navbar-brand img {
         transition: all .15s ease-out; }

@@ -153,10 +153,10 @@ get_header(); ?>
     </div>
     
     <div id="insta" class="container center">
-        <header class="entry-header">
+       <!-- <header class="entry-header">
             <h5>VISIT</h5>
             <h2 class="entry-title">Le Sarrail</h2>
-        </header>
+        </header> -->
         <div class="col-md-2 insta-ident"><a href="https://www.instagram.com/le_sarrail/" target="_blank"><i class="fa fa-instagram"></i> @LESARRAIL</a></div>
         <?php echo do_shortcode('[enjoyinstagram_mb_grid]'); ?>
     </div>
