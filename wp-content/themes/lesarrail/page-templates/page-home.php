@@ -191,7 +191,9 @@ get_header(); ?>
                                         </div>
                           
                                         <div class="map-info">
+                                            <?php if ( has_post_thumbnail() ) { ?>
                                             <div class="poi-image"><img src="<?php echo $img; ?>"></div>
+                                            <?php } ?>
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
                                             <!-- <?php the_content(); ?>  -->
                                             <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
