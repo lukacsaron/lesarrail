@@ -259,18 +259,36 @@ a {
 //SINGLE ACTIVITY
 
 .single-activity {
+    #page-wrapper {
+        height: auto !important;
+    }
      #primary {
         background: #fff;
         padding: 15px;
         margin-top: -15px;
         opacity: 0;
-        .page {
             .entry-title {
                 margin-top: 0;
             }
             .entry-content {
                 overflow-x: hidden;
                 font-weight: 300;
+                @media (max-width: 1025px) {
+                    max-height: auto !important;
+                }
+            }
+    }
+    #secondary {
+        img {
+            width: 100%;
+        }
+        .absolute-btn {
+            position: absolute;
+            margin-left: 15px;
+            @media (max-width: 1025px) {
+                position: relative;
+                margin-left: 0;
+                margin-bottom: 15px;
             }
         }
     }

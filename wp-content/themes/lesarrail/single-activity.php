@@ -18,7 +18,7 @@ get_header(); ?>
 
         <?php } else { ?>
      
-    <div id="slideshow">
+    <div id="slideshow" style="display:none;">
        <?php foreach($attached_images as $attached_images) {
             echo '<div class="slideshow-item" style="background-image:url('.$attached_images.');"></div>';
             } ?>
@@ -53,6 +53,31 @@ get_header(); ?>
                 </main><!-- #main -->
 
             </div><!-- #primary -->
+                <div id="secondary" class="col-md-6 content-area">
+                    <div class="row btn-container">
+            <div class="col-md-3 col-xs-12 absolute-btn">
+                <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>
+            </div>
+        </div>
+                    <img src="<?php echo $attached_images; ?>">
+                </div>
+                <div style="display:none;">
+                                    <?php $attached_images = get_post_meta($post->ID, "wpcf-gallery-item", false);
+        if ($attached_images[0]=="") { ?>
+
+        <!-- If there are no custom fields, show nothing -->
+
+        <?php } else { ?>
+                                    
+        <!-- detach first image -->
+        <?php unset($attached_images[0]); ?>
+        <?php foreach($attached_images as $attached_images) {
+            $postID = ($post->ID);
+            echo '<a href="'.$attached_images.'"data-gallery="#blueimp-gallery-'.$postID.'" ></a>';
+            } ?>
+
+        <?php } ?>
+                                </div>
                 </div>
         </div>
         

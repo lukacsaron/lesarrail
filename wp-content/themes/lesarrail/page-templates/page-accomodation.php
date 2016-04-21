@@ -63,7 +63,7 @@ get_header(); ?>
                                         echo '<li class="feature-item">'.$features.'</li>';
                                             if( $count == 4 ) {
                                                 echo '</ul><ul class="features_2 col-md-6">';
-                                            }continue;
+                                            } continue;
                                     } ?> 
                                 </ul> -->
                                 <div id="rates" class="col-md-6">
