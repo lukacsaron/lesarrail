@@ -195,9 +195,8 @@ get_header(); ?>
                                             <?php if ( has_post_thumbnail() ) { ?>
                                             <div class="poi-image"><img src="<?php echo $img; ?>"></div>
                                             <?php } ?>
-                                            <!-- <?php the_content(); ?>  -->
                                             <div class="poi-det-cont">
-                                            <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
+                                            <div class="poi-details"><?php the_content(); ?></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -234,9 +233,13 @@ get_header(); ?>
                                             </div>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
-                                            <!-- <?php the_content(); ?>  -->
-                                            <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
+                                            <?php if ( has_post_thumbnail() ) { ?>
+                                            <div class="poi-image"><img src="<?php echo $img; ?>"></div>
+                                            <?php } ?>
+                                            <div class="poi-det-cont">
+                                            <div class="poi-details"><?php the_content(); ?></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
+                                                </div>
                                             <hr>
                                         </div>
                                     <?php endif;?>
@@ -269,9 +272,13 @@ get_header(); ?>
                                             </div>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
-                                            <!-- <?php the_content(); ?>  -->
-                                            <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
+                                            <?php if ( has_post_thumbnail() ) { ?>
+                                            <div class="poi-image"><img src="<?php echo $img; ?>"></div>
+                                            <?php } ?>
+                                            <div class="poi-det-cont">
+                                            <div class="poi-details"><?php the_content(); ?></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
+                                                </div>
                                             <hr>
                                         </div>
                                     <?php endif;?>
@@ -304,6 +311,123 @@ get_header(); ?>
                                             </div>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
+                                            <?php if ( has_post_thumbnail() ) { ?>
+                                            <div class="poi-image"><img src="<?php echo $img; ?>"></div>
+                                            <?php } ?>
+                                            <div class="poi-det-cont">
+                                            <div class="poi-details"><?php the_content(); ?></div>
+                                            <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
+                                                </div>
+                                            <hr>
+                                        </div>
+                                    <?php endif;?>
+                                    <?php $i++;	?>
+                                <?php endwhile; ?>
+                                <?php wp_reset_query(); ?>
+                        </div>
+                    </div>
+                  </div>
+                    <!-- PANEL -->
+                    <div class="panel panel-map">
+                    <div class="panel-heading" role="tab" id="headingFive" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Wine Tasting
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
+                        <div class="panel-body">
+                                <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'wine-tasting', 'posts_per_page' => 40 );
+                            $loop = new WP_Query( $args );
+                            while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                                    <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+                                        <div style="display:none;">
+                                        <div id="item<?php echo $i; ?>" class="map-info">
+                                            <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                            <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
+                                        </div>
+                                            </div>
+                                        <div class="map-info">
+                                            <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
+                                            <?php if ( has_post_thumbnail() ) { ?>
+                                            <div class="poi-image"><img src="<?php echo $img; ?>"></div>
+                                            <?php } ?>
+                                            <div class="poi-det-cont">
+                                            <div class="poi-details"><?php the_content(); ?></div>
+                                            <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
+                                                </div>
+                                            <hr>
+                                        </div>
+                                    <?php endif;?>
+                                    <?php $i++;	?>
+                                <?php endwhile; ?>
+                                <?php wp_reset_query(); ?>
+                        </div>
+                    </div>
+                  </div>
+                    <!-- PANEL -->
+                    <div class="panel panel-map">
+                    <div class="panel-heading" role="tab" id="headingSix" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          Golf
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix">
+                        <div class="panel-body">
+                                <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'golf', 'posts_per_page' => 40 );
+                            $loop = new WP_Query( $args );
+                            while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                                    <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+                                        <div style="display:none;">
+                                        <div id="item<?php echo $i; ?>" class="map-info">
+                                            <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                            <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
+                                        </div>
+                                            </div>
+                                        <div class="map-info">
+                                            <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
+                                            <?php if ( has_post_thumbnail() ) { ?>
+                                            <div class="poi-image"><img src="<?php echo $img; ?>"></div>
+                                            <?php } ?>
+                                            <div class="poi-det-cont">
+                                            <div class="poi-details"><?php the_content(); ?></div>
+                                            <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
+                                                </div>
+                                            <hr>
+                                        </div>
+                                    <?php endif;?>
+                                    <?php $i++;	?>
+                                <?php endwhile; ?>
+                                <?php wp_reset_query(); ?>
+                        </div>
+                    </div>
+                  </div>
+                    <!-- PANEL -->
+                    <div class="panel panel-map">
+                    <div class="panel-heading" role="tab" id="headingSeven" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                          Toulouse & Cité d'espace
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingseven">
+                        <div class="panel-body">
+                                <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'toulouse-cite despace', 'posts_per_page' => 40 );
+                            $loop = new WP_Query( $args );
+                            while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                                    <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+                                        <div style="display:none;">
+                                        <div id="item<?php echo $i; ?>" class="map-info">
+                                            <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
+                                            <div class="poi-address" style="font-weight:300;max-width: 60%;margin: 0 auto;text-align: center;"><?php echo $address; ?></div>
+                                        </div>
+                                            </div>
+                                        <div class="map-info">
+                                            <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
                                             <!-- <?php the_content(); ?>  -->
                                             <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
@@ -316,6 +440,8 @@ get_header(); ?>
                         </div>
                     </div>
                   </div>
+                    
+                    
                     
 			     </div>
             </div>
