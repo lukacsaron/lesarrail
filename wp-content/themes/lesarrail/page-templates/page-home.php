@@ -224,6 +224,7 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+                                    <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
                                     <?php $img = get_image_custom($post->ID, 'small'); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
@@ -264,6 +265,8 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+                            <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                          <?php $img = get_image_custom($post->ID, 'small'); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -303,6 +306,8 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+                            <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                          <?php $img = get_image_custom($post->ID, 'small'); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -342,6 +347,8 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+                            <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                          <?php $img = get_image_custom($post->ID, 'small'); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -381,6 +388,8 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+                            <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                          <?php $img = get_image_custom($post->ID, 'small'); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -420,6 +429,8 @@ get_header(); ?>
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+                            <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                          <?php $img = get_image_custom($post->ID, 'small'); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -428,9 +439,13 @@ get_header(); ?>
                                             </div>
                                         <div class="map-info">
                                             <a class="poi-title" onclick="myClick(<?php echo $i-1; ?>);"><?php the_title(); ?></a>
-                                            <!-- <?php the_content(); ?>  -->
-                                            <div class="poi-details">Lorem ipsum sic hamet sut dolor ev amec thin apur maces</div>
+                                            <?php if ( has_post_thumbnail() ) { ?>
+                                            <div class="poi-image"><img src="<?php echo $img; ?>"></div>
+                                            <?php } ?>
+                                            <div class="poi-det-cont">
+                                            <div class="poi-details"><?php the_content(); ?></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
+                                                </div>
                                             <hr>
                                         </div>
                                     <?php endif;?>

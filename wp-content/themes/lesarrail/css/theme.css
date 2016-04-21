@@ -8340,6 +8340,9 @@ h1, h2, h3, h4, h5, h6,
       padding: 10px;
       text-transform: uppercase;
       font-weight: 500; }
+      @media (max-width: 1025px) {
+        #area-container .area .box-wrapper .title {
+          font-size: 16px; } }
 
 @media (max-width: 768px) {
   .page-template-fullwidthpage #page-wrapper, .page-template-page-testimonials #page-wrapper {
@@ -8487,7 +8490,7 @@ a:active {
     font-weight: 300; }
     @media (max-width: 1025px) {
       .single-activity #primary .entry-content {
-        max-height: auto !important; } }
+        max-height: inherit !important; } }
 
 .single-activity #secondary img {
   width: 100%; }

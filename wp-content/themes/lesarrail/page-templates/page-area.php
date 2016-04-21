@@ -192,6 +192,7 @@ get_header(); ?>
                                 <?php wp_reset_query(); ?>
                         </div>
                     </div>
+                    </div>
                         <!-- PANEL -->
                     <div class="panel panel-map">
                     <div class="panel-heading" role="tab" id="headingFive" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -305,6 +306,7 @@ get_header(); ?>
                         </div>
                     </div>
                   </div>
+                    </div>
                     
 			     </div>
             </div>
