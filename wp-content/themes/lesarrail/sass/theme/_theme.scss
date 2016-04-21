@@ -50,6 +50,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .page-template-page-area {
@@ -1300,6 +1301,14 @@ a {
         .poi-det-cont {
             display: inline-block;
             width: 60%;
+        }
+        .global-description {
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+        .poi-url {
+            font-size: 12px;
+            margin-bottom: 5px;
         }
         .poi-details {
             font-weight: 300;

@@ -175,13 +175,15 @@ get_header(); ?>
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                       <div class="panel-body">
+                          <div class="global-description">In each house at Le Sarrail you will find a comprehensive restaurant guide to the best restaurants in the area, from pavement cafes where you can sit & watch French life go by to elegant French restaurants like 'Le Domaine d'Auriac' and Michelin-starred La Barbacane in the Cité of Carcassonne.</div>
                                 <?php $i = 1; ?>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'restaurants', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
-                          <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                          <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                      <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                           <!-- HIDDEN -->
                                         <div style="display:none;">
                                             <div id="item<?php echo $i; ?>" class="map-info">
@@ -197,6 +199,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -220,12 +223,14 @@ get_header(); ?>
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="panel-body">
+                            <div class="global-description">No matter what the weather, children love visiting animal parks. The African Reserve at Sigean, near Narbonne, is where they will delight in seeing big game animals roaming free over a 300 hectare reserve. At Esperaza, about 30 minutes drive, you will find the interactive Dinosaur Museum which holds an impressive collection of dinosaur fossils found in and around Esperaza. You can also take llama rides in the Black Mountains, see the birds of prey at the sanctuary in Carcassonne, or visit the 'House of Wolves' in the Ariege.</div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'animal-parks', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                     <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
                                     <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -239,6 +244,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -261,12 +267,15 @@ get_header(); ?>
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                         <div class="panel-body">
+                            <div class="global-description">A flying lesson, wether you are a total beginner or in the process of gaining more hours for your private pilot's licence, is an incredible experience.
+                                It is easy to book lessons at Carcassonne airport - no long waiting lists. It is also much less expensive than the UK and of course the scenery is spectacular. We can arrange lessons for you and even accompany you on the flight in case any language translation is needed. And for a really special occasion, why not hire a light aircraft with pilot, enjoy the view and pop down to Spain for lunch? However, if your interests lie with the mysteries of the Cathar castles, but you don't want to hike up the mountain to see them, then we can arrange a flight to view them from the air.</div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'flying', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
-                            <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                          <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -280,6 +289,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -302,12 +312,14 @@ get_header(); ?>
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
                         <div class="panel-body">
+                            <div class="global-description">Whether you consider yourself sporty or not, it is easy to enjoy the many outdoor activities to be found locally; cycling, horse-riding, sailing, canoeing, rafting, kayaking, climbing and tennis are just a few of the exciting activities this area has to offer.</div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'sporting-activities', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
-                            <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                          <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -321,6 +333,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -343,12 +356,14 @@ get_header(); ?>
                     </div>
                     <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
                         <div class="panel-body">
+                            <div class="global-description">We are in the middle of a huge wine growing area, the Languedoc Roussillon, which produces many fabulous wines. There are some especially good vineyards close by where you are able to sample award winning wines, alternatively, we can arrange a private wine-tasting for you at Le Sarrail.</div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'wine-tasting', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
-                            <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                          <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -362,6 +377,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -384,12 +400,14 @@ get_header(); ?>
                     </div>
                     <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix">
                         <div class="panel-body">
+                            <div class="global-description">There are many golf courses in the region, most of which are pay and play. Domaine d'Aurriac in Carcassonne has a stunning 18 hole course set in the grounds of a 4 star hotel with a top class restaurant and bistro.</div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'golf', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
-                            <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                          <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -403,6 +421,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -425,12 +444,14 @@ get_header(); ?>
                     </div>
                     <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingseven">
                         <div class="panel-body">
+                            <div class="global-description">The Space City is just outside Toulouse (45 minutes drive), home to the Ariane rocket and is a great day out for all the family. There is a life size replica of the Ariane launch vehicle 5,53 meters tall, ready for take off. The Imax 'Space Station' film is a must (the first ever 3D film shot in space), there is also a Planetarium and an animated film for children explaining the constellations. Toulouse center itself is also well worth a visit - cosmopolitan with great restaurants and shopping, and wonderful architecture</div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'toulouse-cite despace', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
-                            <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                          <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
+                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
                                             <a class="poi-title" style="font-weight:600;font-size: 15px;display: block;margin-bottom: 5px;text-align: center;"><?php the_title(); ?></a>
@@ -444,6 +465,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>

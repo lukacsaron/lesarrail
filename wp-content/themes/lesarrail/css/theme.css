@@ -8318,7 +8318,8 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: 600; }
 
 @media (max-width: 1025px) {
   .page-template-page-area #page-wrapper {
@@ -9266,6 +9267,12 @@ a:active {
     .panel-map .panel-body .poi-det-cont {
       display: inline-block;
       width: 60%; }
+    .panel-map .panel-body .global-description {
+      font-weight: 300;
+      margin-bottom: 10px; }
+    .panel-map .panel-body .poi-url {
+      font-size: 12px;
+      margin-bottom: 5px; }
     .panel-map .panel-body .poi-details {
       font-weight: 300;
       margin-bottom: 5px; }
