@@ -10,19 +10,21 @@
 get_header(); ?>
 
 <div class="wrapper" id="page-wrapper">
-    <div id="area-container" class="col-md-12">
+    <div id="area-container" class="container">
+        <div class="col-md-12">
         <?php $args = array( 'post_type' => 'activity', 'posts_per_page' => 12 );
               $loop = new WP_Query( $args );
-              $count = 0;
             while ( $loop->have_posts() ) : $loop->the_post(); $count ++; ?> 
+            <?php $image = get_image_custom($post->ID, 'medium'); ?>
                                 
-                        <a class="area col-md-3" href="<?php the_permalink($accommodation); ?>">
-                                        <div class="box-wrapper" style="background-image:url('<?php echo $image; ?>');">
-                                            <h2 class="title transition"><?php echo get_the_title(); ?></h2>
-                                        </div>
-                                    </a>
+            <a class="area col-md-4 col-sm-6 col-xs-12" href="<?php the_permalink(); ?>">
+                <div class="box-wrapper" style="background-image:url('<?php echo $image; ?>');">
+                    <h2 class="title transition"><?php echo get_the_title(); ?></h2>
+                </div>
+            </a>
                                        
 				<?php endwhile; wp_reset_query(); ?>
+            </div>
     </div>
     <div id="map-container" class="container">
         <div class="col-md-12 full-height">
