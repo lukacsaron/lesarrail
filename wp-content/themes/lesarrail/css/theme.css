@@ -8344,6 +8344,9 @@ h1, h2, h3, h4, h5, h6,
       @media (max-width: 1025px) {
         #area-container .area .box-wrapper .title {
           font-size: 16px; } }
+      @media (max-width: 768px) {
+        #area-container .area .box-wrapper .title {
+          margin-left: 10px; } }
 
 @media (max-width: 768px) {
   .page-template-fullwidthpage #page-wrapper, .page-template-page-testimonials #page-wrapper {
@@ -8378,6 +8381,10 @@ a:active {
   min-height: 600px;
   margin: 0;
   padding: 0 15px; }
+
+@media (max-width: 768px) {
+  .entry-content {
+    max-height: inherit !important; } }
 
 .clear {
   clear: both; }
@@ -9281,7 +9288,7 @@ a:active {
       float: left;
       margin-top: 5px; }
       .panel-map .panel-body .poi-image img {
-        height: 80px;
+        width: 100px;
         margin-right: 12px; }
 
 .entry-content::-webkit-scrollbar {
