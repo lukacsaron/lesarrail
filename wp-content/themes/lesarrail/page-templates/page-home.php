@@ -182,7 +182,7 @@ get_header(); ?>
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                       <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $img = get_image_custom($post->ID, 'thumbnail'); ?>
                                     <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                           <!-- HIDDEN -->
                                         <div style="display:none;">
@@ -229,7 +229,7 @@ get_header(); ?>
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                     <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $img = get_image_custom($post->ID, 'thumbnail'); ?>
                                     <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
@@ -274,7 +274,7 @@ get_header(); ?>
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                     <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $img = get_image_custom($post->ID, 'thumbnail'); ?>
                                     <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
@@ -318,7 +318,7 @@ get_header(); ?>
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                     <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $img = get_image_custom($post->ID, 'thumbnail'); ?>
                                     <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
@@ -362,7 +362,7 @@ get_header(); ?>
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                     <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $img = get_image_custom($post->ID, 'thumbnail'); ?>
                                     <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
@@ -406,7 +406,7 @@ get_header(); ?>
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                     <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $img = get_image_custom($post->ID, 'thumbnail'); ?>
                                     <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
@@ -450,7 +450,7 @@ get_header(); ?>
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                                     <?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
                                     <?php $address = get_post_meta($post->ID, 'martygeocoderaddress', true); ?>
-                                    <?php $img = get_image_custom($post->ID, 'small'); ?>
+                                    <?php $img = get_image_custom($post->ID, 'thumbnail'); ?>
                                     <?php $url = get_post_meta($post->ID, 'wpcf-poi-url', true); ?>
                                         <div style="display:none;">
                                         <div id="item<?php echo $i; ?>" class="map-info">
