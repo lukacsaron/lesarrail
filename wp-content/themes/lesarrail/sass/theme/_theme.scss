@@ -1131,8 +1131,9 @@ a {
     display: block;
     height: 42px;
     width: 42px;
-    background: url(../img/scroll-btn.png);
+    background: url(../img/downscroll.svg);
     background-repeat: no-repeat;
+    background-size: 100%;
     position: absolute;
     left: 50%;
     margin-left: -20px;
@@ -1241,6 +1242,12 @@ a {
         height: 100%;
         background-size: cover;
         position: absolute;
+    }
+}
+
+.page_find-us {
+    #secondary {
+        height: 600px;
     }
 }
 
