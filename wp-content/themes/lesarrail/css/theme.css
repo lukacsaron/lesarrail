@@ -8361,7 +8361,7 @@ h1, h2, h3, h4, h5, h6,
   .page-template-fullwidthpage #page-wrapper, .page-template-page-testimonials #page-wrapper {
     padding-top: 60px; } }
 
-@media (max-width: 1024px) {
+@media (max-width: 769px) {
   #page {
     padding-top: 40px; } }
 
