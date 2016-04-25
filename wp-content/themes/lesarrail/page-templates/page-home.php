@@ -93,15 +93,9 @@ get_header(); ?>
     
     <div id="featured" class="container">
         <div class="col-md-12">
-            <div class="col-md-5 page-link transition">
-                <a href="<?php echo get_page_link($kids); ?>">
-                    <div class="box-wrapper" style="background-image:url('<?php echo get_image_custom($kids, 'medium'); ?>');">
-                        <h2 class="title"><?php echo get_the_title($kids); ?></h2>
-                    </div>
-                </a>
-            </div>
+            
 
-            <div id="apartment-slider" class="col-md-7 page-link transition">
+            <div id="apartment-slider" class="col-md-7 col-md-push-5 page-link transition">
                 
                 <?php   $args = array( 'post_type' => 'apartment', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
@@ -115,6 +109,14 @@ get_header(); ?>
                             <?php endwhile; ?>
                     <?php wp_reset_query(); ?>
                 
+            </div>
+            
+            <div class="col-md-5 col-md-pull-7 page-link transition">
+                <a href="<?php echo get_page_link($kids); ?>">
+                    <div class="box-wrapper" style="background-image:url('<?php echo get_image_custom($kids, 'medium'); ?>');">
+                        <h2 class="title"><?php echo get_the_title($kids); ?></h2>
+                    </div>
+                </a>
             </div>
 
             <div class="col-md-7 page-link activity-featured transition" >

@@ -207,8 +207,8 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
     ifHome();
   //  ApartmentSlide();
-    resizeContent();
-    wrapperMaxHeight();
+  //  resizeContent();
+  //  wrapperMaxHeight();
    // areaMaxHeight();
     slideshow_start();
     appearHome();
@@ -225,11 +225,11 @@ jQuery(window).resize(function(){
     $isMobile = window.matchMedia("only screen and (max-width: 768px)");
     // run functions
     ifHome();
-    resizeContent();
+  // resizeContent();
   //  areaMaxHeight();
    // setFeatureHeight();
     setContentHeight();
-    wrapperMaxHeight();
+  //  wrapperMaxHeight();
 });
 
 // ON CLICK
