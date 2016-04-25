@@ -8325,6 +8325,15 @@ h1, h2, h3, h4, h5, h6,
   .page-template-page-area #page-wrapper {
     height: auto !important; } }
 
+.absolute-btn {
+  position: absolute;
+  margin-left: 15px; }
+  @media (max-width: 1025px) {
+    .absolute-btn {
+      position: relative;
+      margin-left: 0;
+      margin-bottom: 15px; } }
+
 #area-container .area {
   height: 200px;
   margin-bottom: 30px; }
@@ -8355,6 +8364,10 @@ h1, h2, h3, h4, h5, h6,
 @media (max-width: 1024px) {
   #page {
     padding-top: 40px; } }
+
+@media (max-width: 1024px) {
+  .home {
+    padding-top: 0 !important; } }
 
 .entry-title {
   margin-top: 0; }
@@ -8407,6 +8420,17 @@ a:active {
 
 @media (min-width: 1025px) {
   .hide-md {
+    display: none; } }
+
+.mobile-menu .navbar-brand img {
+  height: 30px; }
+
+@media (min-width: 769px) {
+  .mobile-menu {
+    display: none; } }
+
+@media (max-width: 768px) {
+  .desktop-menu {
     display: none; } }
 
 @media (max-width: 1024px) {
@@ -8483,34 +8507,25 @@ a:active {
     float: left;
     margin-bottom: 15px; }
 
-.single-activity #page-wrapper {
+.single-activity #page-wrapper, .page-template-fadein-fullwidthpage #page-wrapper, .page-template-page-testimonials #page-wrapper {
   height: auto !important; }
 
-.single-activity #primary {
+.single-activity #primary, .page-template-fadein-fullwidthpage #primary, .page-template-page-testimonials #primary {
   background: #fff;
   padding: 15px;
   margin-top: -15px;
   opacity: 0; }
-  .single-activity #primary .entry-title {
+  .single-activity #primary .entry-title, .page-template-fadein-fullwidthpage #primary .entry-title, .page-template-page-testimonials #primary .entry-title {
     margin-top: 0; }
-  .single-activity #primary .entry-content {
+  .single-activity #primary .entry-content, .page-template-fadein-fullwidthpage #primary .entry-content, .page-template-page-testimonials #primary .entry-content {
     overflow-x: hidden;
     font-weight: 300; }
     @media (max-width: 1025px) {
-      .single-activity #primary .entry-content {
+      .single-activity #primary .entry-content, .page-template-fadein-fullwidthpage #primary .entry-content, .page-template-page-testimonials #primary .entry-content {
         max-height: inherit !important; } }
 
-.single-activity #secondary img {
+.single-activity #secondary img, .page-template-fadein-fullwidthpage #secondary img, .page-template-page-testimonials #secondary img {
   width: 100%; }
-
-.single-activity #secondary .absolute-btn {
-  position: absolute;
-  margin-left: 15px; }
-  @media (max-width: 1025px) {
-    .single-activity #secondary .absolute-btn {
-      position: relative;
-      margin-left: 0;
-      margin-bottom: 15px; } }
 
 .fadein {
   background: #fff; }
@@ -8708,12 +8723,18 @@ a:active {
   background: #fff; }
   @media (max-width: 1024px) {
     .navbar-fixed-top {
-      min-height: 40px;
-      max-height: 40px;
+      min-height: 50px;
+      max-height: 50px;
       left: 0 !important;
       right: 0 !important;
       z-index: 9999 !important; } }
   @media (max-width: 1024px) {
+    .navbar-fixed-top .navbar-brand {
+      padding: 25px;
+      height: 40px;
+      margin: 0;
+      font-size: 15px; } }
+  @media (max-width: 768px) {
     .navbar-fixed-top .navbar-brand {
       padding: 10px;
       height: 40px;
@@ -8728,7 +8749,7 @@ a:active {
       overflow: hidden;
       height: 50px;
       margin-top: 0px;
-      padding: 8px 15px;
+      padding: 10px 10px;
       transition: all .15s ease-out; }
       .navbar-fixed-top.scrolled .navbar-brand img {
         transition: all .15s ease-out; }
@@ -8776,7 +8797,7 @@ a:active {
 .navbar-toggle {
   float: right;
   margin: 5px;
-  padding: 7px;
+  padding: 13px 7px;
   border: none;
   z-index: 9999999; }
   .navbar-toggle .icon-bar {
@@ -8925,6 +8946,9 @@ a:active {
   padding: 0; }
   @media (max-width: 1025px) {
     .page-template-page-home .transition .apartment {
+      height: 150px; } }
+  @media (max-width: 768px) {
+    .page-template-page-home .transition .apartment {
       height: 200px;
       margin-bottom: 30px !important;
       padding: 0 !important; }
@@ -8945,7 +8969,7 @@ a:active {
     .page-template-page-home .transition .apartment:nth-child(3) .title, .page-template-page-home .transition .apartment:nth-child(4) .title {
       bottom: 0; }
 
-@media (max-width: 1025px) {
+@media (max-width: 768px) {
   #apartment-slider {
     height: 890px; } }
 

@@ -129,7 +129,7 @@ function initialize() {
         )
     ); ?>
 
-    <div class="navbar navbar-default navbar-fixed-top hide-md">
+    <div class="navbar navbar-default navbar-fixed-top mobile-menu">
         <div class="navbar-header">
             <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_title.svg" height="20px"></a>
         </div>
@@ -144,7 +144,7 @@ function initialize() {
 <div id="page" class="hfeed site">
     
     <!-- ******************* The Navbar Area ******************* -->
-    <div class="wrapper-fluid wrapper-navbar hide-sm" id="wrapper-navbar">
+    <div class="wrapper-fluid wrapper-navbar desktop-menu" id="wrapper-navbar">
 	   <div id="nav-spacer"></div>
         <nav class="site-navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
                             

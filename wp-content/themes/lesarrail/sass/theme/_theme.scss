@@ -61,6 +61,16 @@ h1, h2, h3, h4, h5, h6,
     }
 }
 
+.absolute-btn {
+            position: absolute;
+            margin-left: 15px;
+            @media (max-width: 1025px) {
+                position: relative;
+                margin-left: 0;
+                margin-bottom: 15px;
+            }
+        }
+
 // AREA & Activities
 
 #area-container {
@@ -102,6 +112,12 @@ h1, h2, h3, h4, h5, h6,
 #page {
     @media (max-width: 1024px) {
         padding-top: 40px;
+    }
+}
+
+.home {
+    @media (max-width: 1024px) {
+        padding-top: 0 !important;
     }
 }
 
@@ -175,6 +191,23 @@ a {
 
 .hide-md {
     @media (min-width: 1025px) {
+        display: none;
+    }
+}
+
+.mobile-menu {
+    .navbar-brand {
+        img {
+            height: 30px;
+        }
+    }
+    @media (min-width: 769px) {
+        display: none;
+    }
+}
+
+.desktop-menu {
+    @media (max-width: 768px) {
         display: none;
     }
 }
@@ -271,7 +304,7 @@ a {
 
 //SINGLE ACTIVITY
 
-.single-activity {
+.single-activity, .page-template-fadein-fullwidthpage, .page-template-page-testimonials {
     #page-wrapper {
         height: auto !important;
     }
@@ -294,15 +327,6 @@ a {
     #secondary {
         img {
             width: 100%;
-        }
-        .absolute-btn {
-            position: absolute;
-            margin-left: 15px;
-            @media (max-width: 1025px) {
-                position: relative;
-                margin-left: 0;
-                margin-bottom: 15px;
-            }
         }
     }
 }
@@ -555,8 +579,8 @@ a {
 .navbar-fixed-top {
     background: #fff;
     @media (max-width:1024px) {
-                min-height: 40px;
-                max-height: 40px;
+                min-height: 50px;
+                max-height: 50px;
                 left: 0 !important;
                 right: 0 !important;
                 z-index: 9999 !important;
@@ -564,6 +588,12 @@ a {
             }
     .navbar-brand {
         @media (max-width: 1024px) {
+                padding: 25px;
+                height: 40px;
+                margin: 0;
+                font-size: 15px;
+            }
+        @media (max-width: 768px) {
                 padding: 10px;
                 height: 40px;
                 margin: 0;
@@ -582,7 +612,7 @@ a {
             overflow: hidden;
             height: 50px;
             margin-top: 0px;
-            padding: 8px 15px;
+            padding: 10px 10px;
             transition: all .15s ease-out;
             img {
                 transition: all .15s ease-out;
@@ -647,7 +677,7 @@ a {
 .navbar-toggle {
   float: right;
     margin: 5px;
-    padding: 7px;
+    padding: 13px 7px;
     border: none;
     z-index: 9999999;
     .icon-bar {
@@ -848,6 +878,16 @@ a {
         height: 50%;
         padding: 0;
         @media (max-width: 1025px) {
+            height: 150px;
+           // margin-bottom: 30px !important;
+           // padding: 0 !important;
+            .title {
+                //margin: 15px 15px !important;
+                   // bottom: 15px !important;
+                    //left: 15px !important;
+            }
+        }
+         @media (max-width: 768px) {
             height: 200px;
             margin-bottom: 30px !important;
             padding: 0 !important;
@@ -880,7 +920,7 @@ a {
 }
 
 #apartment-slider {
-    @media (max-width: 1025px) {
+    @media (max-width: 768px) {
         height: 890px;
     }
 }
