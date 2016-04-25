@@ -35,7 +35,7 @@ get_header(); ?>
                             <a href="https://www.instagram.com/le_sarrail/" target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
                             <div class="col-md-6 col-md-pull-5">
-                                <span>T: 0738370507</span><br>
+                                <span>T: +33 (0)468 765 966</span><br>
                                 <span>E: info@lesarrail.com</span>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ get_header(); ?>
         <div class="col-md-12">
             
 
-            <div id="apartment-slider" class="col-md-7 col-md-push-5 page-link transition">
+            <div id="apartment-slider" class="col-md-7 page-link transition">
                 
                 <?php   $args = array( 'post_type' => 'apartment', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
@@ -111,7 +111,7 @@ get_header(); ?>
                 
             </div>
             
-            <div class="col-md-5 col-md-pull-7 page-link transition">
+            <div class="col-md-5 page-link transition">
                 <a href="<?php echo get_page_link($kids); ?>">
                     <div class="box-wrapper" style="background-image:url('<?php echo get_image_custom($kids, 'medium'); ?>');">
                         <h2 class="title"><?php echo get_the_title($kids); ?></h2>
@@ -119,7 +119,7 @@ get_header(); ?>
                 </a>
             </div>
 
-            <div class="col-md-7 page-link activity-featured transition" >
+            <div class="col-md-5 page-link activity-featured transition" >
                 <a href="<?php echo get_page_link($area); ?>">
                     <div class="box-wrapper" style="background-image:url('<?php echo get_image_custom($area, 'medium'); ?>');">
                         <h2 class="title"><?php echo get_the_title($area); ?></h2>
@@ -127,7 +127,7 @@ get_header(); ?>
                 </a>
             </div>
 
-            <div class="col-md-5 page-link transition">
+            <div class="col-md-7 page-link transition">
                 <a href="<?php echo get_page_link($group); ?>">
                     <div class="box-wrapper" style="background-image:url('<?php echo get_image_custom($group, 'medium'); ?>');">
                         <h2 class="title"><h2 class="title"><?php echo get_the_title($group); ?></h2></h2>

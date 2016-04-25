@@ -18,7 +18,7 @@ get_header(); ?>
 
         <?php } else { ?>
      
-    <div id="slideshow" style="display:none;">
+    <div id="slideshow" style="display:none;"> 
        <?php foreach($attached_images as $attached_images) {
             echo '<div class="slideshow-item" style="background-image:url('.$attached_images.');"></div>';
             } ?>

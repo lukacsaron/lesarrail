@@ -210,6 +210,11 @@ a {
     @media (max-width: 768px) {
         display: none;
     }
+    @media (max-width:1025px) {
+        .nav li a {
+            font-size: 9px;
+        }
+    }
 }
 
 .hide-sm {
@@ -301,6 +306,18 @@ a {
 
         }
     }
+
+.page-template-page-testimonials {
+    #primary {
+        opacity: 1 !important;
+        .testimonial {
+            .entry-title {
+                padding-top: 10px;
+                font-weight: bold;
+            }
+        }
+    }
+}
 
 //SINGLE ACTIVITY
 

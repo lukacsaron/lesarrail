@@ -8433,6 +8433,10 @@ a:active {
   .desktop-menu {
     display: none; } }
 
+@media (max-width: 1025px) {
+  .desktop-menu .nav li a {
+    font-size: 9px; } }
+
 @media (max-width: 1024px) {
   .hide-sm {
     display: none; } }
@@ -8506,6 +8510,12 @@ a:active {
     display: block;
     float: left;
     margin-bottom: 15px; }
+
+.page-template-page-testimonials #primary {
+  opacity: 1 !important; }
+  .page-template-page-testimonials #primary .testimonial .entry-title {
+    padding-top: 10px;
+    font-weight: bold; }
 
 .single-activity #page-wrapper, .page-template-fadein-fullwidthpage #page-wrapper, .page-template-page-testimonials #page-wrapper {
   height: auto !important; }
