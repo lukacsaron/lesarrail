@@ -8777,7 +8777,7 @@ a:active {
 
 .tel {
   position: absolute !important;
-  margin-top: 140px;
+  margin-top: 100px;
   margin-left: 10px;
   font-size: 14px; }
   @media (min-width: 1024) {
@@ -8789,7 +8789,7 @@ a:active {
 
 .mail {
   position: absolute !important;
-  margin-top: 160px;
+  margin-top: 120px;
   margin-left: 10px;
   font-size: 14px; }
   @media (min-width: 1024) {
