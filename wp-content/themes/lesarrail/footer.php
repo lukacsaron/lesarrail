@@ -28,7 +28,7 @@
                             <a href="https://www.instagram.com/le_sarrail/" target="_blank"><i class="fa fa-instagram"></i></a>
                         </div>
                             <div class="col-md-6 col-md-pull-5">
-                                <span>T: 0738370507</span><br>
+                                <span>T: +33 (0)468 765 966</span><br>
                                 <span>E: info@lesarrail.com</span>
                             </div>
                         </div>
