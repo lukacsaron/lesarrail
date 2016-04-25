@@ -291,9 +291,14 @@ a {
             margin-bottom: 60px;
         @media (max-width:1025px ) {
             margin-right: 0;
+            img {
+                width: 100%;
+            }
         }
         img {
             height: auto !important;
+            padding: 10px;
+            background: $brand-primary;
         }
         .publi-title {
             color: #fff;

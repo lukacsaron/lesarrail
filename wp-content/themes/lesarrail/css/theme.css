@@ -8499,9 +8499,13 @@ a:active {
   margin-bottom: 60px; }
   @media (max-width: 1025px) {
     .publi-block {
-      margin-right: 0; } }
+      margin-right: 0; }
+      .publi-block img {
+        width: 100%; } }
   .publi-block img {
-    height: auto !important; }
+    height: auto !important;
+    padding: 10px;
+    background: #002e4d; }
   .publi-block .publi-title {
     color: #fff;
     background: #002e4d;
