@@ -324,6 +324,22 @@ a {
     }
 }
 
+// ENQUIRIES
+
+.page-template-page-enquiries {
+    table {
+        width: 100%;
+    }
+    .table-title {
+        background: $brand-primary;
+        padding: 10px;
+        color:#fff;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+}
+
 //SINGLE ACTIVITY
 
 .single-activity, .page-template-fadein-fullwidthpage, .page-template-page-testimonials {

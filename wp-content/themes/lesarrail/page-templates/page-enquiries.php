@@ -46,17 +46,13 @@ get_header(); ?>
 <table border="1"  align="center">
 <tbody>
 <tr>
-<td><span ><strong><span >Olive</span></strong></span></td>
+<td class="table-title"><span><strong><span>Olive</span></strong></span></td>
 </tr>
 </tbody>
 </table>
 </div>
 <table cellspacing="-1" cellpadding="-1" align="center">
 <tbody>
-<tr class="head">
-<td><span ><strong>Dates </strong></span></td>
-<td><span ><strong>2016 </strong></span></td>
-</tr>
 <tr >
 <td >7th - 28th May</td>
 <td >€1500</td>
@@ -79,18 +75,13 @@ get_header(); ?>
 <table border="1"  align="center">
 <tbody>
 <tr>
-<td><span ><strong><span>Figue</span></strong></span></td>
+<td class="table-title"><span ><strong><span>Figue</span></strong></span></td>
 </tr>
 </tbody>
 </table>
 </div>
 <table class="rates" align="center">
 <tbody>
-<tr class="head">
-<td class="date"><span ><strong>Dates </strong></span></td>
-<td class="price"><span ><strong>2016 </strong></span></td>
-</tr>
-<tr>
 <td ><span >7th - 28th May</span></td>
 <td >€1700</td>
 </tr>
@@ -113,17 +104,14 @@ get_header(); ?>
 <table border="1" align="center">
 <tbody>
 <tr>
-<td><span ><strong>Citron</strong></span></td>
+<td class="table-title"><span ><strong>Citron</strong></span></td>
 </tr>
 </tbody>
 </table>
 </div>
 <table class="rates" align="center">
 <tbody>
-<tr class="head">
-<td class="date"><span ><strong>Dates</strong></span></td>
-<td class="price"><span ><strong>2016</strong></span></td>
-</tr>
+
 <tr>
 <td ><span >7th - 28th May</span></td>
 <td >€1800</td>
@@ -147,17 +135,14 @@ get_header(); ?>
 <table border="1"  align="center">
 <tbody>
 <tr>
-<td style="text-align: center;"><span ><strong>Cypres </strong></span></td>
+<td class="table-title"><span ><strong>Cypres </strong></span></td>
 </tr>
 </tbody>
 </table>
 </div>
-<table style="width: 95%;" align="center">
+<table align="center">
 <tbody>
-<tr>
-<td style="width: 66%;"><span ><strong>Dates</strong></span></td>
-<td><span ><strong>2016</strong></span></td>
-</tr>
+
 <tr>
 <td >7th - 28th May</td>
 <td >€2200</td>
