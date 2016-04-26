@@ -8521,6 +8521,16 @@ a:active {
     padding-top: 10px;
     font-weight: bold; }
 
+.page-template-page-enquiries table {
+  width: 100%; }
+
+.page-template-page-enquiries .table-title {
+  background: #002e4d;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase; }
+
 .single-activity #page-wrapper, .page-template-fadein-fullwidthpage #page-wrapper, .page-template-page-testimonials #page-wrapper {
   height: auto !important; }
 
