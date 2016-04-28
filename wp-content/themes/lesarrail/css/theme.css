@@ -8340,7 +8340,7 @@ h1, h2, h3, h4, h5, h6,
 .lang-icon.menu-item-has-children {
   color: transparent; }
   .lang-icon.menu-item-has-children a {
-    color: transparent; }
+    color: transparent !important; }
   .lang-icon.menu-item-has-children .caret {
     color: #002e4d !important; }
   .lang-icon.menu-item-has-children:before {
@@ -8836,7 +8836,7 @@ a:active {
 
 .tel {
   position: absolute !important;
-  margin-top: 60px;
+  margin-top: 30px;
   margin-left: 10px;
   font-size: 14px; }
   @media (min-width: 1024) {
@@ -8848,7 +8848,7 @@ a:active {
 
 .mail {
   position: absolute !important;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 10px;
   font-size: 14px; }
   @media (min-width: 1024) {

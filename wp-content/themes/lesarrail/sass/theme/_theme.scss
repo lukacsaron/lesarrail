@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6,
 .lang-icon.menu-item-has-children {
     color: transparent;
     a {
-        color: transparent;
+       color: transparent !important;
     }
     .caret {
         color: $brand-primary !important;
@@ -741,7 +741,7 @@ a {
 
     .tel {
         position: absolute !important;
-        margin-top: 60px;
+        margin-top: 30px;
         margin-left: 10px;
         font-size: 14px;
         @media (min-width: 1024) {
@@ -755,7 +755,7 @@ a {
 
 .mail {
         position: absolute !important;
-        margin-top: 80px;
+        margin-top: 50px;
         margin-left: 10px;
         font-size: 14px;
         @media (min-width: 1024) {
