@@ -22,7 +22,7 @@ get_header(); ?>
                             <div class="apartment-container">
                             <div class="row hide-desktop gallery-btn-container">
                                 <div class="col-md-offset-10 col-md-2 col-xs-push-7 col-xs-5">
-                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>_mob">GALLERY</a>
+                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>_mob"><?php echo __('GALLERY','lesarrail_text');?></a>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-5 primary-container">
@@ -45,7 +45,7 @@ get_header(); ?>
 
                             <header class="entry-header">
                                 <?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
-                                <span class="can-accomodate">(Can accommodate up to <?php echo $apartment_size[0]; ?>)</span>
+                                <span class="can-accomodate">(<?php echo __('Can accommodate up to ','lesarrail_text');?><?php echo $apartment_size[0]; ?>)</span>
                             </header><!-- .entry-header -->
 
                             <div class="entry-content">
@@ -82,12 +82,15 @@ get_header(); ?>
                                     <br>
                                 </div>
                                 <div class="clear spacer"></div>
+                                <?php if ($offer_boolean[0]=="") { ?>
+                                <?php } else { ?>
                                 <div id="offer" class="col-md-6">
                                     <div class="offer-wrapper">
                                         <h4><?php echo __('SPECIAL OFFER','lesarrail_text');?></h4>
                                         <span class="details"><?php echo $offer_details[0]; ?></span>
                                     </div>
                                 </div>
+                                <?php } ?>
                                 <div id="callouts" class="col-sm-12 col-md-6 small-nopadding">
                                     <a href="<?php echo $contact_btn[0]; ?>">
                                         <button class="btn btn-default btn-callout col-sm-6 col-md-12"><?php echo __('Contact the owner','lesarrail_text');?></button>
