@@ -49,7 +49,7 @@ body {
 
 .open>.dropdown-menu {
     display: block;
-    z-index: 99999;
+    z-index: 17;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6,
     &:before {
         margin-top: 33px;
         margin-left: 11px;
-        z-index: 99999;
+        z-index: 15;
         transition: all .15s ease-out;
     }
 }
