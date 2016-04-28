@@ -39,8 +39,8 @@
                                 <form action="//lesarrail.us10.list-manage.com/subscribe/post?u=8b5b47c0a55160921b20a398f&amp;id=7cfd841a3a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                     <div id="mc_embed_signup_scroll">
                                 <div class="mc-field-group">
-                                    <input type="email" value="" placeholder="enter your email address" name="EMAIL" class="required email" id="mce-EMAIL">
-                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn">
+                                    <input type="email" value="" placeholder="<?php echo __('enter your email address','lesarrail_text');?>" name="EMAIL" class="required email" id="mce-EMAIL">
+                                    <input type="submit" value="<?php echo __('Subscribe','lesarrail_text');?>" name="subscribe" id="mc-embedded-subscribe" class="button btn">
                                 </div>
                                     <div id="mce-responses" class="clear">
                                         <div class="response" id="mce-error-response" style="display:none"></div>
@@ -53,7 +53,7 @@
                         <!--End mc_embed_signup-->
                         </div>
                         <div class="col-xs-6 col-md-2 col-md-push-5 col-lg-2 col-lg-push-1">
-                            <span class="copyright">© 2016 Le Sarrail All Rights Reserved</span>
+                            <span class="copyright"><?php echo __('© 2016 Le Sarrail All Rights Reserved','lesarrail_text');?></span>
                         </div>
                     </div><!-- .site-info -->
 

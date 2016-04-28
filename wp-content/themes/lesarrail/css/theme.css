@@ -8335,18 +8335,20 @@ h1, h2, h3, h4, h5, h6,
       margin-bottom: 15px; } }
 
 .scrolled .lang-icon.menu-item-has-children:before {
-  margin-top: 18px; }
+  margin-top: 18px;
+  transition: all .15s ease-out; }
 
 .lang-icon.menu-item-has-children {
   color: transparent; }
-  .lang-icon.menu-item-has-children a {
+  .lang-icon.menu-item-has-children .dropdown-toggle {
     color: transparent !important; }
   .lang-icon.menu-item-has-children .caret {
     color: #002e4d !important; }
   .lang-icon.menu-item-has-children:before {
     margin-top: 33px;
     margin-left: 11px;
-    z-index: 99999; }
+    z-index: 99999;
+    transition: all .15s ease-out; }
 
 .lang-icon {
   padding-left: 10px; }

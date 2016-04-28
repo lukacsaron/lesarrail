@@ -75,13 +75,14 @@ h1, h2, h3, h4, h5, h6,
     .lang-icon.menu-item-has-children {
         &:before {
             margin-top: 18px;
+            transition: all .15s ease-out;
         }
     }
 }
 
 .lang-icon.menu-item-has-children {
     color: transparent;
-    a {
+    .dropdown-toggle {
        color: transparent !important;
     }
     .caret {
@@ -91,6 +92,7 @@ h1, h2, h3, h4, h5, h6,
         margin-top: 33px;
         margin-left: 11px;
         z-index: 99999;
+        transition: all .15s ease-out;
     }
 }
 
