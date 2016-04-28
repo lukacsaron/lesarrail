@@ -59,7 +59,7 @@ get_header(); ?>
                         <!--End mc_embed_signup-->
                         </div>
                         <div class="col-xs-6 col-md-1 copy-cont">
-                            <span class="copyright">© 2016 Le Sarrail All Rights Reserved</span>
+                            <span class="copyright"><?php echo __('© 2016 Le Sarrail All Rights Reserved','lesarrail_text');?></span>
                         </div>
                     </div><!-- .site-info -->
             </div><!--col end -->
@@ -177,7 +177,7 @@ get_header(); ?>
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                       <div class="panel-body">
-                          <div class="global-description">In each house at Le Sarrail you will find a comprehensive restaurant guide to the best restaurants in the area, from pavement cafes where you can sit & watch French life go by to elegant French restaurants like 'Le Domaine d'Auriac' and Michelin-starred La Barbacane in the Cité of Carcassonne.</div>
+                          <div class="global-description"><?php echo __('In each house at Le Sarrail you will find a comprehensive restaurant guide to the best restaurants in the area, from pavement cafes where you can sit & watch French life go by to elegant French restaurants like Le Domaine dAuriac and Michelin-starred La Barbacane in the Cité of Carcassonne.','lesarrail_text');?></div>
                                 <?php $i = 1; ?>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'restaurants', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
@@ -225,7 +225,7 @@ get_header(); ?>
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="panel-body">
-                            <div class="global-description">No matter what the weather, children love visiting animal parks. The African Reserve at Sigean, near Narbonne, is where they will delight in seeing big game animals roaming free over a 300 hectare reserve. At Esperaza, about 30 minutes drive, you will find the interactive Dinosaur Museum which holds an impressive collection of dinosaur fossils found in and around Esperaza. You can also take llama rides in the Black Mountains, see the birds of prey at the sanctuary in Carcassonne, or visit the 'House of Wolves' in the Ariege.</div>
+                            <div class="global-description"><?php echo __('No matter what the weather, children love visiting animal parks. The African Reserve at Sigean, near Narbonne, is where they will delight in seeing big game animals roaming free over a 300 hectare reserve. At Esperaza, about 30 minutes drive, you will find the interactive Dinosaur Museum which holds an impressive collection of dinosaur fossils found in and around Esperaza. You can also take llama rides in the Black Mountains, see the birds of prey at the sanctuary in Carcassonne, or visit the House of Wolves in the Ariege.','lesarrail_text');?></div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'animal-parks', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>

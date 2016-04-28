@@ -68,29 +68,29 @@ get_header(); ?>
                                 </ul> -->
                                 <div id="rates" class="col-md-6">
                                     <h5>RATES</h5>
-                                    <span class="season-title">7th May - 28th May</span>
+                                    <span class="season-title"><?php echo __('7th May - 28th May','lesarrail_text');?></span>
                                     <span class="season-price">€<?php echo $season_01[0]; ?></span>
                                     <br>
-                                    <span class="season-title">28th May - 2nd Jul</span>
+                                    <span class="season-title"><?php echo __('28th May - 2nd Jul','lesarrail_text');?></span>
                                     <span class="season-price">€<?php echo $season_02[0]; ?></span>
                                     <br>
-                                    <span class="season-title">2nd Jul - 3rd Sep</span>
+                                    <span class="season-title"><?php echo __('2nd Jul - 3rd Sep','lesarrail_text');?></span>
                                     <span class="season-price">€<?php echo $season_03[0]; ?></span>
                                     <br>
-                                    <span class="season-title">3rd Sep - 2nd Oct</span>
+                                    <span class="season-title"><?php echo __('3rd Sep - 2nd Oct','lesarrail_text');?></span>
                                     <span class="season-price">€<?php echo $season_04[0]; ?></span>
                                     <br>
                                 </div>
                                 <div class="clear spacer"></div>
                                 <div id="offer" class="col-md-6">
                                     <div class="offer-wrapper">
-                                        <h4>SPECIAL OFFER</h4>
+                                        <h4><?php echo __('SPECIAL OFFER','lesarrail_text');?></h4>
                                         <span class="details"><?php echo $offer_details[0]; ?></span>
                                     </div>
                                 </div>
                                 <div id="callouts" class="col-sm-12 col-md-6 small-nopadding">
                                     <a href="<?php echo $contact_btn[0]; ?>">
-                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12">Contact the owner</button>
+                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12"><?php echo __('Contact the owner','lesarrail_text');?></button>
                                     </a>
                                                              
                                     <?php if ($book_btn[0]=="") { ?>
@@ -100,7 +100,7 @@ get_header(); ?>
                                     <?php } else { ?>
                                     
                                         <a href="<?php echo $book_btn[0]; ?>" target="_blank">
-                                            <button class="btn btn-default btn-callout col-sm-6 col-md-12">Book online</button>
+                                            <button class="btn btn-default btn-callout col-sm-6 col-md-12"><?php echo __('Book online','lesarrail_text');?></button>
                                         </a>
 
                                     <?php } ?>
@@ -116,7 +116,7 @@ get_header(); ?>
                             </div>
                         </article><!-- #post-## -->
                                 <div class="hide-mobile gallery-btn-container transition delay">
-                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>
+                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>"><?php echo __('GALLERY','lesarrail_text');?></a>
                                 </div>
                                 <div style="display:none;">
                                     <?php $attached_images = get_post_meta($post->ID, "wpcf-gallery-item", false);

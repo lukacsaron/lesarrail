@@ -54,19 +54,19 @@ get_header(); ?>
 <table cellspacing="-1" cellpadding="-1" align="center">
 <tbody>
 <tr >
-<td >7th - 28th May</td>
+<td ><?php echo __('7th - 28th May','lesarrail_text');?></td>
 <td >€1500</td>
 </tr>
 <tr >
-<td ><span >28th May - 2nd July</span></td>
+<td ><span ><?php echo __('28th May - 2nd July','lesarrail_text');?></span></td>
 <td ><span >€1900</span></td>
 </tr>
 <tr>
-<td >2nd July - 3rd September</td>
+<td ><?php echo __('2nd July - 3rd September','lesarrail_text');?></td>
 <td >€2850</td>
 </tr>
 <tr>
-<td ><span >3rd September - 2nd October</span></td>
+<td ><span ><?php echo __('3rd September - 2nd October','lesarrail_text');?></span></td>
 <td ><span >€1900</span></td>
 </tr>
 </tbody>
@@ -82,19 +82,19 @@ get_header(); ?>
 </div>
 <table class="rates" align="center">
 <tbody>
-<td ><span >7th - 28th May</span></td>
+<td ><span ><?php echo __('7th - 28th May','lesarrail_text');?></span></td>
 <td >€1700</td>
 </tr>
 <tr>
-<td ><span >28th May - 2 July</span></td>
+<td ><span ><?php echo __('28th May - 2 July','lesarrail_text');?></span></td>
 <td ><span >€2150</span></td>
 </tr>
 <tr>
-<td ><span >2nd July - 3rd September</span></td>
+<td ><span ><?php echo __('2nd July - 3rd September','lesarrail_text');?></span></td>
 <td ><span >€3000</span></td>
 </tr>
 <tr>
-<td ><span >3rd September - 2nd October</span></td>
+<td ><span ><?php echo __('3rd September - 2nd October','lesarrail_text');?></span></td>
 <td >€2150</td>
 </tr>
 </tbody>
@@ -113,19 +113,19 @@ get_header(); ?>
 <tbody>
 
 <tr>
-<td ><span >7th - 28th May</span></td>
+<td ><span ><?php echo __('7th - 28th May','lesarrail_text');?></span></td>
 <td >€1800</td>
 </tr>
 <tr>
-<td ><span >28th May - 2nd July</span></td>
+<td ><span ><?php echo __('28th May - 2nd July','lesarrail_text');?></span></td>
 <td >€2250</td>
 </tr>
 <tr>
-<td ><span >2nd July - 3rd September</span></td>
+<td ><span ><?php echo __('2nd July - 3rd September','lesarrail_text');?></span></td>
 <td ><span >€3150</span></td>
 </tr>
 <tr>
-<td ><span >3rd September - 2nd October</span></td>
+<td ><span ><?php echo __('3rd September - 2nd October','lesarrail_text');?></span></td>
 <td ><span >€2250</span></td>
 </tr>
 </tbody>
@@ -144,19 +144,19 @@ get_header(); ?>
 <tbody>
 
 <tr>
-<td >7th - 28th May</td>
+<td ><?php echo __('7th - 28th May','lesarrail_text');?></td>
 <td >€2200</td>
 </tr>
 <tr>
-<td >28th May - 2nd July</td>
+<td ><?php echo __('28th May - 2nd July','lesarrail_text');?></td>
 <td >€2950</td>
 </tr>
 <tr>
-<td >2nd July - 3rd September</td>
+<td ><?php echo __('2nd July - 3rd September','lesarrail_text');?></td>
 <td >€3700</td>
 </tr>
 <tr>
-<td >3rd September - 2nd October</td>
+<td ><?php echo __('3rd September - 2nd October','lesarrail_text');?></td>
 <td >€2950</td>
 </tr>
 </tbody>
