@@ -71,11 +71,26 @@ h1, h2, h3, h4, h5, h6,
             }
         }
 
+.scrolled {
+    .lang-icon.menu-item-has-children {
+        &:before {
+            margin-top: 18px;
+        }
+    }
+}
+
 .lang-icon.menu-item-has-children {
     color: transparent;
+    a {
+        color: transparent;
+    }
+    .caret {
+        color: $brand-primary !important;
+    }
     &:before {
-        margin-top: 34px;
+        margin-top: 33px;
         margin-left: 11px;
+        z-index: 99999;
     }
 }
 
