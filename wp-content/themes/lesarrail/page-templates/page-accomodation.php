@@ -22,7 +22,7 @@ get_header(); ?>
                             <div class="apartment-container">
                             <div class="row hide-desktop gallery-btn-container">
                                 <div class="col-md-offset-10 col-md-2 col-xs-push-7 col-xs-5">
-                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>_mob">GALLERY</a>
+                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>_mob"><?php echo __('GALLERY','lesarrail_text');?></a>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-5 primary-container">
@@ -45,7 +45,7 @@ get_header(); ?>
 
                             <header class="entry-header">
                                 <?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
-                                <span class="can-accomodate">(Can accommodate up to <?php echo $apartment_size[0]; ?>)</span>
+                                <span class="can-accomodate">(<?php echo __('Can accommodate up to ','lesarrail_text');?><?php echo $apartment_size[0]; ?>)</span>
                             </header><!-- .entry-header -->
 
                             <div class="entry-content">
@@ -68,29 +68,32 @@ get_header(); ?>
                                 </ul> -->
                                 <div id="rates" class="col-md-6">
                                     <h5>RATES</h5>
-                                    <span class="season-title">7th May - 28th May</span>
+                                    <span class="season-title"><?php echo __('7th May - 28th May','lesarrail_text');?></span>
                                     <span class="season-price">€<?php echo $season_01[0]; ?></span>
                                     <br>
-                                    <span class="season-title">28th May - 2nd Jul</span>
+                                    <span class="season-title"><?php echo __('28th May - 2nd Jul','lesarrail_text');?></span>
                                     <span class="season-price">€<?php echo $season_02[0]; ?></span>
                                     <br>
-                                    <span class="season-title">2nd Jul - 3rd Sep</span>
+                                    <span class="season-title"><?php echo __('2nd Jul - 3rd Sep','lesarrail_text');?></span>
                                     <span class="season-price">€<?php echo $season_03[0]; ?></span>
                                     <br>
-                                    <span class="season-title">3rd Sep - 2nd Oct</span>
+                                    <span class="season-title"><?php echo __('3rd Sep - 2nd Oct','lesarrail_text');?></span>
                                     <span class="season-price">€<?php echo $season_04[0]; ?></span>
                                     <br>
                                 </div>
                                 <div class="clear spacer"></div>
+                                <?php if ($offer_boolean[0]=="") { ?>
+                                <?php } else { ?>
                                 <div id="offer" class="col-md-6">
                                     <div class="offer-wrapper">
-                                        <h4>SPECIAL OFFER</h4>
+                                        <h4><?php echo __('SPECIAL OFFER','lesarrail_text');?></h4>
                                         <span class="details"><?php echo $offer_details[0]; ?></span>
                                     </div>
                                 </div>
+                                <?php } ?>
                                 <div id="callouts" class="col-sm-12 col-md-6 small-nopadding">
                                     <a href="<?php echo $contact_btn[0]; ?>">
-                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12">Contact the owner</button>
+                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12"><?php echo __('Contact the owner','lesarrail_text');?></button>
                                     </a>
                                                              
                                     <?php if ($book_btn[0]=="") { ?>
@@ -100,7 +103,7 @@ get_header(); ?>
                                     <?php } else { ?>
                                     
                                         <a href="<?php echo $book_btn[0]; ?>" target="_blank">
-                                            <button class="btn btn-default btn-callout col-sm-6 col-md-12">Book online</button>
+                                            <button class="btn btn-default btn-callout col-sm-6 col-md-12"><?php echo __('Book online','lesarrail_text');?></button>
                                         </a>
 
                                     <?php } ?>
@@ -116,7 +119,7 @@ get_header(); ?>
                             </div>
                         </article><!-- #post-## -->
                                 <div class="hide-mobile gallery-btn-container transition delay">
-                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>
+                                    <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>"><?php echo __('GALLERY','lesarrail_text');?></a>
                                 </div>
                                 <div style="display:none;">
                                     <?php $attached_images = get_post_meta($post->ID, "wpcf-gallery-item", false);

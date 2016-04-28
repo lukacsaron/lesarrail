@@ -17,7 +17,7 @@ get_header(); ?>
         
            <div id="primary" class="col-md-12 content-area">
                <header class="entry-header">
-                   <h4>With a return guest rate of 75% here's what they say.....</h4>
+                   <h4><?php echo __('With a return guest rate of 75% heres what they say.....','lesarrail_text');?></h4>
                </header>
 
                 <main id="main" class="site-main" role="main">

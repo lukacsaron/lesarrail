@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-md-push-2 hide-sm footer-form">
-                            <span>Sign up to our newsletter for special offers</span><br>
+                            <span><?php echo __('Sign up to our newsletter for special offers','lesarrail_text');?></span><br>
                             <!-- Begin MailChimp Signup Form -->
                                 <div id="mc_embed_signup">
                                 <form action="//lesarrail.us10.list-manage.com/subscribe/post?u=8b5b47c0a55160921b20a398f&amp;id=7cfd841a3a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>

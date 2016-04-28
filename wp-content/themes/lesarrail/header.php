@@ -128,7 +128,7 @@ function initialize() {
             'walker' => new wp_bootstrap_navwalker()
         )
     ); ?>
-
+<?php do_action('wpml_add_language_selector'); ?>
     <div class="navbar navbar-default navbar-fixed-top mobile-menu">
         <div class="navbar-header">
             <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_title.svg" height="20px"></a>
