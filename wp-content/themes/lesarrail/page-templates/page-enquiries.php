@@ -165,7 +165,10 @@ get_header(); ?>
 <table border="0" lign="center">
 <tbody>
 <tr>
-<td>Rates are per house per week&nbsp;<br style="color: #000000;">Linen, towels (including pool towels) &amp; end of stay cleaning is included.&nbsp;<br style="color: #000000;">Check-in Saturday after 4pm and check-out Saturday by 10am.&nbsp;<br style="color: #000000;">Please note: Bookings during the winter period (including alternative arrival and departure days and long weekends) may be arranged by prior arrangement, please enquire.</td>
+<td><?php echo __('Rates are per house per week.
+    Linen, towels (including pool towels) end of stay cleaning is included.
+    Check-in Saturday after 4pm and check-out Saturday by 10am.
+    Please note: Bookings during the winter period (including alternative arrival and departure days and long weekends) may be arranged by prior arrangement, please enquire.','lesarrail_text');?></td>
 </tr>
 </tbody>
 </table>
