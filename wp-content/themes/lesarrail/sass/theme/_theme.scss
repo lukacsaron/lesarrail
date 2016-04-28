@@ -842,6 +842,17 @@ a {
 .offcanvas {
     background-color: #fff !important;
     border: none !important;
+    .lang-icon.menu-item-has-children:before {
+        right: 30px;
+        margin-top: 18px;
+        margin-left: 11px;
+    }
+    .lang-icon {
+        .dropdown-menu {
+            right: 0;
+            left: inherit;
+        }
+    }
     .navmenu-nav {
         padding-top: 40px;
         li {
