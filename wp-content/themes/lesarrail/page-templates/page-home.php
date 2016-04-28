@@ -83,11 +83,11 @@ get_header(); ?>
 	    </div><!-- #primary -->
     </div><!-- Container end -->
     
-    <?php   $kids = 22;
-            $accommodation = 18;
-            $area = 20;
-            $group = 26;
-            $maison_cypres = 45;
+    <?php   $kids = __('22','lesarrail_posts');
+            $accommodation = __('18','lesarrail_posts');;
+            $area = __('20','lesarrail_posts');;
+            $group = __('26','lesarrail_posts');;
+            $maison_cypres = __('45','lesarrail_posts');;
 
     ?>
     
@@ -219,7 +219,7 @@ get_header(); ?>
                     <div class="panel-heading" role="tab" id="headingTwo"  data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                       <h4 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Animal Parks
+                          <?php echo __('Animal Parks','lesarrail_text');?>
                         </a>
                       </h4>
                     </div>
@@ -263,7 +263,7 @@ get_header(); ?>
                     <div class="panel-heading" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       <h4 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Flying
+                          <?php echo __('Flying','lesarrail_text');?>
                         </a>
                       </h4>
                     </div>
@@ -308,7 +308,7 @@ get_header(); ?>
                     <div class="panel-heading" role="tab" id="headingFour" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                       <h4 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                          Sporting Activities
+                         <?php echo __('Sporting Activities','lesarrail_text');?>
                         </a>
                       </h4>
                     </div>
@@ -352,7 +352,7 @@ get_header(); ?>
                     <div class="panel-heading" role="tab" id="headingFive" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                       <h4 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                          Wine Tasting
+                          <?php echo __('Wine Tasting','lesarrail_text');?>
                         </a>
                       </h4>
                     </div>
