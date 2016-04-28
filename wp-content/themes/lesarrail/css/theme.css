@@ -8334,6 +8334,43 @@ h1, h2, h3, h4, h5, h6,
       margin-left: 0;
       margin-bottom: 15px; } }
 
+.lang-icon.menu-item-has-children {
+  color: transparent; }
+  .lang-icon.menu-item-has-children:before {
+    margin-top: 34px;
+    margin-left: 11px; }
+
+.lang-icon {
+  padding-left: 10px; }
+
+.lang-icon:before {
+  content: '';
+  height: 12px;
+  width: 18px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 0px; }
+
+.eng-icon:before {
+  background: url(http://beta.lesarrail.co.uk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png); }
+
+.fr-icon:before {
+  background: url(http://beta.lesarrail.co.uk/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png); }
+
+.nl-icon:before {
+  background: url(http://beta.lesarrail.co.uk/wp-content/plugins/sitepress-multilingual-cms/res/flags/nl.png); }
+
+.de-icon:before {
+  background: url(http://beta.lesarrail.co.uk/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png); }
+
+.es-icon:before {
+  background: url(http://beta.lesarrail.co.uk/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png); }
+
+.it-icon:before {
+  background: url(http://beta.lesarrail.co.uk/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.png); }
+
 #area-container .area {
   height: 200px;
   margin-bottom: 30px; }
