@@ -848,6 +848,9 @@ a {
         margin-left: 11px;
     }
     .lang-icon {
+        .dropdown-toggle {
+            color: transparent !important;
+        }
         .dropdown-menu {
             right: 0;
             left: inherit;
