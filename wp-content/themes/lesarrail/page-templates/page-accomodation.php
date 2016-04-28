@@ -49,9 +49,15 @@ get_header(); ?>
                             </header><!-- .entry-header -->
 
                             <div class="entry-content">
+                                <?php if ($main_feature[0]=="") { ?>
+
+                                        <!-- If there are no custom fields, show nothing -->
+
+                                    <?php } else { ?>
                                 <ul class="col-md-12 main-feature">
                                     <li class="feature-item"><?php echo $main_feature[0]; ?></li>
                                 </ul>
+                                    <?php } ?>
                                 <div class="apartment-description col-md-12 desktop-nopadding">
                                     <?php the_content(); ?>
                                 </div>
