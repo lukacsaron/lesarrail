@@ -8914,6 +8914,13 @@ a:active {
 .offcanvas {
   background-color: #fff !important;
   border: none !important; }
+  .offcanvas .lang-icon.menu-item-has-children:before {
+    right: 30px;
+    margin-top: 18px;
+    margin-left: 11px; }
+  .offcanvas .lang-icon .dropdown-menu {
+    right: 0;
+    left: inherit; }
   .offcanvas .navmenu-nav {
     padding-top: 40px; }
     .offcanvas .navmenu-nav li.active a {
