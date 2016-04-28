@@ -154,6 +154,7 @@ h1, h2, h3, h4, h5, h6,
                 padding: 10px;
                 text-transform: uppercase;
                 font-weight: 600;
+                max-width: 80%;
                 @media (max-width: 1025px) {
                     font-size: 16px;
                 }
