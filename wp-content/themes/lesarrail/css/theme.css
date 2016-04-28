@@ -8918,6 +8918,8 @@ a:active {
     right: 30px;
     margin-top: 18px;
     margin-left: 11px; }
+  .offcanvas .lang-icon .dropdown-toggle {
+    color: transparent !important; }
   .offcanvas .lang-icon .dropdown-menu {
     right: 0;
     left: inherit; }
