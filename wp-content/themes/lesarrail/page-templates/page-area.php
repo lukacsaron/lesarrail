@@ -17,7 +17,7 @@ get_header(); ?>
             while ( $loop->have_posts() ) : $loop->the_post(); $count ++; ?> 
             <?php $image = get_image_custom($post->ID, 'medium'); ?>
                                 
-            <a class="area col-md-4 col-sm-6 col-xs-12 mobile-nopadding" href="<?php the_permalink(); ?>">
+            <a class="area col-md-4 col-sm-6 col-xs-12 small-nopadding" href="<?php the_permalink(); ?>">
                 <div class="box-wrapper" style="background-image:url('<?php echo $image; ?>');">
                     <h2 class="title transition"><?php echo get_the_title(); ?></h2>
                 </div>

@@ -8503,6 +8503,10 @@ a:active {
   .mobile-nopadding {
     padding: 0; } }
 
+@media (max-width: 769px) {
+  .small-nopadding {
+    padding: 0; } }
+
 @media (max-width: 768px) {
   .small-nopadding {
     padding: 0; } }
@@ -8981,7 +8985,8 @@ a:active {
     background: #fff;
     padding: 10px;
     text-transform: uppercase;
-    font-weight: 500; }
+    font-weight: 500;
+    max-width: 80%; }
     @media (max-width: 768px) {
       .page-template-page-home .box-wrapper .title {
         padding: 10px;

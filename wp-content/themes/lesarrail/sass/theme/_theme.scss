@@ -310,6 +310,12 @@ a {
 }
 
 .small-nopadding {
+    @media (max-width: 769px) {
+        padding:0;
+    }
+}
+
+.small-nopadding {
     @media (max-width: 768px) {
         padding:0;
     }
@@ -929,6 +935,7 @@ a {
             padding: 10px;
             text-transform: uppercase;
             font-weight: 500;
+            max-width: 80%;
             @media (max-width: 768px) {
                 padding: 10px;
                 margin-left: 15px;
