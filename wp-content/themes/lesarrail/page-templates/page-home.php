@@ -171,7 +171,7 @@ get_header(); ?>
                     <div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                       <h4 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                          Restaurants
+                          <?php echo __('Restaurants','lesarrail_text');?>
                         </a>
                       </h4>
                     </div>
@@ -269,8 +269,8 @@ get_header(); ?>
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                         <div class="panel-body">
-                            <div class="global-description">A flying lesson, wether you are a total beginner or in the process of gaining more hours for your private pilot's licence, is an incredible experience.
-                                It is easy to book lessons at Carcassonne airport - no long waiting lists. It is also much less expensive than the UK and of course the scenery is spectacular. We can arrange lessons for you and even accompany you on the flight in case any language translation is needed. And for a really special occasion, why not hire a light aircraft with pilot, enjoy the view and pop down to Spain for lunch? However, if your interests lie with the mysteries of the Cathar castles, but you don't want to hike up the mountain to see them, then we can arrange a flight to view them from the air.</div>
+                            <div class="global-description"><?php echo __('A flying lesson, wether you are a total beginner or in the process of gaining more hours for your private pilots licence, is an incredible experience.
+                                It is easy to book lessons at Carcassonne airport - no long waiting lists. It is also much less expensive than the UK and of course the scenery is spectacular. We can arrange lessons for you and even accompany you on the flight in case any language translation is needed. And for a really special occasion, why not hire a light aircraft with pilot, enjoy the view and pop down to Spain for lunch? However, if your interests lie with the mysteries of the Cathar castles, but you dont want to hike up the mountain to see them, then we can arrange a flight to view them from the air.','lesarrail_text');?></div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'flying', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
@@ -314,7 +314,7 @@ get_header(); ?>
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
                         <div class="panel-body">
-                            <div class="global-description">Whether you consider yourself sporty or not, it is easy to enjoy the many outdoor activities to be found locally; cycling, horse-riding, sailing, canoeing, rafting, kayaking, climbing and tennis are just a few of the exciting activities this area has to offer.</div>
+                            <div class="global-description"><?php echo __('Whether you consider yourself sporty or not, it is easy to enjoy the many outdoor activities to be found locally; cycling, horse-riding, sailing, canoeing, rafting, kayaking, climbing and tennis are just a few of the exciting activities this area has to offer.','lesarrail_text');?></div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'sporting-activities', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
@@ -358,7 +358,7 @@ get_header(); ?>
                     </div>
                     <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
                         <div class="panel-body">
-                            <div class="global-description">We are in the middle of a huge wine growing area, the Languedoc Roussillon, which produces many fabulous wines. There are some especially good vineyards close by where you are able to sample award winning wines, alternatively, we can arrange a private wine-tasting for you at Le Sarrail.</div>
+                            <div class="global-description"><?php echo __('We are in the middle of a huge wine growing area, the Languedoc Roussillon, which produces many fabulous wines. There are some especially good vineyards close by where you are able to sample award winning wines, alternatively, we can arrange a private wine-tasting for you at Le Sarrail.','lesarrail_text');?></div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'wine-tasting', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
@@ -402,7 +402,7 @@ get_header(); ?>
                     </div>
                     <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingsix">
                         <div class="panel-body">
-                            <div class="global-description">There are many golf courses in the region, most of which are pay and play. Domaine d'Aurriac in Carcassonne has a stunning 18 hole course set in the grounds of a 4 star hotel with a top class restaurant and bistro.</div>
+                            <div class="global-description"><?php echo __('There are many golf courses in the region, most of which are pay and play. Domaine dAurriac in Carcassonne has a stunning 18 hole course set in the grounds of a 4 star hotel with a top class restaurant and bistro.','lesarrail_text');?></div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'golf', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
@@ -446,7 +446,7 @@ get_header(); ?>
                     </div>
                     <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingseven">
                         <div class="panel-body">
-                            <div class="global-description">The Space City is just outside Toulouse (45 minutes drive), home to the Ariane rocket and is a great day out for all the family. There is a life size replica of the Ariane launch vehicle 5,53 meters tall, ready for take off. The Imax 'Space Station' film is a must (the first ever 3D film shot in space), there is also a Planetarium and an animated film for children explaining the constellations. Toulouse center itself is also well worth a visit - cosmopolitan with great restaurants and shopping, and wonderful architecture</div>
+                            <div class="global-description"><?php echo __('The Space City is just outside Toulouse (45 minutes drive), home to the Ariane rocket and is a great day out for all the family. There is a life size replica of the Ariane launch vehicle 5,53 meters tall, ready for take off. The Imax Space Station film is a must (the first ever 3D film shot in space), there is also a Planetarium and an animated film for children explaining the constellations. Toulouse center itself is also well worth a visit - cosmopolitan with great restaurants and shopping, and wonderful architecture','lesarrail_text');?></div>
                                 <?php   $args = array( 'post_type' => 'poi', 'category_name' => 'toulouse-cite despace', 'posts_per_page' => 40 );
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
