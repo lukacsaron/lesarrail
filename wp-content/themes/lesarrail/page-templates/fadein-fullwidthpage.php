@@ -57,7 +57,7 @@ get_header(); ?>
                 <div id="secondary" class="col-md-6 content-area">
                     <div class="row btn-container">
             <div class="col-md-3 col-xs-12 absolute-btn">
-                <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>">GALLERY</a>
+                <a href="<?php echo get_post_meta($post->ID, "wpcf-gallery-item", false)[0]; ?>" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-<?php echo ($post->ID); ?>"><?php echo __('GALLERY','lesarrail_text');?></a>
             </div>
         </div>
                     <img src="<?php echo $attached_images; ?>">
