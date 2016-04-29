@@ -890,6 +890,10 @@ a {
             }
         }
     }
+    .dropdown-menu {
+        left: inherit;
+        right: 0;
+    }
 }
 
 .copyright {

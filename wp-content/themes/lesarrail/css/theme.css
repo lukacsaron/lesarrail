@@ -8946,6 +8946,9 @@ a:active {
       .offcanvas .navmenu-nav li a:hover, .offcanvas .navmenu-nav li a:active {
         color: #fff !important;
         background: #002e4d !important; }
+  .offcanvas .dropdown-menu {
+    left: inherit;
+    right: 0; }
 
 .copyright {
   width: 109px;
