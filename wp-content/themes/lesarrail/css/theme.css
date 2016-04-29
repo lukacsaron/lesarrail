@@ -8948,7 +8948,8 @@ a:active {
         background: #002e4d !important; }
   .offcanvas .dropdown-menu {
     left: inherit;
-    right: 0; }
+    right: 0;
+    z-index: 999; }
 
 .copyright {
   width: 109px;

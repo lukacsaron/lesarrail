@@ -893,6 +893,7 @@ a {
     .dropdown-menu {
         left: inherit;
         right: 0;
+        z-index: 999;
     }
 }
 
