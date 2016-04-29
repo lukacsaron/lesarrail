@@ -8316,6 +8316,15 @@ a.skip-link {
 body {
   overflow: inherit !important; }
 
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px !important; }
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: #002e4d; }
+
 .open > .dropdown-menu {
   display: block;
   z-index: 17; }
