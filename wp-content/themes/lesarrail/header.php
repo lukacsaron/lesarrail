@@ -32,8 +32,24 @@
         height: 100%;
       }
     </style>
-     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhr54CGMVgdD-WiPGP-jgYNFUhjHJUl4g"></script>
-<script>
+</head>
+
+<body <?php body_class(); ?>>
+    <script>
+      function loadScript(src,callback){
+  
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    if(callback)script.onload=callback;
+    document.getElementsByTagName("head")[0].appendChild(script);
+    script.src = src;
+  }
+  
+  
+  loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyDhr54CGMVgdD-WiPGP-jgYNFUhjHJUl4g&sensor=false&callback=initialize',
+              function(){log('google-loader has been loaded, but not the maps-API ');});
+
+
 var infowindow = new google.maps.InfoWindow();
 var markers = [];
 var locations = [];
@@ -121,10 +137,8 @@ function initialize() {
                     scrollTop: $("#map").offset().top
                 }, 500);
     }    
-</script>
-</head>
-
-<body <?php body_class(); ?>>    
+    
+    </script>
     <?php wp_nav_menu(
         array(
             'theme_location' => 'primary',
