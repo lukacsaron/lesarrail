@@ -7,6 +7,13 @@
  * @package understrap
  */
 ?><!DOCTYPE html>
+<!--
+   _ _   _ _    ___ ___ _  __   _   
+  _ | | | | | |  |_ _/ __| |/ /  /_\  
+ | || | |_| | |__ | |\__ \ ' <  / _ \ 
+  \__/ \___/|____|___|___/_|\_\/_/ \_\
+                                      
+-->
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
