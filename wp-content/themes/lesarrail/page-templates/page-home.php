@@ -486,7 +486,7 @@ get_header(); ?>
             </div>
 			<script type="text/javascript">
 				var locations = [
-					<?php  $i = 1; $args = array( 'post_type' => 'poi', 'posts_per_page' => 40 );
+					<?php  $i = 1; $args = array( 'post_type' => 'poi','category_name' => 'restaurants', 'posts_per_page' => 40 );
                       $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
 						<?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
 							{
@@ -495,7 +495,67 @@ get_header(); ?>
                                 marker_img : "restaurant"
 						},
 						<?php endif; ?>
-					<?php $i++; endwhile; ?>
+					<?php $i++; endwhile; wp_reset_query(); ?>
+                    <?php $args = array( 'post_type' => 'poi','category_name' => 'animal-parks', 'posts_per_page' => 40 );
+                      $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+						<?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+							{
+								latlng : new google.maps.LatLng<?php echo get_post_meta($post->ID, 'martygeocoderlatlng', true); ?>, 
+								info : document.getElementById('item<?php echo $i; ?>'),
+                                marker_img : "restaurant"
+						},
+						<?php endif; ?>
+					<?php $i++; endwhile; wp_reset_query(); ?>
+                    <?php $args = array( 'post_type' => 'poi','category_name' => 'flying', 'posts_per_page' => 40 );
+                      $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+						<?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+							{
+								latlng : new google.maps.LatLng<?php echo get_post_meta($post->ID, 'martygeocoderlatlng', true); ?>, 
+								info : document.getElementById('item<?php echo $i; ?>'),
+                                marker_img : "restaurant"
+						},
+						<?php endif; ?>
+					<?php $i++; endwhile; wp_reset_query(); ?>
+                    <?php $args = array( 'post_type' => 'poi','category_name' => 'sporting-activities', 'posts_per_page' => 40 );
+                      $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+						<?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+							{
+								latlng : new google.maps.LatLng<?php echo get_post_meta($post->ID, 'martygeocoderlatlng', true); ?>, 
+								info : document.getElementById('item<?php echo $i; ?>'),
+                                marker_img : "restaurant"
+						},
+						<?php endif; ?>
+					<?php $i++; endwhile; wp_reset_query(); ?>
+                    <?php $args = array( 'post_type' => 'poi','category_name' => 'wine-tasting', 'posts_per_page' => 40 );
+                      $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+						<?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+							{
+								latlng : new google.maps.LatLng<?php echo get_post_meta($post->ID, 'martygeocoderlatlng', true); ?>, 
+								info : document.getElementById('item<?php echo $i; ?>'),
+                                marker_img : "restaurant"
+						},
+						<?php endif; ?>
+					<?php $i++; endwhile; wp_reset_query(); ?>
+                    <?php $args = array( 'post_type' => 'poi','category_name' => 'golf', 'posts_per_page' => 40 );
+                      $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+						<?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+							{
+								latlng : new google.maps.LatLng<?php echo get_post_meta($post->ID, 'martygeocoderlatlng', true); ?>, 
+								info : document.getElementById('item<?php echo $i; ?>'),
+                                marker_img : "restaurant"
+						},
+						<?php endif; ?>
+					<?php $i++; endwhile; wp_reset_query(); ?>
+                    <?php $args = array( 'post_type' => 'poi','category_name' => 'toulouse-cite despace', 'posts_per_page' => 40 );
+                      $loop = new WP_Query( $args ); while ( $loop->have_posts() ) : $loop->the_post(); ?>
+						<?php if ( get_post_meta($post->ID, 'martygeocoderlatlng', true) !== '' ) : ?>
+							{
+								latlng : new google.maps.LatLng<?php echo get_post_meta($post->ID, 'martygeocoderlatlng', true); ?>, 
+								info : document.getElementById('item<?php echo $i; ?>'),
+                                marker_img : "restaurant"
+						},
+						<?php endif; ?>
+					<?php $i++; endwhile; wp_reset_query(); ?>
 				];
 			</script>
             
