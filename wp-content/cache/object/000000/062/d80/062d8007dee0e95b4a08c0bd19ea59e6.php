@@ -1,0 +1,1 @@
+ $W<?php exit; ?>a:1:{s:7:"content";a:1:{i:0;O:8:"stdClass":4:{s:7:"meta_id";s:3:"724";s:7:"post_id";s:3:"110";s:8:"meta_key";s:21:"wpcf-endorsement-text";s:10:"meta_value";s:107:"There are plenty of twee, rustic villas and gites in the Languedoc, but here is a place with genuine class.";}}}
