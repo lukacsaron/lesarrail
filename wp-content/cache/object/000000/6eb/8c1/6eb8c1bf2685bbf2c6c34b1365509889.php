@@ -1,1 +1,1 @@
-D$W<?php exit; ?>a:1:{s:7:"content";s:9:"/wp-admin";}
+U$W<?php exit; ?>a:1:{s:7:"content";s:9:"/wp-admin";}

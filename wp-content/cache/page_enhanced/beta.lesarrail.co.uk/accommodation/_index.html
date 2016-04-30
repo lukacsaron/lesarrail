@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<!--
+   _ _   _ _    ___ ___ _  __   _   
+  _ | | | | | |  |_ _/ __| |/ /  /_\  
+ | || | |_| | |__ | |\__ \ ' <  / _ \ 
+  \__/ \___/|____|___|___/_|\_\/_/ \_\
+                                      
+-->
+<html lang="en-US">
+<head><link rel="stylesheet" type="text/css" href="http://beta.lesarrail.co.uk/wp-content/cache/minify/000000/M9DPSS1OLCpKzMzRTy4u1i_JSM1N1cvNzAMA.css" media="all" />
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Le Sarrail - Luxury accommodation to rent  in the south of France">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://beta.lesarrail.co.uk/xmlrpc.php">
+<title>Accommodation &#8211; Le Sarrail</title>
+
+<link rel="stylesheet" href="http://beta.lesarrail.co.uk/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.3" type="text/css" media="all" />
+<link rel="alternate" type="application/rss+xml" title="Le Sarrail &raquo; Feed" href="http://beta.lesarrail.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Le Sarrail &raquo; Comments Feed" href="http://beta.lesarrail.co.uk/comments/feed/" />
+
+<link rel='https://api.w.org/' href='http://beta.lesarrail.co.uk/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://beta.lesarrail.co.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://beta.lesarrail.co.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="http://beta.lesarrail.co.uk/accommodation/" />
+<link rel='shortlink' href='http://beta.lesarrail.co.uk/?p=18' />
+<link rel="alternate" type="application/json+oembed" href="http://beta.lesarrail.co.uk/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbeta.lesarrail.co.uk%2Faccommodation%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://beta.lesarrail.co.uk/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbeta.lesarrail.co.uk%2Faccommodation%2F&#038;format=xml" />
+	<script type="text/javascript">
+	/*	jQuery(function($) {
+			$(".swipebox_grid").swipebox({
+				hideBarsDelay : 0
+			});
+
+		});
+
+		jQuery(function(){
+			
+			jQuery(document.body)
+				.on('click touchend','#swipebox-slider .current img', function(e){
+					jQuery('#swipebox-next').click();
+					return false;
+				})
+				.on('click touchend','#swipebox-slider .current', function(e){
+					jQuery('#swipebox-close').trigger('click');
+				});
+			
+		});
+*/
+	</script>
+<link rel="shortcut icon" href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/favicon_2.png" /><meta name="generator" content="WPML ver:3.3 stt:1,4;" />
+<link rel="alternate" hreflang="en-US" href="http://beta.lesarrail.co.uk/accommodation/" />
+<link rel="alternate" hreflang="fr-FR" href="http://beta.lesarrail.co.uk/les-maisons/?lang=fr" />
+
+<style type="text/css">#lang_sel a, #lang_sel a.lang_sel_sel{color:#444444;}#lang_sel a:hover, #lang_sel a.lang_sel_sel:hover{color:#000000;}#lang_sel a.lang_sel_sel, #lang_sel a.lang_sel_sel:visited{background-color:#ffffff;}#lang_sel a.lang_sel_sel:hover{background-color:#eeeeee;}#lang_sel li ul a, #lang_sel li ul a:visited{color:#444444;}#lang_sel li ul a:hover{color:#000000;}#lang_sel li ul a, #lang_sel li ul a:link, #lang_sel li ul a:visited{background-color:#ffffff;}#lang_sel li ul a:hover{background-color:#eeeeee;}#lang_sel a, #lang_sel a:visited{border-color:#cdcdcd;} #lang_sel ul ul{border-top:1px solid #cdcdcd;}</style>
+    <style>
+      #map {
+        height: 100%;
+      }
+    </style>
+</head>
+
+<body class="page page-id-18 page-template page-template-page-templates page-template-page-accomodation page-template-page-templatespage-accomodation-php page_accommodation template_page-accomodation">
+    <script>
+      function loadScript(src,callback){
+  
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    if(callback)script.onload=callback;
+    document.getElementsByTagName("head")[0].appendChild(script);
+    script.src = src;
+  }
+  
+  
+  loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyDhr54CGMVgdD-WiPGP-jgYNFUhjHJUl4g&sensor=false&callback=initialize',
+              function(){log('google-loader has been loaded, but not the maps-API ');});
+
+
+var infowindow = new google.maps.InfoWindow();
+var markers = [];
+var locations = [];
+function initialize() {
+	map = new google.maps.Map(document.getElementById('map'), { 
+		zoom: 10, 
+		center: new google.maps.LatLng(43.174677, 2.151427), 
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+        backgroundColor: "#002e4d",
+        mapTypeControlOptions: {
+        style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+        position: google.maps.ControlPosition.TOP_RIGHT
+    },
+	});
+    var styles = [
+  {
+    "stylers": [
+      { "saturation": -63 }
+    ]
+  },{
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      { "color": "#002e4d" }
+    ]
+  },{
+    "featureType": "water",
+    "stylers": [
+      { "color": "#002e4d" },
+      { "lightness": 26 }
+    ]
+  },{
+    "featureType": "road",
+    "elementType": "labels.icon"  },{
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      { "color": "#ffffff" }
+    ]
+  },{
+    "featureType": "administrative",
+    "elementType": "labels.text.fill"  },{
+    "featureType": "landscape.natural",
+    "stylers": [
+      { "saturation": 29 },
+      { "gamma": 0.53 }
+    ]
+  },{
+    "featureType": "landscape.natural.terrain",
+    "stylers": [
+      { "lightness": 40 },
+      { "color": "#80a580" }
+    ]
+  }
+];
+    map.setOptions({styles: styles});
+    var latlng = new google.maps.LatLng(43.174677, 2.151427);
+    var marker_lesarrail = new google.maps.Marker ({
+        position: latlng,
+        map: map,
+        icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAoCAMAAAB95dzmAAABklBMVEUAAAAAL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL03///8AME4ALUsACy4AMU4BK0oAIkIAHT5tiJkfSGMAKkgAJEQAI0MAGzsADTAFM1AAGDkACCwOOFYANlQINlMAM1EAIEAAFDYAEDPg5up9lqUQPFiPpLGInqyFmqlphZYwVm8kTGYAJ0YAEzUAAB37/Py7x8+qusRkgZNPb4Q2W3MnUGkSPloAACEAABn8/f3v8/Tr7/Hl6e3R2d+1w8yhs76XrLiSp7RhfpBaeo1XdYlTdIhKZ30AKEcABSjz+/zz9ffn7O/h4+fZ4OXEzdSKoa5+l6ZzjZ6WjJpdd4tJbYM6XnYXQl0MLUsAABT2+Pn19/jK1Nq/0diyx9CuvceyvMVbcYZCZ31EX3YuVW0zU2s8UWotSGMTRF85PlkmPVgeN1QnLUkAFzFFEYWNAAAAInRSTlMAr6Twm+cN+eHAgE8mHu3RtT7XyqWQdGEH++CoeW5bRBYPeVWkkQAAAqtJREFUSMek0EkKgDAQBdFWMzskClFwIfLvf0h3giSRtL4bVNGb2TV+N0uIvaIv1Opxm+JIbIfEg3bEJJCwJ3FYZEhOTECWrL/qUGCp0oCiLfutTRgU6TYhCL9Rd7E6X1luAkEUQD+8k340OUgEIyEBAgTKOefR5Bycc/a+jezxzALsj+4+/U7VrfpX4cl/IjheoAzh9gRN2OPSkCFqXkkDJY0Zqgoanz6aoPJMWhtrZPdTOCrw3OMWjE52t21bOt0JBvVENcfHtrprsu1MPkd0SzeEHKcoepx26gxNz+MWzrooi6TgjkYHpQIhNHN53E8T1j1sFVRrPNh/bWXbxcH+9FalTn10kxGsorSVi6vkgchKaBvErGGzilRCBB64LMkJX8WEFT3Mv6Lea0H6hFPTkQF/m++gVGlDYh+IwgKyQ7Mz1E5aBiG8GFRPmpp5VlxDNr2+/6Na70UIv6FkmpNaCJp4cLtlLEzK/CUa6LBKtt5/u7jRCFGs95+nuKoM8Sod5j17jqHCfsABjvOOjsFLLCud38Sqq3L3BNvA4dHV3QRvaoFISaaM8Rjfm/AvXuCWR7jBpnuNawkfK1MEF0MkNvxeGdUj16F/CEGWgnn0s3V+Ol/mKaFx2Z9F2WZYuPPcL7EkJ9La6Ei2eP7OaCy3vXbwlA+jjNU4mzXFe+JXc3WzgiAQBHB8pA8FP6KUMiqioUYTwhVj0XqZ3v8p2ttQGrHjxd9hT3ubGf5NSRWVWpm3btCMvaB7rYvqolvKM7qeSekX3XJq9eOZNYoQqdB5RaTM98lIFhwHg8TpcvGHldOVQB8f+0WpMAFsCRZi7LEHG6cZduzATrDFLzHYOoozxDb4IQAma5oPTFb3NchwnacgtuAaS809NLwUBggjRDeEQQK+DDH/AH+8Ab4h5+Z0E6QrAAAAAElFTkSuQmCC"
+
+    })
+
+	for (var i = 0; i < locations.length; i++) {   
+		var marker = new google.maps.Marker({
+	    	position: locations[i].latlng,
+			map: map,
+            icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAoCAMAAACo9wirAAAA3lBMVEUAAAAAL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL03///8ALEsAKkkAGDkAJkUAHj4AGzxVc4cAFTcAEjQ4XHQAIkLx9ParusWGnauAl6dZeIvm6+7h6evS2t/CztW9ydGhsr6hsb1wippohpdieo1SbYJFa4BIaX8wWXEqTGUlSmQiR2EYPloQNFEGChv/AAAAJXRSTlMA/MwxGNN7dBEHsaeVZV8D7eq4jH9BOObDu6Gbh1VPSNza1m8ocl0I6wAAAVVJREFUOMt9k+eWgjAQRocmFgR7L9uiAQTbur33ff8X8sRjMgGC9xcn9zvDMBNAouM6DV3vDeypB1lKdo8IrFEx7ScWSdC1k75JMjRM1F6ZKNDxNegTWLxGi+RQhgMGyaUKjD5B5pTOCVJjbbQl7Yc0WIQEaQFAhXCCxWq3fXr5jbGIVYJiV/j19YyxeQsx0YGOqL9g/kDkS226/NH/mnFu/wN+6kBBFNjNBB8xD1REgNItBm6WYiMYCJ5VAaxA4lcMrESXQxjzx/Bvw/3DmvJTW9qEHx393Q8O04DSOQ7i/Z75x28cw4UH4BBMaJ9RtFpLyyikth3Ey6VPpW2agNvKvw9XWp7X8Uor0Qz+z+jqwCVwzJr6yiJTRRtWESTcjK+bkGCUbrANKZxkwIUMfdk3ZaP42AGoMOtigh4oMY6JMxNyaGs4YTUTFhjDCarsFp6kNYQke+8sfQQE1cw9AAAAAElFTkSuQmCC"
+		});
+		google.maps.event.addListener(marker, 'click', (function(marker, i) {
+		  return function() {
+		    infowindow.setContent(locations[i].info);
+		    infowindow.open(map, marker);
+		  }
+		})(marker, i));
+        // Push the marker to the 'markers' array
+            markers.push(marker);
+	}
+
+}
+
+    function myClick(id){
+        google.maps.event.trigger(markers[id], 'click');
+        jQuery('html, body').animate({
+                    scrollTop: $("#map").offset().top
+                }, 500);
+    }    
+    
+    </script>
+    <div class="navmenu navmenu-default navmenu-fixed-right offcanvas"><ul id="mobile-main-menu" class="nav navmenu-nav"><li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-18 current_page_item menu-item-30 active"><a title="Accommodation" href="http://beta.lesarrail.co.uk/accommodation/">Accommodation</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a title="Kids" href="http://beta.lesarrail.co.uk/kids/">Kids</a></li>
+<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a title="Groups" href="http://beta.lesarrail.co.uk/group-rentals/">Groups</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Things To Do" href="http://beta.lesarrail.co.uk/things-to-do/">Things To Do</a></li>
+<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a title="Gallery" href="http://beta.lesarrail.co.uk/gallery/">Gallery</a></li>
+<li id="menu-item-258" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-258 dropdown"><a title="About" href="#" data-toggle="dropdown" class="dropdown-toggle">About <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a title="Comments" href="http://beta.lesarrail.co.uk/comments/">Comments</a></li>
+	<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a title="Publicity" href="http://beta.lesarrail.co.uk/publicity/">Publicity</a></li>
+</ul>
+</li>
+<li id="menu-item-257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-257 dropdown"><a title="Contact" href="#" data-toggle="dropdown" class="dropdown-toggle">Contact <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a title="Find Us" href="http://beta.lesarrail.co.uk/find-us/">Find Us</a></li>
+	<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a title="Enquiries" href="http://beta.lesarrail.co.uk/enquiries/">Enquiries</a></li>
+</ul>
+</li>
+<li id="menu-item-533" class="eng-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-533 dropdown"><a title="EN" href="#" data-toggle="dropdown" class="dropdown-toggle">EN <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-534" class="fr-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-534"><a title="FR" href="/?lang=fr">FR</a></li>
+	<li id="menu-item-535" class="nl-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-535"><a title="NL" href="https://translate.google.hu/translate?sl=en&#038;tl=nl&#038;js=y&#038;prev=_t&#038;hl=en&#038;ie=UTF-8&#038;u=beta.lesarrail.co.uk&#038;edit-text=&#038;act=url">NL</a></li>
+	<li id="menu-item-536" class="de-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-536"><a title="DE" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=de&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">DE</a></li>
+	<li id="menu-item-537" class="it-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a title="IT" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=it&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">IT</a></li>
+	<li id="menu-item-538" class="es-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a title="ES" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=es&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">ES</a></li>
+</ul>
+</li>
+<li id="menu-item-116" class="tel menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a title="T: +33 (0)468 765 966" href="tel:0033468765966">T: +33 (0)468 765 966</a></li>
+<li id="menu-item-117" class="mail menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a title="E: info@lesarrail.com" href="mailto:info@lesarrail.com">E: info@lesarrail.com</a></li>
+</ul></div>    <div class="navbar navbar-default navbar-fixed-top mobile-menu">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="http://beta.lesarrail.co.uk/" title="Le Sarrail" rel="home"><img src="http://beta.lesarrail.co.uk/wp-content/themes/lesarrail/img/logo_title.svg" height="20px"></a>
+        </div>
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+
+<div id="page" class="hfeed site">
+    
+    <!-- ******************* The Navbar Area ******************* -->
+    <div class="wrapper-fluid wrapper-navbar desktop-menu" id="wrapper-navbar">
+	   <div id="nav-spacer"></div>
+        <nav class="site-navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                            
+            <div class="navbar navbar-default navbar-fixed-top">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-xs-12">
+
+                            <div class="navbar-header">
+
+                                <!-- Your site title as branding in the menu -->
+                              <a class="navbar-brand" href="http://beta.lesarrail.co.uk/" title="Le Sarrail" rel="home"><img src="http://beta.lesarrail.co.uk/wp-content/themes/lesarrail/img/logo_title.svg" width="195px"></a>
+
+                            </div>
+
+                            <!-- The WordPress Menu goes here -->
+                            <div class="collapse navbar-collapse navbar-responsive-collapse"><ul id="main-menu" class="nav navbar-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-18 current_page_item menu-item-30 active"><a title="Accommodation" href="http://beta.lesarrail.co.uk/accommodation/">Accommodation</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a title="Kids" href="http://beta.lesarrail.co.uk/kids/">Kids</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a title="Groups" href="http://beta.lesarrail.co.uk/group-rentals/">Groups</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Things To Do" href="http://beta.lesarrail.co.uk/things-to-do/">Things To Do</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a title="Gallery" href="http://beta.lesarrail.co.uk/gallery/">Gallery</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-258 dropdown"><a title="About" href="#" data-toggle="dropdown" class="dropdown-toggle">About <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a title="Comments" href="http://beta.lesarrail.co.uk/comments/">Comments</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a title="Publicity" href="http://beta.lesarrail.co.uk/publicity/">Publicity</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-257 dropdown"><a title="Contact" href="#" data-toggle="dropdown" class="dropdown-toggle">Contact <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a title="Find Us" href="http://beta.lesarrail.co.uk/find-us/">Find Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a title="Enquiries" href="http://beta.lesarrail.co.uk/enquiries/">Enquiries</a></li>
+</ul>
+</li>
+<li class="eng-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-533 dropdown"><a title="EN" href="#" data-toggle="dropdown" class="dropdown-toggle">EN <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li class="fr-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-534"><a title="FR" href="/?lang=fr">FR</a></li>
+	<li class="nl-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-535"><a title="NL" href="https://translate.google.hu/translate?sl=en&#038;tl=nl&#038;js=y&#038;prev=_t&#038;hl=en&#038;ie=UTF-8&#038;u=beta.lesarrail.co.uk&#038;edit-text=&#038;act=url">NL</a></li>
+	<li class="de-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-536"><a title="DE" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=de&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">DE</a></li>
+	<li class="it-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a title="IT" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=it&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">IT</a></li>
+	<li class="es-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a title="ES" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=es&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">ES</a></li>
+</ul>
+</li>
+<li class="tel menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a title="T: +33 (0)468 765 966" href="tel:0033468765966">T: +33 (0)468 765 966</a></li>
+<li class="mail menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a title="E: info@lesarrail.com" href="mailto:info@lesarrail.com">E: info@lesarrail.com</a></li>
+</ul></div>                            
+                        </div> <!-- .col-md-11 or col-md-12 end -->
+
+                    </div> <!-- .row end -->
+
+                </div> <!-- .container -->
+                
+            </div><!-- .navbar -->
+            
+        </nav><!-- .site-navigation -->
+        
+    </div><!-- .wrapper-navbar end -->
+
+
+
+
+
+
+
+<div class="wrapper" id="page-wrapper">
+    
+    <div  id="content" class="container mobile-nopadding">
+        <div class="col-md-12 mobile-nopadding">
+         
+        
+						<div class="row apartment-row" style="background-image:url('http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/MaisonOlive_placehold-1280x720.jpg');">
+                            <div class="apartment-container">
+                            <div class="row hide-desktop gallery-btn-container">
+                                <div class="col-md-offset-10 col-md-2 col-xs-push-7 col-xs-5">
+                                    <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/001-9.jpg" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-87_mob">GALLERY</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-5 primary-container">
+                                <div class="opener-btn opener"></div>
+							                             
+                        <article id="post-87" class="closed post-87 apartment type-apartment status-publish has-post-thumbnail hentry">
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Maison Olive</h3>                                <span class="can-accomodate">(Can accommodate up to 4)</span>
+                            </header><!-- .entry-header -->
+
+                            <div class="entry-content">
+                                                                <ul class="col-md-12 main-feature">
+                                    <li class="feature-item">Sunny Master Bedroom w/ Ensuite Shower room</li>
+                                </ul>
+                                                                    <div class="apartment-description col-md-12 desktop-nopadding">
+                                    <p>The open-plan layout gives Maison Olive a light, airy, almost &#8216;beach house&#8217; feel, and with 2 bedrooms it can accommodate up to 4 people. It has a lovely high ceilinged fully equipped kitchen, dining area opening onto a very large private terrace and a cosy lounge area with wood burning stove.</p>
+<p>Upstairs at the front of the house is a sunny master bedroom with ensuite shower room, it has large french windows with wrought iron balastrade overlooking the lawn, countryside and mountains beyond. At the rear of the house is a twin room and separate bathroom.</p>
+<p>The shaded sun terrace is furnished with dining table and six chairs, sun loungers and gas BBQ.</p>
+                                </div>
+                                <!-- <ul class="col-md-6 features">
+                                    <li class="feature-item">Large french windows and Iron balastrade overlooking the lawn</li><li class="feature-item">Twin room and separate</li><li class="feature-item">High ceiling fully equipped kitchen</li><li class="feature-item">Beach house feel</li></ul><ul class="features_2 col-md-6"><li class="feature-item">Dining area opening onto large private terrace</li><li class="feature-item">Cosy lounge area w/ wood burning stove</li> 
+                                </ul> -->
+                                <div id="rates" class="col-md-6">
+                                    <h5>RATES</h5>
+                                    <span class="season-title">7th May - 28th May</span>
+                                    <span class="season-price">€1500</span>
+                                    <br>
+                                    <span class="season-title">28th May - 2nd Jul</span>
+                                    <span class="season-price">€1900</span>
+                                    <br>
+                                    <span class="season-title">2nd Jul - 3rd Sep</span>
+                                    <span class="season-price">€2850</span>
+                                    <br>
+                                    <span class="season-title">3rd Sep - 2nd Oct</span>
+                                    <span class="season-price">€1900</span>
+                                    <br>
+                                </div>
+                                <div class="clear spacer"></div>
+                                                                <div id="offer" class="col-md-6">
+                                    <div class="offer-wrapper">
+                                        <h4>SPECIAL OFFER</h4>
+                                        <span class="details">Book between April-May for 25% off</span>
+                                    </div>
+                                </div>
+                                                                <div id="callouts" class="col-sm-12 col-md-6 small-nopadding">
+                                    <a href="http://beta.lesarrail.co.uk/find-us/">
+                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12">Contact the owner</button>
+                                    </a>
+                                                             
+                                    
+                                        <!-- If there are no custom fields, show nothing -->
+
+                                                                             
+                                </div>
+                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        </article><!-- #post-## -->
+                                <div class="hide-mobile gallery-btn-container transition delay">
+                                    <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/001-9.jpg" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-87">GALLERY</a>
+                                </div>
+                                <div style="display:none;">
+                                                                        
+        <!-- detach first image -->
+                <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/002-9.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/003-9.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/004-9.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/005-6.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/006-7.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/007-6.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/008-6.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/009-4.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/010-4.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/011-4.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/012-4.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/013-3.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/014-4.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/015-4.jpg"data-gallery="#blueimp-gallery-87" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/016-4.jpg"data-gallery="#blueimp-gallery-87" ></a>
+                                        </div>
+                                <div style="display:none;">
+                                                                        
+        <!-- detach first image -->
+                <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/002-9.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/003-9.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/004-9.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/005-6.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/006-7.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/007-6.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/008-6.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/009-4.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/010-4.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/011-4.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/012-4.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/013-3.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/014-4.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/015-4.jpg"data-gallery="#blueimp-gallery-87_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/016-4.jpg"data-gallery="#blueimp-gallery-87_mob"></a>
+                                        </div>
+                            </div>
+                        </div>
+            </div>
+        
+				 
+        
+						<div class="row apartment-row" style="background-image:url('http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/MaisonCitron_placehold-1280x720.jpg');">
+                            <div class="apartment-container">
+                            <div class="row hide-desktop gallery-btn-container">
+                                <div class="col-md-offset-10 col-md-2 col-xs-push-7 col-xs-5">
+                                    <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/016-3.jpg" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-86_mob">GALLERY</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-5 primary-container">
+                                <div class="opener-btn opener"></div>
+							                             
+                        <article id="post-86" class="closed post-86 apartment type-apartment status-publish has-post-thumbnail hentry">
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Maison Citron</h3>                                <span class="can-accomodate">(Can accommodate up to 6)</span>
+                            </header><!-- .entry-header -->
+
+                            <div class="entry-content">
+                                                                <ul class="col-md-12 main-feature">
+                                    <li class="feature-item">Twin bedroom with french windows</li>
+                                </ul>
+                                                                    <div class="apartment-description col-md-12 desktop-nopadding">
+                                    <p>Cool, airy and spacious, this house boasts three good size bedrooms, sleeping a total of 6 people. It is also possible to connect at goundfloor level with Maison Figue if required and the terrace has a cleverly designed division that can be opened to join the two terraces together, thus creating one large house and terrace to share with friends and family.</p>
+<p>The groundfloor is spacious and semi-open plan with a fully equipped kitchen, dining area with table seating six and a comfortable lounge area with wood burning stove. Two large glass doors open directly onto the shaded terrace which overlooks the gardens and takes in the view of the Pyrénees.</p>
+<p>Upstairs is a large master bedroom that has french windows with wrought iron balastrade, opening to reveal the beautiful view and ensuite with wet room style shower. There is a spacious twin bedroom also with french windows, a third bedroom sleeping two in bunkbeds and a large bright family bathroom.</p>
+                                </div>
+                                <!-- <ul class="col-md-6 features">
+                                    <li class="feature-item">Bedroom with two bunkbeds</li><li class="feature-item">Large bright family bathroom</li><li class="feature-item">Can connect with Maison Figue</li><li class="feature-item">Semi-open plan</li></ul><ul class="features_2 col-md-6"><li class="feature-item">Private or Shared Terrace overlooking gardens and Pyrénees</li><li class="feature-item">Fully equipped Kitchen</li><li class="feature-item">Wood burning stove</li> 
+                                </ul> -->
+                                <div id="rates" class="col-md-6">
+                                    <h5>RATES</h5>
+                                    <span class="season-title">7th May - 28th May</span>
+                                    <span class="season-price">€1800</span>
+                                    <br>
+                                    <span class="season-title">28th May - 2nd Jul</span>
+                                    <span class="season-price">€2250</span>
+                                    <br>
+                                    <span class="season-title">2nd Jul - 3rd Sep</span>
+                                    <span class="season-price">€3150</span>
+                                    <br>
+                                    <span class="season-title">3rd Sep - 2nd Oct</span>
+                                    <span class="season-price">€2250</span>
+                                    <br>
+                                </div>
+                                <div class="clear spacer"></div>
+                                                                <div id="offer" class="col-md-6">
+                                    <div class="offer-wrapper">
+                                        <h4>SPECIAL OFFER</h4>
+                                        <span class="details">Book between April-May for 25% off</span>
+                                    </div>
+                                </div>
+                                                                <div id="callouts" class="col-sm-12 col-md-6 small-nopadding">
+                                    <a href="http://beta.lesarrail.co.uk/find-us/">
+                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12">Contact the owner</button>
+                                    </a>
+                                                             
+                                    
+                                        <!-- If there are no custom fields, show nothing -->
+
+                                                                             
+                                </div>
+                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        </article><!-- #post-## -->
+                                <div class="hide-mobile gallery-btn-container transition delay">
+                                    <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/016-3.jpg" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-86">GALLERY</a>
+                                </div>
+                                <div style="display:none;">
+                                                                        
+        <!-- detach first image -->
+                <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/014-3.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/015-3.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/013-2.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/012-3.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/011-3.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/010-3.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/009-3.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/008-5.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/007-5.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/006-5.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/005-5.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/004-8.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/003-8.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/002-8.jpg"data-gallery="#blueimp-gallery-86" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/001-8.jpg"data-gallery="#blueimp-gallery-86" ></a>
+                                        </div>
+                                <div style="display:none;">
+                                                                        
+        <!-- detach first image -->
+                <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/014-3.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/015-3.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/013-2.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/012-3.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/011-3.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/010-3.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/009-3.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/008-5.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/007-5.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/006-5.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/005-5.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/004-8.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/003-8.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/002-8.jpg"data-gallery="#blueimp-gallery-86_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/001-8.jpg"data-gallery="#blueimp-gallery-86_mob"></a>
+                                        </div>
+                            </div>
+                        </div>
+            </div>
+        
+				 
+        
+						<div class="row apartment-row" style="background-image:url('http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/figue_wide-1-1280x800.jpg');">
+                            <div class="apartment-container">
+                            <div class="row hide-desktop gallery-btn-container">
+                                <div class="col-md-offset-10 col-md-2 col-xs-push-7 col-xs-5">
+                                    <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/001-10.jpg" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-85_mob">GALLERY</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-5 primary-container">
+                                <div class="opener-btn opener"></div>
+							                             
+                        <article id="post-85" class="closed post-85 apartment type-apartment status-publish has-post-thumbnail hentry">
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Maison Figue</h3>                                <span class="can-accomodate">(Can accommodate up to 5)</span>
+                            </header><!-- .entry-header -->
+
+                            <div class="entry-content">
+                                                                <ul class="col-md-12 main-feature">
+                                    <li class="feature-item">Master bedroom w/ king size bed + ensuite wet room</li>
+                                </ul>
+                                                                    <div class="apartment-description col-md-12 desktop-nopadding">
+                                    <p>This beautiful three bedroomed house can accommodate up to 5 people, the groundfloor and the terrace inter-connect with Maison Citron if required, thus creating a very large 6 bedroom house.</p>
+<p>Downstairs you will find perfectly arranged open plan living space, opening onto a large shaded private terrace with table &amp; chairs, gas BBQ and far-reaching views of the Pyrenees. The kitchen is fully equipped with a dishwasher, 5 ring gas range, washing machine, microwave and large fridge-freezer. The dining area boasts a large zinc top table which seats six, there is also a comfortable lounge area with wood burning stove.</p>
+<p>Upstairs comprises three good sized bedrooms; master bedroom with king size bed and ensuite with wet-room style shower, one twin bedroom, one single bedroom and a bathroom. Both master and twin bedrooms have french windows with wrought iron balastrade opening to reveal views of the uninterrupted countryside and gardens.</p>
+                                </div>
+                                <!-- <ul class="col-md-6 features">
+                                    <li class="feature-item">Two stylish master bedrooms</li><li class="feature-item">Dining area with large zinc topped table seating 6</li><li class="feature-item">Free WiFi</li><li class="feature-item">Mountain views</li></ul><ul class="features_2 col-md-6"><li class="feature-item">Family bathroom</li><li class="feature-item">Large terrace</li><li class="feature-item">Fully equipped kitchen</li><li class="feature-item">Wood burning stove</li><li class="feature-item">Terrace can inter-connect with Maison Citron</li> 
+                                </ul> -->
+                                <div id="rates" class="col-md-6">
+                                    <h5>RATES</h5>
+                                    <span class="season-title">7th May - 28th May</span>
+                                    <span class="season-price">€1700</span>
+                                    <br>
+                                    <span class="season-title">28th May - 2nd Jul</span>
+                                    <span class="season-price">€2150</span>
+                                    <br>
+                                    <span class="season-title">2nd Jul - 3rd Sep</span>
+                                    <span class="season-price">€3000</span>
+                                    <br>
+                                    <span class="season-title">3rd Sep - 2nd Oct</span>
+                                    <span class="season-price">€2150</span>
+                                    <br>
+                                </div>
+                                <div class="clear spacer"></div>
+                                                                <div id="offer" class="col-md-6">
+                                    <div class="offer-wrapper">
+                                        <h4>SPECIAL OFFER</h4>
+                                        <span class="details">Book between April-May for 25% off</span>
+                                    </div>
+                                </div>
+                                                                <div id="callouts" class="col-sm-12 col-md-6 small-nopadding">
+                                    <a href="http://beta.lesarrail.co.uk/find-us/">
+                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12">Contact the owner</button>
+                                    </a>
+                                                             
+                                    
+                                        <!-- If there are no custom fields, show nothing -->
+
+                                                                             
+                                </div>
+                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        </article><!-- #post-## -->
+                                <div class="hide-mobile gallery-btn-container transition delay">
+                                    <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/001-10.jpg" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-85">GALLERY</a>
+                                </div>
+                                <div style="display:none;">
+                                                                        
+        <!-- detach first image -->
+                <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/002-10.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/003-10.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/004-10.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/005-7.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/006-8.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/007-7.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/008-7.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/009-5.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/010-5.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/011-5.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/012-5.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/013-4.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/014-5.jpg"data-gallery="#blueimp-gallery-85" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/015-5.jpg"data-gallery="#blueimp-gallery-85" ></a>
+                                        </div>
+                                <div style="display:none;">
+                                                                        
+        <!-- detach first image -->
+                <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/002-10.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/003-10.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/004-10.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/005-7.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/006-8.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/007-7.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/008-7.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/009-5.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/010-5.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/011-5.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/012-5.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/013-4.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/014-5.jpg"data-gallery="#blueimp-gallery-85_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/015-5.jpg"data-gallery="#blueimp-gallery-85_mob"></a>
+                                        </div>
+                            </div>
+                        </div>
+            </div>
+        
+				 
+        
+						<div class="row apartment-row" style="background-image:url('http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/cypes_wide-1280x800.jpg');">
+                            <div class="apartment-container">
+                            <div class="row hide-desktop gallery-btn-container">
+                                <div class="col-md-offset-10 col-md-2 col-xs-push-7 col-xs-5">
+                                    <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/001-11.jpg" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-45_mob">GALLERY</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-5 primary-container">
+                                <div class="opener-btn opener"></div>
+							                             
+                        <article id="post-45" class="closed post-45 apartment type-apartment status-publish has-post-thumbnail hentry">
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Maison Cypres</h3>                                <span class="can-accomodate">(Can accommodate up to 8)</span>
+                            </header><!-- .entry-header -->
+
+                            <div class="entry-content">
+                                                                <ul class="col-md-12 main-feature">
+                                    <li class="feature-item">2 stylish master bedrooms w/ King size bed, ensuite and wet room</li>
+                                </ul>
+                                                                    <div class="apartment-description col-md-12 desktop-nopadding">
+                                    <p>This very spacious house with high ceilings and masses of natural light, has four bedrooms and can accommodate up to 8 people. Huge french windows open to wonderful views of the countryside and mountains, making a perfect spot to enjoy an aperitif. Alternatively, a large terrace to the rear of the property reveals a picturesque view of the hilltop village of Montréal, a sunny spot to enjoy a lazy breakfast or dinner while the village is lit up at night time.</p>
+<p>The large, fully equipped kitchen opens onto the dining room which has a zinc topped table seating 8 people, there is also a spacious comfortable lounge with a wood burning stove.</p>
+<p>Upstairs you will find two stylish master bedrooms each with king size bed &amp; ensuite including wet room style showers, a twin bedded room, a bedroom with bunkbeds and a family bathroom with sunken bath.</p>
+                                </div>
+                                <!-- <ul class="col-md-6 features">
+                                    <li class="feature-item">Four bedrooms in total</li><li class="feature-item">1 twin bedded room </li><li class="feature-item">1 bedroom with bunkbeds</li><li class="feature-item">Huge french windows with countryside and mountain views</li></ul><ul class="features_2 col-md-6"><li class="feature-item">Family bathroom with sunken bath</li><li class="feature-item">Fully equipped kitchen</li><li class="feature-item">Dining room with zinc topped table seating 8</li><li class="feature-item">Spacious lounge with wood burning stove</li> 
+                                </ul> -->
+                                <div id="rates" class="col-md-6">
+                                    <h5>RATES</h5>
+                                    <span class="season-title">7th May - 28th May</span>
+                                    <span class="season-price">€2200</span>
+                                    <br>
+                                    <span class="season-title">28th May - 2nd Jul</span>
+                                    <span class="season-price">€2950</span>
+                                    <br>
+                                    <span class="season-title">2nd Jul - 3rd Sep</span>
+                                    <span class="season-price">€3700</span>
+                                    <br>
+                                    <span class="season-title">3rd Sep - 2nd Oct</span>
+                                    <span class="season-price">€2950</span>
+                                    <br>
+                                </div>
+                                <div class="clear spacer"></div>
+                                                                <div id="offer" class="col-md-6">
+                                    <div class="offer-wrapper">
+                                        <h4>SPECIAL OFFER</h4>
+                                        <span class="details">Book between April-May for 25% off</span>
+                                    </div>
+                                </div>
+                                                                <div id="callouts" class="col-sm-12 col-md-6 small-nopadding">
+                                    <a href="http://beta.lesarrail.co.uk/find-us/">
+                                        <button class="btn btn-default btn-callout col-sm-6 col-md-12">Contact the owner</button>
+                                    </a>
+                                                             
+                                    
+                                        <!-- If there are no custom fields, show nothing -->
+
+                                                                             
+                                </div>
+                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        </article><!-- #post-## -->
+                                <div class="hide-mobile gallery-btn-container transition delay">
+                                    <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/001-11.jpg" class="btn btn-default btn-transparent" data-gallery="#blueimp-gallery-45">GALLERY</a>
+                                </div>
+                                <div style="display:none;">
+                                                                        
+        <!-- detach first image -->
+                <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/002-11.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/003-11.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/004-11.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/005-8.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/006-9.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/007-8.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/008-8.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/009-6.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/010-6.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/011-6.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/012-6.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/013-5.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/014-6.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/015-6.jpg"data-gallery="#blueimp-gallery-45" ></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/016-6.jpg"data-gallery="#blueimp-gallery-45" ></a>
+                                        </div>
+                                <div style="display:none;">
+                                                                        
+        <!-- detach first image -->
+                <a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/002-11.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/003-11.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/004-11.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/005-8.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/006-9.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/007-8.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/008-8.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/009-6.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/010-6.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/011-6.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/012-6.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/013-5.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/014-6.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/015-6.jpg"data-gallery="#blueimp-gallery-45_mob"></a><a href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/016-6.jpg"data-gallery="#blueimp-gallery-45_mob"></a>
+                                        </div>
+                            </div>
+                        </div>
+            </div>
+        
+				        
+    </div><!-- Container end -->
+    </div>
+</div><!-- Wrapper end -->
+
+
+
+<div class="wrapper" id="wrapper-footer">
+    
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+    
+                <footer id="colophon" class="site-footer" role="contentinfo">
+
+                    <div class="site-info">
+                        <div class="col-md-5 col-xs-6 footer-contacts nopadding">
+                            <div class="col-md-5 col-md-push-4 footer-socials">
+                            <a href="https://www.facebook.com/Le-Sarrail-593654507463494/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/lesarrail" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/le_sarrail/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </div>
+                            <div class="col-md-6 col-md-pull-5">
+                                <span>T: +33 (0)468 765 966</span><br>
+                                <span>E: info@lesarrail.com</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-push-2 hide-sm footer-form">
+                            <span>Sign up to our newsletter for special offers</span><br>
+                            <!-- Begin MailChimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                <form action="//lesarrail.us10.list-manage.com/subscribe/post?u=8b5b47c0a55160921b20a398f&amp;id=7cfd841a3a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group">
+                                    <input type="email" value="" placeholder="enter your email address" name="EMAIL" class="required email" id="mce-EMAIL">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn">
+                                </div>
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8b5b47c0a55160921b20a398f_7cfd841a3a" tabindex="-1" value=""></div>
+                                    </div>
+                                </form>
+                                </div>
+                        <!--End mc_embed_signup-->
+                        </div>
+                        <div class="col-xs-6 col-md-2 col-md-push-5 col-lg-2 col-lg-push-1">
+                            <span class="copyright">© 2016 Le Sarrail All Rights Reserved</span>
+                        </div>
+                    </div><!-- .site-info -->
+
+                </footer><!-- #colophon -->
+
+            </div><!--col end -->
+
+        </div><!-- row end -->
+        
+    </div><!-- container end -->
+    
+</div><!-- wrapper end -->
+
+</div><!-- #page -->
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://beta.lesarrail.co.uk/wp-content/cache/minify/000000/M9DPSS1OLCpKzMzRzyrWL8lIzU3Vy83M0zHRLy_QTc1NSk0BcQE.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"en","icl_home":"http:\/\/beta.lesarrail.co.uk\/","ajax_url":"http:\/\/beta.lesarrail.co.uk\/wp-admin\/admin-ajax.php","url_type":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://beta.lesarrail.co.uk/wp-content/cache/minify/000000/XcrBCYAwDEDRhazRQQTBLhBKKJE0laRFx1dPgtf__gzOjQ4j91C6NBbW3FFCKg5Phd2_Y5hAyNEMWV6IJ5EueI2F9W9bsioS6yo9s77HDQ.js"></script>
+<script async src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
+<script type="text/javascript" src="http://beta.lesarrail.co.uk/wp-content/cache/minify/000000/M9DPSS1OLCpKzMzRzyrWTy4tLsnPBQA.js"></script>
+</body>
+
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk: enhanced
+Database Caching 84/455 queries in 0.228 seconds using disk
+Object Caching 10298/11260 objects using disk
+Content Delivery Network via N/A
+
+ Served from: beta.lesarrail.co.uk @ 2016-04-30 01:39:49 by W3 Total Cache -->

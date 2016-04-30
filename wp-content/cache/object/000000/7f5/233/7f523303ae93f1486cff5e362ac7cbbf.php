@@ -1,1 +1,1 @@
-D$W<?php exit; ?>a:1:{s:7:"content";s:6:"/admin";}
+U$W<?php exit; ?>a:1:{s:7:"content";s:6:"/admin";}
