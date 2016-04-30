@@ -1,4 +1,4 @@
-Ó$W<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:119;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2016-04-12 16:06:20";s:13:"post_date_gmt";s:19:"0000-00-00 00:00:00";s:12:"post_content";s:772:"<p>This is a demo of a USP form that allows visitors to submit content. This is the same basic form provided by the "free" version of USP.</p>
+$W<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:119;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2016-04-12 16:06:20";s:13:"post_date_gmt";s:19:"0000-00-00 00:00:00";s:12:"post_content";s:772:"<p>This is a demo of a USP form that allows visitors to submit content. This is the same basic form provided by the "free" version of USP.</p>
 
 [usp_name class="" placeholder="" label="" required="" max=""]
 [usp_email class="" placeholder="" label="" required="" max=""]

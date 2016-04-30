@@ -1,4 +1,4 @@
-$W<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:22;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2016-04-03 18:36:28";s:13:"post_date_gmt";s:19:"2016-04-03 18:36:28";s:12:"post_content";s:1584:"Le Sarrail offers as much for children as it does their parents.
+$W<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:22;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2016-04-03 18:36:28";s:13:"post_date_gmt";s:19:"2016-04-03 18:36:28";s:12:"post_content";s:1584:"Le Sarrail offers as much for children as it does their parents.
 
 The large heated swimming pool is a haven for children with plenty of inflatable toys at their disposal, for peace of mind, the pool is fenced with a child-proof gate and has an electronically operated hard security cover which is closed at night for extra safety. Sunloungers and parasols surround the swimming pool and, within the enclosure is a cute shady wooden cabin with toys, that children can enjoy in the heat of the day.
 

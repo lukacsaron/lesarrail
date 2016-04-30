@@ -1,1 +1,1 @@
-!$W<?php exit; ?>a:1:{s:7:"content";i:69;}
+$W<?php exit; ?>a:1:{s:7:"content";i:69;}

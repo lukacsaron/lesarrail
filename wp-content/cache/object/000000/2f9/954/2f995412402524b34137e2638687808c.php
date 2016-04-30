@@ -1,4 +1,4 @@
-$W<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:157;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2016-04-16 12:09:41";s:13:"post_date_gmt";s:19:"2016-04-16 12:09:41";s:12:"post_content";s:2831:"<strong><em>National Geographic Traveller -  Summer 2014</em></strong>
+$W<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:157;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2016-04-16 12:09:41";s:13:"post_date_gmt";s:19:"2016-04-16 12:09:41";s:12:"post_content";s:2831:"<strong><em>National Geographic Traveller -  Summer 2014</em></strong>
 
 &nbsp;
 

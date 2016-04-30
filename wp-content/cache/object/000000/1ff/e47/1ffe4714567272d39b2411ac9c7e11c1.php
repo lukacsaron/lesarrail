@@ -1,4 +1,4 @@
-Ó$W<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:122;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2016-04-12 16:06:20";s:13:"post_date_gmt";s:19:"0000-00-00 00:00:00";s:12:"post_content";s:363:"<p>This basic form demo shows how to setup image previews with file uploads.</p>
+$W<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:122;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2016-04-12 16:06:20";s:13:"post_date_gmt";s:19:"0000-00-00 00:00:00";s:12:"post_content";s:363:"<p>This basic form demo shows how to setup image previews with file uploads.</p>
 
 [usp_title class="" placeholder="" label="" required="" max=""]
 [usp_content class="" placeholder="" label="" required="" max="" cols="" rows="" richtext=""]
