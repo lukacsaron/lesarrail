@@ -1,0 +1,835 @@
+<br />
+<b>Warning</b>:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/lesarrail/public_html/beta_git/lesarrail/wp-config.php:2) in <b>/home/lesarrail/public_html/beta_git/lesarrail/wp-content/plugins/usp-pro/inc/usp-shortcodes.php</b> on line <b>5</b><br />
+<br />
+<b>Warning</b>:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/lesarrail/public_html/beta_git/lesarrail/wp-config.php:2) in <b>/home/lesarrail/public_html/beta_git/lesarrail/wp-content/plugins/usp-pro/inc/usp-shortcodes.php</b> on line <b>5</b><br />
+<!DOCTYPE html>
+<!--
+   _ _   _ _    ___ ___ _  __   _   
+  _ | | | | | |  |_ _/ __| |/ /  /_\  
+ | || | |_| | |__ | |\__ \ ' <  / _ \ 
+  \__/ \___/|____|___|___/_|\_\/_/ \_\
+                                      
+-->
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Le Sarrail - Luxury accommodation to rent  in the south of France">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://beta.lesarrail.co.uk/xmlrpc.php">
+<title>Comments &#8211; Le Sarrail</title>
+
+<link rel="stylesheet" href="http://beta.lesarrail.co.uk/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.3" type="text/css" media="all" />
+<link rel="alternate" type="application/rss+xml" title="Le Sarrail &raquo; Feed" href="http://beta.lesarrail.co.uk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Le Sarrail &raquo; Comments Feed" href="http://beta.lesarrail.co.uk/comments/feed/" />
+<link rel='stylesheet' id='understrap-theme-css'  href='http://beta.lesarrail.co.uk/wp-content/themes/lesarrail/css/theme.min.css?ver=0.3.8' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='http://beta.lesarrail.co.uk/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://beta.lesarrail.co.uk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://beta.lesarrail.co.uk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="http://beta.lesarrail.co.uk/comments/" />
+<link rel='shortlink' href='http://beta.lesarrail.co.uk/?p=157' />
+<link rel="alternate" type="application/json+oembed" href="http://beta.lesarrail.co.uk/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbeta.lesarrail.co.uk%2Fcomments%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://beta.lesarrail.co.uk/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbeta.lesarrail.co.uk%2Fcomments%2F&#038;format=xml" />
+	<script type="text/javascript">
+	/*	jQuery(function($) {
+			$(".swipebox_grid").swipebox({
+				hideBarsDelay : 0
+			});
+
+		});
+
+		jQuery(function(){
+			
+			jQuery(document.body)
+				.on('click touchend','#swipebox-slider .current img', function(e){
+					jQuery('#swipebox-next').click();
+					return false;
+				})
+				.on('click touchend','#swipebox-slider .current', function(e){
+					jQuery('#swipebox-close').trigger('click');
+				});
+			
+		});
+*/
+	</script>
+<link rel="shortcut icon" href="http://beta.lesarrail.co.uk/wp-content/uploads/2016/04/favicon_2.png" /><meta name="generator" content="WPML ver:3.3 stt:1,4;" />
+<link rel="alternate" hreflang="en-US" href="http://beta.lesarrail.co.uk/comments/" />
+<link rel="alternate" hreflang="fr-FR" href="http://beta.lesarrail.co.uk/publicite-2/?lang=fr" />
+
+<style type="text/css">#lang_sel a, #lang_sel a.lang_sel_sel{color:#444444;}#lang_sel a:hover, #lang_sel a.lang_sel_sel:hover{color:#000000;}#lang_sel a.lang_sel_sel, #lang_sel a.lang_sel_sel:visited{background-color:#ffffff;}#lang_sel a.lang_sel_sel:hover{background-color:#eeeeee;}#lang_sel li ul a, #lang_sel li ul a:visited{color:#444444;}#lang_sel li ul a:hover{color:#000000;}#lang_sel li ul a, #lang_sel li ul a:link, #lang_sel li ul a:visited{background-color:#ffffff;}#lang_sel li ul a:hover{background-color:#eeeeee;}#lang_sel a, #lang_sel a:visited{border-color:#cdcdcd;} #lang_sel ul ul{border-top:1px solid #cdcdcd;}</style>
+    <style>
+      #map {
+        height: 100%;
+      }
+    </style>
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhr54CGMVgdD-WiPGP-jgYNFUhjHJUl4g"></script>
+<script>
+var infowindow = new google.maps.InfoWindow();
+var markers = [];
+var locations = [];
+function initialize() {
+	map = new google.maps.Map(document.getElementById('map'), { 
+		zoom: 10, 
+		center: new google.maps.LatLng(43.174677, 2.151427), 
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+        backgroundColor: "#002e4d",
+        mapTypeControlOptions: {
+        style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+        position: google.maps.ControlPosition.TOP_RIGHT
+    },
+	});
+    var styles = [
+  {
+    "stylers": [
+      { "saturation": -63 }
+    ]
+  },{
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      { "color": "#002e4d" }
+    ]
+  },{
+    "featureType": "water",
+    "stylers": [
+      { "color": "#002e4d" },
+      { "lightness": 26 }
+    ]
+  },{
+    "featureType": "road",
+    "elementType": "labels.icon"  },{
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      { "color": "#ffffff" }
+    ]
+  },{
+    "featureType": "administrative",
+    "elementType": "labels.text.fill"  },{
+    "featureType": "landscape.natural",
+    "stylers": [
+      { "saturation": 29 },
+      { "gamma": 0.53 }
+    ]
+  },{
+    "featureType": "landscape.natural.terrain",
+    "stylers": [
+      { "lightness": 40 },
+      { "color": "#80a580" }
+    ]
+  }
+];
+    map.setOptions({styles: styles});
+    var latlng = new google.maps.LatLng(43.174677, 2.151427);
+    var marker_lesarrail = new google.maps.Marker ({
+        position: latlng,
+        map: map,
+        icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAoCAMAAAB95dzmAAABklBMVEUAAAAAL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL03///8AME4ALUsACy4AMU4BK0oAIkIAHT5tiJkfSGMAKkgAJEQAI0MAGzsADTAFM1AAGDkACCwOOFYANlQINlMAM1EAIEAAFDYAEDPg5up9lqUQPFiPpLGInqyFmqlphZYwVm8kTGYAJ0YAEzUAAB37/Py7x8+qusRkgZNPb4Q2W3MnUGkSPloAACEAABn8/f3v8/Tr7/Hl6e3R2d+1w8yhs76XrLiSp7RhfpBaeo1XdYlTdIhKZ30AKEcABSjz+/zz9ffn7O/h4+fZ4OXEzdSKoa5+l6ZzjZ6WjJpdd4tJbYM6XnYXQl0MLUsAABT2+Pn19/jK1Nq/0diyx9CuvceyvMVbcYZCZ31EX3YuVW0zU2s8UWotSGMTRF85PlkmPVgeN1QnLUkAFzFFEYWNAAAAInRSTlMAr6Twm+cN+eHAgE8mHu3RtT7XyqWQdGEH++CoeW5bRBYPeVWkkQAAAqtJREFUSMek0EkKgDAQBdFWMzskClFwIfLvf0h3giSRtL4bVNGb2TV+N0uIvaIv1Opxm+JIbIfEg3bEJJCwJ3FYZEhOTECWrL/qUGCp0oCiLfutTRgU6TYhCL9Rd7E6X1luAkEUQD+8k340OUgEIyEBAgTKOefR5Bycc/a+jezxzALsj+4+/U7VrfpX4cl/IjheoAzh9gRN2OPSkCFqXkkDJY0Zqgoanz6aoPJMWhtrZPdTOCrw3OMWjE52t21bOt0JBvVENcfHtrprsu1MPkd0SzeEHKcoepx26gxNz+MWzrooi6TgjkYHpQIhNHN53E8T1j1sFVRrPNh/bWXbxcH+9FalTn10kxGsorSVi6vkgchKaBvErGGzilRCBB64LMkJX8WEFT3Mv6Lea0H6hFPTkQF/m++gVGlDYh+IwgKyQ7Mz1E5aBiG8GFRPmpp5VlxDNr2+/6Na70UIv6FkmpNaCJp4cLtlLEzK/CUa6LBKtt5/u7jRCFGs95+nuKoM8Sod5j17jqHCfsABjvOOjsFLLCud38Sqq3L3BNvA4dHV3QRvaoFISaaM8Rjfm/AvXuCWR7jBpnuNawkfK1MEF0MkNvxeGdUj16F/CEGWgnn0s3V+Ol/mKaFx2Z9F2WZYuPPcL7EkJ9La6Ei2eP7OaCy3vXbwlA+jjNU4mzXFe+JXc3WzgiAQBHB8pA8FP6KUMiqioUYTwhVj0XqZ3v8p2ttQGrHjxd9hT3ubGf5NSRWVWpm3btCMvaB7rYvqolvKM7qeSekX3XJq9eOZNYoQqdB5RaTM98lIFhwHg8TpcvGHldOVQB8f+0WpMAFsCRZi7LEHG6cZduzATrDFLzHYOoozxDb4IQAma5oPTFb3NchwnacgtuAaS809NLwUBggjRDeEQQK+DDH/AH+8Ab4h5+Z0E6QrAAAAAElFTkSuQmCC"
+
+    })
+
+	for (var i = 0; i < locations.length; i++) {   
+		var marker = new google.maps.Marker({
+	    	position: locations[i].latlng,
+			map: map,
+            icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAoCAMAAACo9wirAAAA3lBMVEUAAAAAL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL00AL03///8ALEsAKkkAGDkAJkUAHj4AGzxVc4cAFTcAEjQ4XHQAIkLx9ParusWGnauAl6dZeIvm6+7h6evS2t/CztW9ydGhsr6hsb1wippohpdieo1SbYJFa4BIaX8wWXEqTGUlSmQiR2EYPloQNFEGChv/AAAAJXRSTlMA/MwxGNN7dBEHsaeVZV8D7eq4jH9BOObDu6Gbh1VPSNza1m8ocl0I6wAAAVVJREFUOMt9k+eWgjAQRocmFgR7L9uiAQTbur33ff8X8sRjMgGC9xcn9zvDMBNAouM6DV3vDeypB1lKdo8IrFEx7ScWSdC1k75JMjRM1F6ZKNDxNegTWLxGi+RQhgMGyaUKjD5B5pTOCVJjbbQl7Yc0WIQEaQFAhXCCxWq3fXr5jbGIVYJiV/j19YyxeQsx0YGOqL9g/kDkS226/NH/mnFu/wN+6kBBFNjNBB8xD1REgNItBm6WYiMYCJ5VAaxA4lcMrESXQxjzx/Bvw/3DmvJTW9qEHx393Q8O04DSOQ7i/Z75x28cw4UH4BBMaJ9RtFpLyyikth3Ey6VPpW2agNvKvw9XWp7X8Uor0Qz+z+jqwCVwzJr6yiJTRRtWESTcjK+bkGCUbrANKZxkwIUMfdk3ZaP42AGoMOtigh4oMY6JMxNyaGs4YTUTFhjDCarsFp6kNYQke+8sfQQE1cw9AAAAAElFTkSuQmCC"
+		});
+		google.maps.event.addListener(marker, 'click', (function(marker, i) {
+		  return function() {
+		    infowindow.setContent(locations[i].info);
+		    infowindow.open(map, marker);
+		  }
+		})(marker, i));
+        // Push the marker to the 'markers' array
+            markers.push(marker);
+	}
+
+}
+
+    function myClick(id){
+        google.maps.event.trigger(markers[id], 'click');
+        jQuery('html, body').animate({
+                    scrollTop: $("#map").offset().top
+                }, 500);
+    }    
+</script>
+</head>
+
+<body class="page page-id-157 page-template page-template-page-templates page-template-page-testimonials page-template-page-templatespage-testimonials-php page_comments template_page-testimonials">
+
+    <div class="navmenu navmenu-default navmenu-fixed-right offcanvas"><ul id="mobile-main-menu" class="nav navmenu-nav"><li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="Accommodation" href="http://beta.lesarrail.co.uk/accommodation/">Accommodation</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a title="Kids" href="http://beta.lesarrail.co.uk/kids/">Kids</a></li>
+<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a title="Groups" href="http://beta.lesarrail.co.uk/group-rentals/">Groups</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Things To Do" href="http://beta.lesarrail.co.uk/things-to-do/">Things To Do</a></li>
+<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a title="Gallery" href="http://beta.lesarrail.co.uk/gallery/">Gallery</a></li>
+<li id="menu-item-258" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-258 dropdown"><a title="About" href="#" data-toggle="dropdown" class="dropdown-toggle">About <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-157 current_page_item menu-item-160 active"><a title="Comments" href="http://beta.lesarrail.co.uk/comments/">Comments</a></li>
+	<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a title="Publicity" href="http://beta.lesarrail.co.uk/publicity/">Publicity</a></li>
+</ul>
+</li>
+<li id="menu-item-257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-257 dropdown"><a title="Contact" href="#" data-toggle="dropdown" class="dropdown-toggle">Contact <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a title="Find Us" href="http://beta.lesarrail.co.uk/find-us/">Find Us</a></li>
+	<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a title="Enquiries" href="http://beta.lesarrail.co.uk/enquiries/">Enquiries</a></li>
+</ul>
+</li>
+<li id="menu-item-533" class="eng-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-533 dropdown"><a title="EN" href="#" data-toggle="dropdown" class="dropdown-toggle">EN <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-534" class="fr-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-534"><a title="FR" href="/?lang=fr">FR</a></li>
+	<li id="menu-item-535" class="nl-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-535"><a title="NL" href="https://translate.google.hu/translate?sl=en&#038;tl=nl&#038;js=y&#038;prev=_t&#038;hl=en&#038;ie=UTF-8&#038;u=beta.lesarrail.co.uk&#038;edit-text=&#038;act=url">NL</a></li>
+	<li id="menu-item-536" class="de-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-536"><a title="DE" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=de&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">DE</a></li>
+	<li id="menu-item-537" class="it-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a title="IT" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=it&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">IT</a></li>
+	<li id="menu-item-538" class="es-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a title="ES" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=es&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">ES</a></li>
+</ul>
+</li>
+<li id="menu-item-116" class="tel menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a title="T: +33 (0)468 765 966" href="tel:0033468765966">T: +33 (0)468 765 966</a></li>
+<li id="menu-item-117" class="mail menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a title="E: info@lesarrail.com" href="mailto:info@lesarrail.com">E: info@lesarrail.com</a></li>
+</ul></div>    <div class="navbar navbar-default navbar-fixed-top mobile-menu">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="http://beta.lesarrail.co.uk/" title="Le Sarrail" rel="home"><img src="http://beta.lesarrail.co.uk/wp-content/themes/lesarrail/img/logo_title.svg" height="20px"></a>
+        </div>
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+
+<div id="page" class="hfeed site">
+    
+    <!-- ******************* The Navbar Area ******************* -->
+    <div class="wrapper-fluid wrapper-navbar desktop-menu" id="wrapper-navbar">
+	   <div id="nav-spacer"></div>
+        <nav class="site-navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+                            
+            <div class="navbar navbar-default navbar-fixed-top">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-xs-12">
+
+                            <div class="navbar-header">
+
+                                <!-- Your site title as branding in the menu -->
+                              <a class="navbar-brand" href="http://beta.lesarrail.co.uk/" title="Le Sarrail" rel="home"><img src="http://beta.lesarrail.co.uk/wp-content/themes/lesarrail/img/logo_title.svg" width="195px"></a>
+
+                            </div>
+
+                            <!-- The WordPress Menu goes here -->
+                            <div class="collapse navbar-collapse navbar-responsive-collapse"><ul id="main-menu" class="nav navbar-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="Accommodation" href="http://beta.lesarrail.co.uk/accommodation/">Accommodation</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a title="Kids" href="http://beta.lesarrail.co.uk/kids/">Kids</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a title="Groups" href="http://beta.lesarrail.co.uk/group-rentals/">Groups</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Things To Do" href="http://beta.lesarrail.co.uk/things-to-do/">Things To Do</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a title="Gallery" href="http://beta.lesarrail.co.uk/gallery/">Gallery</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-258 dropdown"><a title="About" href="#" data-toggle="dropdown" class="dropdown-toggle">About <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-157 current_page_item menu-item-160 active"><a title="Comments" href="http://beta.lesarrail.co.uk/comments/">Comments</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a title="Publicity" href="http://beta.lesarrail.co.uk/publicity/">Publicity</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-257 dropdown"><a title="Contact" href="#" data-toggle="dropdown" class="dropdown-toggle">Contact <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a title="Find Us" href="http://beta.lesarrail.co.uk/find-us/">Find Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a title="Enquiries" href="http://beta.lesarrail.co.uk/enquiries/">Enquiries</a></li>
+</ul>
+</li>
+<li class="eng-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-533 dropdown"><a title="EN" href="#" data-toggle="dropdown" class="dropdown-toggle">EN <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li class="fr-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-534"><a title="FR" href="/?lang=fr">FR</a></li>
+	<li class="nl-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-535"><a title="NL" href="https://translate.google.hu/translate?sl=en&#038;tl=nl&#038;js=y&#038;prev=_t&#038;hl=en&#038;ie=UTF-8&#038;u=beta.lesarrail.co.uk&#038;edit-text=&#038;act=url">NL</a></li>
+	<li class="de-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-536"><a title="DE" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=de&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">DE</a></li>
+	<li class="it-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a title="IT" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=it&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">IT</a></li>
+	<li class="es-icon lang-icon menu-item menu-item-type-custom menu-item-object-custom menu-item-538"><a title="ES" href="https://translate.google.hu/translate?hl=en&#038;sl=en&#038;tl=es&#038;u=http%3A%2F%2Fbeta.lesarrail.co.uk%2F">ES</a></li>
+</ul>
+</li>
+<li class="tel menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a title="T: +33 (0)468 765 966" href="tel:0033468765966">T: +33 (0)468 765 966</a></li>
+<li class="mail menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a title="E: info@lesarrail.com" href="mailto:info@lesarrail.com">E: info@lesarrail.com</a></li>
+</ul></div>                            
+                        </div> <!-- .col-md-11 or col-md-12 end -->
+
+                    </div> <!-- .row end -->
+
+                </div> <!-- .container -->
+                
+            </div><!-- .navbar -->
+            
+        </nav><!-- .site-navigation -->
+        
+    </div><!-- .wrapper-navbar end -->
+
+
+
+
+
+
+
+<div class="wrapper" id="page-wrapper">
+    
+    <div  id="content" class="container">
+        <div class="row">
+            <div class="col-md-12">
+        
+           <div id="primary" class="col-md-12 content-area">
+               <header class="entry-header">
+                   <h4>With a return guest rate of 75% heres what they say.....</h4>
+               </header>
+
+                <main id="main" class="site-main" role="main">
+                    <div class="col-md-6">
+                     
+        
+                                
+                        
+                        <article id="post-228" class="closed post-228 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>Thank you so much for your wonderful hospitality &#8211; none of us want to leave! The children 5, 3 and 3 months have all had a wonderful holiday and we are all so relaxed! Great accommodation with absolutely everything here, met some great people and will definitely return!</p>
+                                <a class="entry-title">Herwitz family &#8211; London</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-227" class="closed post-227 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>We&#8217;ve had a wonderful week and only wish we were staying for another! Tabitha will be heartbroken to say goodbye to Raisin and Ruby would like to take Fleur and Thalia home with her! Maison Citron is a sublime place to spend a holiday &#8211; we&#8217;ll be back!<br />
+Thank you!</p>
+                                <a class="entry-title">Jones family &#8211; London</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-226" class="closed post-226 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>We stayed in a house on a hill,<br />
+Owned by Becky and Phil,<br />
+The views were delightful,<br />
+The activities exciteful,<br />
+Definitely not run-of-the-mill!</p>
+                                <a class="entry-title">Le Poidevin family &#8211; London</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-225" class="closed post-225 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>Thank you so much for a fantastic holiday. The house surpassed our expectations and the surrounding area just stunning &#8211; a complete gem!<br />
+I am already looking forward to coming back next year and bringing some more of our family and friends to share in the experience. Can&#8217;t wait for next year, William is looking forward to meeting his friends (4 &#038; 2 legged variety) next year and to exploring more of this beautiful area.</p>
+                                <a class="entry-title">The Whites &#8211; Colchester</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-224" class="closed post-224 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>We have had a truly wonderful holiday at Le Sarrail. The house has been great to stay in, the pool is gorgeous and everything else; the barn, play cabin etc has all made for a great holiday with something for everyone to enjoy!<br />
+Can&#8217;t wait to come back next year!</p>
+                                <a class="entry-title">The McCabe family &#8211; London</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-223" class="closed post-223 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>This was our first family holiday (with flight!) in two years and it was well worth the wait. Our 17 month old has been enchanted by the cats, the &#8216;dog-dog&#8217; and the trampoline. Overall he&#8217;s been exhausted by all the activities! We feel we&#8217;ve had a really grown-up trip too, even sampling some local wine-tasting!<br />
+Truly wonderful! Thank you so much for the beautiful accommodation and for catering so well for all our needs. Hope to see you all again!</p>
+                                <a class="entry-title">Gray family &#8211; Surrey</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-222" class="closed post-222 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>Thank you so much! We all wish we had booked for a second week &#8211; only just got into the swing of it! Nevermind, we&#8217;ll come back again and know that we need only bring a pair of swimming trunks and a good book!<br />
+Thanks again, we loved it here!</p>
+                                <a class="entry-title">Brunner family &#8211; London</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-598" class="closed post-598 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>A real family celebration and what better place that Le Sarrail could we have wished for. A fabulous reflexology session &#8211; slept like a log for the next few nights. Birthday meals, birthday cakes, fun in the pool and lots of laughter, the week has flown by.<br />
+This Grandma &#038; Grampy would love to come back again.</p>
+                                <a class="entry-title">Parker family &#8211; Oxon</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-221" class="closed post-221 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>A real family celebration and what better place that Le Sarrail could we have wished for. A fabulous reflexology session &#8211; slept like a log for the next few nights. Birthday meals, birthday cakes, fun in the pool and lots of laughter, the week has flown by.<br />
+This Grandma &#038; Grampy would love to come back again.</p>
+                                <a class="entry-title">Parker family &#8211; Oxon</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-220" class="closed post-220 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>Le Sarrail really is a &#8216;home from home&#8217; (as long as home is luxurious, tranquil and has a lot to offer!) We&#8217;ve been really well taken care of with fantastic service. The experience here is one that I will be strongly recommending to others, with massages, the option of food delivered and a really well equipped home &#8211; thanks for a real break. See you in a few months!</p>
+                                <a class="entry-title">Sam &#8211; London</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-219" class="closed post-219 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>Thank you so much for a wonderful week &#8211; we wish we had booked two as we have only just started to explore the region!<br />
+The view is awesome &#8211; I can&#8217;t stop looking at it &#8211; the bambinos have had so much &#8216;simple fun&#8217;. Loving the design and farrow &#038; ball colours everywhere! You have created a real haven and we look forward to returning next year!</p>
+                                <a class="entry-title">Eden family &#8211; Oxon</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-217" class="closed post-217 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>We love this place. Le Sarrail is gorgeous (not inconsiderable &#8216;house envy&#8217;). We have loved the area too &#8211; castles, caves the canal&#8230;<br />
+The pool and beasts have gone down particularly well with the boys. It may be a threat rather than a promise, but we&#8217;ll be back!</p>
+                                <a class="entry-title">Borrat family &#8211; London</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                    </div><div class="col-md-6"> 
+        
+                                
+                        
+                        <article id="post-218" class="closed post-218 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>Becky &#038; Phil, you have a wonderful place here for families &#8211; we&#8217;ve all completely enjoyed ourselves!<br />
+Fuhs family &#8211; Seatle USA</p>
+                                <a class="entry-title">Parker-Allen family &#8211; Paris</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-216" class="closed post-216 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>We have found a little piece of heaven and we shall return. Many thanks to Becky, Phil and their lovely girls for their hospitality, warmth and friendliness &#8211; they have made our trip even more special. Until our next visit&#8230;.</p>
+                                <a class="entry-title">Kelly family &#8211; Ireland</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-215" class="closed post-215 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>A delightful location with superb facilities. Everything you could wish from a holiday and more&#8230;.excellent for little &#8216;uns and brilliant attention to detail in terms of ensuring there&#8217;s nothing you go wanting for. Food to die for and lovely weather (even for the end of September). We&#8217;ll definitely be back!</p>
+                                <a class="entry-title">The Longs &#8211; Surrey</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-214" class="closed post-214 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>By far the nicest holiday home we ever rented. Thanks for a wonderful week, the twins loved it and so did we &#8211; we will come back!</p>
+                                <a class="entry-title">De Nys family &#8211; Antwerp, Belgium</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-185" class="closed post-185 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>Thank you so much Becky &amp; Phil for a wonderful 2 week holiday. It has been perfect in every way, from the stylish interiors, lovely pool and the fantastic weather. The girls have loved the trampoline, playhouse and barn, but most of all Raisin and the cats! The only downside has been the arguments between Emma and Freya over who gets to sleep in the top bunk!<br />
+This has certainly been our most relaxing holiday since having children and we will miss drinks and dinner on the terrace looking out at that fantastic view. We hope to return soon!!!</p>
+                                <a class="entry-title">Hutchinsons &#8211; Herts</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-184" class="closed post-184 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>What a gem you have here! We&#8217;ve only just scratched the surface of exploring this area so look forward to staying here again next year. You should be so pleased with your set-up &#8211; lucky for us it exists! Thank you so much for all the tips and arranging things for us &#8211; see you soon&#8230;</p>
+                                <a class="entry-title">Smith-Bingham &#8211; Middlesex</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-183" class="closed post-183 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>A fantastic two weeks in a fabulous setting! The house has everything you need when traveling with little ones! Thank you so much for your hospitality &#8211; we hope to see you again!</p>
+                                <a class="entry-title">Davies family &#8211; Dubai</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-182" class="closed post-182 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>A return visit and what an amazing trip. Packed wellies and wooly jumpers, but we were met with sunshine and 21 degrees &#8211; one trip to Decathlon later &#8211; and we&#8217;re all hanging out by the pool, sipping rosé and eating divine market-bought olives. Throw in a few delicious meals and some in-house massages and you have two very relaxed parents and two vert happy kids! Once again, we&#8217;ll be back!!</p>
+                                <a class="entry-title">Cole family &#8211; Belgium</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-181" class="closed post-181 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>Two stays in less than six months says it all &#8211; Le Sarrail is the perfect holiday tonic for adults and children alike. The weather has been amazing for late autumn; we didn&#8217;t expect to be in the swimming pool everyday. Becky &#038; Phil, your hospitality is excellent and you have created a wonderful holiday destination. The children have loved every minute, we&#8217;ll be back!</p>
+                                <a class="entry-title">Elliott family &#8211; Cambridge</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-180" class="closed post-180 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>&#8220;The best holiday I have ever had&#8221; that&#8217;s how Sam described it. A perfect spot for the kids &#8211; a safe, stimulating environment around the house, Sam and Evie loved the pool, trampoline, the cabin and (your) their pets! So many great places to visit from the coast to the Pyrenées. Really special for us too; fantastic accommodation, beautiful design, stylish with everything we needed to make us feel at home. Whenever I drink a glass of champagne in future I will think of that view! I am sure we will be back again or we&#8217;ll have two complaining children to put up with.</p>
+                                <a class="entry-title">The Crays &#8211; South Yorkshire</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                     
+        
+                                
+                        
+                        <article id="post-179" class="closed post-179 testimonial type-testimonial status-publish hentry">
+
+                            <div class="entry-content">
+                                <p>Spectacular the second time as it was the first! Christmas 2009 was fantastic and Le Sarrail had a lot to do with it!! The houses are hard to leave &#8211; look forward to the next time!</p>
+                                <a class="entry-title">Sisay family &#8211; London</a>                            </div><!-- .entry-content -->
+
+                            <footer class="entry-footer">
+                                                            </footer><!-- .entry-footer -->
+                            <div>
+            
+                            </div>
+                        
+                        </article><!-- #post-## -->
+                        
+                                        </div>
+                </main><!-- #main -->
+
+            </div><!-- #primary -->
+            </div>
+        </div>
+        
+    </div><!-- Container end -->
+    
+</div><!-- Wrapper end -->
+
+
+
+<div class="wrapper" id="wrapper-footer">
+    
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+    
+                <footer id="colophon" class="site-footer" role="contentinfo">
+
+                    <div class="site-info">
+                        <div class="col-md-5 col-xs-6 footer-contacts nopadding">
+                            <div class="col-md-5 col-md-push-4 footer-socials">
+                            <a href="https://www.facebook.com/Le-Sarrail-593654507463494/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/lesarrail" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/le_sarrail/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </div>
+                            <div class="col-md-6 col-md-pull-5">
+                                <span>T: +33 (0)468 765 966</span><br>
+                                <span>E: info@lesarrail.com</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-push-2 hide-sm footer-form">
+                            <span>Sign up to our newsletter for special offers</span><br>
+                            <!-- Begin MailChimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                <form action="//lesarrail.us10.list-manage.com/subscribe/post?u=8b5b47c0a55160921b20a398f&amp;id=7cfd841a3a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group">
+                                    <input type="email" value="" placeholder="enter your email address" name="EMAIL" class="required email" id="mce-EMAIL">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn">
+                                </div>
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8b5b47c0a55160921b20a398f_7cfd841a3a" tabindex="-1" value=""></div>
+                                    </div>
+                                </form>
+                                </div>
+                        <!--End mc_embed_signup-->
+                        </div>
+                        <div class="col-xs-6 col-md-2 col-md-push-5 col-lg-2 col-lg-push-1">
+                            <span class="copyright">© 2016 Le Sarrail All Rights Reserved</span>
+                        </div>
+                    </div><!-- .site-info -->
+
+                </footer><!-- #colophon -->
+
+            </div><!--col end -->
+
+        </div><!-- row end -->
+        
+    </div><!-- container end -->
+    
+</div><!-- wrapper end -->
+
+</div><!-- #page -->
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type='text/javascript' src='http://beta.lesarrail.co.uk/wp-content/themes/lesarrail/js/theme.min.js?ver=0.3.8'></script>
+<script type='text/javascript' src='http://beta.lesarrail.co.uk/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icl_vars = {"current_language":"en","icl_home":"http:\/\/beta.lesarrail.co.uk\/","ajax_url":"http:\/\/beta.lesarrail.co.uk\/wp-admin\/admin-ajax.php","url_type":"3"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://beta.lesarrail.co.uk/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js?ver=4.4.2'></script>
+<script src="http://beta.lesarrail.co.uk/wp-content/themes/lesarrail/js/TweenMax.min.js"></script>
+<script src="http://beta.lesarrail.co.uk/wp-content/themes/lesarrail/js/ScrollToPlugin.min.js"></script>
+<script async src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
+<script type="text/javascript" src="http://beta.lesarrail.co.uk/wp-content/themes/lesarrail/js/custom.js"></script>
+</body>
+
+</html>
