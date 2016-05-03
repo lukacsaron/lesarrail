@@ -1,1 +1,1 @@
-às(W<?php exit; ?>a:1:{s:7:"content";a:1:{s:14:"page_for_posts";a:0:{}}}
+ht(W<?php exit; ?>a:1:{s:7:"content";a:1:{s:14:"page_for_posts";a:0:{}}}
