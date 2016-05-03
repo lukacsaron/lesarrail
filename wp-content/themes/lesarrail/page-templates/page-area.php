@@ -12,7 +12,7 @@ get_header(); ?>
 <div class="wrapper" id="page-wrapper">
     <div id="area-container" class="container mobile-nopadding">
         <div class="col-md-12 mobile-nopadding">
-        <?php $args = array( 'post_type' => 'activity','orderby' => 'menu_order', 'posts_per_page' => 12 );
+        <?php $args = array( 'post_type' => 'activity','orderby' => 'menu_order', 'order'   => 'DESC', 'posts_per_page' => 12 );
               $loop = new WP_Query( $args );
             while ( $loop->have_posts() ) : $loop->the_post(); $count ++; ?> 
             <?php $image = get_image_custom($post->ID, 'medium'); ?>
