@@ -1,1 +1,0 @@
-Ol(W<?php exit; ?>a:1:{s:7:"content";a:1:{i:0;O:8:"stdClass":4:{s:7:"meta_id";s:3:"177";s:7:"post_id";s:2:"45";s:8:"meta_key";s:29:"_wpcf-gallery-item-sort-order";s:10:"meta_value";s:189:"a:16:{i:0;i:4197;i:1;i:4198;i:2;i:4199;i:3;i:4200;i:4;i:4201;i:5;i:4202;i:6;i:4203;i:7;i:4204;i:8;i:4205;i:9;i:4206;i:10;i:4207;i:11;i:4208;i:12;i:4209;i:13;i:4210;i:14;i:4211;i:15;i:4212;}";}}}

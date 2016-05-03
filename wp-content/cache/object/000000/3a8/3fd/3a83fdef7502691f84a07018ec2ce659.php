@@ -1,1 +1,1 @@
-›k(W<?php exit; ?>a:1:{s:7:"content";a:1:{i:0;O:8:"stdClass":4:{s:7:"meta_id";s:4:"2017";s:7:"post_id";s:3:"280";s:8:"meta_key";s:29:"_wpcf-gallery-item-sort-order";s:10:"meta_value";s:50:"a:4:{i:0;i:2290;i:1;i:2291;i:2;i:2292;i:3;i:2293;}";}}}
+Ûs(W<?php exit; ?>a:1:{s:7:"content";a:1:{i:0;O:8:"stdClass":4:{s:7:"meta_id";s:4:"2017";s:7:"post_id";s:3:"280";s:8:"meta_key";s:29:"_wpcf-gallery-item-sort-order";s:10:"meta_value";s:39:"a:3:{i:0;i:4274;i:1;i:4275;i:2;i:4276;}";}}}
