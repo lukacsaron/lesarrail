@@ -250,3 +250,7 @@
 [Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
 [Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
 [Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 14:22:14 +0000] [http://beta.lesarrail.co.uk/.*] Connecting to  ...
+[Tue, 03 May 2016 14:22:14 +0000] [http://beta.lesarrail.co.uk/.*] PURGE /.* HTTP/1.1
+[Tue, 03 May 2016 14:22:14 +0000] [http://beta.lesarrail.co.uk/.*] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 14:22:14 +0000] [http://beta.lesarrail.co.uk/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
