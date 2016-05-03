@@ -122,17 +122,20 @@ return array(
 		2 => 'wp-locations.php',
 	),
 	'pgcache.accept.qs' => array(
+		0 => '',
 	),
 	'pgcache.reject.front_page' => false,
 	'pgcache.reject.logged' => true,
-	'pgcache.reject.logged_roles' => false,
+	'pgcache.reject.logged_roles' => true,
 	'pgcache.reject.roles' => array(
+		0 => 'administrator',
 	),
 	'pgcache.reject.uri' => array(
 		0 => 'wp-.*\\.php',
 		1 => 'index\\.php',
 	),
 	'pgcache.reject.ua' => array(
+		0 => '',
 	),
 	'pgcache.reject.cookie' => array(
 		0 => 'wptouch_switch_toggle',
@@ -156,6 +159,7 @@ return array(
 	),
 	'pgcache.purge.postpages_limit' => 10,
 	'pgcache.purge.pages' => array(
+		0 => '',
 	),
 	'pgcache.purge.sitemap_regex' => '([a-z0-9_\\-]*?)sitemap([a-z0-9_\\-]*)?\\.xml',
 	'pgcache.prime.enabled' => false,

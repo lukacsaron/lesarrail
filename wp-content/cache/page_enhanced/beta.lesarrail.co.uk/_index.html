@@ -61,24 +61,8 @@
         height: 100%;
       }
     </style>
-</head>
-
-<body class="home page page-id-5 page-template page-template-page-templates page-template-page-home page-template-page-templatespage-home-php page_home template_page-home">
-    <script>
-      function loadScript(src,callback){
-  
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    if(callback)script.onload=callback;
-    document.getElementsByTagName("head")[0].appendChild(script);
-    script.src = src;
-  }
-  
-  
-  loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyDhr54CGMVgdD-WiPGP-jgYNFUhjHJUl4g&sensor=false&callback=initialize',
-              function(){log('google-loader has been loaded, but not the maps-API ');});
-
-
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhr54CGMVgdD-WiPGP-jgYNFUhjHJUl4g"></script>
+<script>
 var infowindow = new google.maps.InfoWindow();
 var markers = [];
 var locations = [];
@@ -166,8 +150,11 @@ function initialize() {
                     scrollTop: $("#map").offset().top
                 }, 500);
     }    
-    
-    </script>
+</script>
+</head>
+
+<body class="home page page-id-5 page-template page-template-page-templates page-template-page-home page-template-page-templatespage-home-php page_home template_page-home">
+
     <div class="navmenu navmenu-default navmenu-fixed-right offcanvas"><ul id="mobile-main-menu" class="nav navmenu-nav"><li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="Accommodation" href="http://beta.lesarrail.co.uk/accommodation/">Accommodation</a></li>
 <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a title="Kids" href="http://beta.lesarrail.co.uk/kids/">Kids</a></li>
 <li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"><a title="Groups" href="http://beta.lesarrail.co.uk/group-rentals/">Groups</a></li>
@@ -1018,8 +1005,8 @@ var icl_vars = {"current_language":"en","icl_home":"http:\/\/beta.lesarrail.co.u
 
 Minified using disk
 Page Caching using disk: enhanced
-Database Caching 128/444 queries in 0.203 seconds using disk
-Object Caching 5921/6738 objects using disk
+Database Caching 126/302 queries in 0.422 seconds using disk
+Object Caching 6086/6359 objects using disk
 Content Delivery Network via N/A
 
- Served from: beta.lesarrail.co.uk @ 2016-04-30 01:24:51 by W3 Total Cache -->
+ Served from: beta.lesarrail.co.uk @ 2016-05-03 09:13:00 by W3 Total Cache -->
