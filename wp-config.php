@@ -32,14 +32,14 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 //  define('DB_USER', 'root');
 /** MySQL database password */
 // define('DB_PASSWORD', 'root');
- define('DB_HOST', 'localhost');
+// define('DB_HOST', 'localhost');
 
 
-//  define('WP_HOME','http://lesarrail:8888/');
-//  define('WP_SITEURL','http://lesarrail:8888/');
+  define('WP_HOME','http://lesarrail:8888/');
+  define('WP_SITEURL','http://lesarrail:8888/');
 
 /** MySQL hostname */
-//  define('DB_HOST', '160.153.162.137');
+  define('DB_HOST', '160.153.162.137');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
