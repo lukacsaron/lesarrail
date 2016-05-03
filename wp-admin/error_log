@@ -6,3 +6,4 @@
 [03-May-2016 09:36:25 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 264013 bytes) in /home/lesarrail/public_html/beta_git/lesarrail/wp-content/plugins/w3-total-cache/lib/W3/ObjectCache.php on line 211
 [03-May-2016 09:36:47 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 264013 bytes) in /home/lesarrail/public_html/beta_git/lesarrail/wp-content/plugins/w3-total-cache/lib/W3/ObjectCache.php on line 211
 [03-May-2016 09:36:51 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 264013 bytes) in /home/lesarrail/public_html/beta_git/lesarrail/wp-content/plugins/w3-total-cache/lib/W3/ObjectCache.php on line 211
+[03-May-2016 09:49:19 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 264013 bytes) in /home/lesarrail/public_html/beta_git/lesarrail/wp-content/plugins/w3-total-cache/lib/W3/ObjectCache.php on line 211
