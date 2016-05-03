@@ -40,9 +40,7 @@ function initialize() {
 	map = new google.maps.Map(document.getElementById('map'), { 
 		zoom: 10, 
 		center: new google.maps.LatLng(43.174677, 2.151427), 
-         mapTypeControlOptions: {
-            mapTypeIds: [google.maps.MapTypeId.ROADMAP]
-        }, 
+        mapTypeControl: false,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
         backgroundColor: "#002e4d",
         mapTypeControlOptions: {

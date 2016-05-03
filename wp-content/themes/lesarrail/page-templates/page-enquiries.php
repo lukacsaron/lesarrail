@@ -86,7 +86,7 @@ get_header(); ?>
 <td >€1700</td>
 </tr>
 <tr>
-<td ><span ><?php echo __('28th May - 2 July','lesarrail_text');?></span></td>
+<td ><span ><?php echo __('28th May - 2nd July','lesarrail_text');?></span></td>
 <td ><span >€2150</span></td>
 </tr>
 <tr>
