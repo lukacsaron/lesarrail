@@ -9392,7 +9392,7 @@ a:active {
       .panel-map .panel-heading.active-heading a:hover, .panel-map .panel-heading:hover a:hover, .panel-map .panel-heading:active a:hover {
         color: #fff; }
   .panel-map .panel-body {
-    max-height: 400px;
+    max-height: 350px !important;
     overflow-x: hidden; }
     .panel-map .panel-body .poi-title {
       margin-bottom: 5px;
