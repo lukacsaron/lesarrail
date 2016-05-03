@@ -1465,7 +1465,7 @@ a {
 
 .panel-map {
     border: none;
-    &:before {
+    &:after {
         content: "";
         display: block;
         position: absolute;
