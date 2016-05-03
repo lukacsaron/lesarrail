@@ -49,7 +49,7 @@ get_header(); ?>
                             </header><!-- .entry-header -->
 
                             <div class="entry-content">
-                                <?php if ($main_feature[0]=="") { ?>
+                                <?php if ($main_feature[0]=="") { ?> 
 
                                         <!-- If there are no custom fields, show nothing -->
 
