@@ -9376,7 +9376,7 @@ a:active {
 
 .panel-map {
   border: none; }
-  .panel-map:before {
+  .panel-map:after {
     content: "";
     display: block;
     position: absolute;
