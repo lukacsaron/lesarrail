@@ -1488,7 +1488,7 @@ a {
         }
     }
     .panel-body {
-        max-height: 400px;
+        max-height: 350px !important;
         overflow-x: hidden;
         .poi-title {
             margin-bottom: 5px;

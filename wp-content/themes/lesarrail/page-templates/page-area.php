@@ -64,7 +64,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
-                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>" target="_blank"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -109,7 +109,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
-                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>" target="_blank"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -154,7 +154,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
-                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>" target="_blank"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -198,7 +198,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
-                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>" target="_blank"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -242,7 +242,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
-                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>" target="_blank"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -286,7 +286,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
-                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>" target="_blank"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
@@ -330,7 +330,7 @@ get_header(); ?>
                                             <?php } ?>
                                             <div class="poi-det-cont">
                                             <div class="poi-details"><?php the_content(); ?></div>
-                                            <div class="poi-url"><a href="<?php echo $url; ?>"><?php echo $url; ?></a></div>
+                                            <div class="poi-url"><a href="<?php echo $url; ?>" target="_blank"><?php echo $url; ?></a></div>
                                             <div class="poi-address col-xs-6 col-md-6 nopadding"><?php echo $address; ?></div>
                                                 </div>
                                             <hr>
