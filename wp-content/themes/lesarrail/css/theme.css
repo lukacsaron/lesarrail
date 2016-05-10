@@ -8856,7 +8856,7 @@ a:active {
 
 .tel {
   position: absolute !important;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-left: 10px;
   font-size: 14px; }
   @media (min-width: 1024) {
@@ -8868,7 +8868,7 @@ a:active {
 
 .mail {
   position: absolute !important;
-  margin-top: 50px;
+  margin-top: 35px;
   margin-left: 10px;
   font-size: 14px; }
   @media (min-width: 1024) {
