@@ -1,0 +1,5 @@
+‰c2W<?php exit; ?>a:6:{s:10:"last_error";s:0:"";s:10:"last_query";s:179:"
+				SELECT p.ID FROM ls_posts p
+				JOIN ls_icl_translations t ON p.ID = t.element_id
+				WHERE t.element_type='post_page' AND p.post_type='page' AND t.language_code <> 'en'
+				";s:11:"last_result";a:10:{i:0;O:8:"stdClass":1:{s:2:"ID";s:3:"472";}i:1;O:8:"stdClass":1:{s:2:"ID";s:3:"474";}i:2;O:8:"stdClass":1:{s:2:"ID";s:3:"476";}i:3;O:8:"stdClass":1:{s:2:"ID";s:3:"495";}i:4;O:8:"stdClass":1:{s:2:"ID";s:3:"499";}i:5;O:8:"stdClass":1:{s:2:"ID";s:3:"500";}i:6;O:8:"stdClass":1:{s:2:"ID";s:3:"501";}i:7;O:8:"stdClass":1:{s:2:"ID";s:3:"502";}i:8;O:8:"stdClass":1:{s:2:"ID";s:3:"503";}i:9;O:8:"stdClass":1:{s:2:"ID";s:3:"504";}}s:8:"col_info";a:1:{i:0;O:8:"stdClass":13:{s:4:"name";s:2:"ID";s:5:"table";s:1:"p";s:3:"def";s:0:"";s:10:"max_length";i:3;s:8:"not_null";i:1;s:11:"primary_key";i:1;s:12:"multiple_key";i:0;s:10:"unique_key";i:0;s:7:"numeric";i:1;s:4:"blob";i:0;s:4:"type";s:3:"int";s:8:"unsigned";i:1;s:8:"zerofill";i:0;}}s:8:"num_rows";i:10;s:10:"return_val";i:10;}
