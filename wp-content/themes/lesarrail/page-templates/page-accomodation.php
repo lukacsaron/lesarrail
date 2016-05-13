@@ -88,7 +88,7 @@ get_header(); ?>
                                     <br>
                                 </div>
                                 <div class="clear spacer"></div>
-                                <?php if ($offer_boolean[0]=="") { ?>
+                                <?php if ($offer_boolean[0]==0) { ?>
                                 <?php } else { ?>
                                 <div id="offer" class="col-md-6">
                                     <div class="offer-wrapper">
