@@ -1,0 +1,280 @@
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] Connecting to  ...
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] PURGE /activity/spain-mediterranean/ HTTP/1.1
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:31:46 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/activity/the-pyrenees/] Connecting to  ...
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/activity/the-pyrenees/] PURGE /activity/the-pyrenees/ HTTP/1.1
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/activity/the-pyrenees/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/activity/the-pyrenees/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:38:10 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:36 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:43:36 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] Connecting to  ...
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] PURGE /activity/la-cite-medievale-de-carcassonne/?lang=fr HTTP/1.1
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Connecting to  ...
+[Tue, 03 May 2016 09:43:38 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] PURGE /activity/rennes-le-chateau/ HTTP/1.1
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Connecting to  ...
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] PURGE /activity/pretty-towns-villages/ HTTP/1.1
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] Connecting to  ...
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] PURGE /activity/black-mountains/ HTTP/1.1
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/la-montagne-noire/?lang=fr] Connecting to  ...
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/la-montagne-noire/?lang=fr] PURGE /activity/la-montagne-noire/?lang=fr HTTP/1.1
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/la-montagne-noire/?lang=fr] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:39 +0000] [http://beta.lesarrail.co.uk/activity/la-montagne-noire/?lang=fr] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] Connecting to  ...
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] PURGE /activity/la-cite-medievale-de-carcassonne/?lang=fr HTTP/1.1
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:44 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/?lang=fr] Connecting to  ...
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/?lang=fr] PURGE /activity/rennes-le-chateau/?lang=fr HTTP/1.1
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/?lang=fr] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/?lang=fr] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Connecting to  ...
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] PURGE /activity/pretty-towns-villages/ HTTP/1.1
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/villes-et-villages-pittoresques/?lang=fr] Connecting to  ...
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/villes-et-villages-pittoresques/?lang=fr] PURGE /activity/villes-et-villages-pittoresques/?lang=fr HTTP/1.1
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/villes-et-villages-pittoresques/?lang=fr] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/villes-et-villages-pittoresques/?lang=fr] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Connecting to  ...
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] PURGE /activity/rennes-le-chateau/ HTTP/1.1
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:45 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] Connecting to  ...
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] PURGE /activity/la-cite-medievale-de-carcassonne/?lang=fr HTTP/1.1
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/activity/la-cite-medievale-de-carcassonne/?lang=fr] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Connecting to  ...
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] PURGE /activity/rennes-le-chateau/ HTTP/1.1
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:48 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Connecting to  ...
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] PURGE /activity/rennes-le-chateau/ HTTP/1.1
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:43:56 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Connecting to  ...
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] PURGE /activity/pretty-towns-villages/ HTTP/1.1
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:00 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] Connecting to  ...
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] PURGE /activity/spain-mediterranean/ HTTP/1.1
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:12 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Connecting to  ...
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] PURGE /activity/pretty-towns-villages/ HTTP/1.1
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/activity/pretty-towns-villages/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:37 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Connecting to  ...
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] PURGE /activity/rennes-le-chateau/ HTTP/1.1
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/activity/rennes-le-chateau/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:43 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] Connecting to  ...
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] PURGE /activity/black-mountains/ HTTP/1.1
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:44:54 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] Connecting to  ...
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] PURGE /activity/spain-mediterranean/ HTTP/1.1
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/activity/spain-mediterranean/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:45:01 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/activity/the-pyrenees/] Connecting to  ...
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/activity/the-pyrenees/] PURGE /activity/the-pyrenees/ HTTP/1.1
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/activity/the-pyrenees/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/activity/the-pyrenees/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:45:05 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] Connecting to  ...
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] PURGE /activity/black-mountains/ HTTP/1.1
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/activity/black-mountains/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:49:47 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/poi/carcassone-airport/] Connecting to  ...
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/poi/carcassone-airport/] PURGE /poi/carcassone-airport/ HTTP/1.1
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/poi/carcassone-airport/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/poi/carcassone-airport/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/poi/carcassone-airport/?lang=fr] Connecting to  ...
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/poi/carcassone-airport/?lang=fr] PURGE /poi/carcassone-airport/?lang=fr HTTP/1.1
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/poi/carcassone-airport/?lang=fr] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/poi/carcassone-airport/?lang=fr] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:53:17 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/gallery/] Connecting to  ...
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/gallery/] PURGE /gallery/ HTTP/1.1
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/gallery/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/gallery/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 09:53:54 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/group-rentals/] Connecting to  ...
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/group-rentals/] PURGE /group-rentals/ HTTP/1.1
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/group-rentals/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/group-rentals/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 10:13:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 14:22:14 +0000] [http://beta.lesarrail.co.uk/.*] Connecting to  ...
+[Tue, 03 May 2016 14:22:14 +0000] [http://beta.lesarrail.co.uk/.*] PURGE /.* HTTP/1.1
+[Tue, 03 May 2016 14:22:14 +0000] [http://beta.lesarrail.co.uk/.*] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 14:22:14 +0000] [http://beta.lesarrail.co.uk/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 16:05:30 +0000] [http://beta.lesarrail.co.uk/.*] Connecting to  ...
+[Tue, 03 May 2016 16:05:30 +0000] [http://beta.lesarrail.co.uk/.*] PURGE /.* HTTP/1.1
+[Tue, 03 May 2016 16:05:30 +0000] [http://beta.lesarrail.co.uk/.*] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 16:05:30 +0000] [http://beta.lesarrail.co.uk/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/feed/] Connecting to  ...
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/feed/] PURGE /feed/ HTTP/1.1
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/feed/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/feed/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/things-to-do/] Connecting to  ...
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/things-to-do/] PURGE /things-to-do/ HTTP/1.1
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/things-to-do/] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/things-to-do/] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Connecting to  ...
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] PURGE /([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml HTTP/1.1
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 16:37:57 +0000] [http://beta.lesarrail.co.uk/([a-z0-9_\-]*?)sitemap([a-z0-9_\-]*)?\.xml] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 17:08:25 +0000] [http://beta.lesarrail.co.uk/.*] Connecting to  ...
+[Tue, 03 May 2016 17:08:25 +0000] [http://beta.lesarrail.co.uk/.*] PURGE /.* HTTP/1.1
+[Tue, 03 May 2016 17:08:25 +0000] [http://beta.lesarrail.co.uk/.*] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 17:08:25 +0000] [http://beta.lesarrail.co.uk/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
+[Tue, 03 May 2016 20:14:03 +0000] [http://beta.lesarrail.co.uk/.*] Connecting to  ...
+[Tue, 03 May 2016 20:14:03 +0000] [http://beta.lesarrail.co.uk/.*] PURGE /.* HTTP/1.1
+[Tue, 03 May 2016 20:14:03 +0000] [http://beta.lesarrail.co.uk/.*] Host: beta.lesarrail.co.uk
+[Tue, 03 May 2016 20:14:03 +0000] [http://beta.lesarrail.co.uk/.*] Unable to send request: 0: php_network_getaddresses: getaddrinfo failed: Name or service not known.
